@@ -1,0 +1,9 @@
+﻿main_theme_track_holst = {
+	music = "file:/music/soemaintheme.mp3"
+	can_be_interrupted = yes
+#	is_valid = {
+#		has_game_rule = holst_theme_rule
+#	}
+	#Note:
+	#https://www.youtube.com/watch?v=gua9uu7DbFQ
+}
