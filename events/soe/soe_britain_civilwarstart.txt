@@ -1,0 +1,846 @@
+﻿namespace = soe_britain_civilwarstart
+
+soe_britain_civilwarstart.1 = { ### British Civil War Mosley start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/buf.dds"
+	title = soe_britain_civilwarstart.1.t desc = soe_britain_civilwarstart.1.d flavor = soe_britain_civilwarstart.1.f
+	event_image = { texture = "gfx/event_pictures/buf.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_1_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_1_end_flag }
+	option = { name = soe_britain_civilwarstart.1.o1
+	    default_option = yes
+		create_country = { tag = MOY origin = c:GBR
+			state = s:STATE_HOME_COUNTIES.region_state:GBR
+			state = s:STATE_EAST_ANGLIA.region_state:GBR
+		  }
+		}
+	option = { name = soe_britain_civilwarstart.1.o2
+	create_country = { tag = MOY origin = c:GBR
+			state = s:STATE_HOME_COUNTIES.region_state:GBR
+			state = s:STATE_EAST_ANGLIA.region_state:GBR
+	} 
+	play_as = c:MOY
+  }
+}
+
+soe_britain_civilwarstart.2 = { ### British Civil War Communist start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/hammersickle.dds"
+	title = soe_britain_civilwarstart.2.t desc = soe_britain_civilwarstart.2.d flavor = soe_britain_civilwarstart.2.f
+	event_image = { texture = "gfx/event_pictures/communistbritain.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_2_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_2_end_flag }
+	option = { name = soe_britain_civilwarstart.2.o1
+	    default_option = yes
+		create_country = { tag = BCO origin = c:GBR
+			state = s:STATE_MIDLANDS.region_state:GBR
+		  }
+		}
+	option = { name = soe_britain_civilwarstart.2.o2
+	create_country = { tag = BCO origin = c:GBR
+			state = s:STATE_MIDLANDS.region_state:GBR
+	} 
+	play_as = c:BCO
+  }
+}
+
+soe_britain_civilwarstart.3 = { ### British Civil War Navy start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/ship.dds"
+	title = soe_britain_civilwarstart.3.t desc = soe_britain_civilwarstart.3.d flavor = soe_britain_civilwarstart.3.f
+	event_image = { texture = "gfx/event_pictures/royalnavy.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_3_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_3_end_flag }
+	option = { name = soe_britain_civilwarstart.3.o1
+	    default_option = yes
+		create_country = { tag = WCG origin = c:GBR
+			state = s:STATE_WEST_COUNTRY.region_state:GBR
+		  }
+		}
+	option = { name = soe_britain_civilwarstart.3.o2
+	create_country = { tag = WCG origin = c:GBR
+			state = s:STATE_WEST_COUNTRY.region_state:GBR
+	} 
+	play_as = c:WCG
+  }
+}
+
+soe_britain_civilwarstart.4 = { ### British Civil War Free Republic start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/rose.dds"
+	title = soe_britain_civilwarstart.4.t desc = soe_britain_civilwarstart.4.d flavor = soe_britain_civilwarstart.4.f
+	event_image = { texture = "gfx/event_pictures/britishrepublic.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_4_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_4_end_flag }
+	option = { name = soe_britain_civilwarstart.4.o1
+	    default_option = yes
+		create_country = { tag = FBR origin = c:GBR
+			state = s:STATE_YORKSHIRE.region_state:GBR
+		  }
+		}
+	option = { name = soe_britain_civilwarstart.4.o2
+	create_country = { tag = FBR origin = c:GBR
+			state = s:STATE_YORKSHIRE.region_state:GBR
+	} 
+	play_as = c:FBR
+  }
+}
+
+soe_britain_civilwarstart.5 = { ### British Civil War Crown's Legion start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/crownbrit.dds"
+	title = soe_britain_civilwarstart.5.t desc = soe_britain_civilwarstart.5.d flavor = soe_britain_civilwarstart.5.f
+	event_image = { texture = "gfx/event_pictures/britishmonarchy.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_5_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_5_end_flag }
+	option = { name = soe_britain_civilwarstart.5.o1
+	    default_option = yes
+		create_country = { tag = CRL origin = c:GBR
+			state = s:STATE_LANCASHIRE.region_state:GBR
+		  }
+		}
+	option = { name = soe_britain_civilwarstart.5.o2
+	create_country = { tag = CRL origin = c:GBR
+			state = s:STATE_LANCASHIRE.region_state:GBR
+	} 
+	play_as = c:CRL
+  }
+}
+
+soe_britain_civilwarstart.6 = { ### British Civil War Wales start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/crownbrokenn.dds"
+	title = soe_britain_civilwarstart.6.t desc = soe_britain_civilwarstart.6.d flavor = soe_britain_civilwarstart.6.f
+	event_image = { texture = "gfx/event_pictures/wales.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_6_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_6_end_flag }
+	option = { name = soe_britain_civilwarstart.6.o1
+	    default_option = yes
+		create_country = { tag = WLS origin = c:GBR
+			state = s:STATE_WALES.region_state:GBR
+		  }
+		}
+	option = { name = soe_britain_civilwarstart.6.o2
+	create_country = { tag = WLS origin = c:GBR
+			state = s:STATE_WALES.region_state:GBR
+	} 
+	play_as = c:WLS
+  }
+}
+
+soe_britain_civilwarstart.7 = { ### British Civil War Scotland start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/crownbroken.dds"
+	title = soe_britain_civilwarstart.7.t desc = soe_britain_civilwarstart.7.d flavor = soe_britain_civilwarstart.7.f
+	event_image = { texture = "gfx/event_pictures/scotland.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_7_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_7_end_flag }
+	option = { name = soe_britain_civilwarstart.7.o1
+	    default_option = yes
+		create_country = { tag = SCO origin = c:GBR
+			state = s:STATE_LOWLANDS.region_state:GBR
+			state = s:STATE_HIGHLANDS.region_state:GBR
+		  }
+		}
+	option = { name = soe_britain_civilwarstart.7.o2
+	create_country = { tag = SCO origin = c:GBR
+			state = s:STATE_LOWLANDS.region_state:GBR
+			state = s:STATE_HIGHLANDS.region_state:GBR
+	} 
+	play_as = c:SCO
+  }
+}
+
+soe_britain_civilwarstart.8 = { ### British Civil War Mosley start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/buf.dds"
+	title = soe_britain_civilwarstart.8.t desc = soe_britain_civilwarstart.8.d flavor = soe_britain_civilwarstart.8.f
+	event_image = { texture = "gfx/event_pictures/buf.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:MOY
+		c:MOY = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_8_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_8_end_flag }
+	option = { name = soe_britain_civilwarstart.8.o1
+	    default_option = yes
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_no_health_system
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_command_economy
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_no_social_security
+			create_diplomatic_play = {
+            
+        target_country = c:WCG
+            type = dp_revolution
+            war = yes
+			}
+			
+			create_diplomatic_play = {
+            
+        target_country = c:BCO
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:CRL
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:FBR
+            type = dp_revolution
+            war = yes
+			}
+     }
+}
+
+soe_britain_civilwarstart.9 = { ### British Civil War Navy start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/ship.dds"
+	title = soe_britain_civilwarstart.9.t desc = soe_britain_civilwarstart.9.d flavor = soe_britain_civilwarstart.9.f
+	event_image = { texture = "gfx/event_pictures/royalnavy.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:WCG
+		c:WCG = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_9_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_9_end_flag }
+	option = { name = soe_britain_civilwarstart.9.o1
+	    default_option = yes
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_no_health_system
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_no_social_security
+			create_diplomatic_play = {
+            
+        target_country = c:MOY
+            type = dp_revolution
+            war = yes
+			}
+			
+			create_diplomatic_play = {
+            
+        target_country = c:BCO
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:CRL
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:FBR
+            type = dp_revolution
+            war = yes
+			}
+     }
+}
+
+soe_britain_civilwarstart.10 = { ### British Civil War Communist start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/hammersickle.dds"
+	title = soe_britain_civilwarstart.10.t desc = soe_britain_civilwarstart.10.d flavor = soe_britain_civilwarstart.10.f
+	event_image = { texture = "gfx/event_pictures/communistbritain.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:BCO
+		c:BCO = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_10_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_10_end_flag }
+	option = { name = soe_britain_civilwarstart.10.o1
+	    default_option = yes
+		activate_law = law_type:law_council_republic
+		activate_law = law_type:law_universal_suffrage 
+		activate_law = law_type:law_collectivized_agriculture
+		activate_law = law_type:law_graduated_taxation
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_cooperative_ownership
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_women_in_the_workplace
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_public_health_insurance
+		activate_law = law_type:law_regulatory_bodies
+		activate_law = law_type:law_compulsory_primary_school
+		activate_law = law_type:law_old_age_pension
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_slavery_banned
+			create_diplomatic_play = {
+            
+        target_country = c:MOY
+            type = dp_revolution
+            war = yes
+			}
+			
+			create_diplomatic_play = {
+            
+        target_country = c:WCG
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:CRL
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:FBR
+            type = dp_revolution
+            war = yes
+			}
+     }
+}
+
+soe_britain_civilwarstart.11 = { ### British Civil War Monarchist start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/crownbrit.dds"
+	title = soe_britain_civilwarstart.11.t desc = soe_britain_civilwarstart.11.d flavor = soe_britain_civilwarstart.11.f
+	event_image = { texture = "gfx/event_pictures/britishmonarchy.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:CRL
+		c:CRL = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_11_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_11_end_flag }
+	option = { name = soe_britain_civilwarstart.11.o1
+	    default_option = yes
+		activate_law = law_type:law_autocracy
+			create_diplomatic_play = {
+            
+        target_country = c:MOY
+            type = dp_revolution
+            war = yes
+			}
+			
+			create_diplomatic_play = {
+            
+        target_country = c:WCG
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:BCO
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:FBR
+            type = dp_revolution
+            war = yes
+			}
+     }
+}
+
+soe_britain_civilwarstart.12 = { ### British Civil War Republic start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/rose.dds"
+	title = soe_britain_civilwarstart.12.t desc = soe_britain_civilwarstart.12.d flavor = soe_britain_civilwarstart.12.f
+	event_image = { texture = "gfx/event_pictures/britishrepublic.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:FBR
+		c:FBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_12_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_12_end_flag }
+	option = { name = soe_britain_civilwarstart.12.o1
+	    default_option = yes
+		activate_law = law_type:law_universal_suffrage
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_no_health_system
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_laissez_faire
+		activate_law = law_type:law_protected_speech
+		activate_law = law_type:law_free_trade
+			create_diplomatic_play = {
+            
+        target_country = c:MOY
+            type = dp_revolution
+            war = yes
+			}
+			
+			create_diplomatic_play = {
+            
+        target_country = c:WCG
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:BCO
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:CRL
+            type = dp_revolution
+            war = yes
+			}
+     }
+}
+
+soe_britain_civilwarstart.13 = { ### British Civil War Canada start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/canada.dds"
+	title = soe_britain_civilwarstart.13.t desc = soe_britain_civilwarstart.13.d flavor = soe_britain_civilwarstart.13.f
+	event_image = { texture = "gfx/event_pictures/canada.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_13_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_13_end_flag }
+	option = { name = soe_britain_civilwarstart.13.o1
+	    default_option = yes
+		create_country = { tag = CAN origin = c:GBR
+			state = s:STATE_NEWFOUNDLAND.region_state:GBR
+			state = s:STATE_QUEBEC.region_state:GBR
+			state = s:STATE_NEW_BRUNSWICK.region_state:GBR
+			state = s:STATE_ONTARIO.region_state:GBR
+			state = s:STATE_MANITOBA.region_state:GBR
+			state = s:STATE_NUNAVUT.region_state:GBR
+			state = s:STATE_SASKATCHEWAN.region_state:GBR
+			state = s:STATE_ALBERTA.region_state:GBR
+			state = s:STATE_NORTHWEST_TERRITORIES.region_state:GBR
+			state = s:STATE_BRITISH_COLUMBIA.region_state:GBR
+			state = s:STATE_YUKON_TERRITORY.region_state:GBR
+		  }
+		}
+	option = { name = soe_britain_civilwarstart.13.o2
+	create_country = { tag = CAN origin = c:GBR
+			state = s:STATE_NEWFOUNDLAND.region_state:GBR
+			state = s:STATE_QUEBEC.region_state:GBR
+			state = s:STATE_NEW_BRUNSWICK.region_state:GBR
+			state = s:STATE_ONTARIO.region_state:GBR
+			state = s:STATE_MANITOBA.region_state:GBR
+			state = s:STATE_NUNAVUT.region_state:GBR
+			state = s:STATE_SASKATCHEWAN.region_state:GBR
+			state = s:STATE_ALBERTA.region_state:GBR
+			state = s:STATE_NORTHWEST_TERRITORIES.region_state:GBR
+			state = s:STATE_BRITISH_COLUMBIA.region_state:GBR
+			state = s:STATE_YUKON_TERRITORY.region_state:GBR
+	} 
+	play_as = c:CAN
+  }
+}
+
+soe_britain_civilwarstart.14 = { ### British Civil War Scotland start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/schere.dds"
+	title = soe_britain_civilwarstart.14.t desc = soe_britain_civilwarstart.14.d flavor = soe_britain_civilwarstart.14.f
+	event_image = { texture = "gfx/event_pictures/southafrica.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_14_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_14_end_flag }
+	option = { name = soe_britain_civilwarstart.14.o1
+	    default_option = yes
+		create_country = { tag = ZIM origin = c:GBR
+			state = s:STATE_ZAMBEZI.region_state:GBR
+	      } 
+		create_country = { tag = SAF origin = c:GBR
+			state = s:STATE_CAPE_COLONY.region_state:GBR
+			state = s:STATE_NORTHERN_CAPE.region_state:GBR
+			state = s:STATE_EASTERN_CAPE.region_state:GBR
+			state = s:STATE_ZULULAND.region_state:GBR
+			state = s:STATE_VRYSTAAT.region_state:GBR
+			state = s:STATE_BOTSWANA.region_state:GBR
+			state = s:STATE_TRANSVAAL.region_state:GBR
+		  }
+		}
+	option = { name = soe_britain_civilwarstart.14.o2
+	create_country = { tag = ZIM origin = c:GBR
+			state = s:STATE_ZAMBEZI.region_state:GBR
+	      } 
+	create_country = { tag = SAF origin = c:GBR
+			state = s:STATE_CAPE_COLONY.region_state:GBR
+			state = s:STATE_NORTHERN_CAPE.region_state:GBR
+			state = s:STATE_EASTERN_CAPE.region_state:GBR
+			state = s:STATE_ZULULAND.region_state:GBR
+			state = s:STATE_VRYSTAAT.region_state:GBR
+			state = s:STATE_BOTSWANA.region_state:GBR
+			state = s:STATE_TRANSVAAL.region_state:GBR
+	} 
+	play_as = c:SAF
+  }
+}
+
+soe_britain_civilwarstart.15 = { ### British Civil War Australia start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/handcuffbroken.dds"
+	title = soe_britain_civilwarstart.15.t desc = soe_britain_civilwarstart.15.d flavor = soe_britain_civilwarstart.15.f
+	event_image = { texture = "gfx/event_pictures/australasia.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_15_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_15_end_flag }
+	option = { name = soe_britain_civilwarstart.15.o1
+	    default_option = yes
+		create_country = { tag = AST origin = c:GBR
+			state = s:STATE_WESTERN_AUSTRALIA.region_state:GBR
+			state = s:STATE_NORTHERN_TERRITORY.region_state:GBR
+			state = s:STATE_SOUTH_AUSTRALIA.region_state:GBR
+			state = s:STATE_QUEENSLAND.region_state:GBR
+			state = s:STATE_NEW_SOUTH_WALES.region_state:GBR
+			state = s:STATE_VICTORIA.region_state:GBR
+			state = s:STATE_TASMANIA.region_state:GBR
+			state = s:STATE_SOUTH_ISLAND.region_state:GBR
+			state = s:STATE_NORTH_ISLAND.region_state:GBR
+			state = s:STATE_EASTERN_NEW_GUINEA.region_state:GBR
+			state = s:STATE_BOUGAINVILLE.region_state:GBR
+			state = s:STATE_SOLOMON_ISLANDS.region_state:GBR
+			state = s:STATE_NAURU.region_state:GBR
+			state = s:STATE_VANUATU.region_state:GBR
+			state = s:STATE_FIJI.region_state:GBR
+			state = s:STATE_TONGA.region_state:GBR
+		  }
+		}
+	option = { name = soe_britain_civilwarstart.15.o2
+	create_country = { tag = AST origin = c:GBR
+			state = s:STATE_WESTERN_AUSTRALIA.region_state:GBR
+			state = s:STATE_NORTHERN_TERRITORY.region_state:GBR
+			state = s:STATE_SOUTH_AUSTRALIA.region_state:GBR
+			state = s:STATE_QUEENSLAND.region_state:GBR
+			state = s:STATE_NEW_SOUTH_WALES.region_state:GBR
+			state = s:STATE_VICTORIA.region_state:GBR
+			state = s:STATE_TASMANIA.region_state:GBR
+			state = s:STATE_SOUTH_ISLAND.region_state:GBR
+			state = s:STATE_NORTH_ISLAND.region_state:GBR
+			state = s:STATE_EASTERN_NEW_GUINEA.region_state:GBR
+			state = s:STATE_BOUGAINVILLE.region_state:GBR
+			state = s:STATE_SOLOMON_ISLANDS.region_state:GBR
+			state = s:STATE_NAURU.region_state:GBR
+			state = s:STATE_VANUATU.region_state:GBR
+			state = s:STATE_FIJI.region_state:GBR
+			state = s:STATE_TONGA.region_state:GBR
+	} 
+	play_as = c:AST
+  }
+}
+
+soe_britain_civilwarstart.16 = { ### British Civil War All countries start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/britishskulls.dds"
+	title = soe_britain_civilwarstart.16.t desc = soe_britain_civilwarstart.16.d flavor = soe_britain_civilwarstart.16.f
+	event_image = { texture = "gfx/event_pictures/britishsunbw.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_16_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_16_end_flag }
+	option = { name = soe_britain_civilwarstart.16.o1
+	    default_option = yes
+		create_country = { tag = MLT origin = c:GBR
+			state = s:STATE_MALTA.region_state:GBR
+	      }
+		 create_country = { tag = CYP origin = c:GBR
+			state = s:STATE_CYPRUS.region_state:GBR
+	      }
+		 create_country = { tag = WIN origin = c:GBR
+			state = s:STATE_WEST_INDIES.region_state:GBR
+			state = s:STATE_GUAYANA.region_state:GBR
+			state = s:STATE_JAMAICA.region_state:GBR
+			state = s:STATE_BAHAMAS.region_state:GBR
+			state = s:STATE_GUATEMALA.region_state:GBR
+			state = s:STATE_BERMUDA.region_state:GBR
+	      }
+		  create_country = { tag = JOH origin = c:GBR
+			state = s:STATE_MALAYA.region_state:GBR
+	      }
+		  create_country = { tag = BRU origin = c:GBR
+			state = s:STATE_NORTH_BORNEO.region_state:GBR
+	      }
+		  create_country = { tag = CEY origin = c:GBR
+			state = s:STATE_CEYLON.region_state:GBR
+			state = s:STATE_MADRAS.region_state:GBR
+			state = s:STATE_INDIAN_OCEAN_TERRITORY.region_state:GBR
+	      }
+		  create_country = { tag = MAH origin = c:GBR
+			state = s:STATE_YEMEN.region_state:GBR
+			state = s:STATE_ABU_DHABI.region_state:GBR
+	      }
+		  create_country = { tag = HOK origin = c:GBR
+			state = s:STATE_SHAOZHOU.region_state:GBR
+	      }
+		  create_country = { tag = HOB origin = c:GBR
+			state = s:STATE_SOMALILAND.region_state:GBR
+	      }
+		  create_country = { tag = BDN origin = c:GBR
+			state = s:STATE_NIGER_DELTA.region_state:GBR
+			state = s:STATE_BENIN.region_state:GBR
+			state = s:STATE_YORUBA_STATES.region_state:GBR
+			state = s:STATE_SOUTH_ATLANTIC_ISLANDS.region_state:GBR
+	      }
+		  create_country = { tag = GHA origin = c:GBR
+			state = s:STATE_GHANA.region_state:GBR
+	      }
+		  create_country = { tag = SIL origin = c:GBR
+			state = s:STATE_SIERRA_LEONE.region_state:GBR
+	      }
+		  create_country = { tag = GAM origin = c:GBR
+			state = s:STATE_GAMBIA.region_state:GBR
+	      }
+		}
+}
+
+soe_britain_civilwarstart.17 = { ### British Armory Raid
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/bigben.dds"
+	title = soe_britain_civilwarstart.17.t desc = soe_britain_civilwarstart.17.d flavor = soe_britain_civilwarstart.17.f
+	event_image = { texture = "gfx/event_pictures/armory.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_17_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_17_end_flag }
+	option = { name = soe_britain_civilwarstart.17.o1
+		s:STATE_MIDLANDS={
+		region_state:GBR={
+		 create_building={
+				building="building_barracks"
+				level=100
+				reserves=1
+				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
+			}
+		}
+	 }
+	}
+	option = { name = soe_britain_civilwarstart.17.o2
+	    default_option = yes
+		s:STATE_HOME_COUNTIES={
+		region_state:GBR={
+		 create_building={
+				building="building_barracks"
+				level=100
+				reserves=1
+				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
+			}
+		}
+	 }
+	}
+	option = { name = soe_britain_civilwarstart.17.o3
+		s:STATE_WEST_COUNTRY={
+		region_state:GBR={
+		 create_building={
+				building="building_barracks"
+				level=100
+				reserves=1
+				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
+			}
+		}
+	 }
+	}
+	option = { name = soe_britain_civilwarstart.17.o4
+		s:STATE_LANCASHIRE={
+		region_state:GBR={
+		 create_building={
+				building="building_barracks"
+				level=100
+				reserves=1
+				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
+			}
+		}
+	 }
+	}
+	option = { name = soe_britain_civilwarstart.17.o5
+		s:STATE_YORKSHIRE={
+		region_state:GBR={
+		 create_building={
+				building="building_barracks"
+				level=100
+				reserves=1
+				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
+			}
+		}
+	 }
+	}
+}
+
+soe_britain_civilwarstart.18 = { ### British Hunger marches
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/hammersickle.dds"
+	title = soe_britain_civilwarstart.18.t desc = soe_britain_civilwarstart.18.d flavor = soe_britain_civilwarstart.18.f
+	event_image = { texture = "gfx/event_pictures/hungermarches.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_18_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_18_end_flag }
+	option = { name = soe_britain_civilwarstart.18.o1
+		add_modifier = { name = hunger_marches }
+	 }
+}
+
+soe_britain_civilwarstart.19 = { ### British Police Violence
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/buf.dds"
+	title = soe_britain_civilwarstart.19.t desc = soe_britain_civilwarstart.19.d flavor = soe_britain_civilwarstart.19.f
+	event_image = { texture = "gfx/event_pictures/policeviolence.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_19_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_19_end_flag }
+	option = { name = soe_britain_civilwarstart.19.o1
+		add_modifier = { name = police_violence }
+	 }
+}
+
+soe_britain_civilwarstart.20 = { ### British Buckingham
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/burn.dds"
+	title = soe_britain_civilwarstart.20.t desc = soe_britain_civilwarstart.20.d flavor = soe_britain_civilwarstart.20.f
+	event_image = { texture = "gfx/event_pictures/buckingham.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_20_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_20_end_flag }
+	option = { name = soe_britain_civilwarstart.20.o1
+		add_radicals = {
+			value = 0.10
+		}
+	 }
+}
+
+soe_britain_civilwarstart.21 = { ### British Mosley London
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/buf.dds"
+	title = soe_britain_civilwarstart.21.t desc = soe_britain_civilwarstart.21.d flavor = soe_britain_civilwarstart.21.f
+	event_image = { texture = "gfx/event_pictures/blackshirtmarch.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_21_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_21_end_flag }
+	option = { name = soe_britain_civilwarstart.21.o1
+		add_radicals = {
+			value = 0.20
+		}
+	 }
+}
