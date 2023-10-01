@@ -1,0 +1,22 @@
+CHARACTERS = {
+	c:ITA = {
+		create_character = {
+			# Gabriele D'Annunzio
+			first_name = "Gabriele"
+			last_name = "D_Annunzio"
+			historical = yes
+			ruler = yes 
+			age = 60
+			dna = dna_gabriele_dannunzio
+			interest_group = ig_petty_bourgeoisie
+			ideology= ideology_fascist
+			culture= south_italian
+			traits = {
+				hedonist literary ambitious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		}
+		}

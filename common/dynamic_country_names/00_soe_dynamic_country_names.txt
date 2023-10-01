@@ -1,0 +1,105 @@
+﻿### Try to keep tags in alphabetical order if it's not too far gone, please.
+
+################################################################
+## DEFAULT COUNTRY NAMES EXAMPLE CAN BE USED WITH ANY COUNTRY ##
+################################################################
+
+MOY = { # Mosley
+	dynamic_country_name = {
+		name = dyn_c_mosley_england
+		
+		is_main_tag_only = yes
+		priority = 2000
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_HOME_COUNTIES
+				owns_entire_state_region = STATE_WEST_COUNTRY
+				owns_entire_state_region = STATE_LANCASHIRE
+				owns_entire_state_region = STATE_YORKSHIRE
+				owns_entire_state_region = STATE_MIDLANDS
+			}
+		}
+	}	
+}
+
+FBR = { # Republic
+	dynamic_country_name = {
+		name = dyn_c_fbr_england
+		
+		is_main_tag_only = yes
+		priority = 2000
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_HOME_COUNTIES
+				owns_entire_state_region = STATE_WEST_COUNTRY
+				owns_entire_state_region = STATE_LANCASHIRE
+				owns_entire_state_region = STATE_YORKSHIRE
+				owns_entire_state_region = STATE_MIDLANDS
+			}
+		}
+	}	
+}
+
+BCO = { # Communist
+	dynamic_country_name = {
+		name = dyn_c_bco_england
+		
+		is_main_tag_only = yes
+		priority = 2000
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_HOME_COUNTIES
+				owns_entire_state_region = STATE_WEST_COUNTRY
+				owns_entire_state_region = STATE_LANCASHIRE
+				owns_entire_state_region = STATE_YORKSHIRE
+				owns_entire_state_region = STATE_MIDLANDS
+			}
+		}
+	}	
+}
+
+CRL = { # Monarchy
+	dynamic_country_name = {
+		name = dyn_c_crl_england
+		
+		is_main_tag_only = yes
+		priority = 2000
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_HOME_COUNTIES
+				owns_entire_state_region = STATE_WEST_COUNTRY
+				owns_entire_state_region = STATE_LANCASHIRE
+				owns_entire_state_region = STATE_YORKSHIRE
+				owns_entire_state_region = STATE_MIDLANDS
+			}
+		}
+	}	
+}
+
+WCG = { # Navy
+	dynamic_country_name = {
+		name = dyn_c_wcg_england
+		
+		is_main_tag_only = yes
+		priority = 2000
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_HOME_COUNTIES
+				owns_entire_state_region = STATE_WEST_COUNTRY
+				owns_entire_state_region = STATE_LANCASHIRE
+				owns_entire_state_region = STATE_YORKSHIRE
+				owns_entire_state_region = STATE_MIDLANDS
+			}
+		}
+	}	
+}
