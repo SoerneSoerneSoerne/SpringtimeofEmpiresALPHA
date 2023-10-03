@@ -1,0 +1,16 @@
+﻿DIPLOMACY = {
+	c:POL = {	
+		create_diplomatic_pact = {
+			country = c:UKR
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:BYE
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:LIT
+			type = customs_union
+		}		
+	}
+}

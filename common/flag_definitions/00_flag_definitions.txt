@@ -3188,6 +3188,15 @@ GAL = { # Galicia (Halych)
 	}
 }
 
+MVA = { # Makhno
+	flag_definition = {
+		coa = MVA_FLAG	
+		subject_canton = MVA_FLAG
+		allow_overlord_canton = yes		
+		priority = 3000
+	}
+}
+
 GBR = { # Great Britain / United Kingdom
 	flag_definition = {
 		coa = GBR_FLAG
