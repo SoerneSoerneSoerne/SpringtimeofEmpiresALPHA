@@ -1019,6 +1019,17 @@ UKR = {
 	capital = STATE_KIEV
 }
 
+USS = {
+	color = { 51  76  158 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { ukrainian russian }
+	capital = STATE_LUHANSK
+}
+
 MVA = {
 	color = { 0 0 0 }
 	
