@@ -102,7 +102,7 @@
 		region_state:UKR = {
 			create_pop = {
 				culture = ukrainian
-				size = 3923992
+				size = 2123992
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -115,6 +115,24 @@
 			create_pop = {
 				culture = russian
 				size = 36400
+			}
+		}
+		region_state:USS = {
+			create_pop = {
+				culture = ukrainian
+				size = 1923992
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 1996
+			}
+			create_pop = {
+				culture = polish
+				size = 504
+			}
+			create_pop = {
+				culture = russian
+				size = 136400
 			}
 		}
 	}
@@ -156,7 +174,7 @@
 		}
 	}
 	s:STATE_ORSHA = {
-		region_state:BYE = {
+		region_state:RUS = {
 			create_pop = {
 				culture = russian
 				size = 88400
@@ -176,6 +194,16 @@
 			create_pop = {
 				culture = polish
 				size = 64208
+			}
+		}
+		region_state:BYE = {
+			create_pop = {
+				culture = byelorussian
+				size = 53376
+			}
+			create_pop = {
+				culture = lithuanian
+				size = 12000
 			}
 		}
 	}
@@ -252,7 +280,7 @@
 		}
 	}
 	s:STATE_LUHANSK = {
-		region_state:RUS = {
+		region_state:USS = {
 			create_pop = {
 				culture = ukrainian
 				size = 1914584
@@ -273,29 +301,11 @@
 				culture = north_german
 				size = 16000
 			}
-			create_pop = {
-				culture = greek
-				size = 20400
-			}
-		}
-		region_state:UKR = {
-			create_pop = {
-				culture = ukrainian
-				size = 414584
-			}
-			create_pop = {
-				culture = russian
-				size = 61992
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 41000
-			}
 		}
 		region_state:MVA = {
 			create_pop = {
 				culture = ukrainian
-				size = 45000
+				size = 85000
 			}
 			create_pop = {
 				culture = russian
@@ -375,7 +385,7 @@
 				size = 12000
 			}
 		}
-		region_state:RUS = {
+		region_state:USS = {
 			create_pop = {
 				culture = ukrainian
 				size = 116108
@@ -474,6 +484,12 @@
 				size = 26204
 			}
 		}
+		region_state:USS = {
+			create_pop = {
+				culture = ukrainian
+				size = 16600
+			}
+		}
 	}
 	s:STATE_PERM = {
 		region_state:RUS = {
@@ -546,6 +562,16 @@
 			create_pop = {
 				culture = russian
 				size = 21000
+			}
+		}
+		region_state:RUS = {
+			create_pop = {
+				culture = latvian
+				size = 7496
+			}
+			create_pop = {
+				culture = russian
+				size = 121000
 			}
 		}
 	}
