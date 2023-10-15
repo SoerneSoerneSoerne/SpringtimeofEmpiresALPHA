@@ -10,6 +10,15 @@
             set_variable = italy_piedmont_var
             trigger_event = { id = soe_italy_piedmont.1 days = 0 }
         }
+		#Germany
+		if = {
+			limit = {
+               game_date >= 1931.3.1
+               NOT = { has_variable = czech_start_var }
+            }
+            set_variable = czech_start_var
+            trigger_event = { id = soe_germany_czech.1 days = 0 }
+        }
 		#Britain
 		if = {
 			limit = {

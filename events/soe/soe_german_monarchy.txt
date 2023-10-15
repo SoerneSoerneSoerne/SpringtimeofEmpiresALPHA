@@ -1,0 +1,102 @@
+﻿namespace = soe_german_monarchy
+
+soe_german_monarchy.1 = { # Startup event
+	type = country_event
+	placement = ROOT
+
+	title = soe_german_monarchy.1.t
+	desc = soe_german_monarchy.1.d
+	flavor = soe_german_monarchy.1.f
+
+	event_image = { texture = "gfx/event_pictures/austriaprussia.dds" }
+
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/2Characters"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+		NOT = { has_variable = germanmonarchy_var }
+	}
+	immediate = {
+		set_variable = germanmonarchy_var
+	}
+	option = { # Support Habsburg
+		name = soe_german_monarchy.1.a
+		set_variable = chose_habsburg_var
+		add_modifier = habsburg
+	}
+	option = { # Support Hohenzollern
+		name = soe_german_monarchy.1.b
+		default_option = yes
+		set_variable = chose_hohenzollern_var
+		add_modifier = hohenzollern
+   }
+}
+
+soe_german_monarchy.2 = { ### Second Journal
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_german_monarchy.2.t desc = soe_german_monarchy.2.d flavor = soe_german_monarchy.2.f
+	event_image = { texture = "gfx/event_pictures/generalstaff.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GER
+		c:GER = ROOT
+		NOT = { has_variable = soe_hitler_var }
+	}
+	immediate = { set_variable = soe_hitler_var }
+	option = { name = soe_german_monarchy.2.o
+		add_modifier = prussiageneralstaff
+	}
+}
+
+soe_german_monarchy.3 = { # end
+	type = country_event
+	placement = ROOT
+
+	title = soe_german_monarchy.3.t
+	desc = soe_german_monarchy.3.d
+	flavor = soe_german_monarchy.3.f
+
+	event_image = { texture = "gfx/event_pictures/diarchy.dds" }
+
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/2Characters"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	trigger = {
+		NOT = { has_variable = germanmonarchyend_var }
+	}
+	immediate = {
+		set_variable = germanmonarchyend_var
+	}
+	option = {
+		name = soe_german_monarchy.3.a
+		ig:ig_landowners = {
+			hidden_effect = {
+				set_interest_group_name = ig_hohenzollern
+			}
+			add_ideology = ideology_hohenzollernparty
+		}
+	}
+	option = {
+		name = soe_german_monarchy.3.b
+		ig:ig_landowners = {
+			hidden_effect = {
+				set_interest_group_name = ig_habsburg
+			}
+			remove_ideology = ideology_junker_paternalistic
+			add_ideology = ideology_habsburgparty
+		}
+	}
+}

@@ -1,0 +1,35 @@
+﻿je_germanmonarchy = {
+	icon = "gfx/interface/icons/event_icons/germanmonarchy.dds"
+
+	immediate = {
+		set_variable = { name = fra_leading_dynasty_progress value = 0 }
+		fra_set_divided_monarchist_variables = yes
+		random_law = {
+			limit = { type = law_type:law_monarchy }
+			save_scope_as = monarchy_scope
+		}
+	}
+
+	complete = {
+		has_law = law_type:law_monarchy
+		game_date >= 1936.01.1
+		}
+	
+
+	on_complete = {
+		custom_tooltip = {
+			text = je_germanmonarchy_01_tt
+		}
+		trigger_event = { id = soe_german_monarchy.3 }
+	}
+
+	fail = {
+			has_modifier = declared_bankruptcy
+	}
+
+	on_fail = {
+		trigger_event = { id = soe_german_monarchy.2 }
+	}
+
+	should_be_pinned_by_default = yes
+}

@@ -21,6 +21,10 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
+			country = c:USS
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:KHI
 			type = puppet
 		}
@@ -33,15 +37,7 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
-			country = c:GEO
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:ARM
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:AZB
+			country = c:CAU
 			type = puppet
 		}
 		create_diplomatic_pact = {

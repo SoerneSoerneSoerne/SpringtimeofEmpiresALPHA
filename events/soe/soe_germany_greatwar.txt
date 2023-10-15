@@ -1,0 +1,49 @@
+﻿namespace = soe_germany_greatwar
+
+soe_germany_greatwar.1 = { ### First Journal
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_germany_greatwar.1.t desc = soe_germany_greatwar.1.d flavor = soe_germany_greatwar.1.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GER
+		c:GER = ROOT
+		NOT = { has_variable = soe_germany_greatwar_1_end_flag }
+	}
+	immediate = { set_variable = soe_germany_greatwar_1_end_flag }
+	option = { name = soe_germany_greatwar.1.o
+		remove_modifier = modifier_greatwarvictory
+		add_loyalists = {
+			value = 0.02
+		}
+	}
+     option = { name = soe_germany_greatwar.1.o2
+	 default_option = yes
+	remove_modifier = modifier_greatwarvictory
+	add_journal_entry = {
+				type = je_victorsgreatwarbundeswehr
+			}
+  }	
+}
+
+soe_germany_greatwar.2 = { ### Second Journal
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_germany_greatwar.2.t desc = soe_germany_greatwar.2.d flavor = soe_germany_greatwar.2.f
+	event_image = { texture = "gfx/event_pictures/generalstaff.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GER
+		c:GER = ROOT
+		NOT = { has_variable = soe_germany_greatwar_2_end_flag }
+	}
+	immediate = { set_variable = soe_germany_greatwar_2_end_flag }
+	option = { name = soe_germany_greatwar.2.o
+		add_modifier = prussiageneralstaff
+	}
+}

@@ -1,0 +1,50 @@
+﻿je_victorsgreatwarstart = {
+    icon = "gfx/interface/icons/event_icons/soldierprussian.dds"
+    is_shown_when_inactive = {
+        c:GER = ROOT
+    }
+    possible = {
+        has_technology_researched = rifling
+		has_technology_researched = shell_gun
+		c:GER = ROOT
+    }
+    complete = {
+        any_scope_building = { 
+            is_building_type = building_arms_industry
+            OR = {
+                has_active_production_method = pm_rifles
+                has_active_production_method = pm_smoothbores
+            }
+            level >= 5
+            occupancy >= 0.50
+        }
+    }
+    on_complete = {
+        trigger_event = { 
+            id = soe_germany_greatwar.1 
+        }
+    }
+	
+	should_be_pinned_by_default = yes
+	
+    timeout = 3650
+}
+
+je_victorsgreatwarbundeswehr = {
+    icon = "gfx/interface/icons/event_icons/bundeswehr.dds"
+    is_shown_when_inactive = {
+        c:GER = ROOT
+    }
+    possible = {
+	has_variable = soe_germany_greatwar_1_end_flag
+    }
+    complete = {
+        army_size >= 450
+    }
+    on_complete = {
+        trigger_event = { 
+            id = soe_germany_greatwar.2
+        }
+    }
+    timeout = 3650
+}

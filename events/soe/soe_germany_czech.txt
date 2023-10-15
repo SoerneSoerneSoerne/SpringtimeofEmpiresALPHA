@@ -1,0 +1,97 @@
+﻿namespace = soe_germany_czech
+
+soe_germany_czech.1 = { ### First Journal
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/eaglegerman.dds"
+	title = soe_germany_czech.1.t desc = soe_germany_czech.1.d flavor = soe_germany_czech.1.f
+	event_image = { texture = "gfx/event_pictures/burning.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GER
+		c:GER = ROOT
+		NOT = { has_variable = soe_germany_czech_1_end_flag }
+	}
+	immediate = { set_variable = soe_germany_czech_1_end_flag }
+	option = { name = soe_germany_czech.1.o
+	 default_option = yes
+	add_modifier = modifier_czech_terrorism
+  }	
+}
+
+soe_germany_czech.2 = { ### Shouldn't be possible
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/eaglegerman.dds"
+	title = soe_germany_czech.2.t desc = soe_germany_czech.2.d flavor = soe_germany_czech.2.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GER
+		c:GER = ROOT
+		NOT = { has_variable = soe_germany_czech_2_end_flag }
+	}
+	immediate = { set_variable = soe_germany_czech_2_end_flag }
+	option = { name = soe_germany_czech.2.o
+	 default_option = yes
+  }	
+}
+
+soe_germany_czech.3 = { ### Rise up
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/eaglegerman.dds"
+	title = soe_germany_czech.3.t desc = soe_germany_czech.3.d flavor = soe_germany_czech.3.f
+	event_image = { texture = "gfx/event_pictures/warsawuprising.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GER
+		c:GER = ROOT
+		NOT = { has_variable = soe_germany_czech_3_end_flag }
+	}
+	immediate = { set_variable = soe_germany_czech_3_end_flag }
+	option = { name = soe_germany_czech.3.o
+	 default_option = yes
+	remove_modifier = modifier_czech_terrorism
+	trigger_event = { id = soe_germany_czech.4 }
+	create_country = { tag = POU origin = c:GER
+			state = s:STATE_GREATER_POLAND.region_state:GER
+			state = s:STATE_MAZOVIA.region_state:GER
+		  }
+	}	
+}
+
+soe_germany_czech.4 = { ### Choose
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/eaglegerman.dds"
+	title = soe_germany_czech.4.t desc = soe_germany_czech.4.d flavor = soe_germany_czech.4.f
+	event_image = { texture = "gfx/event_pictures/pole.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GER
+		c:GER = ROOT
+		NOT = { has_variable = soe_germany_czech_4_end_flag }
+	}
+	immediate = { set_variable = soe_germany_czech_4_end_flag }
+	option = { name = soe_germany_czech.4.o
+	 default_option = yes
+	 add_modifier = { name = modifier_internationaloutrage
+	 years = 5 }
+         create_diplomatic_play = {     
+        target_country = c:POU
+            type = dp_revolution
+            war = yes
+			}
+		}
+	option = { name = soe_germany_czech.4.e
+	 default_option = yes
+	 set_variable = soe_habsburg_eu
+	 add_modifier = { name = modifier_crisisaverted
+	 years = 5 }
+	 c:POL = { annex = c:POU }
+}

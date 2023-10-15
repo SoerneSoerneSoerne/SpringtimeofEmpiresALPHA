@@ -1,0 +1,19 @@
+CHARACTERS = {
+	c:SWE = {
+		create_character = {
+			# Arthur Engberg
+			first_name = "Arthur"
+			last_name = "Engberg"
+			historical = yes
+			ruler = yes 
+			age = 37
+			dna = dna_arthur_engberg
+			interest_group = ig_trade_unions
+			ideology= ideology_natsoc
+			culture= swedish
+			traits = {
+				bigoted
+			}
+		}
+	}
+}

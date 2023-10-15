@@ -9,6 +9,28 @@
 	capital = STATE_HESSE
 }
 
+KFO = {
+	color = { 92 100 120 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { north_german south_german }
+	capital = STATE_BRANDENBURG
+}
+
+EUH = {
+	color = { 20  40  150 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { south_german north_german dutch flemish wallonian hungarian slovak }
+	capital = STATE_AUSTRIA
+}
+
 DMA = {
 	color = { 152 148 144 }
 	
@@ -341,7 +363,7 @@ NOR = {
 }
 
 SWE = {
-	color = { 87  130  199 }
+	color = { 67  130  199 }
 	
 	country_type = recognized
 
@@ -963,6 +985,17 @@ POL = {
 	capital = STATE_MAZOVIA
 }
 
+POU = {
+	color = { 103 38 49 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { polish }
+	capital = STATE_MAZOVIA
+}
+
 GAL = {
 	color = { 13  81  130 }
 	
@@ -1107,7 +1140,7 @@ BUL = {
 	tier = kingdom
 	
 	cultures = { bulgarian }	
-	capital = STATE_NORTHERN_THRACE
+	capital = STATE_BULGARIA
 }
 
 CRE = {
@@ -1215,6 +1248,28 @@ ROM = {
 	
 	capital = STATE_WALLACHIA
 	cultures = { romanian }
+}
+
+BRO = {
+	color = { 192 159 37 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	capital = STATE_WALLACHIA
+	cultures = { romanian bulgarian }
+}
+
+BRY = {
+	color = { 162 129 27 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	capital = STATE_WALLACHIA
+	cultures = { romanian bulgarian }
 }
 
 SER = {

@@ -1,0 +1,112 @@
+CHARACTERS = {
+	c:GER = {
+		create_character = {
+			# Karl
+			first_name = "Karl"
+			last_name = "first"
+			historical = yes
+			ruler = yes 
+			age = 38
+			dna = dna_karl_i
+			interest_group = ig_landowners
+			ideology= ideology_habsburgsoe
+			culture= south_german
+			traits = {
+				literary
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		create_character = {
+			# Wilhelm 
+			first_name = "Wilhelm"
+			last_name = "second"
+			historical = yes
+			ig_leader = yes
+			age = 66
+			dna = dna_wilhelm_ii
+			interest_group = ig_landowners
+			ideology= ideology_hohenzollernsoe
+			culture= north_german
+			traits = {
+				
+			}
+		}
+		create_character = {
+			# Hitler
+			first_name = "Adolf"
+			last_name = "hitler"
+			historical = yes
+			ig_leader = yes
+			age = 36
+			dna = dna_adolf_hitler
+			interest_group = ig_petty_bourgeoisie
+			ideology= ideology_hitlerist
+			culture= south_german
+			traits = {
+				firebrand
+			}
+		}
+		create_character = {
+			# Gustav Stresemann
+			first_name = "Gustav"
+			last_name = "stresemann"
+			historical = yes
+			ig_leader = yes
+			age = 47
+			dna = dna_gustav_stresemann
+			interest_group = ig_intelligentsia
+			ideology= ideology_reformer
+			culture= north_german
+			traits = {
+				charismatic
+			}
+		}
+		create_character = {
+			# Wilhelm Marx
+			first_name = "Wilhelm"
+			last_name = "Marx"
+			historical = yes
+			ig_leader = yes
+			age = 62
+			dna = dna_wilhelm_marx
+			interest_group = ig_devout
+			ideology= ideology_moderate
+			culture= north_german
+			traits = {
+				
+			}
+		}
+		create_character = {
+			# Hermann Müller
+			first_name = "Hermann"
+			last_name = "mueller"
+			historical = yes
+			ig_leader = yes
+			age = 49
+			dna = dna_hermann_mueller
+			interest_group = ig_trade_unions
+			ideology= ideology_pacifist
+			culture= north_german
+			traits = {
+				
+			}
+		}
+		create_character = {
+			# Hans von Seeckt
+			first_name = "Hans"
+			last_name = "vonseeckt"
+			historical = yes
+			ig_leader = yes
+			age = 59
+			dna = dna_hans_von_seeckt
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= north_german
+			traits = {
+				
+			}
+		}
+	}
+}

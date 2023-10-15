@@ -101,6 +101,21 @@
   soe_britain_civilwarstart.12.d: " "
   soe_britain_civilwarstart.12.f: " "
   soe_britain_civilwarstart.12.o1: "For a free England!"
+  soe_germany_greatwar.1.t: "Modern Bundeswehr"
+  soe_germany_greatwar.1.d: "With the modernization of the Bundeswehr now complete, we look ahead to a future filled with challenges. Let our armed forces serve as a testament to our dedication to secure a peaceful Europe. The world watches, and our resolve remains unshaken. The Bundeswehr stands ready to protect, to defend, and to lead."
+  soe_germany_greatwar.1.f: "However this modernization wasn’t enough for some. The Prussians seek to further expand the Bundeswehr. We must be cautious not to allow the Bundeswehr to become a pawn in the hands of the Hohenzollern. The Prussian call for expansion must be scrutinized for its true intentions. Will it genuinely enhance our national security, or will it primarily serve to concentrate power within their grasp?"
+  soe_germany_greatwar.1.o: "The Bundeswehr is strong enough already."
+  soe_germany_greatwar.1.o2: "The Prussians may be right on this one."
+  soe_germany_greatwar.2.t: "Prussian-Led Bundeswehr"
+  soe_germany_greatwar.2.d: "With its newfound size and strength, the Bundeswehr stands poised as a formidable guardian of our nation's security. From well-equipped divisions to cutting-edge technology, our military forces now possess the capacity to defend our borders, project our influence, and respond decisively to any threat that may emerge."
+  soe_germany_greatwar.2.f: "The transition within the Bundeswehr's General Staff, now led by Prussian generals, signals a new era of military leadership and strategic thinking. Prussian military tradition, renowned for its discipline and tactical prowess, has taken center stage."
+  soe_germany_greatwar.2.o: "Wir. Dienen. Deutschland."
+  soe_german_monarchy.2.t: "The Rise of Evil"
+  soe_german_monarchy.1.t: "Zweikaiserproblem"
+  soe_german_monarchy.1.d: "In the heart of Europe, the German Empire stands as a powerful force, united by strength and industry. Yet, beneath its façade of unity lies a delicate balance, a dual power that has held sway for too long - the Austrian and Prussian Diarchy. With Kaiser Karl I of the Habsburg dynasty and Kaiser Wilhelm II of the Hohenzollern lineage at the helm. The Diarchy, born out of historical necessity, has governed Germany through times of turmoil and prosperity. The Habsburgs and Hohenzollerns, bound by an uneasy alliance, have shared the imperial throne, tempering each other's ambitions and desires. While this partnership has united Germany initially in 1848, it has also hindered decisive leadership and slowed the empire's response to external threats."
+  soe_german_monarchy.1.f: "Will it be the House of Habsburg, with their storied history and diplomatic finesse, or the House of Hohenzollern, known for their military prowess and administrative acumen, that will guide the nation towards a brighter future?"
+  soe_german_monarchy.1.a: "Long live Karl I, our Kaiser!"
+  soe_german_monarchy.1.b: "Long live Wilhelm II, our Kaiser!"
   
 
 

@@ -6,4 +6,8 @@
 		set_relations = { country = c:LIT value = 100 }
 		set_relations = { country = c:BYE value = 100 }
 	}
+	c:GER = { 
+		set_relations = { country = c:LAT value = 100 }
+		set_relations = { country = c:EST value = 100 }
+	}
 }

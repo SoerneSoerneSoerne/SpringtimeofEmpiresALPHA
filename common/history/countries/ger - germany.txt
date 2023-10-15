@@ -11,19 +11,20 @@
 		
 		# Laws 
 		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_universal_suffrage 
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_women_own_property
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_national_supremacy # Poles were even excluded from Landrat posts in 1832. Germanization policies were in full swing by the mid-1830s
-		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_free_trade
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_censorship
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_guaranteed_liberties
 
 		
 		set_institution_investment_level = {
@@ -36,20 +37,56 @@
 			level = 1
 		}
 		
+		add_modifier = {
+			name = modifier_greatwarvictory
+		}
+		
+		trigger_event = {
+			id = soe_german_monarchy.1
+		}
+		
+		add_journal_entry = {
+				type = je_victorsgreatwarstart
+			}
+		add_journal_entry = {
+				type = je_germanmonarchy
+			}
+		
 		ig:ig_landowners = { 
 			add_ruling_interest_group = yes
-			set_interest_group_name = ig_junkers
+			set_interest_group_name = ig_gerlandowner
 			remove_ideology = ideology_paternalistic
 			add_ideology = ideology_junker_paternalistic
 		}
+		
+		ig:ig_trade_unions = {
+			set_interest_group_name = ig_gertradeunions
+		}
+		
+		ig:ig_petty_bourgeoisie = {
+			set_interest_group_name = ig_gerpetty
+		}
 
 		ig:ig_armed_forces = {
-			add_ruling_interest_group = yes
+			set_interest_group_name = ig_gerarmed
+		}
+		
+		ig:ig_intelligentsia = {
+			set_interest_group_name = ig_gerintel
+		}
+		
+		ig:ig_industrialists = {
+			set_interest_group_name = ig_gerindustry
+		}
+		
+		ig:ig_rural_folk = {
+			set_interest_group_name = ig_gerrural
 		}
 
 		ig:ig_devout = {
+		    add_ruling_interest_group = yes
 			set_ig_bolstering = yes
-			set_interest_group_name = ig_evangelical_church
+			set_interest_group_name = ig_gerdevout
 		}
 	}
 }

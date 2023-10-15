@@ -257,6 +257,55 @@ demilitarization_of_piedmont = {
 	state_conscription_rate_mult = -0.4
 }
 
+prussiageneralstaff = {
+	icon = gfx/interface/icons/timed_modifier_icons/prussia.dds
+	unit_offense_mult = 0.05
+	interest_group_ig_landowners_pop_attraction_mult = 0.05
+}
+
+hohenzollern = {
+	icon = gfx/interface/icons/timed_modifier_icons/prussia.dds
+	interest_group_ig_landowners_pop_attraction_mult = 0.10
+}
+
+habsburg = {
+	icon = gfx/interface/icons/timed_modifier_icons/austria.dds
+	interest_group_ig_landowners_pop_attraction_mult = 0.10
+}
+
+modifier_czech_terrorism = {
+	icon = gfx/interface/icons/timed_modifier_icons/terror.dds
+	country_bureaucracy_mult = -0.05
+	interest_group_ig_petty_bourgeoisie_pop_attraction_mult = 0.05
+}
+
+modifier_natsocscandinavia = {
+	icon = gfx/interface/icons/timed_modifier_icons/soldiercomm.dds
+	country_prestige_mult = 0.10
+	country_bureaucracy_mult = 0.05
+	interest_group_ig_trade_unions_pop_attraction_mult = 0.15
+}
+
+modifier_internationaloutrage = {
+	icon = gfx/interface/icons/timed_modifier_icons/squad.dds
+	country_prestige_mult = -0.25
+	country_influence_add = -100
+}
+
+modifier_crisisaverted = {
+    icon = gfx/interface/icons/timed_modifier_icons/squad.dds
+    country_prestige_mult = 0.05
+	country_legitimacy_base_add = 5
+	country_influence_add = 100
+}
+
+modifier_greatwarvictory = {
+	icon = gfx/interface/icons/timed_modifier_icons/shield.dds
+	country_prestige_mult = 0.05
+	state_conscription_rate_mult = -0.4
+	unit_attack_mult = -0.1
+}
+
 humiliated_greatwar = {
 	icon = gfx/interface/icons/timed_modifier_icons/queenfallen.dds
 	country_prestige_mult = -0.10

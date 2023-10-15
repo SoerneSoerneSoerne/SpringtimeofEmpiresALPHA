@@ -3197,6 +3197,42 @@ MVA = { # Makhno
 	}
 }
 
+BRY = { # Romania Byzantine
+	flag_definition = {
+		coa = BRY_FLAG	
+		subject_canton = BRY_FLAG
+		allow_overlord_canton = yes		
+		priority = 3000
+	}
+}
+
+KFO = { # Kaiserliche Föderation
+	flag_definition = {
+		coa = KFO_FLAG	
+		subject_canton = KFO_FLAG
+		allow_overlord_canton = yes		
+		priority = 5000
+	}
+}
+
+EUH = { # Habsburg EU
+	flag_definition = {
+		coa = EUH_FLAG	
+		subject_canton = EUH_FLAG
+		allow_overlord_canton = yes		
+		priority = 5000
+	}
+}
+
+BRO = { # Romania Bulgaria
+	flag_definition = {
+		coa = BRO_FLAG	
+		subject_canton = BRO_FLAG
+		allow_overlord_canton = yes		
+		priority = 3000
+	}
+}
+
 GBR = { # Great Britain / United Kingdom
 	flag_definition = {
 		coa = GBR_FLAG
@@ -7797,7 +7833,21 @@ SWE = { # Sweden
 		allow_overlord_canton = yes
 		overlord_canton_scale = { @canton_scale_sweden_x @canton_scale_sweden_y }
 		subject_canton = SWE_canton
-		priority = 1
+		priority = 3000
+	}
+	flag_definition = {
+		coa = SWE_SCANDI
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_sweden_x @canton_scale_sweden_y }
+		subject_canton = SWE_SCANDI
+		priority = 4000
+		trigger = { 
+		scope:actor = { owns_entire_state_region = STATE_JUTLAND
+	    owns_entire_state_region = STATE_ZEALAND
+		owns_entire_state_region = STATE_WESTERN_NORWAY
+		owns_entire_state_region = STATE_EASTERN_NORWAY
+		owns_entire_state_region = STATE_NORTHERN_NORWAY }
+		}
 	}
 	flag_definition = {
 		coa = SWE_norway

@@ -1,0 +1,38 @@
+﻿je_germanczech = {
+    icon = "gfx/interface/icons/event_icons/eaglegerman.dds"
+    is_shown_when_inactive = {
+        c:GER = ROOT
+    }
+    possible = {
+        has_variable = soe_germany_czech_1_end_flag
+    }
+    complete = {
+        custom_tooltip = {
+			text = je_poleresi_02_tt
+			game_date >= 1936.01.1
+		}
+    }
+    on_complete = {
+	custom_tooltip = {
+			text = je_poleresi_01_tt
+		}
+        trigger_event = { 
+            id = soe_germany_czech.2
+        }
+    }
+	
+	fail = {
+     culture_percent_country = {
+       target = cu:polish
+       value >= 0.03
+     }
+	 game_date >= 1933.01.1
+   }
+
+	on_fail = {
+		trigger_event = { id = soe_germany_czech.3 }
+	}
+	
+	should_be_pinned_by_default = yes
+	
+}

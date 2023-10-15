@@ -13,4 +13,14 @@
 			type = customs_union
 		}		
 	}
+	c:GER = {	
+		create_diplomatic_pact = {
+			country = c:LAT
+			type = customs_union
+		}
+		create_diplomatic_pact = {
+			country = c:EST
+			type = customs_union
+		}	
+	}
 }

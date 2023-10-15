@@ -1,0 +1,21 @@
+﻿je_engberg = {
+    icon = "gfx/interface/icons/event_icons/communistsoldier.dds"
+    is_shown_when_inactive = {
+        c:SWE = ROOT
+    }
+    possible = {
+		c:SWE = ROOT
+    }
+    complete = {
+        owns_entire_state_region = STATE_JUTLAND
+	    owns_entire_state_region = STATE_ZEALAND
+		owns_entire_state_region = STATE_WESTERN_NORWAY
+		owns_entire_state_region = STATE_EASTERN_NORWAY
+		owns_entire_state_region = STATE_NORTHERN_NORWAY
+    }
+    on_complete = {
+        add_modifier = { name = modifier_natsocscandinavia } 
+    }
+	
+	should_be_pinned_by_default = yes
+}
