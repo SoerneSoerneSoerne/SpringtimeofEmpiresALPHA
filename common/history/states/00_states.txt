@@ -962,7 +962,7 @@ STATES = {
 			country = c:HUN
 			owned_provinces = { x3161A0 x4884E0 x6E6896 x73F00B x896455 x897F3D xA08763 xA77BCB xAF609F xB06161 xC63C51 xD0E0A0}
 		}
-		
+
 		add_homeland = hungarian
 		add_homeland = romanian		
 	}
@@ -3652,6 +3652,7 @@ STATES = {
 			owned_provinces = { xECA4C0 x089446 x65632F x63DAA0 x405F8E xC2118A x9AE44A xD775AC xFE3DAB x2F7464 xB0DB1C x4E4C18 x03C8B4 xA2D8EF x46B3F6 x356777 x90F646 x58526D xF89944 x8FF25F xBD067F xA7A757 x9BA0B4 x95C403 xE007A1 xE5F986 xA0A011 x0AF9FB xC95AAB x4168F3 x834AD2 xB5BCCC x08B945 xA0A090 x40DE9B x5EA4B6 xA40CF9 x89BA83 x8079E2 xC80CAC xB97349 x6C071A xBFCF3E xADF3C8 x9A78B7 x30D3AC xD0A631 x005C29 x4816E8 xF59538 x47F824 x996D62 x9FDE2D x88F1D5 xC8B790 x77319E x33566A x5CB34D xFE3967 xD8A2A3 x6CCF4B x19CFEC x28843B xA02190 x5C1ADA x6B52F1 }
 		}
 		
+		add_homeland = british
 		add_homeland = somali
 		add_homeland = kikuyu
 		add_homeland = lacustrine_bantu
@@ -3666,6 +3667,7 @@ STATES = {
 			}
 		}
 		
+		add_homeland = british
 		add_homeland = luo
 		add_homeland = nilotic
 		add_homeland = maasai
@@ -3956,6 +3958,7 @@ STATES = {
 			}
 		}
 		
+		add_homeland = ashkenazi
 		add_homeland = baganda
 		add_homeland = lacustrine_bantu
 		add_homeland = luo
