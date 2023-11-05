@@ -9,6 +9,17 @@
 	capital = STATE_HESSE
 }
 
+LON = {
+	color = { 30  40  150 }
+	
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { french north_german south_german }
+	capital = STATE_WEST_SWITZERLAND
+}
+
 KFO = {
 	color = { 92 100 120 }
 	
@@ -40,6 +51,39 @@ DMA = {
 	
 	cultures = { north_german south_german }
 	capital = STATE_ZANZIBAR
+}
+
+DOA = {
+	color = { 172 128 140 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { north_german south_german }
+	capital = STATE_LINDI
+}
+
+DNR = {
+	color = { 132 128 140 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { north_german south_german }
+	capital = STATE_ZAMBIA
+}
+
+DKO = {
+	color = { 112 122 130 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { north_german south_german }
+	capital = STATE_CONGO
 }
 
 DSW = {
@@ -313,6 +357,17 @@ ITA = {
 	country_type = recognized
 
 	tier = empire
+	
+	cultures = { north_italian south_italian }
+	capital = STATE_LAZIO
+}
+
+IMI = {
+	color = { 10 36 4 }
+	
+	country_type = recognized
+
+	tier = hegemony
 	
 	cultures = { north_italian south_italian }
 	capital = STATE_LAZIO
@@ -1472,7 +1527,7 @@ MUG = {
 	
 	country_type = unrecognized
 	
-	tier = empire
+	tier = kingdom
 	
 	cultures = { avadhi sindi kannada bengali }
 	capital = STATE_DELHI
@@ -1623,7 +1678,7 @@ BAS = {
 	
 	tier = principality
 	
-	cultures = { telegu }
+	cultures = { telegu avadhi }
 	capital = STATE_NAGPUR
 }
 
@@ -1701,7 +1756,7 @@ BGL = {
 	
 	tier = principality
 	
-	cultures = { bengali bihari }
+	cultures = { bengali bihari avadhi }
 	capital = STATE_SOUTH_BENGAL
 }
 
@@ -1756,7 +1811,7 @@ KAL = {
 	
 	tier = principality
 	
-	cultures = { baluchi }
+	cultures = { baluchi avadhi }
 	capital = STATE_BALUCHISTAN
 }
 
@@ -1767,7 +1822,7 @@ KAS = {
 	
 	tier = principality
 	
-	cultures = { kashmiri }
+	cultures = { kashmiri avadhi }
 	capital = STATE_KASHMIR
 }
 
@@ -1822,7 +1877,7 @@ MYS = {
 	
 	tier = principality
 	
-	cultures = { kannada }
+	cultures = { kannada avadhi }
 	capital = STATE_MYSORE
 	is_named_from_capital = yes
 }
@@ -1869,7 +1924,7 @@ PAN = {
 	
 	tier = kingdom
 	
-	cultures = { panjabi }
+	cultures = { panjabi avadhi }
 	capital = STATE_PUNJAB
 	is_named_from_capital = yes
 }
@@ -1881,7 +1936,7 @@ SIK = {
 	
 	tier = principality
 	
-	cultures = { tibetan }
+	cultures = { tibetan avadhi }
 	capital = STATE_HIMALAYAS
 }
 
@@ -1892,7 +1947,7 @@ SIN = {
 	
 	tier = principality
 	
-	cultures = { sindi }
+	cultures = { sindi avadhi }
 	capital = STATE_SINDH
 	is_named_from_capital = yes
 }
@@ -1905,7 +1960,7 @@ TRA = {
 	tier = principality
 	
 	capital = STATE_TRAVANCORE
-	cultures = { malayalam }
+	cultures = { malayalam avadhi }
 	is_named_from_capital = yes
 }
 
@@ -3220,7 +3275,7 @@ YUN = { # Yunnan
 	
 	tier = principality
 	
-	cultures = { yi }
+	cultures = { yi han }
 	
 	capital = STATE_YUNNAN
 	is_named_from_capital = yes
@@ -3230,7 +3285,7 @@ YUE = { # Yue
 	color = { 89 113 223 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { yue }
+	cultures = { yue han }
 	
 	capital = STATE_GUANGDONG
 }
@@ -3239,7 +3294,7 @@ HOK = { # HONG KONG
 	color = { 109 113 203 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { yue }
+	cultures = { yue han }
 	
 	capital = STATE_SHAOZHOU
 }
@@ -3248,7 +3303,7 @@ BDN = { # British Nigeria
 	color = { 187 64 88 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { hausa }
+	cultures = { british }
 	
 	capital = STATE_NIGER_DELTA
 }
@@ -3575,7 +3630,7 @@ CEY = {
 	
 	tier = principality
 	
-	cultures = { sinhala }
+	cultures = { avadhi sinhala }
 	capital = STATE_CEYLON
 }
 

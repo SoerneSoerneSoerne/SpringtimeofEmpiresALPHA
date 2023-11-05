@@ -3,6 +3,47 @@
 	country_law_enactment_success_add = 0.15
 }
 
+modifier_francogermandepression = {
+	icon = gfx/interface/icons/timed_modifier_icons/depression.dds
+	country_loan_interest_rate_mult = 0.8
+	state_construction_mult = -0.25
+	state_standard_of_living_add = -2
+	country_authority_mult = -0.10
+	country_legitimacy_base_add = -5
+	country_trade_route_quantity_mult = -0.15
+	country_trade_route_cost_mult = 0.05
+	unit_army_offense_mult = -0.4
+	unit_army_defense_mult = -0.4
+}
+
+modifier_francogermandepressionfix = {
+	icon = gfx/interface/icons/timed_modifier_icons/depression.dds
+	state_construction_mult = 0.05
+	state_standard_of_living_add = 1
+	country_authority_mult = 0.10
+	country_legitimacy_base_add = 15
+	country_trade_route_quantity_mult = 0.05
+}
+
+modifier_armycorruption = {
+	icon = gfx/interface/icons/timed_modifier_icons/broken_rifle.dds
+	unit_army_offense_mult = -0.8
+	unit_army_defense_mult = -0.5
+	state_conscription_rate_mult = -0.7
+}
+
+modifier_atlantropa = {
+	icon = gfx/interface/icons/timed_modifier_icons/bulldozer.dds
+	country_expenses_add = 50000
+	interest_group_ig_intelligentsia_approval_add = 5
+}
+
+modifier_mittelafrika = {
+	icon = gfx/interface/icons/timed_modifier_icons/bulldozer.dds
+	country_expenses_add = -50000
+	country_prestige_add = 300
+}
+
 rising_support_for_law_minor = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_law_enactment_success_add = 0.1

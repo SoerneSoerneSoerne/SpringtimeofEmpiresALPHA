@@ -10,7 +10,41 @@
             set_variable = italy_piedmont_var
             trigger_event = { id = soe_italy_piedmont.1 days = 0 }
         }
+		#Depression
+		if = {
+			limit = {
+               game_date >= 1929.3.1
+               NOT = { has_variable = depression_start_var }
+            }
+            set_variable = depression_start_var
+            trigger_event = { id = soe_depression.1 days = 0 }
+			trigger_event = { id = soe_depression.2 days = 0 }
+			trigger_event = { id = soe_depression.3 days = 0 }
+			trigger_event = { id = soe_depression.4 days = 0 }
+			trigger_event = { id = soe_depression.5 days = 0 }
+			trigger_event = { id = soe_depression.6 days = 0 }
+			trigger_event = { id = soe_depression.7 days = 0 }
+			trigger_event = { id = soe_depression.8 days = 0 }
+			trigger_event = { id = soe_depression.9 days = 0 }
+			trigger_event = { id = soe_depression.10 days = 0 }
+			trigger_event = { id = soe_depression.11 days = 0 }
+			trigger_event = { id = soe_depression.12 days = 0 }
+			trigger_event = { id = soe_depression.13 days = 0 }
+			trigger_event = { id = soe_depression.14 days = 0 }
+			trigger_event = { id = soe_depression.15 days = 0 }
+			trigger_event = { id = soe_depression.16 days = 0 }
+			trigger_event = { id = soe_depression.17 days = 0 }
+			trigger_event = { id = soe_depression.18 days = 0 }
+        }
 		#Germany
+		if = {
+			limit = {
+               game_date >= 1928.2.1
+               NOT = { has_variable = atlantropa_var }
+            }
+            set_variable = atlantropa_var
+            trigger_event = { id = soe_atlantropa.1 days = 0 }
+        }
 		if = {
 			limit = {
                game_date >= 1931.3.1

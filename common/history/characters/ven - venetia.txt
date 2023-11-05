@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:VEN = {
+		create_character = {
+			# Maximilian Hohenberg
+			first_name = "Maximilian"
+			last_name = "Hohenberg"
+			historical = yes
+			ruler = yes
+			age = 23
+			dna = dna_max_hohenberg
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= south_german
+			traits = {
+				trait_biography_maxhohenberg
+			}
+		}	
+	}
+}

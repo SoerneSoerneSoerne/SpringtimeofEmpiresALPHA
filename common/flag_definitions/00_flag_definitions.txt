@@ -3224,6 +3224,96 @@ EUH = { # Habsburg EU
 	}
 }
 
+ZHI = { # Zhili
+	flag_definition = {
+		coa = ZHI_FLAG	
+		subject_canton = ZHI_FLAG
+		allow_overlord_canton = yes		
+		priority = 2000
+	}
+}
+
+LON = { # League of Nations
+	flag_definition = {
+		coa = LON_FLAG	
+		subject_canton = LON_FLAG
+		allow_overlord_canton = yes		
+		priority = 2000
+	}
+}
+
+IMI = { # Italy Empire
+	flag_definition = {
+		coa = IMI_FLAG	
+		subject_canton = IMI_FLAG
+		allow_overlord_canton = yes		
+		priority = 2000
+	}
+}
+
+SHN = { # SHANXI
+	flag_definition = {
+		coa = SHN_FLAG	
+		subject_canton = SHN_FLAG
+		allow_overlord_canton = yes		
+		priority = 2000
+	}
+}
+
+SHA = { # SHANDONG
+	flag_definition = {
+		coa = SHA_FLAG	
+		subject_canton = SHA_FLAG
+		allow_overlord_canton = yes		
+		priority = 2000
+	}
+}
+
+TUV = { # TANNU TUVA
+	flag_definition = {
+		coa = TUV_FLAG	
+		subject_canton = TUV_FLAG
+		allow_overlord_canton = yes		
+		priority = 2000
+	}
+}
+
+CAU = { # TRANSCAUCASUS SSR
+	flag_definition = {
+		coa = CAU_FLAG	
+		subject_canton = CAU_FLAG
+		allow_overlord_canton = yes		
+		priority = 2000
+	}
+}
+
+USS = { # UKRANIAN SSR START
+	flag_definition = {
+		coa = USS_FLAG	
+		subject_canton = USS_FLAG
+		allow_overlord_canton = yes		
+		priority = 2000
+	}
+}
+
+ILY = { # Illyria
+	flag_definition = {
+		coa = ILY_FLAG	
+		subject_canton = ILY_FLAG
+		allow_overlord_canton = yes		
+		priority = 2000
+	}
+}
+
+PWG = { # White Russia
+	flag_definition = {
+		coa = PWG_FLAG	
+		subject_canton = PWG_FLAG
+		allow_overlord_canton = yes		
+		priority = 2000
+	}
+}
+
 BRO = { # Romania Bulgaria
 	flag_definition = {
 		coa = BRO_FLAG	
@@ -4161,6 +4251,12 @@ IRE = { # Ireland
 		allow_overlord_canton = yes
 		coa_with_overlord_canton = IRE_with_canton
 		priority = 1
+	}
+	flag_definition = {
+		coa = IRE_FLAG	
+		subject_canton = IRE_FLAG
+		allow_overlord_canton = yes		
+		priority = 2000
 	}
 	flag_definition = {
 		coa = IRE_coa
@@ -7138,6 +7234,11 @@ RUS = { # Russia
 		priority = 1
 	}
 	flag_definition = {
+		coa = RUS_FLAG	
+		allow_overlord_canton = yes		
+		priority = 2000
+	}
+	flag_definition = {
 		coa = RUS_absolute_monarchy
 		subject_canton = RUS 
 		priority = 20
@@ -8571,11 +8672,10 @@ URU = { # Uruguay
 
 VEN = { # Venice
 	flag_definition = {
-		coa = VEN
+		coa = VEN_FLAG	
+		subject_canton = VEN_FLAG
 		allow_overlord_canton = yes		
-		coa_with_overlord_canton = VEN_subject			
-		subject_canton = VEN
-		priority = 1
+		priority = 2000
 	}
 }
 

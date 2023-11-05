@@ -128,11 +128,13 @@
 		}
 	}
 	s:STATE_ICELAND = {
-		region_state:DEN = {
+		region_state:ICL = {
 			create_pop = {
 				culture = icelandic
 				size = 63200
 			}
+		}
+		region_state:DEN = {
 			create_pop = {
 				culture = danish
 				size = 520
@@ -1247,6 +1249,22 @@
 				culture = alemannic
 				religion = catholic
 				size = 406634
+			}
+		}
+		region_state:LON = {
+			create_pop = {
+				culture = francoprovencal
+				religion = protestant
+				size = 18313
+			}
+			create_pop = {
+				culture = alemannic
+				size = 7436
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 6634
 			}
 		}
 	}

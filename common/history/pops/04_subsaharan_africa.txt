@@ -568,7 +568,7 @@
 		}
 	}
 	s:STATE_LINDI = {
-		region_state:DMA = {
+		region_state:DOA = {
 			create_pop = {
 				culture = yao
 				size = 206800
@@ -662,7 +662,7 @@
 		}
 	}
 	s:STATE_TANGANYIKA = {
-		region_state:DMA = {
+		region_state:DOA = {
 			create_pop = {
 				culture = unyamwezi
 				size = 331200
@@ -808,7 +808,7 @@
 		}
 	}
 	s:STATE_KAZEMBE = {
-		region_state:DMA = {
+		region_state:DNR = {
 			create_pop = {
 				culture = lunda
 				size = 27204
@@ -1135,7 +1135,7 @@
 				size = 13000
 			}
 		}
-		region_state:DMA = {
+		region_state:DKO = {
 			create_pop = {
 				culture = equatorial_bantu
 				size = 600000
@@ -1148,7 +1148,7 @@
 		}
 	}
 	s:STATE_UBANGI_SHARI = {
-		region_state:DMA = {
+		region_state:DKO = {
 			create_pop = {
 				culture = equatorial_bantu
 				size = 283400
@@ -1168,9 +1168,19 @@
 				size = 4000
 			}
 		}
+		region_state:DMA = {
+			create_pop = {
+				culture = north_german
+				size = 12000
+			}
+			create_pop = {
+				culture = baguirmi
+				size = 4000
+			}
+		}
 	}
 	s:STATE_CONGO = {
-		region_state:DMA = {
+		region_state:DKO = {
 			create_pop = {
 				culture = bakongo
 				size = 40200
@@ -1185,9 +1195,15 @@
 				size = 2400
 			}
 		}
+		region_state:DMA = {
+			create_pop = {
+				culture = north_german
+				size = 5400
+			}
+		}
 	}
 	s:STATE_CONGO_ORIENTALE = {
-		region_state:DMA = {
+		region_state:DKO = {
 			create_pop = {
 				culture = fluvian_bantu
 				size = 933500
@@ -1200,7 +1216,7 @@
 		}
 	}
 	s:STATE_KASAI = {
-		region_state:DMA = {
+		region_state:DKO = {
 			create_pop = {
 				culture = fluvian_bantu
 				size = 720000
@@ -1222,7 +1238,7 @@
 		}
 	}
 	s:STATE_BAS_CONGO = {
-		region_state:DMA = {
+		region_state:DKO = {
 			create_pop = {
 				culture = bakongo
 				size = 352000
@@ -1247,9 +1263,19 @@
 				size = 30000
 			}
 		}
+		region_state:DMA = {
+			create_pop = {
+				culture = fluvian_bantu
+				size = 10000
+			}
+			create_pop = {
+				culture = north_german
+				size = 20000
+			}
+		}
 	}
 	s:STATE_EQUATEUR = {
-		region_state:DMA = {
+		region_state:DKO = {
 			create_pop = {
 				culture = mongo
 				size = 595200
@@ -1327,7 +1353,7 @@
 		}
 	}
 	s:STATE_KATANGA = {
-		region_state:DMA = {
+		region_state:DKO = {
 			create_pop = {
 				culture = lunda
 				size = 120400
@@ -1344,7 +1370,7 @@
 		}
 	}
 	s:STATE_GABON = {
-		region_state:FRA = {
+		region_state:DKO = {
 			create_pop = {
 				culture = fang
 				size = 56000
@@ -1364,9 +1390,19 @@
 				size = 20000
 			}
 		}
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 15000
+			}
+			create_pop = {
+				culture = equatorial_bantu
+				size = 20000
+			}
+		}
 	}
 	s:STATE_ZAMBIA = {
-		region_state:POR = {
+		region_state:DNR = {
 			create_pop = {
 				culture = lunda
 				size = 28092

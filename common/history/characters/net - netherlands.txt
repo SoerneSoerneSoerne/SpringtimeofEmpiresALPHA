@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:NET = {
+		create_character = {
+			# Wilhelmina
+			first_name = "Wilhelmina"
+			last_name = "van_Oranje-Nassau"
+			historical = yes
+			ruler = yes
+			female = yes
+			age = 45
+			dna = dna_wilhelmina_net
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			traits = {
+				trait_biography_wilhelmina
+			}
+		}	
+	}
+}

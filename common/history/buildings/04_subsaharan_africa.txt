@@ -356,7 +356,7 @@
 		}
 	}
 	s:STATE_LINDI={
-		region_state:DMA={
+		region_state:DOA={
 		}
 	}
 	s:STATE_ZANZIBAR={
@@ -393,7 +393,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=5
+				level=100
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
@@ -406,7 +406,7 @@
 		}
 	}
 	s:STATE_TANGANYIKA={
-		region_state:DMA={
+		region_state:DOA={
 			create_building={
 				building="building_barracks"
 				level=2
@@ -528,7 +528,7 @@
 		}
 	}
 	s:STATE_KAZEMBE={
-		region_state:DMA={
+		region_state:DNR={
 		}
 	}
 	s:STATE_SOMALILAND={
@@ -748,29 +748,33 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:DMA={
+		region_state:DKO={
 		}
 		region_state:FRA={
 		}
 	}
 	s:STATE_UBANGI_SHARI={
+		region_state:DKO={
+		}
 		region_state:DMA={
 		}
 	}
 	s:STATE_CONGO={
+		region_state:DKO={
+		}
 		region_state:DMA={
 		}
 	}
 	s:STATE_CONGO_ORIENTALE={
-		region_state:DMA={
+		region_state:DKO={
 		}
 	}
 	s:STATE_KASAI={
-		region_state:DMA={
+		region_state:DKO={
 		}
 	}
 	s:STATE_BAS_CONGO={
-		region_state:DMA={
+		region_state:DKO={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -784,9 +788,17 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
+		region_state:DMA={
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
 	}
 	s:STATE_EQUATEUR={
-		region_state:DMA={
+		region_state:DKO={
 		}
 	}
 	s:STATE_NORTH_ANGOLA={
@@ -844,11 +856,19 @@
 		}
 	}
 	s:STATE_KATANGA={
-		region_state:DMA={
+		region_state:DKO={
 		}
 	}
 	s:STATE_GABON={
-		region_state:FRA={
+		region_state:DKO={
+		create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
+		region_state:SPA={
 		create_building={
 				building="building_port"
 				level=1
@@ -858,7 +878,7 @@
 		}
 	}
 	s:STATE_ZAMBIA={
-		region_state:POR={
+		region_state:DNR={
 		}
 	}
 	s:STATE_ZAMBEZIA={

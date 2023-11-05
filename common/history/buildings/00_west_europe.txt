@@ -454,13 +454,21 @@
 		}
 	}
 	s:STATE_ICELAND={
-		region_state:DEN={
+		region_state:ICL={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_merchant_guilds_building_fishing_wharf" "pm_unrefrigerated" "pm_simple_fishing" }
 			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+		}
+		region_state:DEN={
 			create_building={
 				building="building_port"
 				level=1
@@ -3004,6 +3012,13 @@
 				activate_production_methods={ "pm_line_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
+		region_state:LON={
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
 	}
 	s:STATE_TICINO={
 		region_state:SWI={			

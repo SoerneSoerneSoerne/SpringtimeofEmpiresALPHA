@@ -8,11 +8,29 @@ CHARACTERS = {
 			ruler = yes 
 			age = 60
 			dna = dna_gabriele_dannunzio
-			interest_group = ig_petty_bourgeoisie
-			ideology= ideology_fascist
+			interest_group = ig_intelligentsia
+			ideology= ideology_fiume
 			culture= south_italian
 			traits = {
 				hedonist literary ambitious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		create_character = {
+			# Filippo Tommaso Marinetti
+			first_name = "Filippo"
+			last_name = "Marinetti"
+			historical = yes
+			age = 49
+			dna = dna_fillipo_marinetti
+			ig_leader = yes
+			interest_group = ig_intelligentsia
+			ideology= ideology_futurist
+			culture= south_italian
+			traits = {
+				hedonist literary trait_biography_marinetti
 			}
 			on_created = {
 				set_variable = is_married

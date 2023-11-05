@@ -1,0 +1,97 @@
+﻿### Personality
+
+trait_biography_marinetti = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/soebiography.dds"
+
+	character_modifier = {
+		character_health_add = 0.1
+	}
+
+	command_modifier = {
+	}
+
+	country_modifier = {
+	}
+
+	possible = {
+	game_date >= 2036.01.1
+	}
+
+	interest_group_modifier = {
+	}
+
+	weight = 1
+}
+
+trait_biography_wilhelmina = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/soebiography.dds"
+
+	character_modifier = {
+		character_health_add = 0.1
+	}
+
+	command_modifier = {
+	}
+
+	country_modifier = {
+	}
+
+	possible = {
+	game_date >= 2036.01.1
+	}
+
+	interest_group_modifier = {
+	}
+
+	weight = 1
+}
+
+trait_biography_ottohabsburg = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/soebiography.dds"
+
+	character_modifier = {
+		character_health_add = 0.1
+	}
+
+	command_modifier = {
+	}
+
+	country_modifier = {
+	}
+
+	possible = {
+	game_date >= 2036.01.1
+	}
+
+	interest_group_modifier = {
+	}
+
+	weight = 1
+}
+
+trait_biography_maxhohenberg = {
+	type = personality
+	texture = "gfx/interface/icons/character_trait_icons/soebiography.dds"
+
+	character_modifier = {
+		character_health_add = 0.1
+	}
+
+	command_modifier = {
+	}
+
+	country_modifier = {
+	}
+
+	possible = {
+	game_date >= 2036.01.1
+	}
+
+	interest_group_modifier = {
+	}
+
+	weight = 1
+}

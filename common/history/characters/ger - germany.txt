@@ -19,6 +19,21 @@ CHARACTERS = {
 			}
 		}
 		create_character = {
+			# Otto Habsburg
+			first_name = "Otto"
+			last_name = "von_Habsburg"
+			historical = yes
+			heir = yes
+			age = 13
+			dna = dna_otto_habsburg
+			interest_group = ig_landowners
+			ideology= ideology_paneuropa
+			culture= south_german
+			traits = {
+				trait_biography_ottohabsburg
+			}
+		}
+		create_character = {
 			# Wilhelm 
 			first_name = "Wilhelm"
 			last_name = "second"

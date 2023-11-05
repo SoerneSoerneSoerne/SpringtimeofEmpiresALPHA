@@ -2,10 +2,107 @@
 
 # Italy
 
-
+ ideology_fiume:0 "Carnarist"
+ ideology_fiume:0 " "
+ ideology_futurist:0 "Futurist"
+ ideology_futurist_desc:0 " "
  demilitarization_of_piedmont:0 "Demilitarization of Piedmont"
  treaty_of_vienna:0 "Treaty of Vienna"
  
+ # League of Nations
+ 
+ LON:0 "League of Nations"
+ LON_ADJ:0 "European"
+
+ # Strategy
+ 
+ ai_strategy_unify_india_desc:0 "This Country wants to unite India under their banner."
+ ai_strategy_unify_india:0 "Unify India"
+ ai_strategy_unify_china:0 "Unify China"
+ ai_strategy_unify_china_desc:0 "Unify China"
+ 
+ # Mittelafrika
+ 
+ modifier_mittelafrika:0 "Aid from the Fatherland"
+ 
+ # China
+ 
+ modifier_armycorruption:0 "Army Corruption"
+ 
+ # Subjects
+ 
+ autonomous_soviet_socialist_republic:0 "Autonomous Soviet Socialist Republic"
+ autonomous_soviet_socialist_republic_action_break_name:0 "Grant Independence"
+ autonomous_soviet_socialist_republic_action_ask_to_break_name:0 "Leave the Union"
+ soviet_socialist_republic:0 "Union Republic"
+ soviet_socialist_republic_action_break_name:0 "Grant Independence"
+ soviet_socialist_republic_action_ask_to_break_name:0 "Leave the Union"
+ european_union:0 "European Market"
+ european_union_action_break_name:0 "Leave the Market"
+ reichskolonie:0 "Schutzgebiet"
+ reichskolonie_action_break_name:0 "Grant Independence"
+ reichskolonie_action_ask_to_break_name:0 "Demand Independence"
+ bezirk:0 "Bezirk"
+ bezirk_action_break_name:0 "Grant Independence"
+ bezirk_action_ask_to_break_name:0 "Demand Independence"
+ 
+ # Biography
+ 
+ trait_biography_maxhohenberg_desc:0 "Maximilian, Duke of Hohenberg is the elder son of Archduke Franz Ferdinand of Austria-Hungary and his wife Countess Sophie Chotek von Chotkowa und Wognin, Duchess von Hohenberg. Because his parents' marriage was morganatic, he was excluded from succession to the Austrian throne, to which his father was heir presumptive, and to inheritance of any of his father's dynastic titles, income, and properties, although not from the archduke's personal estate nor from his mother's property. Nowadays he reigns as a foreign monarch over the Kingdom of Lombardy-Venetia."
+ trait_biography_maxhohenberg:0 "Maximilian Hohenberg"
+ trait_biography_ottohabsburg_desc:0 "Otto von Habsburg is the eldest son of Karl I, one of the emperors of Germany, and his wife, Zita of Bourbon-Parma, Otto was born as Franz Joseph Otto Robert Maria Anton Karl Max Heinrich Sixtus Xaver Felix Renatus Ludwig Gaetan Pius Ignatius von Habsburg, as Archduke Otto of Austro-Germany, Royal Prince of Bohemia. Otto is a tireless advocate for European unity and cooperation and a fierce opponent of nationalism and communism."
+ trait_biography_ottohabsburg:0 "Otto von Habsburg"
+ trait_biography_wilhelmina_desc:0 "King William III died on 23 November 1890 and 10-year-old Wilhelmina became Queen of the Netherlands, though her mother was named regent. In 1895, Wilhelmina visited Queen Victoria of the United Kingdom, who penned an evaluation in her diary: "The young Queen ... still has her hair hanging loose. She is very slight & graceful, has fine features, & seems to be very intelligent & a charming child. She speaks English extremely well & has very pretty manners”. On 6 September 1898, Wilhelmina was sworn-in at the Nieuwe Kerk in Amsterdam. She was well aware what was expected by the elected representatives, but was a strong-willed, forceful woman who spoke and acted her mind. She "hated" politicians and instead stated a love for the people. Reflecting popular opinion in the Netherlands at the time, Wilhelmina expressed a level of disdain towards the British for their annexations of the Transvaal Republic and the Orange Free State into the Imperial Federation. The Boers were descended from Dutch colonists who migrated to the region while it was a Dutch colony, and the Dutch people, Wilhelmina included, felt a close level of affinity towards them. In one conversation with her former governess, the Briton Elisabeth Saxton Winter, Wilhelmina referred to the Boer commandos as "excellent shots”. After taking charge of government, Wilhelmina became generally popular for maintaining Dutch neutrality during the First World War and solving many of her country's industrial problems. By that time, her business ventures had made her the world's first female billionaire in dollars."
+ trait_biography_wilhelmina:0 "Wilhelmina Helena Pauline Maria van Oranje-Nassau"
+ trait_biography_marinetti_desc:0 "Marinetti was born on December 22, 1876, in Alexandria, Egypt, where his family resided at the time. He later moved to France to study, where he became deeply involved in the literary and artistic avant-garde movements of the early 20th century. His experiences in Paris profoundly influenced his literary and political inclinations. Marinetti is most renowned for his literary work, the "Manifesto of Futurism", published in Le Figaro in 1909. The manifesto was a call to arms for a new cultural movement that embraced modernity, technology, and dynamism. This marked the birth of Italian Futurism, a movement that sought to break with traditional artistic forms and embrace the innovations of the machine age."
+ trait_biography_marinetti:0 "Filippo Tommaso Marinetti"
+ 
+ # Depression
+ 
+ je_soedepressionest_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."    
+ je_soedepressionlat_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionfin_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."    
+ je_soedepressionnor_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionden_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionnet_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionswi_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."    
+ je_soedepressionven_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionily_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionbul_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionhun_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."    
+ je_soedepressionfra_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionbel_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionire_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionmor_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."    
+ je_soedepressionspa_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionpor_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ je_soedepressionger_reason:0 "In the darkest hours of this global crisis, leaders, economists, and citizens alike are faced with the daunting task of rebuilding their nations and rejuvenating their economies. The Depression has brought a staggering number of people to their knees, testing the resilience of nations around Europe."
+ modifier_francogermandepressionfix:0 "Stable Economy"
+ je_soedepressionest:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionlat:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionfin:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionnor:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionden:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionnet:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionswi:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionven:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionily:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionbul:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionhun:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionfra:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionbel:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionire:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionmor:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionspa:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionpor:0 "Aftermath of the Franco-German Depression"
+ je_soedepressionger:0 "Aftermath of the Franco-German Depression"
+ soe_depression.2.o:0 "Mon Dieu!"
+ soe_depression.1.o:0 "Mein Gott!"
+ soe_depression.1.t:0 "Franco-German Depression"
+ soe_depression.1.d:0 "The financial powerhouses of Frankfurt and Paris, once beacons of global economic prosperity, have been plunged into a deep and unsettling darkness. The foundations of their economic empires have been shattered, resulting in a worldwide depression with repercussions felt far beyond the borders of France and Germany. It was the pursuit of megalomaniacal construction projects and the relentless drive for colonial expansion that had lured France and Germany into an era of unsustainable ambitions. The colossal hydroelectric dam project in Congo and Chad, hailed as a symbol of modernity and progress, had become a bottomless pit of financial woes."
+ soe_depression.1.f:0 "Stock markets in both financial capitals started to tremble and ultimately crumbled under the weight of imperial aspirations. The effects were immediate and devastating. As the news of the French and German economic collapses spread, panic ensued on a global scale. Investors rushed to withdraw their capital, fearing the domino effect of financial ruin. Banks and businesses began to shutter their doors, and millions of jobs were lost as the world descends into an abyss of uncertainty."
+
+ modifier_francogermandepression:0 "Franco-German Depression"
  
  # Britain
  
@@ -31,11 +128,25 @@
  
  # Germany
  
+ ideology_paneuropa_desc:0 "Pan-Europeanist believe in a strong, politically and militarily, united Europe while supporting humanist and Christian values. They are committed to uniting the diverse peoples of Europe, promoting peace, liberty, and rule of law, and for developing stronger democracy and human rights across Europe."
+ ideology_paneuropa:0 "Pan-Europeanist"
+ je_atlantropa_03_tt:0 "May the world bear witness to the rise of a new era, as we reshape this world."
+ je_atlantropa_02_tt:0 "Sörgel has acquired enough funding."
+ je_atlantropa_04_tt:0 "our economy can't sustain this project."
+ je_atlantropa_01_tt:0 "Hermann Sörgel sent his letter."
+ je_atlantropa_reason:0 "The brainchild of Hermann Sörgel, Atlantropa, has captured the imaginations of many, and now it falls upon us to address the pressing issue of funding this colossal project. Atlantropa, with its grand vision of uniting Europe and Africa through colossal hydroelectric dams, holds immense potential for prosperity, cooperation, and new Lebensraum."
+ je_atlantropa:0 "Atlantropa"
+ soe_atlantropa.1.f:0 "Yours sincerely, Hermann Sörgel"
+ soe_atlantropa.1.d:0 "I hope this letter finds you in the best of health and spirits. Allow me to express my deepest gratitude for your dedicated service to our great nation, Germany. Today, I come before you with a proposal that I believe has the potential to reshape the course of history and secure a prosperous future for our people. My name is Hermann Sörgel, and I am an architect and engineer deeply committed to the realization of a visionary project known as "Atlantropa”. This is a project of unparalleled scale and ambition, one that has the potential to reshape the destiny of our continent and the world at large. However, I am well aware of the significant resources required to undertake such an endeavor. It is for this reason that I humbly request your support and funding from the Bundestag. With your endorsement, we can set in motion the studies, engineering efforts, and international collaboration necessary to make Atlantropa a reality. I am prepared to provide more detailed plans and feasibility studies, along with a dedicated team of experts who share the vision and the drive to see this project through. Atlantropa is not just a dream; it is a vision of progress and prosperity, one that can secure the future for generations to come."
+ soe_atlantropa.1.t:0 "To the Esteemed Members of the Bundestag,"
+ soe_atlantropa.1.e:0 "These Ideas belong in a Mental Asylum."
+ soe_atlantropa.1.o:0 "Fund him now! He is a Genius!
+ modifier_atlantropa:0 "Financing Atlantropa"
  ig_gerlandowner_desc:0 "With a commitment to preserving tradition, fostering stability, and upholding the values of both monarchies, this Alliance stands as a beacon of hope for those who believe in the power of unity in a divided world. They advocate for a Germany where the virtues of both houses are celebrated and where a monarchy, whether Habsburg or Hohenzollern, guides the nation towards a prosperous future."
  soe_german_monarchy.3.f:0 "As the world watches, and the pressure mounts, the Bundestag must make its ultimate decision. Will the resplendent vision of a resurgent Germany under Kaiser Wilhelm II, inspired by a return to the traditions of the Kaiserreich, prevail? Or will the harmonious dream of a multi-ethnic empire under Kaiser Karl I, resonating with the echoes of the Habsburg monarchy, become a reality?"
  soe_german_monarchy.3.d:0 "The Bundestag finds itself embroiled in a fierce standoff between fervent supporters of the Hohenzollern and Habsburg monarchies. The time has come for a decisive choice."
- soe_german_monarchy.3.a:0 "Karl I, our Kaiser."
- soe_german_monarchy.3.b:0 "Wilhelm II, our Kaiser."
+ soe_german_monarchy.3.a:0 "Wilhelm II, our Kaiser."
+ soe_german_monarchy.3.b:0 "Karl I, our Kaiser."
  ig_gerrural_desc:0 "The Reichslandbund passionately champions the interests of Germany's agrarian sector. They ardently support agricultural modernization, rural development, and the protection of the countryside's unique way of life. The organization envisions a Germany where the rural populace can thrive, ensuring the nation's food security."
  ig_gerindustry_desc:0 "The Hanseatischer Volksbund advocates for the interests of Germany's industrial sector, echoing the traditions of the medieval Hanseatic cities. They champion economic liberalization, free trade, and a competitive market environment. With a keen focus on economic growth and international cooperation, they aim to bolster Germany's industrial might."
  soe_german_monarchy.3.t:0 "Our Kaiser"

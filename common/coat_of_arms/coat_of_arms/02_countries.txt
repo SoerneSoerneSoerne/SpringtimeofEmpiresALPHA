@@ -10403,15 +10403,14 @@ IRC = { # Iron Confederacy
 	}	
 }
 
-IRE = { # Ireland
+IRE_FLAG = { # Ireland start
 	pattern = "pattern_solid.tga"
-	color1 = "green"
+	color1 = "red"
 
-	colored_emblem = {
-		texture = "ce_harp_ireland.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-	}
+	textured_emblem = {
+		texture = "te_coa_irerep.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
 }
 IRE_with_canton = {		
 	pattern = "pattern_solid.tga"
@@ -10763,6 +10762,106 @@ EUH_FLAG = {
 	}	
 }
 
+ZHI_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_zhili.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+SHN_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_shanxi.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+SHA_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_shandong.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+RUS_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_sfsr.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+LON_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_lon.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+TUV_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_tannutuva.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+CAU_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_transssr.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+USS_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_ukrainessr.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+ILY_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_illyria.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+PWG_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_whiterussia.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
 BRO_FLAG = {		
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -10789,6 +10888,16 @@ GBR_FLAG = {
 
 	textured_emblem = {
 		texture = "te_coa_imperialfederation.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+IMI_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_fiumegreateritaly.dds"
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
 	}	
 }
@@ -22417,17 +22526,16 @@ USA_technocracy = {
 	}
 }
 
-VEN = { # Venice
-	pattern = "pattern_border_venice.dds"
+VEN_FLAG = { # Venice Lombardy
+	pattern = "pattern_solid.tga"
 	color1 = "red"
-	color2 = "yellow"
-	color3 = "white"
-	
+
 	textured_emblem = {
-		texture = "te_lion_san_marco.dds"
-		instance = { scale = { 1.2 1.2 } position = { 0.50 0.52 } }
-	}		
+		texture = "te_coa_lomven.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
 }
+
 VEN_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"

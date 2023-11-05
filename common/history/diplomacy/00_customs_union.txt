@@ -13,14 +13,82 @@
 			type = customs_union
 		}		
 	}
-	c:GER = {	
+	c:LON = {	
 		create_diplomatic_pact = {
 			country = c:LAT
-			type = customs_union
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:GER
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:FRA
+			type = european_union
 		}
 		create_diplomatic_pact = {
 			country = c:EST
 			type = customs_union
 		}	
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:NOR
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:FIN
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:NET
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:VEN
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:ILY
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:SWI
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:BUL
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:ISR
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:BEL
+			type = european_union
+		}
+		create_diplomatic_pact = {
+			country = c:IRE
+			type = european_union
+		}
+        create_diplomatic_pact = {
+			country = c:SPA
+			type = european_union
+		}
+       create_diplomatic_pact = {
+			country = c:POR
+			type = european_union
+		}
+create_diplomatic_pact = {
+			country = c:MOR
+			type = european_union
+		}			
 	}
 }

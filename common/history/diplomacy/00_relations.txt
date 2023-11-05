@@ -6,8 +6,31 @@
 		set_relations = { country = c:LIT value = 100 }
 		set_relations = { country = c:BYE value = 100 }
 	}
-	c:GER = { 
+	c:DMA = { 
+		set_relations = { country = c:DNR value = -30 }
+		set_relations = { country = c:DSW value = -50 }
+		set_relations = { country = c:DKO value = 100 }
+		set_relations = { country = c:DOA value = 100 }
+	}
+	c:LON = { 
 		set_relations = { country = c:LAT value = 100 }
 		set_relations = { country = c:EST value = 100 }
+		set_relations = { country = c:DEN value = 100 }
+		set_relations = { country = c:NOR value = 100 }
+		set_relations = { country = c:FIN value = 100 }
+		set_relations = { country = c:NET value = 100 }
+		set_relations = { country = c:VEN value = 100 }
+		set_relations = { country = c:ILY value = 100 }
+		set_relations = { country = c:HUN value = 100 }
+		set_relations = { country = c:SWI value = 100 }
+		set_relations = { country = c:BUL value = 100 }
+		set_relations = { country = c:ISR value = 100 }
+		set_relations = { country = c:BEL value = 100 }
+		set_relations = { country = c:IRE value = 100 }
+		set_relations = { country = c:SPA value = 100 }
+		set_relations = { country = c:POR value = 100 }
+		set_relations = { country = c:MOR value = 100 }
+		set_relations = { country = c:GER value = 100 }
+		set_relations = { country = c:FRA value = 100 }
 	}
 }

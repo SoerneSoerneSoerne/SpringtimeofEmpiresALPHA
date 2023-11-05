@@ -1,0 +1,30 @@
+﻿je_atlantropa = {
+    icon = "gfx/interface/icons/event_icons/bulldozer.dds"
+    is_shown_when_inactive = {
+        c:GER = ROOT
+    }
+    possible = {
+	    custom_tooltip = {
+		text = je_atlantropa_01_tt
+		has_variable = soe_atlantropayes_flag
+		}
+    }
+    complete = {
+        custom_tooltip = {
+			text = je_atlantropa_02_tt
+			game_date >= 2000.01.1
+		}
+    }
+    on_complete = {
+        custom_tooltip = {
+			text = je_atlantropa_03_tt
+		}
+    }
+	fail = {
+			custom_tooltip = {
+			text = je_atlantropa_04_tt
+			has_variable = soe_depression_1_end_flag
+		}
+	}
+	should_be_pinned_by_default = yes
+}

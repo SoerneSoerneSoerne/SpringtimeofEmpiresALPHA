@@ -5,48 +5,68 @@
 			type = dominion
 		}
 	}
+	c:DEN = {
+		create_diplomatic_pact = {
+			country = c:ICL
+			type = personal_union
+		}
+	}
 	c:GER = {
 		create_diplomatic_pact = {
 			country = c:DMA
-			type = dominion
+			type = reichskolonie
+		}
+	}
+	c:DMA = {
+		create_diplomatic_pact = {
+			country = c:DNR
+			type = bezirk
 		}
 		create_diplomatic_pact = {
 			country = c:DSW
-			type = dominion
+			type = bezirk
+		}
+		create_diplomatic_pact = {
+			country = c:DKO
+			type = bezirk
+		}
+		create_diplomatic_pact = {
+			country = c:DOA
+			type = bezirk
 		}
 	}
 	c:RUS = {
 		create_diplomatic_pact = {
 			country = c:KAZ
-			type = puppet
+			type = soviet_socialist_republic
 		}
 		create_diplomatic_pact = {
 			country = c:USS
-			type = puppet
+			type = soviet_socialist_republic
 		}
 		create_diplomatic_pact = {
 			country = c:KHI
-			type = puppet
+			type = soviet_socialist_republic
 		}
 		create_diplomatic_pact = {
 			country = c:BUK
-			type = puppet
+			type = soviet_socialist_republic
 		}
 		create_diplomatic_pact = {
 			country = c:TRC
-			type = puppet
+			type = soviet_socialist_republic
 		}
 		create_diplomatic_pact = {
 			country = c:CAU
-			type = puppet
+			type = soviet_socialist_republic
 		}
 		create_diplomatic_pact = {
 			country = c:KOK
-			type = puppet
+			type = soviet_socialist_republic
 		}
 		create_diplomatic_pact = {
 			country = c:TUV
-			type = puppet
+			type = autonomous_soviet_socialist_republic
 		}
 	}	
 	c:USA = {

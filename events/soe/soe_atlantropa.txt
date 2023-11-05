@@ -1,0 +1,24 @@
+﻿namespace = soe_atlantropa
+
+soe_atlantropa.1 = { ### Depression first event
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/bulldozer.dds"
+	title = soe_atlantropa.1.t desc = soe_atlantropa.1.d flavor = soe_atlantropa.1.f
+	event_image = { texture = "gfx/event_pictures/atlantropa.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GER
+		      c:GER = ROOT
+		NOT = { has_variable = soe_atlantropa_1_end_flag }
+	
+	}
+	immediate = { set_variable = soe_atlantropa_1_end_flag }
+	option = { name = soe_atlantropa.1.o
+		add_modifier = modifier_atlantropa
+	set_variable = soe_atlantropayes_flag
+	}
+	option = { name = soe_atlantropa.1.e
+	}
+}

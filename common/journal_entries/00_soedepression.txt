@@ -1,0 +1,377 @@
+﻿je_soedepressionger = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:GER = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_1_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionest = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:EST = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_2_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionlat = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:LAT = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_3_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionfin = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:FIN = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_4_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionnor = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:NOR = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_5_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionden = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:DEN = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_6_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionnet = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:NET = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_7_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionswi = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:SWI = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_8_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionven = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:VEN = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_9_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionily = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:ILY = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_10_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionbul = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:BUL = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_11_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionhun = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:HUN = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_12_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionfra = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:FRA = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_13_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 60
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionbel = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:BEL = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_14_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionire = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:IRE = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_15_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionmor = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:MOR = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_16_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionspa = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:SPA = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_17_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
+je_soedepressionpor = {
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:POR = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_18_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
