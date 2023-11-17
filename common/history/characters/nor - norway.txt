@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:NOR = {
+		create_character = {
+			# Haakon VII
+			first_name = "Haakon"
+			last_name = "VII"
+			historical = yes
+			ruler = yes
+			age = 53
+			dna = dna_haakonvii
+			interest_group = ig_landowners
+			ideology = ideology_moderate
+			culture= danish
+			traits = {
+				trait_biography_haakonvii
+			}
+		}	
+	}
+}

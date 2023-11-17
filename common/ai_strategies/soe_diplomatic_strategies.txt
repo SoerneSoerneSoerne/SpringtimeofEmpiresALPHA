@@ -1,209 +1,8 @@
-﻿ai_strategy_unify_china = {
-	icon = "gfx/interface/icons/ai_strategy_icons/chinaunification.dds"
-	
-	type = diplomatic
-		
-	undesirable_infamy_level = {
-		value = 100
-	}
-	
-	unacceptable_infamy_level = {
-		value = 200
-	}
-	
-	ideological_opinion_effect_mult = {
-		value = 0.5
-	}
-	
-	wargoal_maneuvers_fraction = {
-		value = 0.1
-	}		
-	
-	diplomatic_play_neutrality = {
-		value = 0
-	}
-	
-	diplomatic_play_boldness = {
-		value = 100
-	}
-	
-	obligation_value = {
-		value = 0
-	
-		if = {
-			limit = { 
-				scope:target_country = {
-					OR = {
-						country_has_primary_culture = cu:han
-					}				
-				}
-			}
-			add = 25
-		}
-	}		
-	
-	recklessness = {
-		value = 2
-	}	
-	
-	aggression = {
-		value = 0.25
-		
-		if = {
-			limit = { 
-				scope:target_country = {
-					OR = {
-						country_has_primary_culture = cu:han
-					}	
-				}
-			}
-			add = 50
-		}
-
-		if = {
-			limit = {
-				has_attitude = {
-					who = scope:target_country
-					attitude = antagonistic
-				}					
-			}
-			multiply = 1.5
-		}
-
-		if = {
-			limit = {
-				NOT = {
-					is_adjacent = scope:target_country
-				}
-			}
-			multiply = 0
-		}			
-	}
-
-	building_group_weights = {
-		bg_army = 2.5
-	}
-	
-	wargoal_scores = {
-		make_puppet = 0.0
-		make_dominion = 0.0
-		make_vassal = 0.0
-		conquer_state = {
-			if = {
-				limit = {
-					scope:target_state = {
-						state_region = {
-							OR = {
-								is_homeland = cu:han
-							}
-						}
-						owner = {
-							NOR = { 
-								is_supporting_unification_candidate = { who = root country_formation = CHI }
-								is_subject_of = root
-								has_diplomatic_pact = {
-									who = scope:target_country
-									type = customs_union
-								}							
-							}						
-						}						
-					}	
-					can_reach_target_state = yes
-				}
-				add = 50
-			}
-		}
-		return_state = {
-			if = {
-				limit = {
-					scope:target_state = {
-						state_region = {
-							OR = {
-								is_homeland = cu:han
-							}
-						}					
-					}
-					can_reach_target_state = yes
-				}
-				add = 200
-			}
-		}
-		unification_leadership = {
-			value = 1000
-		}			 
-	}	
-	
-	secret_goal_scores = {
-		protect = {		
-			if = {
-				limit = {
-					scope:target_country = {
-						OR = {
-							country_has_primary_culture = cu:han
-						}
-						NOT = { is_unification_candidate = CHI }
-						OR = { 
-							is_supporting_unification_candidate = { who = root country_formation = CHI }
-							is_subject_of = root
-							has_diplomatic_pact = {
-								who = scope:target_country
-								type = customs_union
-							}							
-						}	
-					}
-				}
-				add = 1000
-			}		
-		}		
-		dominate = {		
-			if = {
-				limit = {
-					scope:target_country = {
-						OR = {
-							country_has_primary_culture = cu:han
-						}					
-						NOR = { 
-							is_unification_candidate = CHI
-							is_supporting_unification_candidate = { who = root country_formation = CHI }
-							is_subject_of = root
-							has_diplomatic_pact = {
-								who = scope:target_country
-								type = customs_union
-							}							
-						}	
-					}
-				}
-				add = 1000
-			}		
-		}		
-		conquer = {				
-			if = {
-				limit = {
-					scope:target_country = {				
-						country_has_primary_culture = cu:han
-					}
-					can_reach_target_country = yes
-				}
-				add = 1000
-			}			
-		}		
-	}
-		
-	possible = {
-		NOT = { country_tier = empire }
-		country_has_primary_culture = cu:han
-	}
-
-	weight = {
-		value = 1000	
-	}
-}
-
-ai_strategy_unify_india = {
+﻿ai_strategy_unify_india = {
 	icon = "gfx/interface/icons/ai_strategy_icons/indiaunification.dds"
 	
 	type = diplomatic
-		
+	
 	undesirable_infamy_level = {
 		value = 100
 	}
@@ -217,7 +16,7 @@ ai_strategy_unify_india = {
 	}
 	
 	wargoal_maneuvers_fraction = {
-		value = 0.1
+		value = 0.2
 	}		
 	
 	diplomatic_play_neutrality = {
@@ -225,42 +24,39 @@ ai_strategy_unify_india = {
 	}
 	
 	diplomatic_play_boldness = {
-		value = 100
+		value = 150
 	}
-	
+
 	obligation_value = {
 		value = 0
 	
 		if = {
 			limit = { 
-				scope:target_country = {
-					OR = {
-						country_has_primary_culture = cu:avadhi
-					}				
+				scope:target_country = {			
+					country_has_primary_culture = cu:avadhi
 				}
 			}
 			add = 25
 		}
-	}		
-	
-	recklessness = {
-		value = 2
 	}	
+
+	recklessness = {
+		value = 2.0
+	}
 	
 	aggression = {
 		value = 0.25
 		
 		if = {
 			limit = { 
-				scope:target_country = {
-					OR = {
-						country_has_primary_culture = cu:avadhi
-					}	
+				scope:target_country = {			
+					country_has_primary_culture = cu:avadhi
 				}
 			}
 			add = 50
 		}
 
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
 		if = {
 			limit = {
 				has_attitude = {
@@ -269,16 +65,15 @@ ai_strategy_unify_india = {
 				}					
 			}
 			multiply = 1.5
-		}
-
+		}	
 		if = {
 			limit = {
 				NOT = {
-					is_adjacent = scope:target_country
+					is_adjacent_to_country = scope:target_country
 				}
 			}
 			multiply = 0
-		}			
+		}		
 	}
 
 	building_group_weights = {
@@ -286,32 +81,27 @@ ai_strategy_unify_india = {
 	}
 	
 	wargoal_scores = {
-		make_puppet = 0.0
-		make_dominion = 0.0
-		make_vassal = 0.0
 		conquer_state = {
 			if = {
 				limit = {
 					scope:target_state = {
 						state_region = {
-							OR = {
-								is_homeland = cu:avadhi
-							}
+							is_homeland = cu:avadhi
 						}
 						owner = {
 							NOR = { 
-								is_supporting_unification_candidate = { who = root country_formation = HND }
+								is_supporting_unification_candidate = { who = root country_formation = BHT }
 								is_subject_of = root
 								has_diplomatic_pact = {
 									who = scope:target_country
 									type = customs_union
 								}							
 							}						
-						}						
-					}	
-					can_reach_target_state = yes
+						}
+					}
+					can_reach_target_state = yes					
 				}
-				add = 50
+				add = 100
 			}
 		}
 		return_state = {
@@ -319,38 +109,34 @@ ai_strategy_unify_india = {
 				limit = {
 					scope:target_state = {
 						state_region = {
-							OR = {
-								is_homeland = cu:avadhi
-							}
-						}					
+							is_homeland = cu:avadhi
+						}	
 					}
 					can_reach_target_state = yes
 				}
-				add = 200
+				add = 500
 			}
-		}
+		}		
 		unification_leadership = {
 			value = 1000
-		}			 
-	}	
+		}	
+	}
 	
 	secret_goal_scores = {
 		protect = {		
 			if = {
 				limit = {
 					scope:target_country = {
-						OR = {
-							country_has_primary_culture = cu:avadhi
-						}
-						NOT = { is_unification_candidate = HND }
+						country_has_primary_culture = cu:avadhi
+						NOT = { is_unification_candidate = BHT }
 						OR = { 
-							is_supporting_unification_candidate = { who = root country_formation = HND }
+							is_supporting_unification_candidate = { who = root country_formation = BHT }
 							is_subject_of = root
 							has_diplomatic_pact = {
 								who = scope:target_country
 								type = customs_union
 							}							
-						}	
+						}						
 					}
 				}
 				add = 1000
@@ -360,12 +146,10 @@ ai_strategy_unify_india = {
 			if = {
 				limit = {
 					scope:target_country = {
-						OR = {
-							country_has_primary_culture = cu:avadhi
-						}					
+						country_has_primary_culture = cu:avadhi				
+						NOT = { is_unification_candidate = BHT }
 						NOR = { 
-							is_unification_candidate = HND
-							is_supporting_unification_candidate = { who = root country_formation = HND }
+							is_supporting_unification_candidate = { who = root country_formation = BHT }
 							is_subject_of = root
 							has_diplomatic_pact = {
 								who = scope:target_country
@@ -376,7 +160,7 @@ ai_strategy_unify_india = {
 				}
 				add = 1000
 			}		
-		}		
+		}
 		conquer = {				
 			if = {
 				limit = {
@@ -387,15 +171,201 @@ ai_strategy_unify_india = {
 				}
 				add = 1000
 			}			
-		}		
-	}
-		
+		}
+	}	
+
 	possible = {
+		country_has_primary_culture = cu:avadhi	
 		NOT = { country_tier = empire }
-		country_has_primary_culture = cu:avadhi
 	}
 
 	weight = {
-		value = 1000	
+		value = 1000
+	}
+}
+
+ai_strategy_unify_china = {
+	icon = "gfx/interface/icons/ai_strategy_icons/chinaunification.dds"
+	
+	type = diplomatic
+	
+	undesirable_infamy_level = {
+		value = 100
+	}
+	
+	unacceptable_infamy_level = {
+		value = 200
+	}
+	
+	ideological_opinion_effect_mult = {
+		value = 0.5
+	}
+	
+	wargoal_maneuvers_fraction = {
+		value = 0.2
+	}		
+	
+	diplomatic_play_neutrality = {
+		value = 0
+	}
+	
+	diplomatic_play_boldness = {
+		value = 150
+	}
+
+	obligation_value = {
+		value = 0
+	
+		if = {
+			limit = { 
+				scope:target_country = {			
+					country_has_primary_culture = cu:han
+				}
+			}
+			add = 25
+		}
+	}	
+
+	recklessness = {
+		value = 2.0
+	}
+	
+	aggression = {
+		value = 0.25
+		
+		if = {
+			limit = { 
+				scope:target_country = {			
+					country_has_primary_culture = cu:han
+				}
+			}
+			add = 50
+		}
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 1.5
+		}	
+		if = {
+			limit = {
+				NOT = {
+					is_adjacent_to_country = scope:target_country
+				}
+			}
+			multiply = 0
+		}		
+	}
+
+	building_group_weights = {
+		bg_army = 2.5
+	}
+	
+	wargoal_scores = {
+		conquer_state = {
+			if = {
+				limit = {
+					scope:target_state = {
+						state_region = {
+							is_homeland = cu:han
+						}
+						owner = {
+							NOR = { 
+								is_supporting_unification_candidate = { who = root country_formation = ICH }
+								is_subject_of = root
+								has_diplomatic_pact = {
+									who = scope:target_country
+									type = customs_union
+								}							
+							}						
+						}
+					}
+					can_reach_target_state = yes					
+				}
+				add = 100
+			}
+		}
+		return_state = {
+			if = {
+				limit = {
+					scope:target_state = {
+						state_region = {
+							is_homeland = cu:han
+						}	
+					}
+					can_reach_target_state = yes
+				}
+				add = 500
+			}
+		}		
+		unification_leadership = {
+			value = 1000
+		}	
+	}
+	
+	secret_goal_scores = {
+		protect = {		
+			if = {
+				limit = {
+					scope:target_country = {
+						country_has_primary_culture = cu:han
+						NOT = { is_unification_candidate = ICH }
+						OR = { 
+							is_supporting_unification_candidate = { who = root country_formation = ICH }
+							is_subject_of = root
+							has_diplomatic_pact = {
+								who = scope:target_country
+								type = customs_union
+							}							
+						}						
+					}
+				}
+				add = 1000
+			}		
+		}		
+		dominate = {		
+			if = {
+				limit = {
+					scope:target_country = {
+						country_has_primary_culture = cu:han				
+						NOT = { is_unification_candidate = ICH }
+						NOR = { 
+							is_supporting_unification_candidate = { who = root country_formation = ICH }
+							is_subject_of = root
+							has_diplomatic_pact = {
+								who = scope:target_country
+								type = customs_union
+							}							
+						}	
+					}
+				}
+				add = 1000
+			}		
+		}
+		conquer = {				
+			if = {
+				limit = {
+					scope:target_country = {				
+						country_has_primary_culture = cu:han
+					}
+					can_reach_target_country = yes
+				}
+				add = 1000
+			}			
+		}
+	}	
+
+	possible = {
+		country_has_primary_culture = cu:han	
+		NOT = { country_tier = empire }
+	}
+
+	weight = {
+		value = 1000
 	}
 }

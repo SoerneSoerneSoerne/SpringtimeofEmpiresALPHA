@@ -1,4 +1,6 @@
 ﻿je_germanczech = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/eaglegerman.dds"
     is_shown_when_inactive = {
         c:GER = ROOT

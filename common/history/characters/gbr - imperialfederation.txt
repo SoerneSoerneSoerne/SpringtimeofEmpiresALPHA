@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:GBR = {
+		create_character = {
+			# George V
+			first_name = "George"
+			last_name = "V"
+			historical = yes
+			ruler = yes
+			age = 60
+			dna = dna_georgev
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= british
+			traits = {
+				trait_biography_georgev
+			}
+		}	
+	}
+}

@@ -182,7 +182,18 @@ RUS = {
 	tier = empire
 	
 	cultures = { russian }
-	capital = STATE_INGRIA
+	capital = STATE_MOSCOW
+}
+
+SOU = {
+	color = { 80 5 5 }
+
+	country_type = recognized
+
+	tier = hegemony
+	
+	cultures = { russian }
+	capital = STATE_MOSCOW
 }
 
 PWG = {
@@ -2046,6 +2057,17 @@ CHI = {
 	color = { 252 185 61 }
 	
 	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { manchu han } 
+	capital = STATE_BEIJING
+}
+
+ICH = {
+	color = { 252 185 61 }
+	
+	country_type = recognized
 	
 	tier = empire
 	

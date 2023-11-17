@@ -1,0 +1,45 @@
+﻿AI = {
+	c:ZHI = {
+		set_strategy = ai_strategy_unify_china
+	}
+	c:YUN = {
+		set_strategy = ai_strategy_unify_china
+	}
+	c:SIH = {
+		set_strategy = ai_strategy_unify_china
+	}
+	c:SHN = {
+		set_strategy = ai_strategy_unify_china
+	}
+	c:XIB = {
+		set_strategy = ai_strategy_unify_china
+	}
+	c:SHA = {
+		set_strategy = ai_strategy_unify_china
+	}
+	c:GUI = {
+		set_strategy = ai_strategy_unify_china
+	}
+	c:HNA = {
+		set_strategy = ai_strategy_unify_china
+	}
+	c:GNG = {
+		set_strategy = ai_strategy_unify_china
+	}
+	c:YUE = {
+		set_strategy = ai_strategy_unify_china
+	}
+	c:AHU = {
+		set_strategy = ai_strategy_unify_china
+	}
+    c:MUG = {
+		set_strategy = ai_strategy_unify_india
+	}	
+	c:BGL = {
+		set_strategy = ai_strategy_unify_india
+	}
+}	
+
+
+
+

@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:FIN = {
+		create_character = {
+			# Friedrich Karl von Hessen
+			first_name = "Friedrich_Karl"
+			last_name = "von_Hessen"
+			historical = yes
+			ruler = yes
+			age = 57
+			dna = dna_friedrichhesse
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= north_german
+			traits = {
+				trait_biography_friedrichhesse
+			}
+		}	
+	}
+}

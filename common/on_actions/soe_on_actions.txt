@@ -154,4 +154,14 @@
             trigger_event = { id = soe_britain_civilwarstart.12 days = 0 }
         }
 	}
+}
+
+on_monthly_pulse_country = {
+	events = {
+		soe_romaniawar.1
+		soe_romaniawar.2
+		soe_ai.1
+		soe_ai.2
+		soe_ai.3
+	}
 }  

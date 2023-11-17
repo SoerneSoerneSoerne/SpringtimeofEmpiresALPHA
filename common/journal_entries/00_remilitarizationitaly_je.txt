@@ -1,0 +1,63 @@
+﻿je_remilitarizationitalyone = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/bundeswehr.dds"
+    is_shown_when_inactive = {
+        c:ITA = ROOT
+    }
+    possible = {
+		c:ITA = ROOT
+    }
+    complete = {
+        any_scope_building = { 
+            is_building_type = building_arms_industry
+            OR = {
+                has_active_production_method = pm_rifles
+                has_active_production_method = pm_smoothbores
+            }
+            level >= 8
+            occupancy >= 0.50
+        }
+    }
+    on_complete = {
+        add_modifier = modifier_italianarmy
+    }
+	
+	should_be_pinned_by_default = yes
+	
+    timeout = 3650
+}
+
+je_remilitarizationitalytwo = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/fasces.dds"
+    is_shown_when_inactive = {
+        c:ITA = ROOT
+    }
+    possible = {
+	c:ITA = ROOT
+    }
+    complete = {
+        owns_entire_state_region = STATE_CORSICA
+		owns_entire_state_region = STATE_SAVOY
+		owns_entire_state_region = STATE_TICINO
+		owns_entire_state_region = STATE_LOMBARDY
+		owns_entire_state_region = STATE_VENETIA
+		owns_entire_state_region = STATE_SOUTH_TYROL
+		owns_entire_state_region = STATE_ISTRIA
+		owns_entire_state_region = STATE_DALMATIA
+		owns_entire_state_region = STATE_MALTA
+		owns_entire_state_region = STATE_IONIAN_ISLANDS
+		owns_entire_state_region = STATE_CYPRUS
+		owns_entire_state_region = STATE_TUNISIA
+		owns_entire_state_region = STATE_SINAI
+		owns_entire_state_region = STATE_OROMIA
+		owns_entire_state_region = STATE_AMHARA
+		owns_entire_state_region = STATE_GONDER
+    }
+    on_complete = {
+        add_modifier = modifier_greateritaly
+    }
+	should_be_pinned_by_default = yes
+}

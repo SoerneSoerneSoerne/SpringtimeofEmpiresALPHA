@@ -7,7 +7,7 @@
 SWE = { # Scandinavia
 	dynamic_country_name = {
 		name = dyn_c_natsoc_scandinavia
-		
+		adjective = dyn_c_natsoc_scandinavia_adj
 		is_main_tag_only = yes
 		priority = 2000
 		
@@ -27,6 +27,7 @@ SWE = { # Scandinavia
 MOY = { # Mosley
 	dynamic_country_name = {
 		name = dyn_c_mosley_england
+		adjective = dyn_c_mosley_england_adj
 		
 		is_main_tag_only = yes
 		priority = 2000
@@ -47,6 +48,7 @@ MOY = { # Mosley
 FBR = { # Republic
 	dynamic_country_name = {
 		name = dyn_c_fbr_england
+		adjective = dyn_c_fbr_england_adj
 		
 		is_main_tag_only = yes
 		priority = 2000
@@ -67,6 +69,7 @@ FBR = { # Republic
 BCO = { # Communist
 	dynamic_country_name = {
 		name = dyn_c_bco_england
+		adjective = dyn_c_bco_england_adj
 		
 		is_main_tag_only = yes
 		priority = 2000
@@ -87,6 +90,7 @@ BCO = { # Communist
 CRL = { # Monarchy
 	dynamic_country_name = {
 		name = dyn_c_crl_england
+		adjective = dyn_c_crl_england_adj
 		
 		is_main_tag_only = yes
 		priority = 2000
@@ -107,6 +111,7 @@ CRL = { # Monarchy
 WCG = { # Navy
 	dynamic_country_name = {
 		name = dyn_c_wcg_england
+		adjective = dyn_c_wcg_england_adj
 		
 		is_main_tag_only = yes
 		priority = 2000

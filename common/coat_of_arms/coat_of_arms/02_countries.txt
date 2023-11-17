@@ -10902,6 +10902,16 @@ IMI_FLAG = {
 	}	
 }
 
+SOU_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_ussr.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
 ITA = { # Italy
 
 	# Until 1946

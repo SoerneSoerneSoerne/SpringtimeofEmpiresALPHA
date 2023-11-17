@@ -1,0 +1,73 @@
+﻿namespace = soe_romaniawar
+
+soe_romaniawar.1 = { ### Hungarian Occupation
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_romaniawar.1.t desc = soe_romaniawar.1.d flavor = soe_romaniawar.1.f
+	event_image = { texture = "gfx/event_pictures/hungary.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:HUN
+		c:HUN = ROOT
+		owns_entire_state_region = STATE_MOLDAVIA
+		owns_entire_state_region = STATE_BUKOVINA
+		owns_entire_state_region = STATE_BESSARABIA
+		owns_entire_state_region = STATE_WALLACHIA
+		owns_entire_state_region = STATE_OLTENIA
+		NOT = { has_variable = soe_romaniawar_1_end_flag }
+	}
+	immediate = { set_variable = soe_romaniawar_1_end_flag }
+	option = { name = soe_romaniawar.1.o
+	 default_option = yes
+	 create_country = { tag = MOL origin = c:HUN
+			state = s:STATE_MOLDAVIA.region_state:HUN
+			state = s:STATE_BUKOVINA.region_state:HUN
+			state = s:STATE_BESSARABIA.region_state:HUN
+			on_created = {
+				c:HUN = { create_diplomatic_pact = { country = PREV type = puppet } }
+			}
+		}
+	create_country = { tag = ROM origin = c:HUN
+			state = s:STATE_WALLACHIA.region_state:HUN
+			state = s:STATE_OLTENIA.region_state:HUN
+			on_created = { c:ROM = { activate_law = law_type:law_monarchy } }
+		}
+	}
+}
+
+soe_romaniawar.2 = { ### Romanian Occupation
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_romaniawar.2.t desc = soe_romaniawar.2.d flavor = soe_romaniawar.2.f
+	event_image = { texture = "gfx/event_pictures/hungary.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:ROM
+		c:ROM = ROOT
+		owns_entire_state_region = STATE_DELVIDEK
+		owns_entire_state_region = STATE_CENTRAL_HUNGARY
+		owns_entire_state_region = STATE_TRANSDANUBIA
+		owns_entire_state_region = STATE_EAST_SLOVAKIA
+		owns_entire_state_region = STATE_WEST_SLOVAKIA
+		NOT = { has_variable = soe_romaniawar_2_end_flag }
+	}
+	immediate = { set_variable = soe_romaniawar_2_end_flag }
+	option = { name = soe_romaniawar.2.o
+	 default_option = yes
+	 create_country = { tag = HUN origin = c:ROM
+			state = s:STATE_DELVIDEK.region_state:ROM
+			state = s:STATE_CENTRAL_HUNGARY.region_state:ROM
+			state = s:STATE_TRANSDANUBIA.region_state:ROM
+			on_created = { c:HUN = { activate_law = law_type:law_parliamentary_republic } }
+		}
+	create_country = { tag = SLV origin = c:ROM
+			state = s:STATE_EAST_SLOVAKIA.region_state:ROM
+			state = s:STATE_WEST_SLOVAKIA.region_state:ROM
+			on_created = { c:SLV = { activate_law = law_type:law_parliamentary_republic } }
+		}
+	}
+}

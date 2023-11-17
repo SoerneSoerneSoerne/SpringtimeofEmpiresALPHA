@@ -1,0 +1,33 @@
+﻿je_romaniawar = {
+
+group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/hunter.dds"
+    is_shown_when_inactive = {
+        c:ROM = ROOT
+    }
+    possible = {
+		c:ROM = ROOT
+    }
+    complete = {
+        army_size >= 70
+		custom_tooltip = {
+			text = je_romaniawar_01_tt
+			game_date >= 1929.4.1
+		}
+    }
+    on_complete = {
+	custom_tooltip = {
+	text = je_romaniawar_02_tt
+        create_diplomatic_play = {
+            name = hun
+            target_country = c:HUN
+                type = dp_revolution
+                war = no
+                escalation = 40
+        }
+		}
+    }
+	
+	should_be_pinned_by_default = yes
+	
+}

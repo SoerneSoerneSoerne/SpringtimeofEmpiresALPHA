@@ -29,6 +29,14 @@
 			months = -1
 		}
 		
+		add_journal_entry = {
+				type = je_remilitarizationitalyone
+			}
+			
+			add_journal_entry = {
+				type = je_remilitarizationitalytwo
+			}
+			
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
 		}

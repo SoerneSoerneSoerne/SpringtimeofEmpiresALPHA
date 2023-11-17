@@ -1,4 +1,6 @@
 ﻿je_victorsgreatwarstart = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/soldierprussian.dds"
     is_shown_when_inactive = {
         c:GER = ROOT
@@ -31,6 +33,8 @@
 }
 
 je_victorsgreatwarbundeswehr = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/bundeswehr.dds"
     is_shown_when_inactive = {
         c:GER = ROOT

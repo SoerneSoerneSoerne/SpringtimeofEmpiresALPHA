@@ -1,4 +1,6 @@
 ﻿je_soedepressionger = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:GER = ROOT
@@ -20,6 +22,8 @@
 }
 
 je_soedepressionest = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:EST = ROOT
@@ -41,6 +45,8 @@ je_soedepressionest = {
 }
 
 je_soedepressionlat = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:LAT = ROOT
@@ -62,6 +68,8 @@ je_soedepressionlat = {
 }
 
 je_soedepressionfin = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:FIN = ROOT
@@ -82,7 +90,32 @@ je_soedepressionfin = {
 	should_be_pinned_by_default = yes
 }
 
+je_soedepressionfin = {
+
+group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/depression.dds"
+    is_shown_when_inactive = {
+        c:ISR = ROOT
+    }
+    possible = {
+		has_variable = soe_depression_4_end_flag
+    }
+    complete = {
+       any_scope_pop = {
+				standard_of_living > 55
+			}
+    }
+    on_complete = {
+        add_modifier = { name = modifier_francogermandepressionfix
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+}
+
 je_soedepressionnor = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:NOR = ROOT
@@ -104,6 +137,8 @@ je_soedepressionnor = {
 }
 
 je_soedepressionden = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:DEN = ROOT
@@ -125,6 +160,8 @@ je_soedepressionden = {
 }
 
 je_soedepressionnet = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:NET = ROOT
@@ -146,6 +183,8 @@ je_soedepressionnet = {
 }
 
 je_soedepressionswi = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:SWI = ROOT
@@ -167,6 +206,8 @@ je_soedepressionswi = {
 }
 
 je_soedepressionven = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:VEN = ROOT
@@ -188,6 +229,8 @@ je_soedepressionven = {
 }
 
 je_soedepressionily = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:ILY = ROOT
@@ -209,6 +252,8 @@ je_soedepressionily = {
 }
 
 je_soedepressionbul = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:BUL = ROOT
@@ -230,6 +275,8 @@ je_soedepressionbul = {
 }
 
 je_soedepressionhun = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:HUN = ROOT
@@ -251,6 +298,8 @@ je_soedepressionhun = {
 }
 
 je_soedepressionfra = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:FRA = ROOT
@@ -272,6 +321,8 @@ je_soedepressionfra = {
 }
 
 je_soedepressionbel = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:BEL = ROOT
@@ -293,6 +344,8 @@ je_soedepressionbel = {
 }
 
 je_soedepressionire = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:IRE = ROOT
@@ -314,6 +367,8 @@ je_soedepressionire = {
 }
 
 je_soedepressionmor = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:MOR = ROOT
@@ -335,6 +390,8 @@ je_soedepressionmor = {
 }
 
 je_soedepressionspa = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:SPA = ROOT
@@ -356,6 +413,8 @@ je_soedepressionspa = {
 }
 
 je_soedepressionpor = {
+
+group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
         c:POR = ROOT

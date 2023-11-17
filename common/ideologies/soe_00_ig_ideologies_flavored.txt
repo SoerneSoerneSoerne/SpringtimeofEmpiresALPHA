@@ -1,0 +1,75 @@
+﻿ideology_hohenzollernparty = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/leader_ideology_hohenzollernsoe.dds"
+	
+	lawgroup_governance_principles = {
+		law_monarchy = strongly_approve
+		law_presidential_republic = disapprove
+		law_parliamentary_republic = disapprove
+		law_theocracy = disapprove
+		law_council_republic = strongly_disapprove
+	}
+	
+	lawgroup_colonization = {		
+		law_no_colonial_affairs = strongly_disapprove
+		law_colonial_resettlement = approve
+		law_colonial_exploitation = strongly_approve
+	}
+	
+	lawgroup_distribution_of_power = {
+		law_autocracy = approve
+		law_oligarchy = strongly_approve
+		law_landed_voting = approve	
+		law_wealth_voting = approve	
+		law_single_party_state = neutral
+		law_census_voting = disapprove		
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+		law_technocracy = neutral
+	}
+	
+	lawgroup_citizenship = {
+		law_ethnostate = neutral
+		law_national_supremacy = strongly_approve
+		law_racial_segregation = approve
+		law_cultural_exclusion = disapprove	
+		law_multicultural = strongly_disapprove	
+	}
+}
+
+ideology_habsburgparty = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/leader_ideology_habsburgsoe.dds"
+	
+	lawgroup_governance_principles = {
+		law_monarchy = strongly_approve
+		law_presidential_republic = disapprove
+		law_parliamentary_republic = disapprove
+		law_theocracy = disapprove
+		law_council_republic = strongly_disapprove
+	}
+	
+	lawgroup_colonization = {		
+		law_no_colonial_affairs = strongly_disapprove
+		law_colonial_resettlement = approve
+		law_colonial_exploitation = strongly_approve
+	}
+	
+	lawgroup_distribution_of_power = {
+		law_autocracy = approve
+		law_oligarchy = strongly_approve
+		law_landed_voting = approve	
+		law_wealth_voting = approve	
+		law_single_party_state = neutral
+		law_census_voting = disapprove		
+		law_universal_suffrage = strongly_disapprove
+		law_anarchy = strongly_disapprove
+		law_technocracy = neutral
+	}
+	
+	lawgroup_citizenship = {
+		law_ethnostate = neutral
+		law_national_supremacy = strongly_approve
+		law_racial_segregation = approve
+		law_cultural_exclusion = disapprove	
+		law_multicultural = strongly_disapprove	
+	}
+}

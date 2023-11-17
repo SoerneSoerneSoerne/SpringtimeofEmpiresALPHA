@@ -16,6 +16,20 @@ modifier_francogermandepression = {
 	unit_army_defense_mult = -0.4
 }
 
+modifier_italianarmy = {
+	icon = gfx/interface/icons/timed_modifier_icons/italianarmy.dds
+	unit_army_offense_mult = 0.10
+	unit_army_defense_mult = 0.05
+}
+
+modifier_greateritaly = {
+	icon = gfx/interface/icons/timed_modifier_icons/fasces.dds
+	country_legitimacy_base_add = 20
+	country_authority_mult = 0.10
+	state_construction_mult = 0.05
+	state_standard_of_living_add = 2
+}
+
 modifier_francogermandepressionfix = {
 	icon = gfx/interface/icons/timed_modifier_icons/depression.dds
 	state_construction_mult = 0.05

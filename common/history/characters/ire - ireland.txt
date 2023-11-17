@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:IRE = {
+		create_character = {
+			# Patrick Pearse
+			first_name = "Patrick"
+			last_name = "Pearse"
+			historical = yes
+			ruler = yes
+			age = 46
+			dna = dna_patrick_pearse
+			interest_group = ig_intelligentsia
+			ideology = ideology_moderate
+			culture= irish
+			traits = {
+				trait_biography_patrickpearse
+			}
+		}	
+	}
+}

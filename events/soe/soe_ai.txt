@@ -1,0 +1,126 @@
+﻿namespace = soe_ai
+
+soe_ai.1 = { ### Soviet war against White Russia
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_ai.1.t desc = soe_ai.1.d flavor = soe_ai.1.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_ai = yes
+		game_date >= 1927.05.3
+		NOT = { has_variable = soe_ai_1_end_flag }
+	}
+	immediate = { set_variable = soe_ai_1_end_flag }
+	option = { name = soe_ai.1.o
+		create_diplomatic_play = {
+            name = rus
+            target_country = c:PWG
+                type = dp_humiliation
+                war = yes
+				add_war_goal = {
+                    holder = c:RUS
+                    type = conquer_state
+                    target_state = s:STATE_OUTER_MANCHURIA.region_state:PWG
+                }
+        }
+	}
+}
+
+soe_ai.2 = { ### Soviet war against Intermarium
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_ai.2.t desc = soe_ai.2.d flavor = soe_ai.2.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_ai = yes
+		game_date >= 1934.04.9
+		NOT = { has_variable = soe_ai_2_end_flag }
+	}
+	immediate = { set_variable = soe_ai_2_end_flag }
+	option = { name = soe_ai.2.o
+		create_diplomatic_play = {
+            name = rus
+            target_country = c:POL
+                type = dp_humiliation
+				add_initiator_backers = { c:USS }
+                add_target_backers = { c:UKR c:LIT c:BYE }
+                war = yes
+				add_war_goal = {
+                    holder = c:RUS
+                    type = annex_country
+                    target_country = c:POL
+                }
+				add_war_goal = {
+                    holder = c:USS
+                    type = annex_country
+                    target_country = c:UKR
+                }
+				add_war_goal = {
+                    holder = c:RUS
+                    type = annex_country
+                    target_country = c:LIT
+                }
+				add_war_goal = {
+                    holder = c:RUS
+                    type = annex_country
+                    target_country = c:BYE
+                }
+				add_war_goal = {
+                    holder = c:UKR
+                    type = annex_country
+                    target_country = c:USS
+                }
+				add_war_goal = {
+                    holder = c:BYE
+                    type = conquer_state
+                    target_state = s:STATE_ORSHA.region_state:RUS
+                }
+				add_war_goal = {
+                    holder = c:UKR
+                    type = conquer_state
+                    target_state = s:STATE_CRIMEA.region_state:RUS
+                }
+        }
+	}
+}
+
+soe_ai.3 = { ### Ukraine Makhno
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_ai.3.t desc = soe_ai.3.d flavor = soe_ai.3.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:UKR
+		c:UKR = ROOT
+		is_ai = yes
+		game_date >= 1928.08.3
+		NOT = { has_variable = soe_ai_3_end_flag }
+	}
+	immediate = { set_variable = soe_ai_3_end_flag }
+	option = { name = soe_ai.3.o
+		create_diplomatic_play = {
+            name = mva
+            target_country = c:MVA
+                type = dp_humiliation
+                war = yes
+				add_war_goal = {
+                    holder = c:UKR
+                    type = annex_country
+                    target_country = c:MVA
+                }
+        }
+	}
+}
