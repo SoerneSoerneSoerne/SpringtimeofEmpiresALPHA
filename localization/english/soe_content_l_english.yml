@@ -7,6 +7,12 @@
  ideology_futurist:0 "Futurist"
  ideology_futurist_desc:0 " "
  demilitarization_of_piedmont:0 "Demilitarization of Piedmont"
+ modifier_italianarmy:0 "Esercito Italiano"
+ je_remilitarizationitalytwo:0 "Impero Italiano"
+ je_remilitarizationitalytwo_reason:0 "Thanks to the power of our army and the unlimited fanaticism of the Italian irredentists loyal to our regime, Italy will finally recover its long-lost glory. Blood alone moves the wheels of history."
+ je_remilitarizationitalyone:0 "Remilitarization of Italy"
+ je_remilitarizationitalyone_reason:0 "Italian small arms are famous throughout the entire world for their high quality. But we must also ensure that we have a sufficient supply of weapons for our soldiers, if we wish to ensure the success of our remilitarization plan."
+ modifier_greateritaly:0 "Impero Italiano"
  treaty_of_vienna:0 "Treaty of Vienna"
  
  # League of Nations
@@ -14,6 +20,21 @@
  LON:0 "League of Nations"
  LON_ADJ:0 "European"
 
+ # Romania
+ 
+ soe_romaniawar.2.o:0 "Victory!"
+ soe_romaniawar.1.o:0 "Victory!"
+ soe_romaniawar.2.f:0 " "
+ soe_romaniawar.1.f:0 " "
+ soe_romaniawar.2.d:0 "As the dust settles and the echoes of war fade, the time has come to address the matter of peace negotiations. Having emerged victorious in this conflict, we find ourselves with the power to shape the post-war borders."
+ soe_romaniawar.1.d:0 "As the dust settles and the echoes of war fade, the time has come to address the matter of peace negotiations. Having emerged victorious in this conflict, we find ourselves with the power to shape the post-war borders."
+ soe_romaniawar.2.t:0 "Occupation of Hungary"
+ soe_romaniawar.1.t:0 "Occupation of Romania"
+ je_romaniawar_02_tt:0 "Creates a diplomatic play between our nation and Hungary."
+ je_romaniawar_01_tt:0 "The Hungarian Republic is vulnerable."
+ je_romaniawar:0 "War for Transylvania"
+ je_romaniawar_reason:0 "A wave of national fervor is sweeping across Romania, as the nation yearns to reunite with Transylvania. The Romanian people in Transylvania deserve the right to determine their own destiny, free from Hungarian domination."
+ 
  # Strategy
  
  ai_strategy_unify_india_desc:0 "This Country wants to unite India under their banner."
@@ -28,6 +49,13 @@
  # China
  
  modifier_armycorruption:0 "Army Corruption"
+ 
+ # Russia USSR
+ 
+ ideology_marxist_desc:0 "Marxism is a socio-economic ideology that focuses on class struggle. It asserts that society is divided into the bourgeoisie and the proletariat. Marxism aims to overthrow capitalism, advocating for a classless, communist society where resources are shared based on need."
+ ideology_marxist:0 "Marxist"
+ ideology_trotskyist:0 "Trotskyist"
+ ideology_trotskyist_desc:0 "Trotskyist promote "permanent revolution”, believing socialism should be global, not limited to one country. It emphasizes internationalism and workers' rights and criticizes bureaucratic tendencies in socialist states."
  
  # Subjects
  
@@ -48,6 +76,16 @@
  
  # Biography
  
+ trait_biography_friedrichhesse_desc:0 "Friedrich was born at his family's Panker Castle, in Plön, Holstein. He was the third son of Frederick William of Hesse, Landgrave of Hesse. He is the brother-in-law of one of the German Emperors Wilhelm II. He was elected King of Finland, after the Bolshevik revolution in Russia occured."
+ trait_biography_friedrichhesse:0 "Friedrich Karl von Hessen"
+ trait_biography_haakonvii_desc:0 "Originally a Danish prince, he was born in Copenhagen as the son of Frederick VIII of Denmark and Louise of Sweden. Prince Carl was educated at the Royal Danish Naval Academy and served in the Royal Danish Navy. After the 1905 revolution of Norwegian independence, Prince Carl was offered the Norwegian crown. Following a November plebiscite, he accepted the offer and was formally elected King of Norway by the Storting. He took the Old Norse name Haakon and ascended to the throne as Haakon VII, becoming the first independent Norwegian monarch since 1387."
+ trait_biography_haakonvii:0 "Haakon VII"
+ trait_biography_christianx_desc:0 "Christian X is a member of the House of Glücksburg, a branch of the House of Oldenburg, and the first monarch since King Frederick VII born into the Danish royal family. Both his father and his grandfather were born as princes of a ducal family from Schleswig. Among his siblings is King Haakon VII of Norway. His character is described as authoritarian and he strongly stresses the importance of royal dignity and power. His reluctance to fully embrace democracy resulted in the Easter Crisis of 1920, in which he dismissed the democratically elected Social Liberal cabinet with which he disagreed, and installed one of his own choosing."
+ trait_biography_christianx:0 "Christian X"
+ trait_biography_patrickpearse_desc:0 "Patrick Henry Pearse is an Irish teacher, barrister, poet, writer, nationalist, republican political activist and revolutionary who was one of the more influential leaders of the Easter Rising."
+ trait_biography_patrickpearse:0 "Patrick Pearse"
+ trait_biography_georgev_desc:0 "Born during the reign of his grandmother Queen Victoria, George was the second son of the Prince and Princess of Wales, and third in the line of succession to the British throne behind his father and his elder brother, Prince Albert Victor. From 1877 to 1892, George served in the Royal Navy, until his elder brother's unexpected death in January 1892 put him directly in line for the throne. George married his brother's fiancée, Princess Victoria Mary of Teck, the next year, and they had six children. When Queen Victoria died in 1901, George's father ascended the throne as Edward VII. He became King of the Imperial Federation on his father's death in 1910."
+ trait_biography_georgev:0 "George V"
  trait_biography_maxhohenberg_desc:0 "Maximilian, Duke of Hohenberg is the elder son of Archduke Franz Ferdinand of Austria-Hungary and his wife Countess Sophie Chotek von Chotkowa und Wognin, Duchess von Hohenberg. Because his parents' marriage was morganatic, he was excluded from succession to the Austrian throne, to which his father was heir presumptive, and to inheritance of any of his father's dynastic titles, income, and properties, although not from the archduke's personal estate nor from his mother's property. Nowadays he reigns as a foreign monarch over the Kingdom of Lombardy-Venetia."
  trait_biography_maxhohenberg:0 "Maximilian Hohenberg"
  trait_biography_ottohabsburg_desc:0 "Otto von Habsburg is the eldest son of Karl I, one of the emperors of Germany, and his wife, Zita of Bourbon-Parma, Otto was born as Franz Joseph Otto Robert Maria Anton Karl Max Heinrich Sixtus Xaver Felix Renatus Ludwig Gaetan Pius Ignatius von Habsburg, as Archduke Otto of Austro-Germany, Royal Prince of Bohemia. Otto is a tireless advocate for European unity and cooperation and a fierce opponent of nationalism and communism."
@@ -115,6 +153,7 @@
  ideology_natsoc_desc:0 "National Socialism advocates for a centralized, authoritative government, where a leader is entrusted with guiding the nation. This leader holds significant power and serves as a symbol of national unity. Government officials are appointed based on their loyalty to the ideology and dedication to the nation. National Socialism seeks to harness the strength of the people, uniting them under a banner of nationalism and socialism."
  modifier_natsocscandinavia:0 "Unified Peoples Republic of Scandinavia"
  dyn_c_natsoc_scandinavia:0 "People's Republic of Scandinavia"
+ dyn_c_natsoc_scandinavia_adj:0 "Scandinavian"
  je_engberg:0 "Unify Scandinavia"
  je_engberg_reason:0 "We are all Nordic brothers and sisters. The Swedish state cannot in good conscience sit idly by while our Nordic brethren languish under the oligarchs. It is our imperative to free them from their chains, free from war and tyranny."
  RULER_SWEDEN:0 "Ledare"
@@ -128,6 +167,8 @@
  
  # Germany
  
+ ideology_spenglerist_desc:0 "Spenglerism centers around the idea that civilizations follow predetermined life cycles, progressing through stages of birth, growth, maturity, decline, and eventual demise. Spenglerism rejects the notion of universal progress, emphasizing cultural relativism and using organic metaphors to describe the development of cultures."
+ ideology_spenglerist:0 "Spenglerist"
  ideology_paneuropa_desc:0 "Pan-Europeanist believe in a strong, politically and militarily, united Europe while supporting humanist and Christian values. They are committed to uniting the diverse peoples of Europe, promoting peace, liberty, and rule of law, and for developing stronger democracy and human rights across Europe."
  ideology_paneuropa:0 "Pan-Europeanist"
  je_atlantropa_03_tt:0 "May the world bear witness to the rise of a new era, as we reshape this world."
