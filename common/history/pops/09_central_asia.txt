@@ -290,7 +290,7 @@
 				size = 3000
 			}
 		}
-		region_state:AFG = {
+		region_state:BUK = {
 			create_pop = {
 				culture = uzbek
 				size = 276396

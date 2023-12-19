@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:LON = {
+		create_character = {
+			# Richard Nikolaus Coudenhove-Kalergi
+			first_name = "Richard"
+			last_name = "Coudenhove_Kalergi"
+			historical = yes
+			ruler = yes
+			age = 31
+			dna = dna_kalergi
+			interest_group = ig_intelligentsia
+			ideology = ideology_paneuropa
+			culture= south_german
+			traits = {
+				trait_biography_kalergi
+			}
+		}	
+	}
+}

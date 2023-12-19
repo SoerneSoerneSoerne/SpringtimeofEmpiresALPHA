@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:SPA = {
+		create_character = {
+			# Alfonso XIII
+			first_name = "Alfonso"
+			last_name = "XIII"
+			historical = yes
+			ruler = yes
+			age = 39
+			dna = dna_alfonso_xiii
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= spanish
+			traits = {
+				trait_biography_alfonso_xiii
+			}
+		}	
+	}
+}

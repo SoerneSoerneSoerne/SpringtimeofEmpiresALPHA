@@ -40,8 +40,37 @@
 				type = je_engberg
 			}
 
+		ig:ig_landowners = { 
+			set_interest_group_name = ig_swelandowner
+		}
+		
 		ig:ig_trade_unions = {
+			set_interest_group_name = ig_swetradeunions
 			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_petty_bourgeoisie = {
+			set_interest_group_name = ig_swepetty
+		}
+
+		ig:ig_armed_forces = {
+			set_interest_group_name = ig_swearmed
+		}
+		
+		ig:ig_intelligentsia = {
+			set_interest_group_name = ig_sweintel
+		}
+		
+		ig:ig_industrialists = {
+			set_interest_group_name = ig_sweindustry
+		}
+		
+		ig:ig_rural_folk = {
+			set_interest_group_name = ig_swerural
+		}
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_swedevout
 		}
 	}
 }

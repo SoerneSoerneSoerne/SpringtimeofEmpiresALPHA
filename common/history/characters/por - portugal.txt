@@ -1,0 +1,22 @@
+CHARACTERS = {
+	c:POR = {
+		create_character = {
+			# Bernardino Machado
+			first_name = "Bernardino"
+			last_name = "Machado"
+			historical = yes
+			ruler = yes 
+			age = 74
+			dna = dna_bernardino_machado
+			interest_group = ig_intelligentsia
+			ideology= ideology_moderate
+			culture= portuguese
+			traits = {
+				trait_biography_bernardino_machado
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		}
+		}

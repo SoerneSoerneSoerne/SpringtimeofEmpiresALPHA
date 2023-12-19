@@ -90,19 +90,19 @@
 	c:FRA = {
 		create_diplomatic_pact = {
 			country = c:SGU
-			type = protectorate
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:FTJ
-			type = protectorate
+			type = dominion
 		}
 		create_diplomatic_pact = {
 			country = c:HAU
-			type = protectorate
+			type = dominion
 		}
         create_diplomatic_pact = {
 			country = c:WAD
-			type = protectorate
+			type = dominion
 		}		
 	}
 }
