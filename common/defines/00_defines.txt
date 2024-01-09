@@ -992,8 +992,6 @@ NPolitics = {
 }
 
 NEconomy = {
-	MAX_WEEKLY_CONSTRUCTION_PROGRESS = 20				# Max construction progress per week on a single project
-	MAX_WEEKLY_CONSTRUCTION_ALLOCATION = 20				# Max construction points allocated to a project per week
 	MIN_CONSTRUCTION_EFFICIENCY = 0.05					# Construction efficiency cannot go below this amount
 
 	# The number of times the initializewealth function is run during setup
@@ -1014,9 +1012,10 @@ NEconomy = {
 	FIRED_POP_RADICALIZATION_BASE_FRACTION = 0.2		# This percentage of a pop becomes radicalized when they lose their job, for instance due to a building being downsized
 	FIRED_POP_RADICALIZATION_SHARES_FACTOR = 0.05		# Additional percentage of pop that becomes radicalized they lost their job for each per-pop share they had in the building			
 
-	POLLUTION_TARGET_DIVISOR_BASE = 1					# Base value to divide total pollution generation by for calculating state region pollution target level
-	POLLUTION_TARGET_DIVISOR_ARABLE_LAND_MULT = 0.1		# Amount per arable land to add to pollution divisor
-	POLLUTION_CHANGE_SPEED = 0.5						# Each day, pollution in state region changes by this amount towards target
+	# Pollution Impact = (GeneratedPollution (StateRegion) / (DIVISOR_BASE + DIVISOR_ARABLE_LAND_MULT * SQRT(ArableLand (State Region)))/POLLUTION_MAX
+	POLLUTION_TARGET_DIVISOR_BASE = 50					# Base value to divide total pollution generation by for calculating state region pollution target level
+	POLLUTION_TARGET_DIVISOR_ARABLE_LAND_MULT = 1.5		# Amount per arable land to add to pollution divisor
+	POLLUTION_CHANGE_SPEED = 0.255						# Each day, pollution in state region changes by this amount towards target
 	POLLUTION_MAX = 255
 	POLLUTION_SPREAD_TO_NEIGHBOR = 0.25					# Adjacent state regions always have at least this much of their neighbor's pollution level
 
@@ -1083,16 +1082,20 @@ NEconomy = {
 	BUILDING_INITIAL_WAGE_WEEKS = 2				# A building will not adjust its wages for the first this many weeks of its existence
 	MAX_WAGE_STEP_CHANGE = 0.1					# Wage rates can change at most this much each week
 	SUBSIDIES_MIN_GAIN = 0						# If a building is subsidized, it will always collect enough subsidies to ensure at least this weekly cash reserve growth
-	HIRING_RATE = 0.1 							# Weekly hiring limit applied in a building per profession as a ratio of full employment
+	DEFAULT_MIN_HIRING_RATE = 0.01 				# Default weekly min hiring limit applied in a building per profession as a ratio of full employment
+	DEFAULT_MAX_HIRING_RATE = 0.1 				# Default weekly max hiring limit applied in a building per profession as a ratio of full employment
+	HIRING_RANGE_WEEKLY_CHANGE = 0.01 			# Weekly hiring range of a building is decreased or increased by this based on whether it is failing to hire at its current rate or not
 	EMPLOYMENT_PROPORTIONALITY_LIMIT = 0.1		# A building cannot have a difference of ratio of full employment between any two professions greater than this limit
 	MINIMUM_EMPLOYEES = 10						# If a building has fewer employees than this, it will always attempt to hire
 	BUILDING_RAISE_WAGES_MIN_RELEVANT_POP_SIZE = 50 # Pops with less workforce than this are ignored when checking whether a profitable building should raise wages because of radicalizing workers
 	BUILDING_RAISE_WAGES_DISCRIMINATION_FACTOR = 0.66 # Profitable buildings only care to raise wages for discriminated pops if their wealth to expected SoL ratio is less than this
 	BUILDING_LOWER_WAGES_TARGET_WEALTH_MULT = 1.33 # Buildings will consider lowering wages if all significant pops working in them have this * the target wealth to expected SoL ratio
-	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 0.3	# Required profit margin to consider raising wages for SoL or employment reasons, with BUILDING_WEEKS_BETWEEN_PAY_CHANGES weeks cooldown
+	BUILDING_MIN_EARNINGS_TO_HIRE_EMPLOYEES = 3  # Non-subsidized buildings will not hire if it would result in their annual earnings/employee falling below this threshold
+	BUILDING_PROFIT_TARGET_TO_RAISE_WAGES = 0.3		# Required profit margin to consider raising wages for SoL or employment reasons, with BUILDING_WEEKS_BETWEEN_PAY_CHANGES weeks cooldown
 	BUILDING_PROFIT_TARGET_TO_LOWER_WAGES = 0.15	# If profit margin is this or below, consider lowering wages for SoL or employment reasons, with BUILDING_WEEKS_BETWEEN_PAY_CHANGES weeks cooldown
 	BUILDING_MAX_EMPLOYMENT_FRACTION_TO_RAISE_WAGES = 0.5 # If the employment fraction of a building is above this, don't raise wages just to try and snipe employees from other buildings
-	BUILDING_WEEKS_BETWEEN_PAY_CHANGES = 12		# Cooldown between changes in pay and firing staff, so buildings don't overcompensate for a temporary change in circumstances
+	BUILDING_WEEKS_BETWEEN_PAY_CHANGES = 12		# Cooldown between changes in pay, so buildings don't overcompensate for a temporary change in circumstances. If the building is unprofitable it uses BUILDING_WEEKS_BETWEEN_PAY_CHANGES_WHEN_UNPROFITABLE instead.
+	BUILDING_WEEKS_BETWEEN_PAY_CHANGES_WHEN_UNPROFITABLE = 4 # Cooldown between changes in pay, so buildings don't overcompensate for a temporary change in circumstances. Only used when unprofitable.
 	MIN_RAISE_TO_HIRE = 0.10					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
 	BASE_RESOURCE_DISCOVER_CHANCE = 0.02 		# Per day (1.0 = 1%)
 	EMPLOYMENT_RESOURCE_DEPLETE_CHANCE = 0.005	# Multiplied by number of fully employed levels of the building
@@ -1105,7 +1108,7 @@ NEconomy = {
 	QUALITY_OF_LIFE_MAX = 100
 	SUBSISTENCE_OUTPUT_AVERAGE_WAGE_RATE_FACTOR = 150   # Each 1.0 of subsistence output counts as this much wage rate when setting normal wages
 	PEASANT_STARTING_WAGE_RATE_FACTOR = 1.0		# For the sake of calculating starting normal wages, treat peasants as having this pop type wage multiplier
-	STARTING_WAGE_RATE_MULTIPLIER = 2.0			# Starting wage rate is multiplied by this (for easy balancing)
+	STARTING_WAGE_RATE_MULTIPLIER = 1.0			# Starting wage rate is multiplied by this (for easy balancing)
 	NORMAL_WAGE_RATE_FALLBACK = 500.0			# If it's impossible to compute a normal wage rate (e.g. if every incorporated pop works in government buildings) set it to this (weekly £ per POP_SIZE_PACKAGE employees)
 	MINIMUM_WAGE_RATE = 10.0					# The wage rate can never drop below this, no matter what (weekly £ per POP_SIZE_PACKAGE employees)
 	MAXIMUM_WAGE_RATE = 100000.0				# The absolute maximum that a building's wage rate can be increased to.
@@ -1119,8 +1122,6 @@ NEconomy = {
 	BUILDING_PAUSE_HIRES_CASH_RESERVES_THRESHOLD = 0.75 	# If cash reserves are less than this, buildings should consider pausing new hires to wait for cash reserves
 	BUILDING_MIN_EMPLOYMENT_FRACTION_TO_PAUSE_HIRES = 0.1 	# If building has at least this employment, it's OK to pause hiring
 	BUILDING_MAX_PROFIT_TO_PAUSE_HIRES = 0.2				# If building is making less than this fraction of revenue in profit, it's OK to pause hiring  
-	
-	URBANIZATION_PER_BUILDING = 100
 	
 	PRICE_REPORT_MAX_ENTRIES = 10
 	
@@ -1148,6 +1149,7 @@ NEconomy = {
 
 	SLAVE_TRADE_MIN_VACANCIES_NEEDED_TO_IMPORT = 500 # There needs to be at least this many (non-subsistence) vacancies in buildings that can be filled by slaves in order for slave import to happen
 	SLAVE_TRADE_MIN_POPULATION_TO_EXPORT = 100000	 # There needs to be at least this many people in the state in order for it to be selected, or remain valid, as a slave import target
+	SLAVE_TRADE_FULL_EXPORT_POPULATION_THRESHOLD = 250000	 # Below this amount of state population, the number of slaves exported is reduced by a multiplier scaled against SLAVE_TRADE_MIN_POPULATION_TO_EXPORT (at the halfway point between the two numbers the multiplier is 0.5x, etc) 
 	SLAVE_TRADE_POPULATION_FRACTION_WEIGHT = 100	 # Weight of slave population ratio in slave import marker selection
 	SLAVE_TRADE_POPULATION_TOTAL_WEIGHT = 0.0002	 # Weight of total population in slave import marker selection
 	SLAVE_TRADE_TURMOIL_WEIGHT = 25				# Weight of slave turmoil in slave import marker selection
@@ -1155,11 +1157,16 @@ NEconomy = {
 	SLAVE_TRADE_OTHER_STATES_WEIGHT = 2			# Inverse weight (penalty) for having other slave import markers
 	SLAVE_TRADE_EXISTING_STATE_CULTURE_WEIGHT_MULT = 10 # Total score of state is multiplied by this if importing from states whose homeland cultures are already present in this state
 	SLAVE_TRADE_NUMBER_EVALUATED_STATES = 10	# Slave import marker is selected randomly from this many potential targets with highest weight
-	SLAVE_TRADE_SLAVES_PER_WEEK = 100			# Base number of slaves that will be traded per marker per week
+	SLAVE_TRADE_BASE_SLAVES_PER_WEEK = 100		# Base number of slaves that will be traded per marker per week
+	SLAVE_TRADE_ARABLE_LAND_EFFECT = 1			# Slaves traded per week is increased by this for each arable land in the importing state
+	SLAVE_TRADE_ARABLE_LAND_EFFECT_MAX = 200	# Maximum that arable land can increase slaves traded per week
+	SLAVE_TRADE_RANDOM_MIN = 0.5				# Slaves traded per week is multiplied by a random number, minimum of this
+	SLAVE_TRADE_RANDOM_MAX = 1.5				# Slaves traded per week is multiplied by a random number, maximum of this
 	SLAVE_TRADE_MIN_MARKET_ACCESS = 0.1			# Minimum market access multiplier for slave trade, i.e. even at a marker with 0 market access, this fraction of the base number will be traded
 	
-	BUILDING_LAYOFFS_MIN_WEEKS_BETWEEN = 4		# Minimum number of weeks between layoffs
-	BUILDING_LAYOFFS_DECREASE_BY = 0.15			# The ratio that layoffs will reduce employment by (e.g. 0.15 means if you're currently 57% employed, reduce that to 48.45%)
+	BUILDING_FAILED_HIRE_COOLDOWN_WEEKS_WITHOUT_WAGE_RAISE = 4		# If a building fails to hire, it waits this many weeks before trying again *unless* it has since raised wages or adjusted its hiring rate
+	
+	BUILDING_LAYOFFS_DECREASE_BY = 0.03				# The ratio that layoffs will reduce employment by (e.g. 0.15 means if you're currently 57% employed, reduce that to 48.45%)
 
 	BUILDING_CASH_RESERVES_HIGH_ROI = 0.25			# A ROI (return on investment) at or above this value is considered "high". In this context ROI means how much more money a building makes compared to how much it spends. Must be >= BUILDING_CASH_RESERVES_MED_ROI.
 	BUILDING_CASH_RESERVES_MED_ROI = 0.15			# A ROI (return on investment) at exactly this value is considered "medium". In this context ROI means how much more money a building makes compared to how much it spends. Must be >= BUILDING_CASH_RESERVES_LOW_ROI.
@@ -1190,7 +1197,25 @@ NEconomy = {
 	GOVERNMENT_DIVIDENDS_EFFICIENCY_MIN = 0.2			# Minimum dividend fraction from buildings with government shares that will reach the treasury - the rest will be wasted
 	GOVERNMENT_DIVIDENDS_FALLOFF_START = 10000000		# Below this amount of GDP, no government dividends will be wasted
 	GOVERNMENT_DIVIDENDS_FALLOFF_END = 2000000000		# Above GOVERNMENT_DIVIDENDS_FALLOFF_START but below this, apply minimum reinvestment multiplier on a linear scale down to GOVERNMENT_DIVIDENDS_FALLOFF_END, above this always use GOVERNMENT_DIVIDENDS_FALLOFF_END
-} 
+
+	COMPANY_COMPETITION_DIVISOR = 0.33					# For each company over one associated with the same building type, the total throughput bonus for the building is divided by ( 1 + number of companies over one * this )
+	COMPANY_PRODUCTIVITY_RATIO_HIGH_THRESHOLD = 1.25	# Companies whose productivity exceeds this factor of the global average will be considered high-productivity companies
+	COMPANY_PRODUCTIVITY_RATIO_LOW_THRESHOLD = 0.75		# Companies whose productivity is below this factor of the global average will be considered low-productivity companies
+	COMPANY_PRODUCTIVITY_ABSOLUTE_HIGH_THRESHOLD = 25	# Companies whose productivity exceeds this amount will ALWAYS be considered high-productivity companies
+	COMPANY_PRODUCTIVITY_ABSOLUTE_LOW_THRESHOLD = 5		# Companies whose productivity is below this amount will ALWAYS be considered low-productivity companies
+	COMPANY_PROSPERITY_MAX = 200						# Company prosperity cannot be higher than this
+	COMPANY_PROSPERITY_BONUS_THRESHOLD = 100			# At this amount of prosperity, a company will start providing its prosperity bonus modifier
+	COMPANY_PROSPERITY_WEEKLY_INCREASE = 5				# High-productivity companies have their prosperity increase by this amount per week
+	COMPANY_PROSPERITY_WEEKLY_DECREASE = 5				# Low-productivity companies have their prosperity increase by this amount per week
+	
+	COMPANY_STATE_NAME_WEIGHT_RANDOM_FACTOR = 0.5		# The higher this is, the more random state selection for company names will be 
+	COMPANY_STATE_NAME_WEIGHT_PER_BUILDING_LEVEL = 10	# States have their weight increased to be picked as the namesake for a company by this for each level of company-related buildings in the state
+	COMPANY_STATE_NAME_WEIGHT_PER_POTENTIAL_BUILDING_LEVEL = 0.1	# States have their weight increased to be picked as the namesake for a company by this for each level of potential company-related buildings in the state
+	COMPANY_STATE_NAME_WEIGHT_HOMELAND_FACTOR = 5		# States have their weight to be picked as the namesake for a company multiplied by this if it's a homeland of the owning country
+
+	COMPANY_ON_ESTABLISH_COOLDOWN_MONTHS = 60			# Cooldown in months after establishing a company before you can disband it
+	COMPANY_ON_DISBAND_COOLDOWN_MONTHS = 48				# Cooldown in months after disbanding a company before you can re-establish it
+}
 
 NMilitary = {
 	INITIAL_MANPOWER_COST_MULTIPLIER = 10 			# there is an extra cost for training new recruits, compared to maintenence of said recruits
