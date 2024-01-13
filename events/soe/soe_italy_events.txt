@@ -1,9 +1,9 @@
 ﻿namespace = soe_italy_events
 
-soe_italy_piedmont.1 = { ### Piedmont Remilitarization
+soe_italy_events.1 = { ### Piedmont Remilitarization
 	type = country_event placement = ROOT
 	icon = "gfx/interface/icons/event_icons/soldier.dds"
-	title = soe_italy_piedmont.1.t desc = soe_italy_piedmont.1.d flavor = soe_italy_piedmont.1.f
+	title = soe_italy_events.1.t desc = soe_italy_events.1.d flavor = soe_italy_events.1.f
 	event_image = { texture = "gfx/event_pictures/italy_piedmont.dds" }
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
@@ -14,11 +14,57 @@ soe_italy_piedmont.1 = { ### Piedmont Remilitarization
 		NOT = { has_variable = soe_italy_piedmont_1_end_flag }
 	}
 	immediate = { set_variable = soe_italy_piedmont_1_end_flag }
-	option = { name = soe_italy_piedmont.1.o
+	option = { name = soe_italy_events.1.o
 		default_option = yes
 		remove_modifier = demilitarization_of_piedmont
 		add_loyalists = {
 			value = 0.03
 		}
+	} 
+}
+
+soe_italy_events.2 = { ### Anschluss
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_italy_events.2.t desc = soe_italy_events.2.d flavor = soe_italy_events.2.f
+	event_image = { texture = "gfx/event_pictures/lombardy.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+	}
+	immediate = { set_variable = anschluss }
+	option = { name = soe_italy_events.2.o
+		default_option = yes
+		 c:ITA = { annex_with_incorporation = c:VEN }
+		add_loyalists = {
+			value = 0.05
+		}
+		change_relations = {
+   	country = c:GER
+   	value = -10
+   }
+   change_relations = {
+   	country = c:FRA
+   	value = -10
+   }
+	} 
+}
+
+soe_italy_events.3 = { ### Ticino
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_italy_events.3.t desc = soe_italy_events.3.d flavor = soe_italy_events.3.f
+	event_image = { texture = "gfx/event_pictures/ticino.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+	}
+	option = { name = soe_italy_events.3.o
+		default_option = yes
+		s:STATE_TICINO.region_state:SWI = {
+        set_state_owner = c:ITA
+    }
 	} 
 }

@@ -43,7 +43,7 @@ soe_ai.2 = { ### Soviet war against Intermarium
 		exists = c:RUS
 		c:RUS = ROOT
 		is_ai = yes
-		game_date >= 1934.04.9
+		game_date >= 1937.04.9
 		NOT = { has_variable = soe_ai_2_end_flag }
 	}
 	immediate = { set_variable = soe_ai_2_end_flag }
