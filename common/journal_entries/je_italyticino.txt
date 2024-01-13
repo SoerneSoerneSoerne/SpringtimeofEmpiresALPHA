@@ -1,0 +1,35 @@
+﻿je_italyticino = {
+
+group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/italy.dds"
+    is_shown_when_inactive = {
+        c:ITA = ROOT
+    }
+	possible = {
+		exists = c:SWI
+		owns_entire_state_region = STATE_LOMBARDY
+    }
+    complete = {
+        army_size >= 150
+		is_owed_obligation_by = c:SWI
+    }
+    on_complete = {
+        trigger_event = { 
+            id = soe_italy_events.3
+        }
+		custom_tooltip = italytension_30
+	change_variable = {
+            name = italytension_timer
+            add = 30
+        }
+		change_relations = {
+   	country = c:GER
+   	value = -5
+   }
+   change_relations = {
+   	country = c:FRA
+   	value = -5
+   }
+    }
+	 should_be_pinned_by_default = yes
+}

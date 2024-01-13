@@ -21,7 +21,7 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 45500
+				size = 1845500
 			}
 		}
 	}
@@ -41,7 +41,7 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 108808
+				size = 4108808
 			}
 			create_pop = {
 				culture = ukrainian
@@ -57,16 +57,11 @@
 		region_state:CAU = {
 			create_pop = {
 				culture = armenian
-				size = 180996
+				size = 1209960
 			}
 			create_pop = {
 				culture = russian
 				size = 588
-			}
-			create_pop = {
-				culture = azerbaijani
-				religion = sunni
-				size = 56000
 			}
 			create_pop = {
 				culture = azerbaijani
@@ -86,7 +81,7 @@
 		region_state:CAU = {
 			create_pop = {
 				culture = azerbaijani
-				size = 172100
+				size = 2772100
 			}
 			create_pop = {
 				culture = sephardic
@@ -119,7 +114,7 @@
 		region_state:CAU = {
 			create_pop = {
 				culture = georgian
-				size = 491996
+				size = 2791996
 			}
 			create_pop = {
 				culture = sephardic
@@ -153,7 +148,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 1977196
+				size = 2977196
 			}
 			create_pop = {
 				culture = tatar
@@ -170,7 +165,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 2455124
+				size = 4455124
 			}
 			create_pop = {
 				culture = ugrian
@@ -203,7 +198,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 2656396
+				size = 4956396
 			}
 			create_pop = {
 				culture = tatar
@@ -232,7 +227,7 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 316000
+				size = 516000
 			}
 			create_pop = {
 				culture = north_caucasian
@@ -244,7 +239,7 @@
 		region_state:KAZ = {
 			create_pop = {
 				culture = kazak
-				size = 42000
+				size = 1020000
 			}
 			create_pop = {
 				culture = russian
@@ -272,11 +267,6 @@
 				size = 42000
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = russian
-				size = 5000
-			}
-			create_pop = {
 				culture = turkmen
 				size = 16000
 			}
@@ -284,16 +274,11 @@
 				culture = persian
 				size = 13000
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = persian
-				size = 3000
-			}
 		}
 		region_state:BUK = {
 			create_pop = {
 				culture = uzbek
-				size = 276396
+				size = 576396
 			}
 			create_pop = {
 				pop_type = slaves
@@ -358,21 +343,11 @@
 		region_state:KOK = {
 			create_pop = {
 				culture = tajik
-				size = 211004
+				size = 231004
 			}
 			create_pop = {
 				culture = uzbek
-				size = 160000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = tajik
-				size = 25000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = uighur
-				size = 5000
+				size = 60000
 			}
 			create_pop = {
 				culture = kirgiz
@@ -399,22 +374,7 @@
 			}
 			create_pop = {
 				culture = uzbek
-				size = 160196
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = uzbek
-				size = 20000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = uighur
-				size = 5000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = russian
-				size = 3500
+				size = 6196
 			}
 			create_pop = {
 				culture = kazak
@@ -439,7 +399,7 @@
 		region_state:TRC = {
 			create_pop = {
 				culture = uzbek
-				size = 186004
+				size = 686004
 			}
 			create_pop = {
 				culture = persian
@@ -483,7 +443,7 @@
 		region_state:KAZ = {
 			create_pop = {
 				culture = kazak
-				size = 194162
+				size = 394162
 			}
 			create_pop = {
 				culture = uighur
@@ -500,7 +460,7 @@
 		region_state:KAZ = {
 			create_pop = {
 				culture = kazak
-				size = 200642
+				size = 400642
 			}
 			create_pop = {
 				culture = uighur
@@ -516,7 +476,7 @@
 		region_state:KAZ = {
 			create_pop = {
 				culture = kazak
-				size = 250000
+				size = 950000
 			}
 			create_pop = {
 				culture = russian
@@ -532,7 +492,7 @@
 		region_state:AFG = {
 			create_pop = {
 				culture = pashtun
-				size = 655212
+				size = 4555212
 			}
 			create_pop = {
 				culture = panjabi
@@ -544,7 +504,7 @@
 		region_state:AFG = {
 			create_pop = {
 				culture = tajik
-				size = 670172
+				size = 1670172
 			}
 			create_pop = {
 				culture = uzbek
@@ -587,7 +547,7 @@
 		region_state:AFG = {
 			create_pop = {
 				culture = pashtun
-				size = 1131236
+				size = 4131236
 			}
 			create_pop = {
 				culture = uzbek
@@ -622,11 +582,11 @@
 		region_state:KAL = {
 			create_pop = {
 				culture = baluchi
-				size = 512392
+				size = 412392
 			}
 			create_pop = {
 				culture = pashtun
-				size = 204000
+				size = 14000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -644,7 +604,7 @@
 		region_state:TIB = {
 			create_pop = {
 				culture = tibetan
-				size = 1820000
+				size = 2820000
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -661,7 +621,7 @@
 		region_state:TIB = {
 			create_pop = {
 				culture = tibetan
-				size = 824000
+				size = 1324000
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -688,7 +648,7 @@
 		region_state:BHU = {
 			create_pop = {
 				culture = tibetan
-				size = 140396
+				size = 440396
 			}
 			create_pop = {
 				culture = nepali
@@ -698,7 +658,7 @@
 		region_state:NEP = {
 			create_pop = {
 				culture = nepali
-				size = 619204
+				size = 5019204
 			}
 			create_pop = {
 				culture = bihari

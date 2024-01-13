@@ -1,0 +1,27 @@
+﻿je_armyitaly = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/bust.dds"
+    is_shown_when_inactive = {
+        c:ITA = ROOT
+    }
+    possible = {
+		c:ITA = ROOT
+    }
+    complete = {
+        has_law = law_type:law_professional_army
+    }
+    on_complete = {
+        add_modifier = { name = modifier_armyitalyreform
+	 years = 3 }
+		set_variable = soe_italy_army
+		custom_tooltip = italytension_20
+	change_variable = {
+            name = italytension_timer
+            add = 20
+        }
+    }
+	
+	should_be_pinned_by_default = yes
+	
+}

@@ -1,0 +1,63 @@
+﻿je_italymed = {
+
+group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/shipmed.dds"
+    is_shown_when_inactive = {
+        c:ITA = ROOT
+    }
+	possible = {
+		exists = c:CYP
+		exists = c:MLT
+    }
+	
+	scripted_button = je_italymed_1
+	
+	immediate = {
+
+		set_variable = {
+			name = italymed_timer
+			value = 0
+		}
+	}
+	
+    complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+    on_complete = {
+	custom_tooltip = italytension_30
+	change_variable = {
+            name = italytension_timer
+            add = 30
+        }
+        custom_tooltip = {
+	text = je_italymed_tt
+        create_diplomatic_play = {
+            name = cyp
+            target_country = c:CYP
+                type = dp_revolution
+                war = no
+				escalation = 90
+        }
+		create_diplomatic_play = {
+            name = mlt
+            target_country = c:MLT
+                type = dp_revolution
+                war = no
+				escalation = 90
+        }
+		}
+    }
+	current_value = {
+		value = root.var:italymed_timer
+	}
+	
+	goal_add_value = {
+		value = 100
+	}
+	
+	progressbar = yes
+	
+	 should_be_pinned_by_default = yes
+}

@@ -411,10 +411,21 @@ FIN = {
 	
 	country_type = recognized
 
-	tier = grand_principality
+	tier = kingdom
 	
 	cultures = { finnish }
 	capital = STATE_SOUTHERN_FINLAND
+}
+
+KAR = {
+	color = { 195  202  208 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { finnish }
+	capital = STATE_EAST_KARELIA
 }
 
 NOR = {
@@ -953,7 +964,7 @@ VEN = {
 
 	tier = principality
 	
-	cultures = { north_italian }
+	cultures = { north_italian south_german }
 	capital = STATE_VENETIA
 	is_named_from_capital = yes
 }

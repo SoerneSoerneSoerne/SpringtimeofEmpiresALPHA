@@ -3,15 +3,15 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 677296
+				size = 4677296
 			}
 			create_pop = {
 				culture = tatar
-				size = 5996
+				size = 50996
 			}
 			create_pop = {
 				culture = ugrian
-				size = 13504
+				size = 103504
 			}
 		}
 	}
@@ -19,7 +19,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 1170008
+				size = 5170008
 			}
 			create_pop = {
 				culture = siberian
@@ -45,7 +45,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 252000
+				size = 3252000
 			}
 			create_pop = {
 				culture = tatar
@@ -65,7 +65,7 @@
 		region_state:TUV = {
 			create_pop = {
 				culture = tuvan
-				size = 30000
+				size = 85000
 			}
 		}
 	}
@@ -73,11 +73,11 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = siberian
-				size = 21780
+				size = 121780
 			}
 			create_pop = {
 				culture = russian
-				size = 852
+				size = 60852
 			}
 			create_pop = {
 				culture = ugrian
@@ -94,11 +94,11 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = ugrian
-				size = 10776
+				size = 40776
 			}
 			create_pop = {
 				culture = russian
-				size = 596
+				size = 20496
 			}
 		}
 	}
@@ -106,11 +106,11 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 20204
+				size = 25204
 			}
 			create_pop = {
 				culture = ugrian
-				size = 16000
+				size = 26000
 			}
 		}
 	}
@@ -127,7 +127,7 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 96
+				size = 40096
 			}
 		}
 	}
@@ -139,7 +139,7 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 3400
+				size = 43400
 			}
 		}
 	}
@@ -161,7 +161,7 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 12400
+				size = 112400
 			}
 		}
 	}
@@ -179,7 +179,7 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 16096
+				size = 36096
 			}
 			create_pop = {
 				culture = siberian
@@ -193,7 +193,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 122000
+				size = 1422000
 			}
 			create_pop = {
 				culture = yakut
@@ -217,7 +217,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 388408
+				size = 1088408
 			}
 			create_pop = {
 				culture = mongol

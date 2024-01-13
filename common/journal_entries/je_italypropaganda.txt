@@ -1,0 +1,41 @@
+﻿je_italypropaganda = { 
+
+    icon = "gfx/interface/icons/event_icons/propa.dds"
+    group = je_group_internal_affairs
+    scripted_button = je_italypropaganda_1
+    scripted_button = je_italypropaganda_2
+    scripted_button = je_italypropaganda_3
+    scripted_button = je_italypropaganda_4
+	scripted_button = je_italypropaganda_5
+	scripted_button = je_italypropaganda_6
+
+
+    immediate = {
+	}
+    
+    complete = {
+	}
+
+    on_complete = {
+    }
+
+    on_monthly_pulse = {
+    }
+
+    current_value = {
+		
+	}
+
+
+    goal_add_value = {
+		
+	}
+
+    progressbar = no
+    
+    weight = 100
+
+    
+    should_be_pinned_by_default = yes
+    
+}

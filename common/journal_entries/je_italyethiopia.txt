@@ -1,0 +1,81 @@
+﻿je_italyethiopia = {
+
+group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/ethiopia.dds"
+    is_shown_when_inactive = {
+        c:ITA = ROOT
+    }
+	possible = {
+		exists = c:ETH
+		owns_entire_state_region = STATE_VENETIA
+		owns_entire_state_region = STATE_LOMBARDY
+    }
+	
+	scripted_button = je_italyethiopia_1
+	
+	immediate = {
+
+		set_variable = {
+			name = italyethiopia_timer
+			value = 0
+		}
+	}
+	
+    complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+    on_complete = {
+        custom_tooltip = {
+	text = je_italyethiopia_tt
+	  set_variable = soe_italy_ethiopia
+       create_diplomatic_play = {
+            name = eth
+            target_country = c:ETH
+                type = dp_humiliation
+                war = no
+				escalation = 80
+				add_war_goal = {
+                    holder = c:ITA
+                    type = annex_country
+                    target_country = c:ETH
+                }
+				add_war_goal = {
+                    holder = c:ETH
+                    type = conquer_state
+                    target_state = s:STATE_ERITREA.region_state:ITA
+                }
+				add_war_goal = {
+                    holder = c:ETH
+                    type = conquer_state
+                    target_state = s:STATE_SOMALILAND.region_state:ITA
+                }
+        }
+		}
+		custom_tooltip = italytension_40
+	change_variable = {
+            name = italytension_timer
+            add = 40
+        }
+	change_relations = {
+   	country = c:GER
+   	value = -10
+   }
+   change_relations = {
+   	country = c:FRA
+   	value = -10
+   }
+    }
+	current_value = {
+		value = root.var:italyethiopia_timer
+	}
+	
+	goal_add_value = {
+		value = 100
+	}
+	
+	progressbar = yes
+	
+	 should_be_pinned_by_default = yes
+}

@@ -1,0 +1,22 @@
+﻿je_italylion = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/ethiopia.dds"
+    is_shown_when_inactive = {
+        c:ITA = ROOT
+    }
+    possible = {
+		has_variable = soe_italy_ethiopia
+    }
+    complete = {
+        owns_entire_state_region = STATE_OROMIA
+		owns_entire_state_region = STATE_AMHARA
+		owns_entire_state_region = STATE_GONDER
+    }
+    on_complete = {
+        add_modifier = name = modifier_italyethiopia
+    }
+	
+	should_be_pinned_by_default = yes
+	
+}

@@ -1,15 +1,6 @@
 ﻿on_monthly_pulse_country = {
     effect = {
 	
-        #Italy
-        if = {
-			limit = {
-               game_date >= 1927.2.1
-               NOT = { has_variable = italy_piedmont_var }
-            }
-            set_variable = italy_piedmont_var
-            trigger_event = { id = soe_italy_piedmont.1 days = 0 }
-        }
 		#Depression
 		if = {
 			limit = {

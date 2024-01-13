@@ -3,7 +3,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = malay
-				size = 699600
+				size = 2699600
 			}
 			create_pop = {
 				pop_type = slaves
@@ -20,7 +20,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = dayak
-				size = 95000
+				size = 795000
 			}
 			create_pop = {
 				culture = dayak
@@ -46,7 +46,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = bornean
-				size = 332000
+				size = 932000
 			}
 			create_pop = {
 				culture = dayak
@@ -67,7 +67,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = bornean
-				size = 407592
+				size = 907592
 			}
 			create_pop = {
 				pop_type = slaves
@@ -93,7 +93,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = javan
-				size = 3432000
+				size = 23432000
 			}
 			create_pop = {
 				culture = yue
@@ -120,7 +120,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = javan
-				size = 1873792
+				size = 9873792
 			}
 			create_pop = {
 				culture = yue
@@ -147,7 +147,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = javan
-				size = 1772712
+				size = 11772712
 			}
 			create_pop = {
 				culture = yue
@@ -174,7 +174,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = sumatran
-				size = 130123
+				size = 3130123
 			}
 			create_pop = {
 				pop_type = slaves
@@ -209,7 +209,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = sumatran
-				size = 90122
+				size = 4090122
 			}
 			create_pop = {
 				pop_type = slaves
@@ -244,7 +244,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = sumatran
-				size = 255996
+				size = 1255996
 			}
 			create_pop = {
 				culture = yue
@@ -278,7 +278,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = moluccan
-				size = 146808
+				size = 546808
 			}
 			create_pop = {
 				culture = dutch
@@ -310,7 +310,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = moluccan
-				size = 511000
+				size = 4511000
 			}
 			create_pop = {
 				culture = moluccan
@@ -338,7 +338,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = melanesian
-				size = 400102
+				size = 1300102
 			}
 		}
 	}
@@ -346,7 +346,7 @@
 		region_state:POR = {
 			create_pop = {
 				culture = melanesian
-				size = 40000
+				size = 400000
 			}
 			create_pop = {
 				culture = melanesian
@@ -376,7 +376,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = moluccan
-				size = 450800
+				size = 3250800
 			}
 			create_pop = {
 				culture = dutch
@@ -412,18 +412,12 @@
 			}
 			create_pop = {
 				culture = filipino
-				size = 235800
+				size = 1235800
 			}
 			create_pop = {
 				culture = filipino
 				religion = animist
 				size = 18400
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = filipino
-				religion = animist
-				size = 20208
 			}
 			create_pop = {
 				culture = bornean
@@ -439,7 +433,7 @@
 		region_state:PHI = {
 			create_pop = {
 				culture = filipino
-				size = 1862796
+				size = 5862796
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -460,18 +454,13 @@
 				religion = sunni
 				size = 48000
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = filipino
-				size = 50000
-			}
 		}
 	}
 	s:STATE_VISAYAS = {
 		region_state:PHI = {
 			create_pop = {
 				culture = filipino
-				size = 891604
+				size = 4491604
 			}
 			create_pop = {
 				culture = spanish
@@ -498,7 +487,7 @@
 		region_state:USA = {
 			create_pop = {
 				culture = micronesian
-				size = 23840
+				size = 53840
 			}
 			create_pop = {
 				culture = spanish
@@ -515,7 +504,7 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = micronesian
-				size = 23840
+				size = 63840
 			}
 			create_pop = {
 				culture = spanish
@@ -531,7 +520,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = melanesian
-				size = 52400
+				size = 102400
 			}
 		}
 		
@@ -541,7 +530,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = melanesian
-				size = 80000
+				size = 5000
 			}
 		}
 	}
@@ -550,7 +539,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = melanesian
-				size = 82000
+				size = 182000
 			}
 		}
 	}
@@ -559,7 +548,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = melanesian
-				size = 92000
+				size = 22000
 			}
 		}
 	}
@@ -568,7 +557,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = melanesian
-				size = 56004
+				size = 	36004
 			}
 		}
 	}
@@ -577,7 +566,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = melanesian
-				size = 48000
+				size = 58000
 			}
 		}
 	}
@@ -586,7 +575,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = polynesian
-				size = 169004
+				size = 109004
 			}
 			create_pop = {
 				culture = polynesian
@@ -605,7 +594,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = polynesian
-				size = 40000
+				size = 20000
 			}
 		}
 	}

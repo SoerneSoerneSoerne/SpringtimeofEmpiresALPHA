@@ -1,0 +1,22 @@
+﻿je_italycrime = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/crime.dds"
+    is_shown_when_inactive = {
+        c:ITA = ROOT
+    }
+    possible = {
+		c:ITA = ROOT
+    }
+    complete = {
+        has_law = law_type:law_dedicated_police
+    }
+    on_complete = {
+	remove_modifier = modifier_organisedcrime
+        add_modifier = { name = modifier_organisedcrimefight
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+	
+}

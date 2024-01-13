@@ -1,0 +1,273 @@
+﻿
+je_italypropaganda_1 = { # Italian Propaganda
+	name = "La_Vittoria_Navale"
+	desc = "La_Vittoria_Navale_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		scope:journal_entry = {
+				not = {
+				custom_tooltip = {
+					text = cooldown_italypropaganda
+					has_variable = je_italypropaganda_cooldown
+				}
+			}
+		}
+	}
+
+	effect = {
+
+		scope:journal_entry = {
+			set_variable = { name = je_italypropaganda_cooldown months = 13  }
+		}	
+		add_modifier = {
+			name = modifier_la_Vittoria_Navale
+			months = 13
+		} 
+	}
+}
+
+je_italypropaganda_2 = { #movie about how awsome poor people are
+	name = "Lungo_L_Affrico"
+	desc = "Lungo_L_Affrico_desc"	
+	visible = { always = yes }
+
+	possible = {
+		scope:journal_entry = {
+				not = {
+				custom_tooltip = {
+					text = cooldown_italypropaganda
+					has_variable = je_italypropaganda_cooldown
+				}
+			}
+		}
+	}
+
+	effect = {
+
+		scope:journal_entry = {
+			set_variable = { name = je_italypropaganda_cooldown months = 13  }
+		}	
+		add_modifier = {
+			name = modifier_Lungo_L_Affrico
+			months = 13
+		}  
+	}
+}
+
+je_italypropaganda_3 = { # Italian Propaganda
+	name = "Pace"
+	desc = "Pace_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		scope:journal_entry = {
+				not = {
+				custom_tooltip = {
+					text = cooldown_italypropaganda
+					has_variable = je_italypropaganda_cooldown
+				}
+			}
+		}
+	}
+
+	effect = {
+
+		scope:journal_entry = {
+			set_variable = { name = je_italypropaganda_cooldown months = 13  }
+		}	
+		add_modifier = {
+			name = modifier_pace
+			months = 13
+		} 
+	}
+}
+
+je_italypropaganda_4 = { # Italian Propaganda
+	name = "L_Arca_Romana"
+	desc = "L_Arca_Romana_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		scope:journal_entry = {
+				not = {
+				custom_tooltip = {
+					text = cooldown_italypropaganda
+					has_variable = je_italypropaganda_cooldown
+				}
+			}
+		}
+	}
+
+	effect = {
+
+		scope:journal_entry = {
+			set_variable = { name = je_italypropaganda_cooldown months = 13  }
+		}	
+		add_modifier = {
+			name = modifier_L_Arca_Romana
+			months = 13
+		} 
+	}
+}
+
+je_italypropaganda_5 = { # Italian Propaganda
+	name = "Il_Prigioniero"
+	desc = "Il_Prigioniero_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		scope:journal_entry = {
+				not = {
+				custom_tooltip = {
+					text = cooldown_italypropaganda
+					has_variable = je_italypropaganda_cooldown
+				}
+			}
+		}
+	}
+
+	effect = {
+
+		scope:journal_entry = {
+			set_variable = { name = je_italypropaganda_cooldown months = 13  }
+		}	
+		add_modifier = {
+			name = modifier_Il_Prigioniero
+			months = 13
+		} 
+	}
+}
+
+je_italypropaganda_6 = { # Italian Propaganda
+	name = "Il_Commiato"
+	desc = "Il_Commiato_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		scope:journal_entry = {
+				not = {
+				custom_tooltip = {
+					text = cooldown_italypropaganda
+					has_variable = je_italypropaganda_cooldown
+				}
+			}
+		}
+	}
+
+	effect = {
+
+		scope:journal_entry = {
+			set_variable = { name = je_italypropaganda_cooldown months = 13  }
+		}	
+		add_modifier = {
+			name = modifier_Il_Commiato
+			months = 13
+		} 
+	}
+}
+
+je_anschluss_a = {
+	name = "je_anschluss_progress"
+	desc = "je_anschluss_progress_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		scope:journal_entry = {
+				not = {
+				custom_tooltip = {
+					text = tt_anschluss_cooldown
+					has_variable = je_anschluss_cooldown
+				}
+			}
+		}
+	}
+
+	effect = {
+        custom_tooltip = cooldown_anschluss_tt
+		scope:journal_entry = {
+			set_variable = { name = je_anschluss_cooldown months = 3 }
+		}	
+        add_modifier = { name = modifier_anschluss
+	 months = 3 }
+        custom_tooltip = anschlussplus
+        change_variable = {
+            name = anschluss_timer
+            add = 20
+        }
+	}
+}
+
+je_italymed_1 = {
+	name = "je_italymed_progress_button"
+	desc = "je_italymed_progress_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+	}
+
+	effect = {
+        custom_tooltip = italymed
+        change_variable = {
+            name = italymed_timer
+            add = 100
+        }
+	}
+}
+
+je_italyethiopia_1 = {
+	name = "je_italyethiopia_progress_button"
+	desc = "je_italyethiopia_progress_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+	}
+
+	effect = {
+        custom_tooltip = italymed
+        change_variable = {
+            name = italyethiopia_timer
+            add = 100
+        }
+	}
+}
+
+je_italytension_a = {
+	name = "je_appeasegermany"
+	desc = "je_appeasegermany_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		scope:journal_entry = {
+				not = {
+				custom_tooltip = {
+					text = tt_italytension_cooldown
+					has_variable = je_italytension_cooldown
+				}
+			}
+		}
+	}
+
+	effect = {
+        custom_tooltip = cooldown_ilaly_tt
+		scope:journal_entry = {
+			set_variable = { name = je_italytension_cooldown months = 6 }
+		}	
+        add_modifier = { name = modifier_appeaseitaly
+	 months = 6 }
+        custom_tooltip = italyplus
+        change_variable = {
+            name = italytension_timer
+            add = -20
+        }
+	}
+}

@@ -3,7 +3,7 @@
 		region_state:ELS = {
 			create_pop = {
 				culture = central_american
-				size = 428204
+				size = 1438204
 			}
 		}
 	}
@@ -11,7 +11,7 @@
 		region_state:GUA = {
 			create_pop = {
 				culture = central_american
-				size = 164404
+				size = 1464404
 			}
 			create_pop = {
 				culture = mayan
@@ -21,11 +21,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = central_american
-				size = 64404
-			}
-			create_pop = {
-				culture = mayan
-				size = 312000
+				size = 51404
 			}
 		}
 	}
@@ -33,7 +29,7 @@
 		region_state:HON = {
 			create_pop = {
 				culture = central_american
-				size = 385204
+				size = 865204
 			}
 			create_pop = {
 				culture = miskito # Cape of Gracias a Dios Miskito
@@ -45,7 +41,7 @@
 		region_state:NIC = {
 			create_pop = {
 				culture = central_american
-				size = 284000
+				size = 644000
 			}
 			create_pop = {
 				culture = miskito # Miskito pop. across the 'borders'
@@ -67,18 +63,13 @@
 				culture = british
 				size = 500
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 1000
-			}
 		}
 	}
 	s:STATE_COSTA_RICA = {
 		region_state:COS = {
 			create_pop = {
 				culture = central_american
-				size = 83992
+				size = 503992
 			}
 		}
 	}
@@ -86,7 +77,7 @@
 		region_state:PNM = {
 			create_pop = {
 				culture = central_american
-				size = 87792
+				size = 447792
 			}
 			create_pop = {
 				culture = afro_caribeno
@@ -109,11 +100,11 @@
 		region_state:USA = {
 			create_pop = {
 				culture = yankee
-				size = 4000
+				size = 20000
 			}
 			create_pop = {
 				culture = dixie
-				size = 4000
+				size = 20000
 			}
 		}
 	}
@@ -121,7 +112,7 @@
 		region_state:HAI = {
 			create_pop = {
 				culture = afro_antillean
-				size = 316808
+				size = 2316808
 			}
 			create_pop = {
 				culture = afro_caribeno
@@ -137,7 +128,7 @@
 		region_state:DOM = {
 			create_pop = {
 				culture = afro_antillean
-				size = 226020
+				size = 1226020
 			}
 			create_pop = {
 				culture = afro_caribeno
@@ -153,7 +144,7 @@
 		region_state:USA = {
 			create_pop = {
 				culture = caribeno
-				size = 182500
+				size = 1382500
 			}
 			create_pop = {
 				culture = afro_caribeno
@@ -163,11 +154,6 @@
 				culture = spanish
 				size = 5904
 			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 42000
-			}		
 		}
 	}
 	s:STATE_BAHAMAS = {
@@ -178,7 +164,7 @@
 			}
 			create_pop = {
 				culture = afro_caribbean
-				size = 100400
+				size = 30400
 			}
 		}
 	}
@@ -190,7 +176,7 @@
 			}
 			create_pop = {
 				culture = afro_caribbean
-				size = 234768
+				size = 434768
 			}
 			create_pop = {
 				culture = dutch
@@ -204,7 +190,7 @@
 			}
 			create_pop = {
 				culture = afro_caribbean
-				size = 234768
+				size = 434768
 			}
 			create_pop = {
 				culture = dutch
@@ -216,7 +202,7 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = afro_caribbean
-				size = 358596
+				size = 1008596
 			}
 			create_pop = {
 				culture = british
@@ -229,17 +215,12 @@
 			# 896400
 			create_pop = {
 				culture = caribeno
-				size = 461304 # est. "white" population in 1836 of 483308, minus the explicit Spanish pops below
+				size = 3561304 # est. "white" population in 1836 of 483308, minus the explicit Spanish pops below
 			}
 			create_pop = {
 				culture = afro_caribeno
 				size = 152011
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_caribeno
-				size = 288786
-			}			
+			}		
 			create_pop = {
 				culture = spanish
 				size = 22004

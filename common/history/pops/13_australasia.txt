@@ -7,7 +7,7 @@
 			}
 			create_pop = {
 				culture = australian
-				size = 101384
+				size = 2501384
 			}
 			create_pop = {
 				culture = irish
@@ -23,7 +23,7 @@
 			}
 			create_pop = {
 				culture = australian
-				size = 24676
+				size = 2224676
 			}
 		}
 	}
@@ -36,7 +36,7 @@
 			}
 			create_pop = {
 				culture = australian
-				size = 11319
+				size = 211319
 			}
 		}
 	}
@@ -48,7 +48,7 @@
 			}
 			create_pop = {
 				culture = australian
-				size = 4000
+				size = 804000
 			}
 		}
 	}
@@ -56,21 +56,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = australian
-				size = 10500
+				size = 210500
 			}		
 			create_pop = {
 				culture = aborigine
 				size = 22000
-			}
-		}
-		region_state:KAU = {
-			create_pop = {
-				culture = australian
-				size = 300
-			}		
-			create_pop = {
-				culture = aborigine
-				size = 51000
 			}
 		}
 	}
@@ -82,7 +72,7 @@
 			}
 			create_pop = {
 				culture = australian
-				size = 3004
+				size = 303004
 			}
 		}
 	}
@@ -90,7 +80,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = aborigine
-				size = 31804
+				size = 1804
+			}
+			create_pop = {
+				culture = australian
+				size = 13004
 			}
 		}
 	}
@@ -105,6 +99,10 @@
 				culture = maori
 				size = 25000
 			}
+			create_pop = {
+				culture = australian
+				size = 903004
+			}
 		}
 	}
 	s:STATE_SOUTH_ISLAND = {
@@ -112,6 +110,10 @@
 			create_pop = {
 				culture = maori
 				size = 64000
+			}
+			create_pop = {
+				culture = australian
+				size = 503004
 			}
 		}
 	}

@@ -4,26 +4,6 @@
 ## DEFAULT COUNTRY NAMES EXAMPLE CAN BE USED WITH ANY COUNTRY ##
 ################################################################
 
-SWE = { # Scandinavia
-	dynamic_country_name = {
-		name = dyn_c_natsoc_scandinavia
-		adjective = dyn_c_natsoc_scandinavia_adj
-		is_main_tag_only = yes
-		priority = 2000
-		
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				owns_entire_state_region = STATE_JUTLAND
-	    owns_entire_state_region = STATE_ZEALAND
-		owns_entire_state_region = STATE_WESTERN_NORWAY
-		owns_entire_state_region = STATE_EASTERN_NORWAY
-		owns_entire_state_region = STATE_NORTHERN_NORWAY
-			}
-		}
-	}	
-}
-
 MOY = { # Mosley
 	dynamic_country_name = {
 		name = dyn_c_mosley_england

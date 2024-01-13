@@ -1,0 +1,66 @@
+﻿je_italytension = {
+
+group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/germanmonarchy.dds"
+    is_shown_when_inactive = {
+        c:ITA = ROOT
+    }
+	possible = {
+        has_variable = soe_italy_piedmont_1_end_flag
+    }
+	
+    scripted_button = je_italytension_a
+
+    immediate = {
+
+		set_variable = {
+			name = italytension_timer
+			value = 0
+		}
+	}
+	
+	complete = {
+		scope:journal_entry = {
+			is_goal_complete = yes
+		}
+	}
+	
+    on_complete = {
+        create_diplomatic_play = {
+            name = gerita
+            target_country = c:GER
+                type = humiliation
+                war = no
+                escalation = 40
+			add_war_goal = {
+                    holder = c:GER
+                    type = contain_threat
+                    target_country = c:ITA
+                }
+        }
+    }
+	
+	current_value = {
+		value = root.var:italytension_timer
+	}
+	
+	goal_add_value = {
+		value = 100
+	}
+	
+	fail = {
+			custom_tooltip = { text = italytensionfail
+			game_date >= 2026.01.1 }
+	}
+	
+	on_fail = {
+		custom_tooltip = italytensiononfail
+	}
+
+
+	progressbar = yes
+	
+	weight = 100
+	
+	 should_be_pinned_by_default = yes
+}

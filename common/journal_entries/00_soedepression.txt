@@ -3,7 +3,7 @@
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:GER = ROOT
+        country_has_primary_culture = cu:south_german
     }
     possible = {
 		has_variable = soe_depression_1_end_flag
@@ -26,7 +26,7 @@ je_soedepressionest = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:EST = ROOT
+        country_has_primary_culture = cu:estonian
     }
     possible = {
 		has_variable = soe_depression_2_end_flag
@@ -49,7 +49,7 @@ je_soedepressionlat = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:LAT = ROOT
+        country_has_primary_culture = cu:latvian
     }
     possible = {
 		has_variable = soe_depression_3_end_flag
@@ -72,7 +72,7 @@ je_soedepressionfin = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:FIN = ROOT
+        country_has_primary_culture = cu:finnish
     }
     possible = {
 		has_variable = soe_depression_4_end_flag
@@ -95,7 +95,7 @@ je_soedepressionfin = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:ISR = ROOT
+        country_has_primary_culture = cu:ashkenazi
     }
     possible = {
 		has_variable = soe_depression_4_end_flag
@@ -118,7 +118,7 @@ je_soedepressionnor = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:NOR = ROOT
+        country_has_primary_culture = cu:norwegian
     }
     possible = {
 		has_variable = soe_depression_5_end_flag
@@ -141,7 +141,7 @@ je_soedepressionden = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:DEN = ROOT
+        country_has_primary_culture = cu:danish
     }
     possible = {
 		has_variable = soe_depression_6_end_flag
@@ -164,7 +164,7 @@ je_soedepressionnet = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:NET = ROOT
+        country_has_primary_culture = cu:dutch
     }
     possible = {
 		has_variable = soe_depression_7_end_flag
@@ -187,7 +187,7 @@ je_soedepressionswi = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:SWI = ROOT
+        country_has_primary_culture = cu:alemannic
     }
     possible = {
 		has_variable = soe_depression_8_end_flag
@@ -205,35 +205,13 @@ group = je_group_historical_content
 	should_be_pinned_by_default = yes
 }
 
-je_soedepressionven = {
-
-group = je_group_historical_content
-    icon = "gfx/interface/icons/event_icons/depression.dds"
-    is_shown_when_inactive = {
-        c:VEN = ROOT
-    }
-    possible = {
-		has_variable = soe_depression_9_end_flag
-    }
-    complete = {
-       any_scope_pop = {
-				standard_of_living > 55
-			}
-    }
-    on_complete = {
-        add_modifier = { name = modifier_francogermandepressionfix
-	 years = 5 }
-    }
-	
-	should_be_pinned_by_default = yes
-}
 
 je_soedepressionily = {
 
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:ILY = ROOT
+        country_has_primary_culture = cu:croat
     }
     possible = {
 		has_variable = soe_depression_10_end_flag
@@ -256,7 +234,7 @@ je_soedepressionbul = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:BUL = ROOT
+        country_has_primary_culture = cu:bulgarian
     }
     possible = {
 		has_variable = soe_depression_11_end_flag
@@ -279,7 +257,7 @@ je_soedepressionhun = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:HUN = ROOT
+        country_has_primary_culture = cu:hungarian
     }
     possible = {
 		has_variable = soe_depression_12_end_flag
@@ -302,7 +280,7 @@ je_soedepressionfra = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:FRA = ROOT
+        country_has_primary_culture = cu:french
     }
     possible = {
 		has_variable = soe_depression_13_end_flag
@@ -325,7 +303,7 @@ je_soedepressionbel = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:BEL = ROOT
+        country_has_primary_culture = cu:flemish
     }
     possible = {
 		has_variable = soe_depression_14_end_flag
@@ -348,7 +326,7 @@ je_soedepressionire = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:IRE = ROOT
+        country_has_primary_culture = cu:irish
     }
     possible = {
 		has_variable = soe_depression_15_end_flag
@@ -371,7 +349,7 @@ je_soedepressionmor = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:MOR = ROOT
+        country_has_primary_culture = cu:berber
     }
     possible = {
 		has_variable = soe_depression_16_end_flag
@@ -394,7 +372,7 @@ je_soedepressionspa = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:SPA = ROOT
+        country_has_primary_culture = cu:spanish
     }
     possible = {
 		has_variable = soe_depression_17_end_flag
@@ -417,7 +395,7 @@ je_soedepressionpor = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/depression.dds"
     is_shown_when_inactive = {
-        c:POR = ROOT
+        country_has_primary_culture = cu:portuguese
     }
     possible = {
 		has_variable = soe_depression_18_end_flag

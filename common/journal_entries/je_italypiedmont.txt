@@ -1,0 +1,22 @@
+﻿je_italypiedmont = {
+
+group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/italy.dds"
+    is_shown_when_inactive = {
+        c:ITA = ROOT
+    }
+    complete = {
+        army_size >= 100
+    }
+    on_complete = {
+        trigger_event = { 
+            id = soe_italy_events.1
+        }
+		custom_tooltip = italytension_30
+	change_variable = {
+            name = italytension_timer
+            add = 30
+        }
+    }
+	 should_be_pinned_by_default = yes
+}

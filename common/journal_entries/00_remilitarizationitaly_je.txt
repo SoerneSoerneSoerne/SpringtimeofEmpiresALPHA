@@ -6,7 +6,7 @@
         c:ITA = ROOT
     }
     possible = {
-		c:ITA = ROOT
+		has_variable = soe_italy_army
     }
     complete = {
         any_scope_building = { 

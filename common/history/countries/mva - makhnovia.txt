@@ -15,9 +15,6 @@
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_womens_suffrage
-		activate_law = law_type:law_restricted_child_labor
-		activate_law = law_type:law_worker_protections
-		activate_law = law_type:law_public_schools
 		
 	}
 }

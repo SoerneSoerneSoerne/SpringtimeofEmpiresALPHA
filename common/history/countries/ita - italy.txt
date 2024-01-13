@@ -6,18 +6,20 @@
         
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_women_in_the_workplace
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_elected_bureaucrats
 		activate_law = law_type:law_national_supremacy 
-		activate_law = law_type:law_mercantilism
-		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_corporatism
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_censorship
+		activate_law = law_type:law_collectivized_agriculture
+		activate_law = law_type:law_colonial_exploitation
 		
 		add_modifier = {
 			name = treaty_of_vienna
@@ -29,10 +31,23 @@
 			months = -1
 		}
 		
+		add_modifier = {
+			name = modifier_organisedcrime
+			months = -1
+		}
+		
 		add_journal_entry = {
-				type = je_remilitarizationitalyone
+				type = je_italytension
 			}
-			
+		add_journal_entry = {
+				type = je_italypiedmont
+			}
+		add_journal_entry = {
+				type = je_armyitaly
+			}
+		add_journal_entry = {
+				type = je_italycrime
+			}
 			add_journal_entry = {
 				type = je_remilitarizationitalytwo
 			}
