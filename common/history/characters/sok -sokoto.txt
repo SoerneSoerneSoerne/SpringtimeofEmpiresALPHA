@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:SOK = {
+		create_character = {
+			# Herbert Macaulay
+			first_name = "Herbert"
+			last_name = "Macaulay"
+			historical = yes
+			ruler = yes 
+			age = 61
+			dna = dna_herbert_macaulay
+			interest_group = ig_intelligentsia
+			ideology= ideology_jingoist_leader
+			culture= fulbe
+		}
+		}
+		}

@@ -88,6 +88,18 @@
 				size = 687010
 			}
 		}
+		region_state:RUS = {
+			create_pop = {
+				culture = ugrian
+				religion = animist
+				size = 21040
+			}
+			create_pop = {
+				culture = russian
+				religion = orthodox
+				size = 87010
+			}
+		}
 	}
 	s:STATE_ARKHANGELSK = {
 		region_state:RUS = {
@@ -335,7 +347,7 @@
 		}
 		region_state:GER = {
 			create_pop = {
-				culture = polish
+				culture = north_german
 				size = 76000
 			}
 			create_pop = {
@@ -343,7 +355,7 @@
 				size = 10000
 			}
 			create_pop = {
-				culture = north_german
+				culture = polish
 				size = 328004
 			}
 			create_pop = {
@@ -370,12 +382,12 @@
 		}
 		region_state:GER = {
 			create_pop = {
-				culture = polish
+				culture = north_german
 				religion = protestant
 				size = 32000
 			}
 			create_pop = {
-				culture = north_german
+				culture = polish
 				size = 158000
 			}
 		}
@@ -392,7 +404,11 @@
 		region_state:GER = {
 			create_pop = {
 				culture = north_german
-				size = 1062400
+				size = 462400
+			}
+			create_pop = {
+				culture = polish
+				size = 671204
 			}
 		}
 	}
@@ -400,7 +416,11 @@
 		region_state:GER = {
 			create_pop = {
 				culture = north_german
-				size = 3429796
+				size = 3029796
+			}
+			create_pop = {
+				culture = polish
+				size = 458000
 			}
 		}
 	}
@@ -408,7 +428,7 @@
 		region_state:GER = {
 			create_pop = {
 				culture = north_german
-				size = 1740400
+				size = 340400
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -416,7 +436,7 @@
 			}
 			create_pop = {
 				culture = polish
-				size = 371204
+				size = 1371204
 			}
 			create_pop = {
 				culture = north_german

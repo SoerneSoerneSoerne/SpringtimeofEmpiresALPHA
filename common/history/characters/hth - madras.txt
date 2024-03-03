@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:HTH = {
+		create_character = {
+			# Iskandar Ali Mirza
+			first_name = "Iskandar"
+			last_name = "Aliskan"
+			historical = yes
+			ruler = yes 
+			age = 26
+			dna = dna_mirza
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= bengali
+		}
+		}
+		}

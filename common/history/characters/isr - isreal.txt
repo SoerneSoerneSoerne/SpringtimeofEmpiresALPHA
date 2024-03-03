@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:ISR = {
+		create_character = {
+			# Chaim Weizmann
+			first_name = "Chaim"
+			last_name = "Weizmann"
+			historical = yes
+			ruler = yes 
+			age = 51
+			dna = dna_chaim_weizmann
+			interest_group = ig_intelligentsia
+			ideology= ideology_ethno_nationalist
+			culture= ashkenazi
+		}
+		}
+		}

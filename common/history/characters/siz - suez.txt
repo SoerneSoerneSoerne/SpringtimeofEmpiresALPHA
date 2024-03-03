@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:SIZ = {
+		create_character = {
+			# Fridtjof Nansen
+			first_name = "Fridtjof"
+			last_name = "Nansen"
+			historical = yes
+			ruler = yes 
+			age = 64
+			dna = dna_nansen
+			interest_group = ig_intelligentsia
+			ideology= ideology_positivist
+			culture= norwegian
+		}
+		}
+		}

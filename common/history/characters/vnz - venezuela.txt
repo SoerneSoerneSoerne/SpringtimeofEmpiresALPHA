@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:VNZ = {
+		create_character = {
+			# Juan Vicente Gómez
+			first_name = "Juan"
+			last_name = "Vicente2"
+			historical = yes
+			ruler = yes 
+			age = 68
+			dna = dna_juan_gomez
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= north_andean
+		}
+		}
+		}

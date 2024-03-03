@@ -1,9 +1,17 @@
 ﻿COUNTRIES = {
 	c:BAS = {
 		effect_starting_technology_tier_4_tech = yes
-		activate_law = law_type:law_serfdom
-		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_council_republic
+		activate_law = law_type:law_anarchy
+		activate_law = law_type:law_collectivized_agriculture
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_cooperative_ownership
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_womens_suffrage
 
-		effect_starting_politics_traditional = yes
 	}
 }

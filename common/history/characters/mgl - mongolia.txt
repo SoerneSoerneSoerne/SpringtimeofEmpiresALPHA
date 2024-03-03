@@ -1,0 +1,22 @@
+CHARACTERS = {
+	c:MGL = {
+		create_character = {
+			# Roman Sternberg
+			first_name = "Roman"
+			last_name = "von_Ungern_Sternberg"
+			historical = yes
+			ruler = yes 
+			age = 39
+			dna = dna_roman_sternberg
+			interest_group = ig_armed_forces
+			ideology= ideology_royalist
+			culture= russian
+			traits = {
+				
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		}
+		}

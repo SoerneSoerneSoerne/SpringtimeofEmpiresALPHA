@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:YUE = {
+		create_character = {
+			# Bai Chongxi
+			first_name = "Bai"
+			last_name = "Chongxi"
+			historical = yes
+			ruler = yes 
+			age = 32
+			dna = dna_chongxi
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= han
+		}
+		}
+		}

@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:CAU = {
+		create_character = {
+			# Mikhail Tskhakaya
+			first_name = "Mikhail"
+			last_name = "Tskhakaya"
+			historical = yes
+			ruler = yes 
+			age = 60
+			dna = dna_tskhakaya
+			interest_group = ig_trade_unions
+			ideology= ideology_vanguardist
+			culture= georgian			
+		}
+		}
+		}

@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:KAZ = {
+		create_character = {
+			# Jalau Mynbaev
+			first_name = "Jalau"
+			last_name = "Mynbaev"
+			historical = yes
+			ruler = yes 
+			age = 33
+			dna = dna_jalau
+			interest_group = ig_trade_unions
+			ideology= ideology_vanguardist
+			culture= kazak		
+		}
+		}
+		}

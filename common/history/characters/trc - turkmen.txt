@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:TRC = {
+		create_character = {
+			# Sayyid Mir Muhammad Alim Khan
+			first_name = "Sayyid1"
+			last_name = "Sayyid2"
+			historical = yes
+			ruler = yes
+			age = 45
+			dna = dna_sayyid
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= uzbek
+		}	
+	}
+}

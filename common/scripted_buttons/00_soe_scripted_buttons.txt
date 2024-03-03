@@ -271,3 +271,63 @@ je_italytension_a = {
         }
 	}
 }
+
+je_italymarinetti_a = {
+	name = "je_appeasegermany"
+	desc = "je_appeasegermany_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		scope:journal_entry = {
+				not = {
+				custom_tooltip = {
+					text = tt_italymarinetti_cooldown
+					has_variable = je_italymarinetti_cooldown
+				}
+			}
+		}
+	}
+
+	effect = {
+        custom_tooltip = cooldown_marinetti_tt
+		scope:journal_entry = {
+			set_variable = { name = je_italymarinetti_cooldown months = 6 }
+		}	
+        custom_tooltip = marinettiplus
+        change_variable = {
+            name = italymarinetti_timer
+            add = 5
+        }
+	}
+}
+
+je_italykeller_a = {
+	name = "je_appeasegermany"
+	desc = "je_appeasegermany_desc"
+
+	visible = { always = yes }
+
+	possible = {
+		scope:journal_entry = {
+				not = {
+				custom_tooltip = {
+					text = tt_italykeller_cooldown
+					has_variable = je_italykeller_cooldown
+				}
+			}
+		}
+	}
+
+	effect = {
+        custom_tooltip = cooldown_keller_tt
+		scope:journal_entry = {
+			set_variable = { name = je_italykeller_cooldown months = 6 }
+		}	
+        custom_tooltip = kellerplus
+        change_variable = {
+            name = italykeller_timer
+            add = 5
+        }
+	}
+}

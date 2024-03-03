@@ -1,0 +1,19 @@
+CHARACTERS = {
+	c:MUG = {
+		create_character = {
+			# Chandra Shekhar Azad
+			first_name = "Chandrasekhar"
+			last_name = "Azad"
+			historical = yes
+			ruler = yes 
+			age = 19
+			dna = dna_azad
+			interest_group = ig_trade_unions
+			ideology= ideology_communist
+			culture= avadhi
+			traits = {
+				firebrand
+			}			
+		}
+		}
+		}

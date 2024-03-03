@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ROM = {
+		create_character = {
+			# Ferdinand I of Romania
+			first_name = "Ferdinand"
+			last_name = "I"
+			historical = yes
+			ruler = yes
+			age = 60
+			dna = dna_ferdinand
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= north_german
+		}	
+	}
+}

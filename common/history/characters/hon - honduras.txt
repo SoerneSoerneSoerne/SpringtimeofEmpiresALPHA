@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:HON = {
+		create_character = {
+			# Miguel Paz Barahona
+			first_name = "Miguel"
+			last_name = "Paz_Barahona"
+			historical = yes
+			ruler = yes
+			age = 62
+			dna = dna_miguel_barahona
+			interest_group = ig_landowners
+			ideology = ideology_market_liberal
+			culture= central_american
+		}	
+	}
+}

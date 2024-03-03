@@ -3,6 +3,59 @@
 	country_law_enactment_success_add = 0.15
 }
 
+modifier_cultocommando = {
+	icon = gfx/interface/icons/timed_modifier_icons/annunzio.dds
+	country_legitimacy_base_add = 2
+	country_authority_mult = 0.02
+}
+
+modifier_guat_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/jorge1.dds
+	country_legitimacy_base_add = 2
+	country_authority_mult = 0.02
+	unit_army_offense_mult = 0.02
+	unit_army_defense_mult = 0.02
+	state_standard_of_living_add = -1
+}
+
+modifier_guat_2 = {
+	icon = gfx/interface/icons/timed_modifier_icons/jorge1.dds
+	country_legitimacy_base_add = 5
+	country_authority_mult = 0.05
+	unit_army_offense_mult = 0.05
+	unit_army_defense_mult = 0.05
+	state_standard_of_living_add = -1
+}
+
+modifier_guat_3 = {
+	icon = gfx/interface/icons/timed_modifier_icons/jorge1.dds
+	country_legitimacy_base_add = 10
+	country_authority_mult = 0.10
+	unit_army_offense_mult = 0.10
+	unit_army_defense_mult = 0.10
+	state_standard_of_living_add = -2
+}
+
+modifier_guat_4 = {
+	icon = gfx/interface/icons/timed_modifier_icons/jorge2.dds
+	country_authority_mult = 0.05
+}
+
+modifier_guat_5 = {
+	icon = gfx/interface/icons/timed_modifier_icons/jorge2.dds
+	country_authority_mult = 0.15
+}
+
+modifier_iran_1 = {
+	icon = gfx/interface/icons/timed_modifier_icons/iran.dds
+	country_legitimacy_base_add = 5
+}
+
+zoro_policies = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	state_conversion_mult = 1
+}
+
 modifier_francogermandepression = {
 	icon = gfx/interface/icons/timed_modifier_icons/depression.dds
 	country_loan_interest_rate_mult = 0.8
@@ -94,6 +147,12 @@ modifier_organisedcrimefight = {
 	country_authority_mult = 0.10
 	state_standard_of_living_add = 1
 	country_expenses_add = 3000
+}
+
+modifier_stateshinto = {
+	icon = gfx/interface/icons/timed_modifier_icons/broken_rifle.dds
+	country_legitimacy_base_add = 5
+	state_standard_of_living_add = 5
 }
 
 modifier_armyitalyreform = {

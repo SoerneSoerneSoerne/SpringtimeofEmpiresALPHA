@@ -694,7 +694,7 @@
 		}
 	}
 	s:STATE_ZHEJIANG={
-		region_state:AHU={
+		region_state:ZHI={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -922,7 +922,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_ANHUI={
-		region_state:ZHI={
+		region_state:AHU={
 			create_building={
 				building="building_government_administration"
 				level=12
@@ -1256,12 +1256,18 @@
 		}
 	}
 	s:STATE_ULIASTAI={
-		region_state:MGL={
+		region_state:MPR={
 			create_building={
 				building="building_livestock_ranch"
 				level=4
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
 	}
@@ -1272,6 +1278,12 @@
 				level=6
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
 	}

@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:LAT = {
+		create_character = {
+			# Kārlis Ulmanis
+			first_name = "Karliss"
+			last_name = "Ulmanis"
+			historical = yes
+			ruler = yes 
+			age = 48
+			dna = dna_ulmanis
+			interest_group = ig_rural_folk
+			ideology= ideology_authoritarian
+			culture= latvian
+		}
+		}
+		}

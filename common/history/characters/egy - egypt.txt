@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:EGY = {
+		create_character = {
+			# Fuad I of Egypt
+			first_name = "Fuad"
+			last_name = "iofegypt"
+			historical = yes
+			ruler = yes
+			age = 57
+			dna = dna_fuad_i
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= albanian
+		}	
+	}
+}

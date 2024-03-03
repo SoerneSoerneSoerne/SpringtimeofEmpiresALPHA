@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:DMA = {
+		create_character = {
+			# Paul von Lettow-Vorbeck
+			first_name = "Paul"
+			last_name = "vonbeck"
+			historical = yes
+			ruler = yes 
+			age = 55
+			dna = dna_paul_vorbeck
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= north_german
+		}
+		}
+		}

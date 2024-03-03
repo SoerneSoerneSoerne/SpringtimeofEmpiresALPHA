@@ -1,9 +1,67 @@
 ﻿l_english:
 
+# France
+
+ soe_france_events.1.f:0 "The first reports reach our headquarters that German troops have invaded French territory to create a buffer zone. We will soon cleanse the corrupt aristocratic soul of the Teuton."
+ soe_france_events.1.d:0 "The military wants to overturn our election result by force. Pétain and his oligarchs will not suppress the will of the people. Long live the revolution."
+ soe_france_events.1.t:0 "French Civil War"
+ soe_france_events.1.o:0 "Workers of France, unite!"
+
+# Persia
+
+ zoroastrianism:0 "Zoroastrian"
+ relzoro:0 "Revive Zoroastrianism"
+ relzoro_desc:0 "Zoroastrianism is an ancient pre-Islamic Persian religion, because of that it will become the the symbol of Persian nationalism, which will further legitimize our government."
+ zoro_policies:0 "Pro-Zoroastrian Policies"
+ modifier_iran_1:0 "Asserted Iranian Sovereignty"
+ iranname:0 "Assert Iranian Sovereignty"
+ iranname_desc:0 "In an effort to signify a new beginning, we will make our allegiance clear to the world by changing our name to Iran. No longer shall the colonial powers of the west refer to us as Persia."
+ 
+#Guatemala
+ modifier_guat_1:0 "Napoleonic Society"
+ modifier_guat_2:0 "Napoleonic Society"
+ modifier_guat_3:0 "Napoleonic Society"
+ modifier_guat_4:0 "Legacy of Napoleon"
+ modifier_guat_5:0 "Legacy of Napoleon"
+ soe_guat.1.t:0 "Guatemalan General Election"
+ soe_guat.1.d:0 "The recent general elections were held between the 6th and 8th of February. In the presidential election Jorge Ubico was elected unopposed, after the remaining sector of the old Liberal Party did not object to his candidacy, whilst the Conservative Party was too disorganised and discredited from the Lázaro Chacón González era to put forward a candidate. Ubico's Progressive Liberal Party, formed by a union of the two wings of the divided Liberal Party also won the parliamentary election unopposed."
+ soe_guat.1.f:0 "In his inaugural address, the General pledged a "march toward civilization"."
+ soe_guat.1.o:0 "Towards Civilization!"
+ soe_guat.2.t:0 "Little Napoleon"
+ soe_guat.2.d:0 "In a stunning turn of events, Guatemala has witnessed the crowning of a new monarch, as General Jorge Ubico Castañeda ascends the throne as King Jorge I in his ambition to further imitate Napoleon."
+ soe_guat.2.f:0 "The ascent of Ubico to the throne comes amid widespread allegations of coercion and intimidation, with reports emerging of rampant suppression of political opposition in the lead-up to the coronation."
+ soe_guat.2.o:0 "Napoleon?"
+ je_guat_1:0 "Napoleonic Police"
+ je_guat_1_reason:0 "Sadly the rural peasants don't comprehend our ambitions. Someone needs to silence them."
+ je_guat_4:0 "Kingdom of Central America"
+ je_guat_4_reason:0 "What is a King without a Kingdom? The memories of a united Central America still linger on the minds of the people, but this time the union shall stay united under our King."
+ je_guat_5:0 "Empire of Central America"
+ je_guat_5_reason:0 "We shall follow the footseps of l'Empereur! Onwards to civilization!"
+ je_guat_2:0 "Napoleonic Security"
+ je_guat_2_reason:0 "We need spies and agents everywhere, and know everyone's private business to an amazing degree. Not a pin shall drop in Guatemala without us knowing it."
+ je_guat_3:0 "Napoleonic Speech"
+ je_guat_3_reason:0 "Rumors are spreading around the country that l'Empereur is a power hungry tyrant. We should adress these complains."
+ 
+# Laws
+
+ law_disarmed:0 "Disarmed Nation"
+ law_disarmed_desc:0 "The army consists of... what army?"
+ law_private_police:0 "Private Police Force"
+ law_private_police_desc:0 "May the rich protect their property."
+ law_religionpolice:0 "Religious Police Force"
+ law_religionpolice_desc:0 "Our police and their judgement will be guided by god."
+
+
 # Italy
 
  ideology_fiume:0 "Carnarist"
  ideology_fiume:0 " "
+ gov_italy_fiume:0 "Emergency Government"
+ gov_italy_fiume_desc:0 "This is a Government Type where the Country is ruled by a President with absolute power, in order to handle a crisis. After the crisis is over, power “should” be returned to the people."
+ RULER_ITALY:0 "Comandante"
+ soe_italy_events.5.t:0 "Power Struggle"
+ je_italymarinetti_reason:0 "The Commandate's health is failing, so Marinetti is all the more hopeful that the Futurists will seize power, since the old must be eradicated in order to make room for the new. The Commandante will observe his future activities with suspicion. The Futurist tries to portray the liberation of Italy as the accomplishment of his movement, as if he had marched into Rome at the head of the grenadiers. Without taking responsibility, he claims for himself what others have achieved."
+ modifier_cultocommando:0 "Culto Del Comandante"
  ideology_futurist:0 "Futurist"
  ideology_futurist_desc:0 " "
  modifier_organisedcrimefight:0 "Fighting Organised Crime"
@@ -41,7 +99,7 @@
  je_italyethiopia_goal:0 "The Comandante has agreed to launch Operation "Abissinia A""
  je_italyethiopia_tt:0 "The second Italo-Ethiopian war will start."
  je_italyethiopia_progress_button:0 "Launch Operation "Abissinia A""
- je_italyethiopia_reason:0 "After being humiliated in front of the whole world in 1896, the time has come to make up for this failure. The Italian people are more united than ever with our Commandante, so we will fight for our rightful place as a global power in the world."
+ je_italyethiopia_reason:0 "After being humiliated in front of the whole world in 1896, the time has come to make up for this failure. The Italian people are more united than ever with our Comandante, so we will fight for our rightful place as a global power in the world."
  law_state_capitalism_desc:0 "The state plays a dominant role in the market by owning and controlling significant means of production and distribution while allowing for private ownership in some sectors."
  law_corporatism:0 "Corporatism"
  law_corporatism_desc:0 "Corporatism organizes society into hierarchical and functional groups, or corporations, each representing different sectors and interests, with the aim of fostering cooperation and coordination for the collective good."
@@ -83,6 +141,10 @@
  je_remilitarizationitalyone_reason:0 "Italian small arms are famous throughout the entire world for their high quality. But we must also ensure that we have a sufficient supply of weapons for our soldiers, if we wish to ensure the success of our remilitarization plan."
  modifier_greateritaly:0 "Greater Italy"
  treaty_of_vienna:0 "Treaty of Vienna"
+ 
+ # Japan
+ 
+ modifier_stateshinto:0 "State Shintoism"
  
  # League of Nations
  
@@ -226,15 +288,15 @@
  humiliated_greatwar:0 "Humiliated in the Great War"
  
  #Sweden
- ideology_natsoc:0 "National Socialist"
- ideology_natsoc_desc:0 "National Socialism advocates for a centralized, authoritative government, where a leader is entrusted with guiding the nation. This leader holds significant power and serves as a symbol of national unity. Government officials are appointed based on their loyalty to the ideology and dedication to the nation. National Socialism seeks to harness the strength of the people, uniting them under a banner of nationalism and socialism."
+ ideology_natsoc:0 "Folksocialism"
+ ideology_natsoc_desc:0 "Folksocialism advocates for a centralized, authoritative government, where a leader is entrusted with guiding the nation. This leader holds significant power and serves as a symbol of national unity. Government officials are appointed based on their loyalty to the ideology and dedication to the nation."
  modifier_natsocscandinavia:0 "Unified Peoples Republic of Scandinavia"
  dyn_c_natsoc_scandinavia:0 "People's Republic of Scandinavia"
  dyn_c_natsoc_scandinavia_adj:0 "Scandinavian"
  je_engberg:0 "Unify Scandinavia"
  je_engberg_reason:0 "We are all Nordic brothers and sisters. The Swedish state cannot in good conscience sit idly by while our Nordic brethren languish under the oligarchs. It is our imperative to free them from their chains, free from war and tyranny."
  RULER_SWEDEN:0 "Ledare"
- gov_sweden_natsoc:0 "National Socialist State"
+ gov_sweden_natsoc:0 "Folksocialist State"
  gov_sweden_natsoc_desc:0 " "
  invade_denmark:0 "Operation Rädda Danmark"
  invade_denmark_desc:0 "Denmark's strategic position between the Baltic and North Sea gives it an unacceptable level of control over our national security. The only way to ensure they do not betray us, is by integrating them into our People's Republic."

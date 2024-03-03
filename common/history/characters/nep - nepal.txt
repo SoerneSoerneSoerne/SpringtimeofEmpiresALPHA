@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:NEP = {
+		create_character = {
+			# Tribhuvan Bir Bikram Shah
+			first_name = "Tribhuvan"
+			last_name = "Tribhuvan1"
+			historical = yes
+			ruler = yes
+			age = 19
+			dna = dna_tribhuvan
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= nepali
+		}	
+	}
+}

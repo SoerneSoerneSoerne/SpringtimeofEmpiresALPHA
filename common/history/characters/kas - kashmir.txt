@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KAS = {
+		create_character = {
+			# Hari Singh
+			first_name = "Hari"
+			last_name = "Singh"
+			historical = yes
+			ruler = yes
+			age = 30
+			dna = dna_singh
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= kashmiri
+		}	
+	}
+}

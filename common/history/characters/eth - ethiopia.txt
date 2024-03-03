@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:ETH = {
+		create_character = {
+			# Abba Mechal
+			first_name = "Abba"
+			last_name = "Mechal"
+			historical = yes
+			ruler = yes 
+			age = 74
+			dna = dna_abba_mechal
+			interest_group = ig_armed_forces
+			ideology= ideology_royalist
+			culture= oromo
+		}
+		}
+		}

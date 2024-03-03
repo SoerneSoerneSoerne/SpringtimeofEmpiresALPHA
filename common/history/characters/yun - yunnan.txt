@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:YUN = {
+		create_character = {
+			# Hu Ruoyu
+			first_name = "Hu"
+			last_name = "Ruoyu"
+			historical = yes
+			ruler = yes 
+			age = 31
+			dna = dna_ruoyu
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= han
+		}
+		}
+		}

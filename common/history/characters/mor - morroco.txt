@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:MOR = {
+		create_character = {
+			# Abd el-Krim
+			first_name = "Abd1"
+			last_name = "Abd2"
+			historical = yes
+			ruler = yes 
+			age = 43
+			dna = dna_abd_krim
+			interest_group = ig_armed_forces
+			ideology= ideology_jingoist_leader
+			culture= maghrebi
+		}
+		}
+		}

@@ -1225,6 +1225,16 @@ SIZ_FLAG = {
 	}
 }
 
+MPR_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_commgolia.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}
+}
+
 DSW_FLAG = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -1245,6 +1255,26 @@ DMA_FLAG = {
 	}
 }
 
+FNR_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_petain.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}
+}
+
+FFR_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_frankfurtrep.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}
+}
+
 ASH_FLAG = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -1254,6 +1284,17 @@ ASH_FLAG = {
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
 	}
 }
+
+KAR_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_karelia.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}
+}
+
 
 ASH_absolute_monarchy = {
 	# Something looking less modern for the starting flag
@@ -6821,37 +6862,16 @@ ECU_subject_USA = {
     }
 }
 
-ELS = { # El Salvador
-	# 1865 design (UCA flag before that)
-	
+ELS_FLAG = {
 	pattern = "pattern_solid.tga"
-	color1 = "white"
+	color1 = "grey"
 
-	colored_emblem = {
-		texture = "ce_stripes_9.dds"
-		color1 = "blue"
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { scale = { @third @uru_canton_height } position = { @[third/2] @[uru_canton_height/2] } }
-	}
-	colored_emblem = {
-		texture = "ce_star_05.dds"
-		color1 = "white"
-		color2 = "white"
-		instance = { scale = { 0.15 0.15 } position = { 0.075 0.125 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.166 0.125 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.258 0.125 } }		
-		instance = { scale = { 0.15 0.15 } position = { 0.075 0.275 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.166 0.275 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.258 0.275 } }	
-		instance = { scale = { 0.15 0.15 } position = { 0.075 0.425 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.166 0.425 } }
-		instance = { scale = { 0.15 0.15 } position = { 0.258 0.425 } }			
+	textured_emblem = {
+		texture = "te_coa_salvador.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
 	}
 }
+
 
 ENG = {
 	pattern = "pattern_solid.tga"
@@ -8798,18 +8818,36 @@ GRN = {
 	}
 }
 
-GUA = { # Guatemala
-	# Since 1871 
-	
+GUA_FLAG = {
 	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
+	color1 = "red"
 
-	colored_emblem = {
-		texture = "ce_tricolor_vertical.dds"
-		color1 = "white"
-		color2 = "blue_light"
+	textured_emblem = {
+		texture = "te_coa_guatemala.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
 	}
 }
+
+PER_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_iran.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}
+}
+
+COS_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_costarica.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}
+}
+
 GUA_absolute_monarchy = {
 	# more or less the 1851 design
 	
@@ -15468,22 +15506,16 @@ NGF_fascist = {
 	}	
 }
 
-NIC = { # Nicaragua
-	# design adopted 1838 
-	
+NIC_FLAG = {
 	pattern = "pattern_solid.tga"
-	color1 = "blue_light"
-	
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = "white"
-		color2 = "blue_light"
-	}	
+	color1 = "grey"
+
 	textured_emblem = {
 		texture = "te_coa_nicaragua.dds"
-		instance = { scale = { 0.40 0.40 } position = { 0.5 0.5 } }
-	}	
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}
 }
+
 NIC_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -21483,24 +21515,14 @@ TRS = {
 	}
 }
 
-TUN = { # Tunis
+TUN_FLAG = {
 	pattern = "pattern_solid.tga"
-	color1 = "blue"
-	color2 = "red"
-	color3 = "green"
+	color1 = "red"
 
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { position = { 0.5 0.5 } scale = { 1.0 @[1/5*3] } }
+	textured_emblem = {
+		texture = "te_coa_tunisita.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
 	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = "green"
-		color2 = "green"
-		instance = { position = { 0.5 0.5 } scale = { 1.0 @[1/5] } }
-	}	
 }
 
 TUR = {

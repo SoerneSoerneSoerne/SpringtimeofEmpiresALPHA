@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:TIB = {
+		create_character = {
+			# Thubten Gyatsho
+			first_name = "Thubten"
+			last_name = "Gyatsho"
+			historical = yes
+			ruler = yes
+			age = 49
+			dna = dna_gyatsho
+			interest_group = ig_devout
+			ideology = ideology_theocrat
+			culture= tibetan
+		}	
+	}
+}

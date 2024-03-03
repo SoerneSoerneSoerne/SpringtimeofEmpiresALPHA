@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:JAB = {
+		create_character = {
+			# Muhammad bin Talal Al Rashid
+			first_name = "Muhammad"
+			last_name = "Jaballeader"
+			historical = yes
+			ruler = yes
+			age = 21
+			dna = dna_mehmed
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= bedouin
+		}	
+	}
+}

@@ -13,6 +13,22 @@
 			type = customs_union
 		}		
 	}
+	c:TUR = {	
+		create_diplomatic_pact = {
+			country = c:JAB
+			type = customs_union
+		}	
+		create_diplomatic_pact = {
+			country = c:YEM
+			type = customs_union
+		}	
+	}
+	c:RUS = {	
+		create_diplomatic_pact = {
+			country = c:MPR
+			type = customs_union
+		}	
+	}
 	c:LON = {	
 		create_diplomatic_pact = {
 			country = c:LAT

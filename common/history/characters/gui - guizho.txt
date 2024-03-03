@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:GUI = {
+		create_character = {
+			# Yuan Zuming
+			first_name = "Yuan"
+			last_name = "Zuming"
+			historical = yes
+			ruler = yes 
+			age = 36
+			dna = dna_yuan
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= han
+		}
+		}
+		}

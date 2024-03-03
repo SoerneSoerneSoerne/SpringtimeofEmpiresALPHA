@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:KOK = {
+		create_character = {
+			# Nusratullo Maksum
+			first_name = "Nusratullo"
+			last_name = "Maksum"
+			historical = yes
+			ruler = yes 
+			age = 44
+			dna = dna_maksum
+			interest_group = ig_trade_unions
+			ideology= ideology_vanguardist
+			culture= tajik			
+		}
+		}
+		}

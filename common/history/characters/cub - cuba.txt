@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:CUB = {
+		create_character = {
+			# Gerardo Machado
+			first_name = "Gerardo"
+			last_name = "Machado"
+			historical = yes
+			ruler = yes 
+			age = 56
+			dna = dna_gerardo_machado
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= central_american
+		}
+		}
+		}

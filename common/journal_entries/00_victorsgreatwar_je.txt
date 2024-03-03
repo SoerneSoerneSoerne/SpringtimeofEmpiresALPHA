@@ -3,6 +3,7 @@
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/soldierprussian.dds"
     is_shown_when_inactive = {
+	exists = c:GER
         c:GER = ROOT
     }
     possible = {
@@ -15,7 +16,6 @@ group = je_group_historical_content
             is_building_type = building_arms_industry
             OR = {
                 has_active_production_method = pm_rifles
-                has_active_production_method = pm_smoothbores
             }
             level >= 5
             occupancy >= 0.50
@@ -37,6 +37,7 @@ je_victorsgreatwarbundeswehr = {
 group = je_group_historical_content
     icon = "gfx/interface/icons/event_icons/bundeswehr.dds"
     is_shown_when_inactive = {
+	exists = c:GER
         c:GER = ROOT
     }
     possible = {

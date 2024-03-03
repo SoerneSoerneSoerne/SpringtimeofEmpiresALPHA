@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:JAP = {
+		create_character = {
+			# Yoshihito 
+			first_name = "Yoshihito"
+			last_name = "Nothing"
+			historical = yes
+			ruler = yes 
+			age = 46
+			dna = dna_yoshihito
+			interest_group = ig_intelligentsia
+			ideology= ideology_royalist
+			culture= japanese
+		}
+		}
+		}

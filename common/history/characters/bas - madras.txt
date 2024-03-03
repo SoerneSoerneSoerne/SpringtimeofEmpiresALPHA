@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:BAS = {
+		create_character = {
+			# Varahaneri Venkatesa Subramaniam Aiyar
+			first_name = "Aiyar1"
+			last_name = "Aiyar"
+			historical = yes
+			ruler = yes 
+			age = 44
+			dna = dna_aiyar
+			interest_group = ig_trade_unions
+			ideology= ideology_anarchist
+			culture= telegu		
+		}
+		}
+		}

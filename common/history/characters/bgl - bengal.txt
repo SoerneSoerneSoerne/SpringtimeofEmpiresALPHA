@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:BGL = {
+		create_character = {
+			# Anantahari Mitra
+			first_name = "Anantahari"
+			last_name = "Mitra"
+			historical = yes
+			ruler = yes 
+			age = 19
+			dna = dna_mitra
+			interest_group = ig_rural_folk
+			ideology= ideology_social_democrat
+			culture= bengali
+		}
+		}
+		}

@@ -502,11 +502,27 @@ ASH = { # British Kenya
 	}
 }
 
+KAR = { # KARELIA
+	flag_definition = {
+		coa = KAR_FLAG
+		subject_canton = KAR_FLAG
+		priority = 1000
+	}
+}
+
 SIZ = { # Suez
 	flag_definition = {
 		coa = SIZ_FLAG
 		subject_canton = SIZ_FLAG
 		priority = 1000
+	}
+}
+
+MPR = { # Communist Mongol
+	flag_definition = {
+		coa = MPR_FLAG
+		subject_canton = MPR_FLAG
+		priority = 5000
 	}
 }
 
@@ -523,6 +539,22 @@ DMA = { # Mittelafrika
 		coa = DMA_FLAG
 		subject_canton = DMA_FLAG
 		priority = 1000
+	}
+}
+
+FNR = { # Petain
+	flag_definition = {
+		coa = FNR_FLAG
+		subject_canton = FNR_FLAG
+		priority = 5000
+	}
+}
+
+FFR = { # Frankfurter Republik
+	flag_definition = {
+		coa = FFR_FLAG
+		subject_canton = FFR_FLAG
+		priority = 5000
 	}
 }
 
@@ -2149,23 +2181,6 @@ COR = { # Corsica
 	}
 }
 
-COS = { # Costa Rica
-	flag_definition = {
-		coa = COS
-		subject_canton = COS	
-		allow_overlord_canton = yes		
-		coa_with_overlord_canton = COS_subject			
-		priority = 1
-	}
-	flag_definition = {
-		coa = COS_subject_MEX
-		priority = 30
-		trigger = { 
-			coa_def_mexican_ensign_trigger = yes
-		}
-	}	
-}
-
 CRE = { # Crete
 	flag_definition = {
 		coa = CRE
@@ -2836,15 +2851,14 @@ EGY = { # Egypt
 	}		
 }
 
-ELS = { # El Salvador
+ELS = { 
 	flag_definition = {
-		coa = ELS
-		subject_canton = ELS
-		allow_overlord_canton = yes			
-		priority = 1
-		overlord_canton_scale = { 0.334 0.558 }				
+		coa = ELS_FLAG
+		subject_canton = ELS_FLAG
+		priority = 1000
 	}
 }
+
 
 ENG = { # England
 	flag_definition = {
@@ -3609,41 +3623,26 @@ GRE = { # Greece
 
 GUA = { # Guatemala
 	flag_definition = {
-		coa = GUA
-		allow_overlord_canton = yes	
-		coa_with_overlord_canton = GUA_subject	
-		overlord_canton_scale = { 0.337 0.5 }		
-		subject_canton = GUA
-		priority = 1
+		coa = GUA_FLAG
+		subject_canton = GUA_FLAG
+		priority = 1000
 	}
+}
+
+PER = { # IRAN
 	flag_definition = {
-		coa = GUA_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}	
+		coa = PER_FLAG
+		subject_canton = PER_FLAG
+		priority = 1000
+	}
+}
+
+COS = { # COSTA RICA
 	flag_definition = {
-		coa = GUA_absolute_monarchy
-		priority = 10
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = GUA_subject_SPA
-		priority = 30
-		trigger = { 
-			coa_def_spanish_ensign_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = GUA_subject_MEX
-		priority = 30
-		trigger = { 
-			coa_def_mexican_ensign_trigger = yes
-		}
-	}		
+		coa = COS_FLAG
+		subject_canton = COS_FLAG
+		priority = 1000
+	}
 }
 
 GWA = { # Gwalior
@@ -6205,22 +6204,14 @@ NGF = { # North Germany
 	}	
 }
 
-NIC = { # Nicaragua
+NIC = { 
 	flag_definition = {
-		coa = NIC
-		subject_canton = NIC	
-		coa_with_overlord_canton = NIC_subject	
-		allow_overlord_canton = yes		
-		priority = 1
+		coa = NIC_FLAG
+		subject_canton = NIC_FLAG
+		priority = 1000
 	}
-	flag_definition = {
-		coa = NIC_subject_MEX
-		priority = 30
-		trigger = { 
-			coa_def_mexican_ensign_trigger = yes
-		}
-	}	
 }
+
 
 NNV = { # Nunavut
 	flag_definition = {
@@ -6732,66 +6723,6 @@ PAT = { # Patagonia
 		subject_canton = PAT
 		priority = 1
 	}
-}
-
-PER = { # Persia
-	flag_definition = {
-		coa = PER
-		subject_canton = PER
-		allow_overlord_canton = yes	
-		coa_with_overlord_canton = PER_subject			
-		priority = 1
-	}
-	flag_definition = {
-		coa = PER_absolute_monarchy
-		subject_canton = PER_absolute_monarchy
-		allow_overlord_canton = yes	
-		coa_with_overlord_canton = PER_subject			
-		priority = 20
-		trigger = { 
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = PER_republic
-		subject_canton = PER_republic
-		priority = 10
-		trigger = { 
-			coa_def_republic_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = PER_dictatorship
-		subject_canton = PER_dictatorship
-		priority = 20
-		trigger = {
-			coa_def_dictatorship_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = PER_theocracy
-		subject_canton = PER_theocracy
-		priority = 20
-		trigger = { 
-			coa_def_theocracy_flag_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = PER_fascist
-		subject_canton = PER_fascist
-		priority = 1500
-		trigger = { 
-			coa_def_fascist_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = PER_subject_GBR
-		allow_overlord_canton = yes		
-		priority = 50
-		trigger = { 
-			coa_def_british_ensign_trigger = yes
-		}
-	}	
 }
 
 PEU = { # Peru
@@ -8342,13 +8273,11 @@ TSW = { # Botswana
 	}	
 }
 
-TUN = { # Tunis
+TUN = { # TUNIS
 	flag_definition = {
-		coa = TUN
-		allow_overlord_canton = yes			
-		subject_canton = TUN
-		overlord_canton_scale = { 0.402 0.402 }			
-		priority = 1
+		coa = TUN_FLAG
+		subject_canton = TUN_FLAG
+		priority = 1000
 	}
 }
 
@@ -8481,6 +8410,45 @@ TUS = { # Tuscany
 }	
 
 UCA = { # Central America
+	flag_definition = {
+		coa = UCA
+		subject_canton = UCA
+		coa_with_overlord_canton = UCA_subject
+		allow_overlord_canton = yes				
+		priority = 1
+	}
+	flag_definition = {
+		coa = UCA_dictatorship
+		subject_canton = UCA_dictatorship
+		priority = 20
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = UCA_subject_SPA
+		priority = 30
+		trigger = { 
+			coa_def_spanish_ensign_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = UCA_communist
+		priority = 1500
+		trigger = { 
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = UCA_subject_USA
+		priority = 50
+		trigger = { 
+			coa_def_american_ensign_trigger = yes
+		}
+	}		
+}
+
+UCB = { # Central America Empire
 	flag_definition = {
 		coa = UCA
 		subject_canton = UCA

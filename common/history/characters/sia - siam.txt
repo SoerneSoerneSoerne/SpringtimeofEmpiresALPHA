@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:SIA = {
+		create_character = {
+			# Rama VII
+			first_name = "Rama"
+			last_name = "VII"
+			historical = yes
+			ruler = yes
+			age = 32
+			dna = dna_rama
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= thai
+		}	
+	}
+}

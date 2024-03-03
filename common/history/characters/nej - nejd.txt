@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:NEJ = {
+		create_character = {
+			# Abdulaziz bin Abdul Rahman Al Saud
+			first_name = "Abdulaziz"
+			last_name = "Abdulazizlastname"
+			historical = yes
+			ruler = yes
+			age = 50
+			dna = dna_ibnsaud
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= bedouin
+		}	
+	}
+}

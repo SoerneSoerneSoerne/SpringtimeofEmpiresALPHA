@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:PER = {
+		create_character = {
+			# Reza Shah
+			first_name = "Reza"
+			last_name = "Pahlavi"
+			historical = yes
+			ruler = yes 
+			age = 47
+			dna = dna_reza_shah
+			interest_group = ig_armed_forces
+			ideology= ideology_royalist
+			culture= persian
+		}
+		}
+		}

@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:USS = {
+		create_character = {
+			# Grigory Petrovsky
+			first_name = "Grigory"
+			last_name = "Petrovsky"
+			historical = yes
+			ruler = yes 
+			age = 47
+			dna = dna_petrovsky
+			interest_group = ig_trade_unions
+			ideology= ideology_vanguardist
+			culture= ukrainian			
+		}
+		}
+		}

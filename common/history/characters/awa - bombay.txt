@@ -1,0 +1,17 @@
+CHARACTERS = {
+	c:AWA = {
+		create_character = {
+			# Bhikaiji Cama
+			first_name = "Bhikaiji"
+			last_name = "Cama"
+			historical = yes
+			ruler = yes 
+			female = yes
+			age = 64
+			dna = dna_cama
+			interest_group = ig_landowners
+			ideology = ideology_social_democrat
+			culture= marathi
+		}
+		}
+		}

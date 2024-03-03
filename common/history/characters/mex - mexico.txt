@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MEX = {
+		create_character = {
+			# Plutarco Elías Calles
+			first_name = "Plutarco"
+			last_name = "Calles"
+			historical = yes
+			ruler = yes
+			age = 48
+			dna = dna_plutarco_calles
+			interest_group = ig_trade_unions
+			ideology = ideology_land_reformer
+			culture= mexican
+		}	
+	}
+}

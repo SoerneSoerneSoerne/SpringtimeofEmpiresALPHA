@@ -68,3 +68,173 @@ soe_italy_events.3 = { ### Ticino
     }
 	} 
 }
+
+soe_italy_events.4 = { ### German Occupation
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_italy_events.4.t desc = soe_italy_events.4.d flavor = soe_italy_events.4.f
+	event_image = { texture = "gfx/event_pictures/hungary.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:ITA
+		c:ITA = ROOT
+		owns_entire_state_region = STATE_BRANDENBURG
+		NOT = { has_variable = soe_secondwar_1_end_flag }
+	}
+	immediate = { set_variable = soe_secondwar_1_end_flag }
+	option = { name = soe_italy_events.4.o
+	 default_option = yes
+	 create_country = { tag = AUS origin = c:ITA
+			state = s:STATE_STYRIA.region_state:ITA
+			state = s:STATE_TYROL.region_state:ITA
+			state = s:STATE_AUSTRIA.region_state:ITA
+			on_created = {
+				c:ITA = { create_diplomatic_pact = { country = PREV type = puppet } }
+			}
+		}
+	create_country = { tag = FFR origin = c:ITA
+			state = s:STATE_BAVARIA.region_state:ITA
+			state = s:STATE_FRANCONIA.region_state:ITA
+			state = s:STATE_BRANDENBURG.region_state:ITA
+			state = s:STATE_SILESIA.region_state:ITA
+			state = s:STATE_POMERANIA.region_state:ITA
+			state = s:STATE_MECKLENBURG.region_state:ITA
+			state = s:STATE_SCHLESWIG_HOLSTEIN.region_state:ITA
+			state = s:STATE_ANHALT.region_state:ITA
+			state = s:STATE_SAXONY.region_state:ITA
+			state = s:STATE_BRUNSWICK.region_state:ITA
+			state = s:STATE_HANNOVER.region_state:ITA
+			state = s:STATE_ELBE.region_state:ITA
+			state = s:STATE_WESTPHALIA.region_state:ITA
+			state = s:STATE_RUHR.region_state:ITA
+			state = s:STATE_HESSE.region_state:ITA
+			state = s:STATE_BADEN.region_state:ITA
+			state = s:STATE_WURTTEMBERG.region_state:ITA
+			on_created = { c:FFR = { activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_universal_suffrage
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_censorship 
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_tenant_farmers } }
+		}
+	create_country = { tag = BOH origin = c:ITA
+			state = s:STATE_MORAVIA.region_state:ITA
+			state = s:STATE_BOHEMIA.region_state:ITA
+			on_created = { c:BOH = { activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_universal_suffrage
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_censorship # The July Monarchy was already backtracking on promises made in 1830
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_tenant_farmers } }
+		}
+	create_country = { tag = PRU origin = c:ITA
+			state = s:STATE_POSEN.region_state:ITA
+			state = s:STATE_WEST_PRUSSIA.region_state:ITA
+			state = s:STATE_EAST_PRUSSIA.region_state:ITA
+			state = s:STATE_GREATER_POLAND.region_state:ITA
+			state = s:STATE_MAZOVIA.region_state:ITA
+			on_created = { c:PRU = { activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_free_trade
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_guaranteed_liberties} }
+		}
+	create_country = { tag = RHE origin = c:ITA
+			state = s:STATE_RHINELAND.region_state:ITA
+			state = s:STATE_NORTH_RHINE.region_state:ITA
+			on_created = {
+				c:FRA = { create_diplomatic_pact = { country = PREV type = puppet } }
+				c:RHE = { activate_law = law_type:law_council_republic
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_collectivized_agriculture
+		activate_law = law_type:law_graduated_taxation
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_command_economy
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_women_in_the_workplace
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_militarized_police
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_public_health_insurance
+		activate_law = law_type:law_regulatory_bodies
+		activate_law = law_type:law_compulsory_primary_school
+		activate_law = law_type:law_old_age_pension
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_slavery_banned }
+			}
+		}
+	s:STATE_WALLONIA.region_state:ITA = {
+        set_state_owner = c:FRA
+    }
+	s:STATE_LORRAINE.region_state:ITA = {
+        set_state_owner = c:FRA
+    }
+	s:STATE_ALSACE_LORRAINE.region_state:ITA = {
+        set_state_owner = c:FRA
+    }
+	}
+}
+
+soe_italy_events.5 = { # Startup event
+	type = country_event
+	placement = ROOT
+
+	title = soe_italy_events.5.t
+	desc = soe_italy_events.5.d
+	flavor = soe_italy_events.5.f
+
+	event_image = { texture = "gfx/event_pictures/austriaprussia.dds" }
+
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/2Characters"
+
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+
+	duration = 3
+
+	option = { 
+		name = soe_italy_events.5.a
+		add_modifier = modifier_cultocommando
+	}
+}

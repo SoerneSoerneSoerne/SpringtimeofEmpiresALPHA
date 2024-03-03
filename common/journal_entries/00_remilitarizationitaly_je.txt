@@ -13,7 +13,6 @@
             is_building_type = building_arms_industry
             OR = {
                 has_active_production_method = pm_rifles
-                has_active_production_method = pm_smoothbores
             }
             level >= 8
             occupancy >= 0.50

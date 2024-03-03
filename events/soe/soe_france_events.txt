@@ -1,0 +1,42 @@
+﻿namespace = soe_france_events
+
+soe_france_events.1 = { ### Piedmont Remilitarization
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_france_events.1.t desc = soe_france_events.1.d flavor = soe_france_events.1.f
+	event_image = { texture = "gfx/event_pictures/frenchcivilwar.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:FNR
+		c:FRA = ROOT
+		NOT = { has_variable = soe_france_1_end_flag }
+	}
+	immediate = { set_variable = soe_france_1_end_flag }
+	option = { name = soe_france_events.1.o
+		default_option = yes
+		create_diplomatic_play = {
+            name = frenchcivilwar
+            target_country = c:FNR
+                type = dp_humiliation
+                war = yes
+				add_war_goal = {
+                    holder = c:FRA
+                    type = annex_country
+                    target_country = c:FNR
+                }
+				add_war_goal = {
+                    holder = c:FNR
+                    type = annex_country
+                    target_country = c:FRA
+                }
+        }
+		s:STATE_ALSACE_LORRAINE.region_state:FNR = {
+        set_state_owner = c:GER
+    }
+	s:STATE_LORRAINE.region_state:FNR = {
+        set_state_owner = c:GER
+    }
+	} 
+}

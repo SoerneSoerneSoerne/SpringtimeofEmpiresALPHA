@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ALB = {
+		create_character = {
+			# Ahmed Zogu
+			first_name = "Ahmed"
+			last_name = "Zogu"
+			historical = yes
+			ruler = yes
+			age = 30
+			dna = dna_zog
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= albanian
+		}	
+	}
+}

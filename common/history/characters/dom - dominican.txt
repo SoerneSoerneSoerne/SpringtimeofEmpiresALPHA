@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:DOM = {
+		create_character = {
+			# Horacio Vásquez
+			first_name = "Horacio"
+			last_name = "Vasquez"
+			historical = yes
+			ruler = yes 
+			age = 65
+			dna = dna_horacio_vasquez
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= afro_caribeno
+		}
+		}
+		}

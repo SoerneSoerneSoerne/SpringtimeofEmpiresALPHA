@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:ECU = {
+		create_character = {
+			# Juan Ignacio Pareja
+			first_name = "Juan"
+			last_name = "Ignacio2"
+			historical = yes
+			ruler = yes 
+			age = 44
+			dna = dna_juan_pareja
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= north_andean
+		}
+		}
+		}

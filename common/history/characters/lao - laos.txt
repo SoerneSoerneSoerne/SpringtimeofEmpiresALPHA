@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:LAO = {
+		create_character = {
+			# Sisavangvong
+			first_name = "Sisavangvong"
+			last_name = "Nothing"
+			historical = yes
+			ruler = yes
+			age = 41
+			dna = dna_vong
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= lao
+		}	
+	}
+}

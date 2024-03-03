@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:EST = {
+		create_character = {
+			# Jaan Teemant
+			first_name = "Jaan"
+			last_name = "Teemant"
+			historical = yes
+			ruler = yes 
+			age = 53
+			dna = dna_jaan_teemant
+			interest_group = ig_rural_folk
+			ideology= ideology_republican_leader
+			culture= estonian
+		}
+		}
+		}

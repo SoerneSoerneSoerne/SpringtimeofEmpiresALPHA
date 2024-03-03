@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:FTJ = {
+		create_character = {
+			# Robert Paul Marie de Guise
+			first_name = "Robert"
+			last_name = "Paulfrance"
+			historical = yes
+			ruler = yes 
+			age = 53
+			dna = dna_robert_guise
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= french
+		}
+		}
+		}

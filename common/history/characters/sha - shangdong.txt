@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:SHA = {
+		create_character = {
+			# Duan Qirui
+			first_name = "Duan"
+			last_name = "Qirui"
+			historical = yes
+			ruler = yes 
+			age = 60
+			dna = dna_xishan
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= han
+		}
+		}
+		}

@@ -124,3 +124,132 @@ soe_ai.3 = { ### Ukraine Makhno
         }
 	}
 }
+
+soe_ai.4 = { ### Chaco War
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_ai.4.t desc = soe_ai.4.d flavor = soe_ai.4.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:PRG
+		c:PRG = ROOT
+		is_ai = yes
+		game_date >= 1932.06.15
+		NOT = { has_variable = soe_ai_4_end_flag }
+	}
+	immediate = { set_variable = soe_ai_4_end_flag }
+	option = { name = soe_ai.4.o
+		create_diplomatic_play = {
+            name = chacowar
+            target_country = c:BOL
+                type = dp_humiliation
+                war = yes
+				add_war_goal = {
+                    holder = c:PRG
+                    type = conquer_state
+                    target_state = s:STATE_ALTO_PARAGUAY.region_state:BOL
+                }
+				add_war_goal = {
+                    holder = c:BOL
+                    type = make_protectorate
+                    target_country = c:PRG
+                }
+        }
+	}
+}
+
+soe_ai.5 = { ### Nigeria War
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_ai.5.t desc = soe_ai.5.d flavor = soe_ai.5.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:SOK
+		c:SOK = ROOT
+		is_ai = yes
+		game_date >= 1930.02.01
+		NOT = { has_variable = soe_ai_5_end_flag }
+	}
+	immediate = { set_variable = soe_ai_5_end_flag }
+	option = { name = soe_ai.5.o
+		create_diplomatic_play = {
+            name = nigeria
+            target_country = c:BDN
+                type = dp_humiliation
+                war = yes
+				add_war_goal = {
+                    holder = c:SOK
+                    type = annex_country
+                    target_country = c:BDN
+                }
+				add_war_goal = {
+                    holder = c:BDN
+                    type = annex_country
+                    target_country = c:SOK
+                }
+        }
+	}
+}
+
+soe_ai.6 = { ### Italian Anschluss
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_ai.6.t desc = soe_ai.6.d flavor = soe_ai.6.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:ITA
+		c:ITA = ROOT
+		is_ai = yes
+		game_date >= 1929.04.01
+		NOT = { has_variable = soe_ai_6_end_flag }
+	}
+	immediate = { set_variable = soe_ai_6_end_flag }
+	option = { name = soe_ai.6.o
+            default_option = yes
+		 c:ITA = { annex_with_incorporation = c:VEN }
+		add_loyalists = {
+			value = 0.05
+		}
+		change_relations = {
+   	country = c:GER
+   	value = -10
+   }
+   change_relations = {
+   	country = c:FRA
+   	value = -10
+   }
+	} 
+}
+
+soe_ai.7 = { ### french communist
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_ai.7.t desc = soe_ai.7.d flavor = soe_ai.7.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:FRA
+		c:FRA = ROOT
+		c:ITA = { is_player = yes }
+		is_ai = yes
+		game_date >= 1933.05.01
+		NOT = { has_variable = soe_ai_6_end_flag }
+	}
+	immediate = { set_variable = soe_ai_6_end_flag }
+	option = { name = soe_ai.7.o
+            default_option = yes
+		 activate_law = law_type:law_council_republic
+            activate_law = law_type:law_cooperative_ownership
+	} 
+}

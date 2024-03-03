@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:WAD = {
+		create_character = {
+			# Édouard Hesling
+			first_name = "Edouard"
+			last_name = "Hesling"
+			historical = yes
+			ruler = yes 
+			age = 56
+			dna = dna_edouard_hes
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= french
+		}
+		}
+		}

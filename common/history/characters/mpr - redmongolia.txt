@@ -1,0 +1,21 @@
+CHARACTERS = {
+	c:MPR = {
+		create_character = {
+			# Balingiin Tserendorj
+			first_name = "Balingiin"
+			last_name = "Tserendorj"
+			historical = yes
+			ruler = yes 
+			age = 57
+			dna = dna_tserendorj_balingiin
+			interest_group = ig_trade_unions
+			ideology= ideology_vanguardist
+			culture= mongol
+			traits = {
+			}
+			on_created = {
+				set_variable = is_married
+			}			
+		}
+		}
+		}

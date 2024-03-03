@@ -53,6 +53,17 @@ DMA = {
 	capital = STATE_ZANZIBAR
 }
 
+FFR = {
+	color = { 152 148 144 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_german south_german }
+	capital = STATE_HESSE
+}
+
 DOA = {
 	color = { 172 128 140 }
 	
@@ -218,6 +229,17 @@ FRA = {
 	capital = STATE_ILE_DE_FRANCE
 }
 
+FNR = {
+	color = { 10  40  200 }
+
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { french }
+	capital = STATE_LORRAINE
+}
+
 PRU = {
 	color = { 0 49 83 }
 	
@@ -353,7 +375,7 @@ GRI = {
 }
 
 JAP = {
-	color = { 194 53 60 }
+	color = { 255 191 191 }
 	country_type = recognized
 	
 	tier = empire
@@ -424,7 +446,7 @@ KAR = {
 
 	tier = principality
 	
-	cultures = { finnish }
+	cultures = { finnish ugrian }
 	capital = STATE_EAST_KARELIA
 }
 
@@ -1568,7 +1590,7 @@ NEJ = {
 }
 
 OMA = {
-	color = { 98  134  153 }
+	color = { 155  101  107 }
 	
 	country_type = unrecognized
 	
@@ -1603,7 +1625,7 @@ JAB = {
 }
 
 YEM = {
-	color = { 255  191  191 }
+	color = { 155  101  107 }
 	
 	country_type = unrecognized
 	
@@ -2211,7 +2233,7 @@ TIB = {
 }
 
 MGL = {
-	color = { 119 119 0 }
+	color = { 129 129 0 }
 	
 	country_type = unrecognized
 	
@@ -2219,6 +2241,17 @@ MGL = {
 	
 	cultures = { mongol }
 	capital = STATE_URGA
+}
+
+MPR = {
+	color = { 49 89 18 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { mongol }
+	capital = STATE_ULIASTAI
 }
 
 XIN = {
@@ -2312,7 +2345,7 @@ COS = {
 }
 
 CUB = {
-	color = { 87  192  204 }
+	color = { 152  130  191 }
 	
 	country_type = colonial
 	
@@ -2552,6 +2585,17 @@ UCA = {
 	country_type = colonial
 	
 	tier = kingdom
+	
+	capital = STATE_SAN_SALVADOR
+	cultures = { central_american }
+}
+
+UCB = {
+	color = { 85 125 235 }
+	
+	country_type = colonial
+	
+	tier = empire
 	
 	capital = STATE_SAN_SALVADOR
 	cultures = { central_american }
@@ -3124,7 +3168,7 @@ HZJ = { # Hazarajat
 }
 
 TRC = { # Turkmenia
-	color = { 165 117 208 }
+	color = { 33  110  20 }
 	
 	country_type = unrecognized
 	
@@ -3857,7 +3901,7 @@ SHA = { #Shandong
 }
 
 XIB = {
-	color = { 68 144 212 }
+	color = { 137 96 194 }
 	country_type = unrecognized
 	tier = kingdom
 	cultures = { han tibetan }

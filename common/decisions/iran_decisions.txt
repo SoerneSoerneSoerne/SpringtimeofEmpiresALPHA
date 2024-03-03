@@ -1,0 +1,55 @@
+﻿relzoro = {
+	is_shown = {
+		exists = c:PER
+		c:PER = ROOT
+		NOT = { has_variable = zoro }
+	}
+
+	possible = {
+		has_law = law_type:law_national_supremacy
+		has_law = law_type:law_autocracy
+		has_law = law_type:law_total_separation
+	}
+
+	when_taken = {
+	set_variable = zoro
+        recalculate_pop_ig_support = yes
+		set_state_religion = rel:zoroastrianism
+		add_modifier = {
+			name = zoro_policies
+			months = long_modifier_time
+		}
+		activate_law = law_type:law_freedom_of_conscience
+			every_scope_state = {
+				limit = {
+					is_incorporated = yes
+				}
+				convert_population = {
+					target = rel:zoroastrianism
+					value = 0.15
+				}
+		}
+	}
+}
+
+iranname = {
+	is_shown = {
+		exists = c:PER
+		c:PER = ROOT
+		NOT = { has_variable = iranname }
+	}
+
+	possible = {
+		game_date >= 1935.03.25
+	}
+
+	when_taken = {
+	activate_law = law_type:law_presidential_republic
+	activate_law = law_type:law_monarchy
+	set_variable = iranname
+		add_modifier = modifier_iran_1
+	}
+	ai_chance = {
+		base = 100		
+	}
+}

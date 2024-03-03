@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:GIB = {
+		create_character = {
+			# José Calvo Sotelo
+			first_name = "Jose"
+			last_name = "Calvosat"
+			historical = yes
+			ruler = yes 
+			age = 32
+			dna = dna_sotelo
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= spanish
+		}
+		}
+		}

@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:SGU = {
+		create_character = {
+			# Jules Marcel de Coppet
+			first_name = "Jules"
+			last_name = "Marcelcope"
+			historical = yes
+			ruler = yes 
+			age = 44
+			dna = dna_jules_coppet
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= french
+		}
+		}
+		}

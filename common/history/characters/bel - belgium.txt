@@ -2,8 +2,8 @@
 	c:BEL = {
 		create_character = {
 			# Albert I of Belgium
-			first_name = "Albert_I"
-			last_name = "of_Belgium"
+			first_name = "Albert"
+			last_name = "I"
 			historical = yes
 			ruler = yes
 			age = 50

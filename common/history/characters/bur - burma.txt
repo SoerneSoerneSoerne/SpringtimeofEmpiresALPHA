@@ -1,0 +1,17 @@
+CHARACTERS = {
+	c:BUR = {
+		create_character = {
+			# Myat Phaya
+			first_name = "Myat"
+			last_name = "Phaya"
+			historical = yes
+			ruler = yes 
+			female = yes
+			age = 39
+			dna = dna_aung
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= burmese
+		}
+		}
+		}

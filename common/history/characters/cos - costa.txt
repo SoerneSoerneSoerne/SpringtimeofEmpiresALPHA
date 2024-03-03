@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:COS = {
+		create_character = {
+			# Ricardo Jiménez Oreamuno
+			first_name = "Ricardo"
+			last_name = "Jimenez"
+			historical = yes
+			ruler = yes 
+			age = 66
+			dna = dna_ricardo_oreo
+			interest_group = ig_intelligentsia
+			ideology= ideology_moderate
+			culture= central_american
+		}
+		}
+		}

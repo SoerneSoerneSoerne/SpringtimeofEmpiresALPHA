@@ -4,6 +4,23 @@
 ## DEFAULT COUNTRY NAMES EXAMPLE CAN BE USED WITH ANY COUNTRY ##
 ################################################################
 
+PER = { # IRAN
+	dynamic_country_name = {
+		name = dyn_c_iran
+		adjective = dyn_c_iran_adj
+		
+		is_main_tag_only = yes
+		priority = 2000
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_modifier = modifier_iran_1
+			}
+		}
+	}	
+}
+
 MOY = { # Mosley
 	dynamic_country_name = {
 		name = dyn_c_mosley_england

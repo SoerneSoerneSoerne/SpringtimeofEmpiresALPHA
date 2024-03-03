@@ -1,15 +1,17 @@
 ﻿l_english:
  DMA_FLAVOR_TEXT:0 "Mittelafrika, the crown jewel of the German Empire, a sprawling colony that stretches across the heart of Africa. Over the years, Mittelafrika experienced rapid development and significant exploitation of its resources, as German colonial authorities established the Congo dam project. However, this progress came at a considerable human cost, with indigenous populations subjected to forced labor and harsh colonial policies. Now the colony must face the humanitarian consequences of the dam."
  
+ DSW_FLAVOR_TEXT:0 "WIP"
+ 
  GER_FLAVOR_TEXT:0 "The seeds of the confederation were sown during the 1848 revolution, a tumultuous period of liberal fervor and social change. Across the German-speaking lands, people rose up demanding political representation, civil liberties, and constitutional reforms. In this new era, the German Empire emerged as a beacon of political and social progress. The liberal ideals championed during the revolution hold the country together by providing a framework for governance that respects individual rights. The German Empire, with Prussia and Austria as its pillars, stands as a testament to the enduring impact of the 1848 revolution. It represents a harmonious blend of two major German-speaking states, forged in the fires of change and driven by a shared commitment to liberalism, progress, and unity."
  
- ITA_FLAVOR_TEXT:0 "In the year 1926, Italy finds itself under the leadership of the revolutionary poet Gabriele D'Annunzio. The country's history is marked by the aftermath of a devastating loss in the Great War against France and Germany, which had disastrous consequences for the Italian nation. Following Italy's defeat, the Treaty of Vienna saw Piedmont demilitarized. Moreover, the Kingdom of Lombardy-Venetia was granted independence as its own sovereign country, altering the political landscape of the Italian peninsula. Under D'Annunzio's fiery leadership, Italy is characterized by a fervent spirit of revanchism. D'Annunzio, the poet-warrior, is a passionate advocate for the restoration of Italy's lost territories and prestige. He fervently spouts revanchist ideas, calling for a return to Italy's former glory and the reunification of its fractured territories."
+ ITA_FLAVOR_TEXT:0 "The country's history is marked by the aftermath of a devastating loss in the Great War against France and Germany, which had disastrous consequences for the Italian nation. Following Italy's defeat, the Treaty of Vienna saw Piedmont demilitarized. Moreover, the Kingdom of Lombardy-Venetia was granted independence as its own sovereign country. Nowadays Italy finds itself under the leadership of the revolutionary poet Gabriele D'Annunzio, after he and his group of radicals took charge over the governemnt after the Great War. Will Italy become unified once again under the warrior-poet, or will Italy remain fractured under the madman?"
  
  VEN_FLAVOR_TEXT:0 "The Kingdom of Lombardy-Venetia, born out of the geopolitical reshuffling following the Great War, stands as a symbol of international efforts to humiliate Italy and weaken its national identity. The establishment of Lombardy-Venetia was intended to fracture Italy's unity and curb its ambitions. However, this stratagem has had unintended consequences. Over the years, the inhabitants of Lombardy-Venetia have increasingly yearned to rejoin their Italian brethren and restore a sense of national pride. The desire for reunification with the Italian State has gained momentum, driven by a shared dream of a Greater Italy. Calls for unity resonate strongly among the people of Lombardy-Venetia, as they seek to overcome the artificial divisions imposed upon them by external powers."
  
  SIZ_FLAVOR_TEXT:0 "Established in the aftermath of the Great War, this territory is administered by an international commission, with significant German and French influence. The Suez International Zone has become a focal point of international intrigue and tension. Both Egypt and the Ottoman Empire harbor ambitions to take control of this crucial region. Egypt, seeing the Suez as a natural extension of its own territory and sovereignty, seeks to assert its control over the canal and regain its strategic importance. Meanwhile, the Ottoman Empire, aiming to reassert itself on the world stage, views the Suez as a valuable prize to reclaim in its pursuit of regional influence."
  
- GBR_FLAVOR_TEXT:0 "WIP"
+ GBR_FLAVOR_TEXT:0 "The Great War has exacted a heavy toll on the nation, both economically and socially. The deeply unsatisfied population is burdened by the weight of defeat and the loss of imperial glory. The scars of war run deep and the Empire struggles to maintain unity across the oceans and even in the home island. The once-unquestioned authority of the crown is now challenged by dissenting voices demanding change and accountability. The specter of a looming civil war hangs over the nation, threatening to further fracture the already weakened Empire. May Britannia rule the waves once again…"
 
  BEL_FLAVOR_TEXT:0 "In Belgium the industrial revolution is in full swing. The yoke of Dutch oppression was cast aside just six years ago and the country is bounding ahead of their former masters, with the construction of the first railroad in continental Europe. What does the future hold for them?"
 
@@ -21,7 +23,7 @@
  
  IRE_FLAVOR_TEXT:0 "WIP"
  
- ASH_FLAVOR_TEXT:0 "WIP"
+ ASH_FLAVOR_TEXT:0 "The Kenyan Free State, also known as the last bastion of British Imperialism, is ruled by British soldiers who steadfastly refused to surrender after the news came from London that the Empire surrendered. The only thing that fuels the stranded Imperials is the Stab-in-the-Back Myth, that the Government betrayed them after sending them on this suicide mission, only to tell them to lay down their arms and accept defeat. How long can this unrecognized territory of British Imperialism survive, before the supplies run out?"
  
  MUG_FLAVOR_TEXT:0 "WIP"
  
@@ -45,15 +47,19 @@
 
  TUR_FLAVOR_TEXT:0 "The Ottoman Empire has been embroiled in various wars through the beginning of the 19th century, and while some reforms have been attempted, more will be needed to prevent the decline of this empire."
 
- SPA_FLAVOR_TEXT:1 "The young Queen Isabella rules a divided Spain, with liberal and conservative factions at each other's throats. Will the Queen be a mere puppet in this struggle, or will she take a more active role?"
+ SPA_FLAVOR_TEXT:1 "The Kingdom of Spain finds itself firmly under the dictatorial rule of Miguel Primo de Rivera. Primo de Rivera's leadership aims to maintain stability, but discontent simmers beneath the surface. Will Spain remain in this authoritarian status quo forever in an effort to bring stability or will the voice of the people finally be heard?"
 
  BRZ_FLAVOR_TEXT:0 "Brazil is in a period of upheaval following the abdication of Emperor Pedro I, which left the country in the rule of regents. Will Brazil manage to overcome these obstacles and emerge as a great power?"
 
  MEX_FLAVOR_TEXT:0 "Tension between Mexico and the newly declared Texas Republic has turned into all out war. Will Mexico reconquer Texas and return to the status quo?"
+ 
+ TUV_FLAVOR_TEXT:0 "Tannu what?"
+ 
+ ELS_FLAVOR_TEXT:0 "The economy of El Salvador is heavily reliant on coffee exports, which contributes to the concentration of wealth in the hands of a few elite families.  Will the Oligarchs remain in power forever, or can the workers break the chains of the plantation?"
 
  NET_FLAVOR_TEXT:0 "The Netherlands lost Belgium to revolution six years ago and while still economically stable, their rate of industrialization is slow compared to some of their neighbors. Will the Netherlands be able to emerge as a powerhouse of the 19th century?"
 
- POR_FLAVOR_TEXT:0 "It has been just two years since the end of the Portuguese Civil War and once again Queen Maria II sits the throne. Portuguese colonies stretch across the world. Now that the internal strife has been dealt with, what will the rest of the century bring?"
+ POR_FLAVOR_TEXT:0 "The decision to refrain from joining the Great War and, notably, not honoring their alliance with Britain has left Portugal unburdened by the scars of conflict. With the traditional alliance with Britain strained, Portugal now finds itself in the League of Nations. However, the population is growing increasingly concerned about Portugal losing its economic sovereignty. Will the Republic be able to assure the people that great times are ahead, or will the Republic fall to a new isolationist policy?"
 
  SAR_FLAVOR_TEXT:0 "In Sardinia-Piedmont reactionary anti-French monarchs have led the country for the past thirty years, encouraging the return of the nobility and the church while disbanding the Napoleonic reforms. Will this trend continue? Or will a more liberal nation emerge?"
 
@@ -98,7 +104,7 @@
   
   # Germans
  BAV_FLAVOR_TEXT:0 "In the wake of recent revolutions across Europe, Bavaria has turned to reaction. But the embers of rebellion still burn; will Bavaria be consumed by the flames?"
- SWI_FLAVOR_TEXT:0 "The Congress of Vienna has recognized Switzerland as a neutral power, affording some degree of safety in the theatre of European politics. Will Switzerland preserve its neutrality, or strike a different path?"
+ SWI_FLAVOR_TEXT:0 "During the Great War the Swiss Confederation had successfully maintained its cherished neutrality, steering clear of the devastating conflicts that engulfed the neighboring nations. Switzerland's entry into the League of Nations marked a departure from its traditionally neutral stance. The Swiss, recognizing the need for economic cooperation and collective security in the face of rapidly rising radicalism on the Italian border, embraced the German and French hegemony in Europe with open arms. Switzerland now remains as one of the most sovereign countries in the League of Nations, but for how long will they manage to protect their sovereignty?"
  HAN_FLAVOR_TEXT:0 "Though Hanover is currently ruled by the British monarch, differences in inheritance laws mean that the end of the union is likely approaching. What new path will Hanover walk?"
  GERMAN_FLAVOR_TEXT:0 "The Congress of Vienna established the German Confederation, a loose assortment of German states intended to keep the peace in Central Europe. The Confederation in practice is dominated by the rivalry between Austria and Prussia. Can the smaller nations survive the coming conflict?"
  LUB_FLAVOR_TEXT:1 "$GERMAN_FLAVOR_TEXT$"
@@ -135,7 +141,7 @@
  ORG_FLAVOR_TEXT:0 "Currently under relatively autonomous administration, both the Hudson Bay Company and the US government have set their eyes on the disputed Columbia district. Will either power succeed, or will an independent Oregon emerge?"
  TEX_FLAVOR_TEXT:0 "The newly declared Republic of Texas fights a seemingly impossible war against its Mexican overlords. Will a miracle save the Lone Star State?"
  HAI_FLAVOR_TEXT:0 "Under Jean-Pierre Boyer, Haiti has come to rule over all of Hispaniola. Can this nation of former slaves achieve liberty, or is Haiti doomed to despotism?"
- CUB_FLAVOR_TEXT:0 "Cuban relations with their Spanish overlords have become strained. Calls for representation in the Spanish parliament and resistance to the abolition of slavery have met with hostility from Madrid. Is a Cuban revolution inevitable?"
+ CUB_FLAVOR_TEXT:0 "Political repression, censorship, and a disregard for civil liberties have become part of daily life. The Machado era has begun. While Cuba is experiencing a surge in foreign investment, particularly from the United States, which is leading to economic growth, this is also deepening social inequalities, as the benefits primarily help a small elite comprimised of Machado’s clique."
   
   #Central Asia
  KHI_FLAVOR_TEXT:0 "In defiance of both Persia and Russia, Khiva is an independent power flourishing under the rule of the Khan. Can Khiva protect its independence?"

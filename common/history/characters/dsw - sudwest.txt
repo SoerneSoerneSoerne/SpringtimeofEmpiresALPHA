@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:DSW = {
+		create_character = {
+			# Hermann Göring
+			first_name = "Hermann"
+			last_name = "Goering2"
+			historical = yes
+			ruler = yes 
+			age = 32
+			dna = dna_hermann_goering
+			interest_group = ig_armed_forces
+			ideology= ideology_ethno_nationalist
+			culture= south_german
+		}
+		}
+		}

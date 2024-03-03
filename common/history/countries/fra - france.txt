@@ -42,6 +42,8 @@
 			institution = institution_colonial_affairs
 			level = 1
 		}
+		
+		add_journal_entry = { type = je_frenchcivilwar }
 
 		ig:ig_landowners = { # Victor de Broglie was Prime Minister until February 22, 1836
 			add_ruling_interest_group = yes

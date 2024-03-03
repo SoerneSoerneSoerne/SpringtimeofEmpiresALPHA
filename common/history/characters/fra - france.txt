@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:FRA = {
+		create_character = {
+			# Gaston Doumergue
+			first_name = "Gaston"
+			last_name = "Doumergue"
+			historical = yes
+			ruler = yes 
+			age = 62
+			dna = dna_gaston_doumergue
+			interest_group = ig_intelligentsia
+			ideology= ideology_social_democrat
+			culture= french
+		}
+		}
+		}

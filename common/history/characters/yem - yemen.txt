@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:YEM = {
+		create_character = {
+			# Yahya Muhammad Hamid ed-Din
+			first_name = "Yahya"
+			last_name = "Yahyalastname"
+			historical = yes
+			ruler = yes
+			age = 56
+			dna = dna_yahya
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= yemenite
+		}	
+	}
+}

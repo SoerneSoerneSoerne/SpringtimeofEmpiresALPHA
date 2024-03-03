@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:BYE = {
+		create_character = {
+			# Pyotra Krecheuski
+			first_name = "Pyotra"
+			last_name = "Krecheuski"
+			historical = yes
+			ruler = yes 
+			age = 46
+			dna = dna_pyotra
+			interest_group = ig_intelligentsia
+			ideology= ideology_republican_leader
+			culture= byelorussian
+		}
+		}
+		}

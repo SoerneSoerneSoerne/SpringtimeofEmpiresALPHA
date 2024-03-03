@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KAL = {
+		create_character = {
+			# Dost Mohammad Khan Baloch
+			first_name = "Dostmohammed"
+			last_name = "Khanmo"
+			historical = yes
+			ruler = yes
+			age = 51
+			dna = dna_baloch
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= baluchi
+		}	
+	}
+}

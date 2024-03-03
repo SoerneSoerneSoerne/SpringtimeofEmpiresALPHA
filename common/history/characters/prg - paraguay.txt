@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:PRG = {
+		create_character = {
+			# Eligio Ayala
+			first_name = "Eligio"
+			last_name = "Ayala"
+			historical = yes
+			ruler = yes 
+			age = 46
+			dna = dna_eligio_ayala
+			interest_group = ig_intelligentsia
+			ideology= ideology_moderate
+			culture= platinean
+		}
+		}
+		}

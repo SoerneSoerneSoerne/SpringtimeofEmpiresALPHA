@@ -96,6 +96,18 @@ POPS = {
 			}
 			
 		}
+		region_state:NET = {
+			create_pop = {
+				culture = dutch
+				religion = catholic
+				size = 4004
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 32200
+			}
+			
+		}
 	}
 	s:STATE_MIRANDA = {
 		region_state:VNZ = {
@@ -485,7 +497,7 @@ POPS = {
 				size = 40300
 			}
 		}
-		region_state:PRG = {
+		region_state:BOL = {
 			create_pop = {
 				culture = guarani
 				size = 44000

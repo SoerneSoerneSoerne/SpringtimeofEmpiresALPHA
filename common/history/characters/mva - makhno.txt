@@ -1,0 +1,22 @@
+﻿CHARACTERS = {
+	c:MVA = {
+		create_character = {
+			# Nestor Makhno
+			first_name = "Nestor"
+			last_name = "Makhno"
+			historical = yes
+			ruler = yes
+			birth_date = 1888.11.8
+			dna = dna_mahno
+			interest_group = ig_rural_folk
+			ideology = ideology_anarchist
+			culture = cu:ukrainian
+	religion = rel:atheist
+			traits = {
+				bandit
+		imposing
+		celebrity_commander
+			}
+		}	
+	}
+}

@@ -529,7 +529,7 @@
 		}
 	}
 	s:STATE_ZHEJIANG = {
-		region_state:AHU = {
+		region_state:ZHI = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 20664400
@@ -646,7 +646,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_ANHUI = {
-		region_state:ZHI = {
+		region_state:AHU = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 5473408
@@ -789,7 +789,7 @@
 		}
 	}
 	s:STATE_ULIASTAI = {
-		region_state:MGL = {
+		region_state:MPR = {
 			create_pop = {
 				culture = mongol
 				size = 540608

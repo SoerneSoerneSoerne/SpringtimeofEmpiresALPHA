@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:URU = {
+		create_character = {
+			# José Serrato
+			first_name = "Jose"
+			last_name = "Serrato"
+			historical = yes
+			ruler = yes 
+			age = 57
+			dna = dna_jose_serrato
+			interest_group = ig_landowners
+			ideology= ideology_moderate
+			culture= platinean
+		}
+		}
+		}

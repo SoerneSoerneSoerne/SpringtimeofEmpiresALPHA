@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:BUK = {
+		create_character = {
+			# Vladimir Ivanov
+			first_name = "Vladimir"
+			last_name = "Ivanov"
+			historical = yes
+			ruler = yes 
+			age = 32
+			dna = dna_ivanov
+			interest_group = ig_trade_unions
+			ideology= ideology_vanguardist
+			culture= russian			
+		}
+		}
+		}

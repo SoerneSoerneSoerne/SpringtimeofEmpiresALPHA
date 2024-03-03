@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:AHU = {
+		create_character = {
+			# Xu Shuzheng
+			first_name = "Xu"
+			last_name = "Shuzheng"
+			historical = yes
+			ruler = yes 
+			age = 45
+			dna = dna_shuzheng
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= han
+		}
+		}
+		}

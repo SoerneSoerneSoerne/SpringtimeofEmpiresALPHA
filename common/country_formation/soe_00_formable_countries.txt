@@ -26,6 +26,25 @@
 	}
 }
 
+UCB = {
+	states = { 
+		STATE_HONDURAS
+	    STATE_SAN_SALVADOR
+		STATE_NICARAGUA
+		STATE_COSTA_RICA
+		STATE_PANAMA
+		STATE_GUATEMALA
+	}
+
+	required_states_fraction = 1.0
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_law = law_type:law_monarchy
+	}
+}
+
 CHI = {
 	states = { 
 		STATE_YUNNAN
@@ -58,7 +77,7 @@ CHI = {
 		STATE_ALXA
 	}
 
-	required_states_fraction = 0.6
+	required_states_fraction = 0.8
 	
 	ai_will_do = { always = yes }
 }

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:UKR = {
+		create_character = {
+			# Pavlo Skoropadskyi
+			first_name = "Pavlo"
+			last_name = "Skoropadskyi"
+			historical = yes
+			ruler = yes
+			age = 52
+			dna = dna_pavlo
+			interest_group = ig_landowners
+			ideology = ideology_authoritarian
+			culture= ukrainian
+		}	
+	}
+}

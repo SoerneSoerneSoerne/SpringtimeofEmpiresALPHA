@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:KHI = {
+		create_character = {
+			# Abdukadyr Urazbekov
+			first_name = "Abdukadyr"
+			last_name = "Urazbekov"
+			historical = yes
+			ruler = yes 
+			age = 36
+			dna = dna_urazbekov
+			interest_group = ig_trade_unions
+			ideology= ideology_vanguardist
+			culture= kirgiz		
+		}
+		}
+		}

@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:HAU = {
+		create_character = {
+			# Henri Gouraud
+			first_name = "Henri"
+			last_name = "Gouraud"
+			historical = yes
+			ruler = yes 
+			age = 58
+			dna = dna_henri_gouraud
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= french
+		}
+		}
+		}

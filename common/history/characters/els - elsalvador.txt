@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ELS = {
+		create_character = {
+			# Alfonso Quiñónez Molina
+			first_name = "Alfonso"
+			last_name = "Quinonez_molina"
+			historical = yes
+			ruler = yes
+			age = 51
+			dna = dna_alfonso_molina
+			interest_group = ig_landowners
+			ideology = ideology_authoritarian
+			culture= central_american
+		}	
+	}
+}

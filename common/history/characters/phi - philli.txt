@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:PHI = {
+		create_character = {
+			# Leonard Wood
+			first_name = "Leonard2"
+			last_name = "Wood"
+			historical = yes
+			ruler = yes 
+			age = 65
+			dna = dna_leonard_wood
+			interest_group = ig_armed_forces
+			ideology= ideology_jingoist_leader
+			culture= yankee
+		}
+		}
+		}

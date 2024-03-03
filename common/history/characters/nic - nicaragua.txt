@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:NIC = {
+		create_character = {
+			# Carlos José Solórzano
+			first_name = "Carlos_Jose"
+			last_name = "Solorzano"
+			historical = yes
+			ruler = yes 
+			age = 65
+			dna = dna_carlos_solorzano
+			interest_group = ig_landowners
+			ideology= ideology_moderate
+			culture= central_american
+		}
+		}
+		}

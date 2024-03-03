@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:TUV = {
+		create_character = {
+			# Mongush Buyan-Badyrgy
+			first_name = "Mongush"
+			last_name = "Buyan"
+			historical = yes
+			ruler = yes 
+			age = 41
+			dna = dna_mongush
+			interest_group = ig_trade_unions
+			ideology= ideology_vanguardist
+			culture= tuvan			
+		}
+		}
+		}

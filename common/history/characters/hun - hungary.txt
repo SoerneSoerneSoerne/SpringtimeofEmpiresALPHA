@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:HUN = {
+		create_character = {
+			# Mihály Károlyi
+			first_name = "Karoli"
+			last_name = "I"
+			historical = yes
+			ruler = yes
+			age = 50
+			dna = dna_mihaly
+			interest_group = ig_landowners
+			ideology = ideology_pacifist
+			culture= hungarian
+		}	
+	}
+}

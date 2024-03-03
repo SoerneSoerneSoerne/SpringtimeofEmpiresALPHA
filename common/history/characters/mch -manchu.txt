@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:MCH = {
+		create_character = {
+			# Zhang Zuolin
+			first_name = "Zhang"
+			last_name = "Zuolin"
+			historical = yes
+			ruler = yes 
+			age = 50
+			dna = dna_zhang_zuolin
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= manchu
+		}
+		}
+		}

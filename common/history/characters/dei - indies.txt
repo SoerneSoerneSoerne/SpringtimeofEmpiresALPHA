@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:DEI = {
+		create_character = {
+			# Dirk Fock
+			first_name = "Dirk"
+			last_name = "Fock"
+			historical = yes
+			ruler = yes 
+			age = 67
+			dna = dna_dirk_fock
+			interest_group = ig_landowners
+			ideology= ideology_authoritarian
+			culture= dutch
+		}
+		}
+		}

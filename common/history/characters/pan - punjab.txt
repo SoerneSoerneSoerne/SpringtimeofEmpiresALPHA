@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:PAN = {
+		create_character = {
+			# Lala Lajpat Rai
+			first_name = "Lala1"
+			last_name = "Rai"
+			historical = yes
+			ruler = yes 
+			age = 60
+			dna = dna_lala
+			interest_group = ig_intelligentsia
+			ideology= ideology_republican_leader
+			culture= panjabi
+		}
+		}
+		}

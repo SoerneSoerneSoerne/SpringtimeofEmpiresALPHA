@@ -26,5 +26,8 @@
 		add_modifier = {
 			name = modifier_mittelafrika
 		}
+		add_journal_entry = {
+			type = je_mittelunity
+		}
 	}
 }

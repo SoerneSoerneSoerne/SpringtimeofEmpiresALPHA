@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:KAR = {
+		create_character = {
+			# Väinö Kotilainen
+			first_name = "vaino"
+			last_name = "Kotilainen"
+			historical = yes
+			ruler = yes 
+			age = 38
+			dna = dna_vaino
+			interest_group = ig_industrialists
+			ideology= ideology_market_liberal
+			culture= finnish
+		}
+		}
+		}

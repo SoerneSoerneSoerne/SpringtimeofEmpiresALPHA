@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:HYD = {
+		create_character = {
+			# Osman Ali Khan
+			first_name = "Osman"
+			last_name = "Alikhan"
+			historical = yes
+			ruler = yes
+			age = 39
+			dna = dna_osman
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= telegu
+		}	
+	}
+}

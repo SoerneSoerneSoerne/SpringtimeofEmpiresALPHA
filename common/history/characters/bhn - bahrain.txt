@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BHN = {
+		create_character = {
+			# Hamad bin Isa Al Khalifa
+			first_name = "Hamad"
+			last_name = "Hamadlastname"
+			historical = yes
+			ruler = yes
+			age = 53
+			dna = dna_hamad
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= bedouin
+		}	
+	}
+}

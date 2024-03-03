@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BRZ = {
+		create_character = {
+			# Philipp of Saxe-Coburg and Gotha
+			first_name = "Philipp"
+			last_name = "Saxe2"
+			historical = yes
+			ruler = yes
+			age = 24
+			dna = dna_phillip_saxe
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= south_german
+		}	
+	}
+}

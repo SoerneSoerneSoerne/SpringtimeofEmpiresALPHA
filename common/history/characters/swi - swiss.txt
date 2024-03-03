@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:SWI = {
+		create_character = {
+			# Edmund Schulthess
+			first_name = "Edmund"
+			last_name = "Schulthess"
+			historical = yes
+			ruler = yes 
+			age = 57
+			dna = dna_edmund_schulthess
+			interest_group = ig_rural_folk
+			ideology= ideology_moderate
+			culture= alemannic
+		}
+		}
+		}

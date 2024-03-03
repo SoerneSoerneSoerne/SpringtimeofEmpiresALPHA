@@ -14,7 +14,7 @@
 		owns_entire_state_region = STATE_GONDER
     }
     on_complete = {
-        add_modifier = name = modifier_italyethiopia
+        add_modifier = modifier_italyethiopia
     }
 	
 	should_be_pinned_by_default = yes

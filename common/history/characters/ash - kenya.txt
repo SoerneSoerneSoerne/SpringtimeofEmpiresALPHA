@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:ASH = {
+		create_character = {
+			# Jan Christiaan Smuts
+			first_name = "Jan"
+			last_name = "Chrissmut"
+			historical = yes
+			ruler = yes 
+			age = 55
+			dna = dna_jan_smuts
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= british
+		}
+		}
+		}

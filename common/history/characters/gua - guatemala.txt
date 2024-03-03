@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:GUA = {
+		create_character = {
+			# José María Orellana Pinto
+			first_name = "Jose"
+			last_name = "Maria_Orellana_Pinto"
+			historical = yes
+			ruler = yes 
+			age = 53
+			dna = dna_jose_orellana
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= central_american
+		}
+		}
+		}

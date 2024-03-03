@@ -116,6 +116,14 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_cannon_artillery" }
 			}
 		}
+		region_state:NET={
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
 	}
 	s:STATE_MIRANDA={
 		region_state:VNZ={
@@ -677,7 +685,7 @@
 		}
 	}
 	s:STATE_ALTO_PARAGUAY={
-		region_state:PRG={
+		region_state:BOL={
 		}
 		region_state:ARG={
 		}

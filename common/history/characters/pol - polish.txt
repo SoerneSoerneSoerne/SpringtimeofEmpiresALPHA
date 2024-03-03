@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:POL = {
+		create_character = {
+			# Stanisław Wojciechowski
+			first_name = "Stanislaw"
+			last_name = "Wojciechowski"
+			historical = yes
+			ruler = yes 
+			age = 56
+			dna = dna_stanislaw
+			interest_group = ig_intelligentsia
+			ideology= ideology_republican_leader
+			culture= polish
+		}
+		}
+		}

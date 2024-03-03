@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:DNR = {
+		create_character = {
+			# Albrecht Vonrechen
+			first_name = "Albrecht"
+			last_name = "Vonrechen"
+			historical = yes
+			ruler = yes
+			age = 64
+			dna = dna_albrecht_rechenberg
+			interest_group = ig_landowners
+			ideology = ideology_humanitarian
+			culture= north_german
+		}	
+	}
+}

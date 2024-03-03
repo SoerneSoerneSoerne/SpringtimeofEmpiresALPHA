@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BHU = {
+		create_character = {
+			# Ugyen Wangchuck
+			first_name = "Ugyen"
+			last_name = "Wangchuck"
+			historical = yes
+			ruler = yes
+			age = 63
+			dna = dna_wangchuck
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= tibetan
+		}	
+	}
+}

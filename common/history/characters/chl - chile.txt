@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:CHL = {
+		create_character = {
+			# Emiliano Figueroa
+			first_name = "Emiliano"
+			last_name = "Figueroa"
+			historical = yes
+			ruler = yes 
+			age = 59
+			dna = dna_emiliano_figueroa
+			interest_group = ig_intelligentsia
+			ideology= ideology_market_liberal
+			culture= south_andean
+		}
+		}
+		}

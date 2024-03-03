@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:SIN = {
+		create_character = {
+			# Abdul Ghaffar Khan
+			first_name = "Abdul"
+			last_name = "Ghaffarkhan"
+			historical = yes
+			ruler = yes 
+			age = 35
+			dna = dna_abdul
+			interest_group = ig_intelligentsia
+			ideology= ideology_pacifist
+			culture= avadhi
+		}
+		}
+		}

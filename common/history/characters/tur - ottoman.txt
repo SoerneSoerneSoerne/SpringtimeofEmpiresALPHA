@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:TUR = {
+		create_character = {
+			# Mehmed VI
+			first_name = "Mehmed"
+			last_name = "VI"
+			historical = yes
+			ruler = yes
+			age = 64
+			dna = dna_mehmed
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= turkish
+		}	
+	}
+}

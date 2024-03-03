@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:TUN = {
+		create_character = {
+			# Guido Keller
+			first_name = "Guido"
+			last_name = "Keller"
+			historical = yes
+			ruler = yes 
+			age = 33
+			dna = dna_guido_keller
+			interest_group = ig_intelligentsia
+			ideology= ideology_fiume
+			culture= north_italian
+		}
+		}
+		}

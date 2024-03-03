@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:SIK = {
+		create_character = {
+			# Tashi Namgyal
+			first_name = "Tashi"
+			last_name = "Namgyal"
+			historical = yes
+			ruler = yes
+			age = 32
+			dna = dna_tashi
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= tibetan
+		}	
+	}
+}

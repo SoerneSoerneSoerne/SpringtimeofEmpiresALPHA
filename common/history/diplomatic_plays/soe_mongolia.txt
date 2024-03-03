@@ -1,0 +1,14 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:MPR = {
+		create_diplomatic_play = {
+			name = mongoliaunification
+			
+			target_state = s:STATE_URGA.region_state:MGL
+			
+			war = yes
+			
+			type = dp_revolution
+
+		}			
+	}
+}

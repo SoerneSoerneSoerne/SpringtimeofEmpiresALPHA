@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:DKO = {
+		create_character = {
+			# Herman Sörgel
+			first_name = "Herman"
+			last_name = "Sorgel"
+			historical = yes
+			ruler = yes 
+			age = 40
+			dna = dna_hermann_sorgel
+			interest_group = ig_intelligentsia
+			ideology= ideology_positivist
+			culture= north_german
+		}
+		}
+		}

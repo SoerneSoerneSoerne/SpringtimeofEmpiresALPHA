@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:OMA = {
+		create_character = {
+			# Taimur bin Feisal
+			first_name = "Taimur"
+			last_name = "Taimurlastname"
+			historical = yes
+			ruler = yes
+			age = 39
+			dna = dna_taimur
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= bedouin
+		}	
+	}
+}

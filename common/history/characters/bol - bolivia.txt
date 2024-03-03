@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:BOL = {
+		create_character = {
+			# Felipe Segundo Guzmán
+			first_name = "Felipe"
+			last_name = "Segundo2"
+			historical = yes
+			ruler = yes 
+			age = 46
+			dna = dna_felipe_guzman
+			interest_group = ig_intelligentsia
+			ideology= ideology_moderate
+			culture= south_andean
+		}
+		}
+		}

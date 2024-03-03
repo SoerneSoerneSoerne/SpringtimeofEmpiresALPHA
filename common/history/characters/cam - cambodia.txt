@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:CAM = {
+		create_character = {
+			# Sisowath 
+			first_name = "Sisowath"
+			last_name = "Nothing"
+			historical = yes
+			ruler = yes
+			age = 85
+			dna = dna_sisowath
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= khmer
+		}	
+	}
+}

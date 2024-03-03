@@ -1,0 +1,22 @@
+CHARACTERS = {
+	c:PWG = {
+		create_character = {
+			# Pyotr Wrangel
+			first_name = "Pyotr"
+			last_name = "Wrangel"
+			historical = yes
+			ruler = yes 
+			age = 47
+			dna = dna_pyotr_wrangel
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= russian
+			traits = {
+				ambitious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		}
+		}

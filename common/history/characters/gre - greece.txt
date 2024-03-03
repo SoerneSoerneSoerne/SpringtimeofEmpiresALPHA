@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:GRE = {
+		create_character = {
+			# George II of Greece
+			first_name = "George"
+			last_name = "second"
+			historical = yes
+			ruler = yes
+			age = 35
+			dna = dna_george
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= danish
+		}	
+	}
+}

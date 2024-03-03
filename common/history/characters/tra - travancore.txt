@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:TRA = {
+		create_character = {
+			# Vakkom Moulavi
+			first_name = "Vakkom"
+			last_name = "Moulavi"
+			historical = yes
+			ruler = yes 
+			age = 52
+			dna = dna_vakkom
+			interest_group = ig_intelligentsia
+			ideology= ideology_reformer
+			culture= malayalam
+		}
+		}
+		}

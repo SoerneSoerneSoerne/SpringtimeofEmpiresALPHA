@@ -7,12 +7,12 @@
 			goods_input_grain_add = 40		# x20 =  800
 
 			# output goods
-			goods_output_groceries_add = 45	# x30 = 1350
+			goods_output_groceries_add = 30	# x30 = 1350
 		}
 
 		level_scaled = {
 			# profit = 550
-			building_employment_laborers_add = 45000
+			building_employment_laborers_add = 3500
 		}
 	}
 }		
@@ -27,17 +27,17 @@ pm_sweeteners = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_grain_add = 400		# x20 = 800
-			goods_input_sugar_add = 150		# x30 = 4500
+			goods_input_grain_add = 80		# x20 = 800
+			goods_input_sugar_add = 45		# x30 = 4500
  
 			# output goods
-			goods_output_groceries_add = 650	# x30 = 1950
+			goods_output_groceries_add = 60	# x30 = 1950
 		}
 
 		level_scaled = {
 			# profit = 700
-			building_employment_laborers_add = 40000
-			building_employment_machinists_add = 5000
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 750
 		}
 	}
 }

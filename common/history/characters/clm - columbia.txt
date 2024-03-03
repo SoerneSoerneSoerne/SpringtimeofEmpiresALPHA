@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:CLM = {
+		create_character = {
+			# Pedro Nel Ospina
+			first_name = "Pedro"
+			last_name = "Nel"
+			historical = yes
+			ruler = yes 
+			age = 67
+			dna = dna_pedro_ospina
+			interest_group = ig_landowners
+			ideology= ideology_moderate
+			culture= north_andean
+		}
+		}
+		}

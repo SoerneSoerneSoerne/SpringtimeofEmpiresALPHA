@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:ZHI = {
+		create_character = {
+			# Wu Peifu
+			first_name = "Wu"
+			last_name = "Peifu"
+			historical = yes
+			ruler = yes 
+			age = 51
+			dna = dna_wu_peifu
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= han
+		}
+		}
+		}

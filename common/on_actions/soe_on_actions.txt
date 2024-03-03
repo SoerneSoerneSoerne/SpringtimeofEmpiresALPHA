@@ -27,6 +27,15 @@
 			trigger_event = { id = soe_depression.17 days = 0 }
 			trigger_event = { id = soe_depression.18 days = 0 }
         }
+		#France
+		if = {
+			limit = {
+               exists = c:FNR
+               NOT = { has_variable = france_civilwar_var }
+            }
+            set_variable = france_civilwar_var
+            trigger_event = { id = soe_france_events.1 days = 0 }
+        }
 		#Germany
 		if = {
 			limit = {
@@ -43,6 +52,23 @@
             }
             set_variable = czech_start_var
             trigger_event = { id = soe_germany_czech.1 days = 0 }
+        }
+		#Guatemala
+		if = {
+			limit = {
+			   game_date >= 1931.1.6
+               NOT = { has_variable = jorge1_var }
+            }
+            set_variable = jorge1_var
+            trigger_event = { id = soe_guat.1 days = 0 }
+        }
+		if = {
+			limit = {
+			   game_date >= 1931.3.1
+               NOT = { has_variable = jorge2_var }
+            }
+            set_variable = jorge2_var
+            trigger_event = { id = soe_guat.2 days = 0 }
         }
 		#Britain
 		if = {
@@ -151,8 +177,13 @@ on_monthly_pulse_country = {
 	events = {
 		soe_romaniawar.1
 		soe_romaniawar.2
+		soe_italy_events.4
 		soe_ai.1
 		soe_ai.2
 		soe_ai.3
+		soe_ai.4
+		soe_ai.5
+		soe_ai.6
+		soe_ai.7
 	}
 }  

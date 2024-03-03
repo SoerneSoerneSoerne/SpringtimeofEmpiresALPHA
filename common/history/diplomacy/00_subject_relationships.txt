@@ -11,10 +11,20 @@
 			type = personal_union
 		}
 	}
+	c:FIN = {
+		create_diplomatic_pact = {
+			country = c:KAR
+			type = protectorate
+		}
+	}
 	c:GER = {
 		create_diplomatic_pact = {
 			country = c:DMA
 			type = reichskolonie
+		}
+		create_diplomatic_pact = {
+			country = c:VEN
+			type = protectorate
 		}
 	}
 	c:DMA = {
@@ -53,10 +63,6 @@
 			type = soviet_socialist_republic
 		}
 		create_diplomatic_pact = {
-			country = c:TRC
-			type = soviet_socialist_republic
-		}
-		create_diplomatic_pact = {
 			country = c:CAU
 			type = soviet_socialist_republic
 		}
@@ -73,6 +79,10 @@
 		create_diplomatic_pact = {
 			country = c:PHI
 			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HAI
+			type = protectorate
 		}
 	}
 	c:ITA = {

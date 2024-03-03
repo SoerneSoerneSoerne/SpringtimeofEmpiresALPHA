@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:SHN = {
+		create_character = {
+			# Yan Xishan
+			first_name = "Yan"
+			last_name = "Xishan"
+			historical = yes
+			ruler = yes 
+			age = 42
+			dna = dna_xishan
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= han
+		}
+		}
+		}

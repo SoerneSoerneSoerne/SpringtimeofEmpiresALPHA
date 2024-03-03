@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ABU = {
+		create_character = {
+			# Saeed bin Maktoum bin Hasher Al Maktoum
+			first_name = "Saeed"
+			last_name = "Saeedlastname"
+			historical = yes
+			ruler = yes
+			age = 47
+			dna = dna_saeed
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= bedouin
+		}	
+	}
+}

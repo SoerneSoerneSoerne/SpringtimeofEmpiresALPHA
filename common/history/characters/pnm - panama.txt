@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:PNM = {
+		create_character = {
+			# Rodolfo Chiari
+			first_name = "Rodolfo"
+			last_name = "Chiari"
+			historical = yes
+			ruler = yes 
+			age = 56
+			dna = dna_rodolfo_chiari
+			interest_group = ig_landowners
+			ideology= ideology_moderate
+			culture= central_american
+		}
+		}
+		}

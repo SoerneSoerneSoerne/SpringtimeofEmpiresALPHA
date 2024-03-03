@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:GNG = {
+		create_character = {
+			# Li Zongren
+			first_name = "Li"
+			last_name = "Zongren"
+			historical = yes
+			ruler = yes 
+			age = 35
+			dna = dna_zongren
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= han
+		}
+		}
+		}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MYS = {
+		create_character = {
+			# Krishnaraja Wadiyar IV
+			first_name = "Krishnaraja"
+			last_name = "Krishking"
+			historical = yes
+			ruler = yes
+			age = 41
+			dna = dna_krishna
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= kannada
+		}	
+	}
+}

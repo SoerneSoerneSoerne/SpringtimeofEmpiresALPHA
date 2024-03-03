@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:DOA = {
+		create_character = {
+			# Heinrich Schnee
+			first_name = "Heinrich"
+			last_name = "Schnee"
+			historical = yes
+			ruler = yes 
+			age = 54
+			dna = dna_heinrich_schnee
+			interest_group = ig_armed_forces
+			ideology= ideology_authoritarian
+			culture= north_german
+		}
+		}
+		}

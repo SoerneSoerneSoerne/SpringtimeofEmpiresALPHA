@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:HNA = {
+		create_character = {
+			# Zhang Jingyao
+			first_name = "Zhang"
+			last_name = "Jingyao"
+			historical = yes
+			ruler = yes 
+			age = 44
+			dna = dna_jingyao
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= han
+		}
+		}
+		}

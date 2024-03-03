@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:USA = {
+		create_character = {
+			# Calvin Coolidge
+			first_name = "Calvin"
+			last_name = "Coolidge"
+			historical = yes
+			ruler = yes
+			age = 53
+			dna = dna_calvin_coolidge
+			interest_group = ig_industrialists
+			ideology = ideology_market_liberal
+			culture = yankee
+		}	
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:DAI = {
+		create_character = {
+			# Bảo Đại
+			first_name = "Bao"
+			last_name = "Dai"
+			historical = yes
+			ruler = yes
+			age = 12
+			dna = dna_bao
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= vietnamese
+		}	
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BUL = {
+		create_character = {
+			# Ferdinand I of Bulgaria
+			first_name = "Ferdinand"
+			last_name = "I"
+			historical = yes
+			ruler = yes
+			age = 64
+			dna = dna_ferdinandbul
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= bulgarian
+		}	
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:AFG = {
+		create_character = {
+			# Amanullah Khan
+			first_name = "Amanullah"
+			last_name = "Khan1"
+			historical = yes
+			ruler = yes
+			age = 33
+			dna = dna_amanullah_khan
+			interest_group = ig_landowners
+			ideology = ideology_royalist
+			culture= tajik
+		}	
+	}
+}

@@ -1,0 +1,57 @@
+﻿namespace = soe_guat
+
+soe_guat.1 = { ### Depression first event
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/bulldozer.dds"
+	title = soe_guat.1.t desc = soe_guat.1.d flavor = soe_guat.1.f
+	event_image = { texture = "gfx/event_pictures/jorge1.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GUA
+		      c:GUA = ROOT
+		NOT = { has_variable = soe_guat_1_end_flag }
+	
+	}
+	immediate = { set_variable = soe_guat_1_end_flag }
+	option = { name = soe_guat.1.o
+		create_character = {
+                # Jorge Ubico Castañeda
+                first_name = "Jorge"
+                last_name = "Ubico_Castañeda"
+				historical = yes
+                age = 47
+                culture = cu:central_american
+                dna = dna_jorge
+                ruler = yes
+                interest_group = ig_armed_forces
+                ideology = ideology_royalist
+                traits = {
+                    tactful
+                }
+            }
+
+	}
+}
+
+soe_guat.2 = { ### Depression first event
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/bulldozer.dds"
+	title = soe_guat.2.t desc = soe_guat.2.d flavor = soe_guat.2.f
+	event_image = { texture = "gfx/event_pictures/jorge2.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GUA
+		      c:GUA = ROOT
+		NOT = { has_variable = soe_guat_2_end_flag }
+	
+	}
+	immediate = { set_variable = soe_guat_2_end_flag }
+	option = { name = soe_guat.2.o
+	activate_law = law_type:law_monarchy
+	activate_law = law_type:law_oligarchy
+	}
+}

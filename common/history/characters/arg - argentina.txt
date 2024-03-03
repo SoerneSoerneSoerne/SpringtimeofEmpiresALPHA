@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ARG = {
+		create_character = {
+			# Marcelo Torcuato de Alvear
+			first_name = "Marcelo"
+			last_name = "Torcuato2"
+			historical = yes
+			ruler = yes
+			age = 57
+			dna = dna_marcelo_alvear
+			interest_group = ig_landowners
+			ideology = ideology_market_liberal
+			culture= platinean
+		}	
+	}
+}

@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:LIT = {
+		create_character = {
+			# Aleksandras Stulginskis
+			first_name = "Aleksandras"
+			last_name = "Stulginskis"
+			historical = yes
+			ruler = yes 
+			age = 59
+			dna = dna_stulgi
+			interest_group = ig_rural_folk
+			ideology= ideology_republican_leader
+			culture= lithuanian
+		}
+		}
+		}

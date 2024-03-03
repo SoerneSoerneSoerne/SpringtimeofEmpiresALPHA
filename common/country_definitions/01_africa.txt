@@ -69,7 +69,7 @@ MAS = {
 }
 
 LIB = {
-	color = { 193  138  83 }
+	color = { 152  130  191 }
 	
 	country_type = unrecognized
 	

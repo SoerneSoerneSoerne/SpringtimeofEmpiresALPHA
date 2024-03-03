@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:XIN = {
+		create_character = {
+			# Khoja Niyaz
+			first_name = "Khoja"
+			last_name = "Niyaz"
+			historical = yes
+			ruler = yes
+			age = 36
+			dna = dna_khoja
+			interest_group = ig_landowners
+			ideology = ideology_jingoist_leader
+			culture= uighur
+		}	
+	}
+}

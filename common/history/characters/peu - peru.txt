@@ -1,0 +1,16 @@
+CHARACTERS = {
+	c:PEU = {
+		create_character = {
+			# Augusto B. Leguía
+			first_name = "Augusto"
+			last_name = "Leguiaa"
+			historical = yes
+			ruler = yes 
+			age = 62
+			dna = dna_augusto_leguia
+			interest_group = ig_armed_forces
+			ideology= ideology_moderate
+			culture= south_andean
+		}
+		}
+		}
