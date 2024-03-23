@@ -9,6 +9,28 @@
 	capital = STATE_HESSE
 }
 
+NZI = {
+	color = { 76  97  121 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_german south_german }
+	capital = STATE_HESSE
+}
+
+CGE = {
+	color = { 80 40 40 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_german south_german }
+	capital = STATE_BAVARIA
+}
+
 LON = {
 	color = { 30  40  150 }
 	

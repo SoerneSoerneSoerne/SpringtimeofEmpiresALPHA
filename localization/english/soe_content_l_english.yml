@@ -42,6 +42,17 @@
  je_guat_3:0 "Napoleonic Speech"
  je_guat_3_reason:0 "Rumors are spreading around the country that l'Empereur is a power hungry tyrant. We should adress these complains."
  
+# Ideologies
+ ideology_libdemocrat_leader:0 "Liberal Democrat"
+ ideology_libdemocrat_leader_desc:0 "This leader prioritizes the institution of democracy, while advocating for the freedom of the people."
+ ideology_condemocrat_leader:0 "Conservative Democrat"
+ ideology_condemocrat_leader_desc:0 "This leader prioritizes the institution of democracy, while preserving conservative elements."
+ ideology_religiousdemocrat_leader:0 "Religious Democrat"
+ ideology_religiousdemocrat_leader_desc:0 "This leader prioritizes the institution of democracy with religious characteristics."
+ ideology_autdemocrat_leader:0 "Authoritarian Democrat"
+ ideology_autdemocrat_leader_desc:0 "This leader prioritizes the institution of democracy, however a firm grip must be kept on the voters to ensure a democratic society."
+
+
 # Laws
 
  law_disarmed:0 "Disarmed Nation"
@@ -183,6 +194,25 @@
  
  # Russia USSR
  
+ dyn_c_ussr:0 "Union of Soviet Socialist Republics"
+ dyn_c_ussr_adj:0 "Soviet"
+ sovietrecover:0 "Recovering from the Civil War"
+ sovietgovernemnt:0 "All-Union Congress of Soviets"
+ modifier_integrate:0 "Integration Efforts"
+ integrate1:0 "Integrate Kazakhstan"
+ integrate1_desc:0 "The civil war has taken a heavy toll on our efforts to manage the SSRs, however if we wish to strengthen the Union we must further integrate them."
+ integrate2:0 "Integrate Transcaucasia"
+ integrate2_desc:0 "The civil war has taken a heavy toll on our efforts to manage the SSRs, however if we wish to strengthen the Union we must further integrate them."
+ integrate3:0 "Integrate Ukraine"
+ integrate3_desc:0 "The civil war has taken a heavy toll on our efforts to manage the SSRs, however if we wish to strengthen the Union we must further integrate them."
+ integrate4:0 "Integrate Uzbekistan"
+ integrate4_desc:0 "The civil war has taken a heavy toll on our efforts to manage the SSRs, however if we wish to strengthen the Union we must further integrate them."
+ integrate5:0 "Integrate Kyrgyzstan"
+ integrate5_desc:0 "The civil war has taken a heavy toll on our efforts to manage the SSRs, however if we wish to strengthen the Union we must further integrate them."
+ integrate6:0 "Integrate Tajikistan"
+ integrate6_desc:0 "The civil war has taken a heavy toll on our efforts to manage the SSRs, however if we wish to strengthen the Union we must further integrate them."
+ integrate7:0 "Integrate Tannu Tuva"
+ integrate7_desc:0 "The civil war has taken a heavy toll on our efforts to manage the SSRs, however if we wish to strengthen the Union we must further integrate them."
  ideology_marxist_desc:0 "Marxism is a socio-economic ideology that focuses on class struggle. It asserts that society is divided into the bourgeoisie and the proletariat. Marxism aims to overthrow capitalism, advocating for a classless, communist society where resources are shared based on need."
  ideology_marxist:0 "Marxist"
  ideology_trotskyist:0 "Trotskyist"
@@ -283,6 +313,7 @@
  
  # Britain
  
+ modifier_britcivilwar:0 "War Effort"
  hunger_marches:0 "Hunger Marches"
  police_violence:0 "Police Violence"
  humiliated_greatwar:0 "Humiliated in the Great War"

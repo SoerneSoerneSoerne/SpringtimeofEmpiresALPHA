@@ -1,0 +1,188 @@
+﻿integrate1 = {
+	is_shown = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:KAZ
+	}
+
+	possible = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:KAZ
+		not = {	has_modifier = modifier_integrate }
+		not = {	has_modifier = sovietrecover }
+	}
+
+	when_taken = {
+        add_modifier = { name = modifier_integrate
+	 years = 1 }
+	 c:RUS = { annex = c:KAZ }
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+integrate2 = {
+	is_shown = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:CAU
+	}
+
+	possible = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:CAU
+		not = {	has_modifier = modifier_integrate }
+		not = {	has_modifier = sovietrecover }
+	}
+
+	when_taken = {
+        add_modifier = { name = modifier_integrate
+	 years = 1 }
+	 c:RUS = { annex = c:CAU }
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+integrate3 = {
+	is_shown = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:USS
+	}
+
+	possible = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:USS
+		not = {	has_modifier = modifier_integrate }
+		not = {	has_modifier = sovietrecover }
+	}
+
+	when_taken = {
+        add_modifier = { name = modifier_integrate
+	 years = 1 }
+	 c:RUS = { annex = c:USS }
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+integrate4 = {
+	is_shown = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:BUK
+	}
+
+	possible = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:BUK
+		not = {	has_modifier = modifier_integrate }
+		not = {	has_modifier = sovietrecover }
+	}
+
+	when_taken = {
+        add_modifier = { name = modifier_integrate
+	 years = 1 }
+	 c:RUS = { annex = c:BUK }
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+integrate5 = {
+	is_shown = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:KHI
+	}
+
+	possible = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:KHI
+		not = {	has_modifier = modifier_integrate }
+		not = {	has_modifier = sovietrecover }
+	}
+
+	when_taken = {
+        add_modifier = { name = modifier_integrate
+	 years = 1 }
+	 c:RUS = { annex = c:KHI }
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+integrate6 = {
+	is_shown = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:KOK
+	}
+
+	possible = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:KOK
+		not = {	has_modifier = modifier_integrate }
+		not = {	has_modifier = sovietrecover }
+	}
+
+	when_taken = {
+        add_modifier = { name = modifier_integrate
+	 years = 1 }
+	 c:RUS = { annex = c:KOK }
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+integrate7 = {
+	is_shown = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:TUV
+	}
+
+	possible = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_subject = no
+		exists = c:TUV
+		not = {	has_modifier = modifier_integrate }
+		not = {	has_modifier = sovietrecover }
+	}
+
+	when_taken = {
+        add_modifier = { name = modifier_integrate
+	 years = 1 }
+	 c:RUS = { annex = c:TUV }
+	}
+	ai_chance = {
+		base = 100		
+	}
+}

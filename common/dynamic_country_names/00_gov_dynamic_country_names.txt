@@ -291,6 +291,68 @@ RUS = {
 		}
 	}
 	dynamic_country_name = {
+		name = dyn_c_ussr
+		adjective = dyn_c_ussr_adj
+		
+		is_main_tag_only = yes
+		priority = 2500
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+		owns_entire_state_region = STATE_MINSK
+		owns_entire_state_region = STATE_KIEV
+		owns_entire_state_region = STATE_CHERSON
+		owns_entire_state_region = STATE_BRYANSK
+		owns_entire_state_region = STATE_KURSK
+		owns_entire_state_region = STATE_LUHANSK
+		owns_entire_state_region = STATE_SMOLENSK
+		owns_entire_state_region = STATE_INGRIA
+		owns_entire_state_region = STATE_NOVGOROD
+		owns_entire_state_region = STATE_EAST_KARELIA
+		owns_entire_state_region = STATE_ARKHANGELSK
+		owns_entire_state_region = STATE_NENETSIA
+		owns_entire_state_region = STATE_TVER
+		owns_entire_state_region = STATE_GALICH
+		owns_entire_state_region = STATE_PERM
+		owns_entire_state_region = STATE_URAL
+		owns_entire_state_region = STATE_CRIMEA
+		owns_entire_state_region = STATE_ROSTOV
+		owns_entire_state_region = STATE_ASTRAKHAN
+		owns_entire_state_region = STATE_KUBAN
+		owns_entire_state_region = STATE_SAMARA
+		owns_entire_state_region = STATE_KAZAN
+		owns_entire_state_region = STATE_TARTARIA
+		owns_entire_state_region = STATE_MOSCOW
+		owns_entire_state_region = STATE_DAGESTAN
+		owns_entire_state_region = STATE_AZERBAIJAN
+		owns_entire_state_region = STATE_ARMENIA
+		owns_entire_state_region = STATE_GREATER_CAUCASUS
+		owns_entire_state_region = STATE_URALSK
+		owns_entire_state_region = STATE_KHIVA
+		owns_entire_state_region = STATE_TURKMENIA
+		owns_entire_state_region = STATE_UZBEKIA
+		owns_entire_state_region = STATE_KIRGHIZIA
+		owns_entire_state_region = STATE_AKMOLINSK
+		owns_entire_state_region = STATE_SEMIRECHE
+		owns_entire_state_region = STATE_JETISY
+		owns_entire_state_region = STATE_OB
+		owns_entire_state_region = STATE_TOBOLSK
+		owns_entire_state_region = STATE_UPPER_YENISEYSK
+		owns_entire_state_region = STATE_TOMSK
+		owns_entire_state_region = STATE_TUVA
+		owns_entire_state_region = STATE_IRKUTSK
+		owns_entire_state_region = STATE_YAKUTSK
+		owns_entire_state_region = STATE_TRANS_BAIKAL
+		owns_entire_state_region = STATE_OKHOTSK
+		owns_entire_state_region = STATE_CHUKOTKA
+		owns_entire_state_region = STATE_KAMCHATKA
+		owns_entire_state_region = STATE_OUTER_MANCHURIA
+		owns_entire_state_region = STATE_TAJIKISTAN
+			}
+		}
+	}
+	dynamic_country_name = {
 		name = RUS-dynamic-name-presidential
 		adjective = RUS-dynamic-name-presidential-adj
 		

@@ -9,6 +9,16 @@ modifier_cultocommando = {
 	country_authority_mult = 0.02
 }
 
+modifier_integrate = {
+	icon = gfx/interface/icons/timed_modifier_icons/soldiercomm.dds
+	country_bureaucracy_mult = -0.20
+}
+
+modifier_britcivilwar = {
+	icon = gfx/interface/icons/timed_modifier_icons/bulldozer.dds
+	country_expenses_add = -80000
+}
+
 modifier_guat_1 = {
 	icon = gfx/interface/icons/timed_modifier_icons/jorge1.dds
 	country_legitimacy_base_add = 2
@@ -16,6 +26,19 @@ modifier_guat_1 = {
 	unit_army_offense_mult = 0.02
 	unit_army_defense_mult = 0.02
 	state_standard_of_living_add = -1
+}
+
+sovietrecover = {
+	icon = gfx/interface/icons/timed_modifier_icons/sovietstar.dds
+	country_authority_mult = -0.05
+	unit_army_offense_mult = -0.05
+	unit_army_defense_mult = -0.05
+	state_standard_of_living_add = -1
+}
+
+sovietgovernemnt = {
+	icon = gfx/interface/icons/timed_modifier_icons/sovietstar.dds
+	interest_group_ig_trade_unions_pop_attraction_mult = 0.75
 }
 
 modifier_guat_2 = {

@@ -55,7 +55,7 @@ law_state_capitalism = {
 	
 	pop_support = {
 		value = 0
-		# 농경 사회 보다는 낫다고 생각하는 자본가들
+
 		add = {
 			desc = "POP_CAPITALISTS"
 			if = {
@@ -72,7 +72,7 @@ law_state_capitalism = {
 				value = 0.15
 			}
 		}
-		# 산업 사회 보다는 낫다고 생각하는 귀족들
+
 		add = {
 			desc = "POP_ARISTOCRATS"
 			if = {
@@ -88,7 +88,7 @@ law_state_capitalism = {
 				value = 0.15
 			}
 		}
-		# 계획 경제를 선호하는 관료 집단
+
 		add = {
 			desc = "POP_BUREAUCRATS"
 			if = {
@@ -98,7 +98,7 @@ law_state_capitalism = {
 				value = 0.2
 			}
 		}
-		# 세습 관료제에서 관료 = 귀족
+
 		add = {
 			desc = "POP_ARISTOCRATS"
 			if = {
@@ -156,7 +156,7 @@ law_corporatism = {
 	}
 
 	unlocking_technologies = {
-		centralization
+		corporatism
 	}
 
 	on_activate = {

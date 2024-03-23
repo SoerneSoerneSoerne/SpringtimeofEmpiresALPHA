@@ -508,6 +508,8 @@
  GCO_ADJ:0 "Gran Colombian"
  GEO:0 "Georgian Soviet Socialist Republic"
  GEO_ADJ:0 "Georgian"
+ NZI:0 "Großdeutsche Bundesrepublik"
+ NZI_ADJ:0 "German"
  GER:0 "Germany"
  GER_ADJ:0 "German"
  GER-dynamic-name-monarchy: "German Empire"

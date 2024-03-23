@@ -225,6 +225,9 @@ soe_britain_civilwarstart.8 = { ### British Civil War Mosley start
 		activate_law = law_type:law_command_economy
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_no_social_security
+		c:MOY = { annex = c:GBR }
+		add_modifier = { name = modifier_britcivilwar
+	 years = 5 }
 			create_diplomatic_play = {
             
         target_country = c:WCG
@@ -277,6 +280,8 @@ soe_britain_civilwarstart.9 = { ### British Civil War Navy start
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_no_social_security
+		add_modifier = { name = modifier_britcivilwar
+	 years = 5 }
 			create_diplomatic_play = {
             
         target_country = c:MOY
@@ -341,6 +346,8 @@ soe_britain_civilwarstart.10 = { ### British Civil War Communist start
 		activate_law = law_type:law_old_age_pension
 		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_slavery_banned
+		add_modifier = { name = modifier_britcivilwar
+	 years = 5 }
 			create_diplomatic_play = {
             
         target_country = c:MOY
@@ -386,6 +393,8 @@ soe_britain_civilwarstart.11 = { ### British Civil War Monarchist start
 	option = { name = soe_britain_civilwarstart.11.o1
 	    default_option = yes
 		activate_law = law_type:law_autocracy
+		add_modifier = { name = modifier_britcivilwar
+	 years = 5 }
 			create_diplomatic_play = {
             
         target_country = c:MOY
@@ -439,6 +448,8 @@ soe_britain_civilwarstart.12 = { ### British Civil War Republic start
 		activate_law = law_type:law_laissez_faire
 		activate_law = law_type:law_protected_speech
 		activate_law = law_type:law_free_trade
+		add_modifier = { name = modifier_britcivilwar
+	 years = 5 }
 			create_diplomatic_play = {
             
         target_country = c:MOY

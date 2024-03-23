@@ -50,45 +50,20 @@ soe_ai.2 = { ### Soviet war against Intermarium
 	option = { name = soe_ai.2.o
 		create_diplomatic_play = {
             name = rus
-            target_country = c:POL
+            target_country = c:UKR
                 type = dp_humiliation
-				add_initiator_backers = { c:USS }
-                add_target_backers = { c:UKR c:LIT c:BYE }
-                war = yes
+                add_target_backers = { c:POL c:LIT c:BYE }
+                war = no
+				escalation = 80
 				add_war_goal = {
                     holder = c:RUS
-                    type = annex_country
-                    target_country = c:POL
-                }
-				add_war_goal = {
-                    holder = c:USS
                     type = annex_country
                     target_country = c:UKR
                 }
 				add_war_goal = {
                     holder = c:RUS
                     type = annex_country
-                    target_country = c:LIT
-                }
-				add_war_goal = {
-                    holder = c:RUS
-                    type = annex_country
                     target_country = c:BYE
-                }
-				add_war_goal = {
-                    holder = c:UKR
-                    type = annex_country
-                    target_country = c:USS
-                }
-				add_war_goal = {
-                    holder = c:BYE
-                    type = conquer_state
-                    target_state = s:STATE_ORSHA.region_state:RUS
-                }
-				add_war_goal = {
-                    holder = c:UKR
-                    type = conquer_state
-                    target_state = s:STATE_CRIMEA.region_state:RUS
                 }
         }
 	}
@@ -252,4 +227,86 @@ soe_ai.7 = { ### french communist
 		 activate_law = law_type:law_council_republic
             activate_law = law_type:law_cooperative_ownership
 	} 
+}
+
+soe_ai.8 = { ### Soviet war against Persia
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_ai.8.t desc = soe_ai.8.d flavor = soe_ai.8.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_ai = yes
+		game_date >= 1933.02.10
+		NOT = { has_variable = soe_ai_8_end_flag }
+	}
+	immediate = { set_variable = soe_ai_8_end_flag }
+	option = { name = soe_ai.8.o
+		create_diplomatic_play = {
+            name = rus
+            target_country = c:TRC
+                type = dp_humiliation
+                add_target_backers = { c:PER }
+                war = no
+				escalation = 80
+				add_war_goal = {
+                    holder = c:RUS
+                    type = conquer_state
+					target_state = s:STATE_TURKMENIA.region_state:TRC
+                }
+				add_war_goal = {
+                    holder = c:RUS
+                    type = conquer_state
+                    target_state = s:STATE_TURKMENIA.region_state:PER
+                }
+				add_war_goal = {
+                    holder = c:TRC
+                    type = conquer_state
+                    target_state = s:STATE_KHIVA.region_state:RUS
+					target_state = s:STATE_UZBEKIA.region_state:RUS
+                }
+        }
+	}
+}
+
+soe_ai.9 = { ### Soviet war against Karelia
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_ai.9.t desc = soe_ai.9.d flavor = soe_ai.9.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:RUS
+		c:RUS = ROOT
+		is_ai = yes
+		game_date >= 1931.01.8
+		NOT = { has_variable = soe_ai_9_end_flag }
+	}
+	immediate = { set_variable = soe_ai_9_end_flag }
+	option = { name = soe_ai.9.o
+		create_diplomatic_play = {
+            name = rus
+            target_country = c:KAR
+                type = dp_humiliation
+                add_target_backers = { c:FIN }
+                war = no
+				escalation = 80
+				add_war_goal = {
+                    holder = c:RUS
+                    type = conquer_state
+                    target_state = s:STATE_EAST_KARELIA.region_state:KAR
+                }
+				add_war_goal = {
+                    holder = c:KAR
+                    type = conquer_state
+                    target_state = s:STATE_EAST_KARELIA.region_state:RUS
+                }
+        }
+	}
 }

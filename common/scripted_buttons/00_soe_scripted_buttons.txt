@@ -240,6 +240,24 @@ je_italyethiopia_1 = {
 	}
 }
 
+je_sovietwar = {
+	name = "je_sovietwar_progress_button"
+	desc = "je_sovietwar_progress_button_desc"
+
+	visible = { always = yes }
+
+	possible = {
+	}
+
+	effect = {
+        custom_tooltip = sovietwar
+        change_variable = {
+            name = sovietwar_timer
+            add = 100
+        }
+	}
+}
+
 je_italytension_a = {
 	name = "je_appeasegermany"
 	desc = "je_appeasegermany_desc"

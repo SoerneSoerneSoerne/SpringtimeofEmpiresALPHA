@@ -26,5 +26,9 @@
 		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_slavery_banned
 		
+		add_modifier = { name = sovietrecover
+	 years = 1 }
+	    add_modifier = { name = sovietgovernemnt }
+		
 	}
 }

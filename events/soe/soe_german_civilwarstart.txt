@@ -1,0 +1,113 @@
+﻿namespace = soe_german_civilwarstart
+
+soe_german_civilwarstart.1 = { ### British Civil War Mosley start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/buf.dds"
+	title = soe_german_civilwarstart.1.t desc = soe_german_civilwarstart.1.d flavor = soe_german_civilwarstart.1.f
+	event_image = { texture = "gfx/event_pictures/buf.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GER
+		c:GER = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_1_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_1_end_flag }
+	option = { name = soe_german_civilwarstart.1.o1
+	    default_option = yes
+		create_country = { tag = NZI origin = c:GER
+			state = s:STATE_NORTH_RHINE.region_state:GER
+			state = s:STATE_RHINELAND.region_state:GER
+			state = s:STATE_HESSE.region_state:GER
+			state = s:STATE_RUHR.region_state:GER
+			state = s:STATE_WESTPHALIA.region_state:GER
+		  }
+		 create_country = { tag = BOH origin = c:GER
+			state = s:STATE_BOHEMIA.region_state:GER
+			state = s:STATE_MORAVIA.region_state:GER
+		  }
+		 create_country = { tag = PRU origin = c:GER
+			state = s:STATE_BRANDENBURG.region_state:GER
+			state = s:STATE_EAST_PRUSSIA.region_state:GER
+		  }
+		 create_country = { tag = AUS origin = c:GER
+			state = s:STATE_TYROL.region_state:GER
+			state = s:STATE_AUSTRIA.region_state:GER
+			state = s:STATE_STYRIA.region_state:GER
+		  }
+		 create_country = { tag = BAV origin = c:GER
+			state = s:STATE_BAVARIA.region_state:GER
+			state = s:STATE_FRANCONIA.region_state:GER
+		  }
+		 create_country = { tag = CGE origin = c:GER
+			state = s:STATE_ALSACE_LORRAINE.region_state:GER
+		  }
+		 create_country = { tag = LUX origin = c:GER
+			state = s:STATE_WALLONIA.region_state:GER
+		  }
+		 create_country = { tag = HOL origin = c:GER
+			state = s:STATE_SCHLESWIG_HOLSTEIN.region_state:GER
+		  }
+		 create_country = { tag = HAN origin = c:GER
+			state = s:STATE_HANNOVER.region_state:GER
+		  }
+		 create_country = { tag = HAM origin = c:GER
+			state = s:STATE_ELBE.region_state:GER
+		  }
+		 create_country = { tag = ANH origin = c:GER
+			state = s:STATE_ANHALT.region_state:GER
+		  }
+		 create_country = { tag = SAX origin = c:GER
+			state = s:STATE_SAXONY.region_state:GER
+		  }
+		 create_country = { tag = BRA origin = c:GER
+			state = s:STATE_BRUNSWICK.region_state:GER
+		  }
+		 create_country = { tag = WUR origin = c:GER
+			state = s:STATE_WURTTEMBERG.region_state:GER
+		  }
+		 create_country = { tag = POM origin = c:GER
+			state = s:STATE_MECKLENBURG.region_state:GER
+			state = s:STATE_POMERANIA.region_state:GER
+		  }
+		 create_country = { tag = BAD origin = c:GER
+			state = s:STATE_BADEN.region_state:GER
+		  }
+		}
+	option = { name = soe_german_civilwarstart.1.o2
+	create_country = { tag = MOY origin = c:GBR
+			state = s:STATE_HOME_COUNTIES.region_state:GBR
+			state = s:STATE_EAST_ANGLIA.region_state:GBR
+	} 
+	play_as = c:MOY
+  }
+}
+
+soe_german_civilwarstart.2 = { ### British Civil War Communist start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/hammersickle.dds"
+	title = soe_german_civilwarstart.2.t desc = soe_german_civilwarstart.2.d flavor = soe_german_civilwarstart.2.f
+	event_image = { texture = "gfx/event_pictures/communistbritain.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:GBR
+		c:GBR = ROOT
+		NOT = { has_variable = soe_britain_civilwarstart_2_end_flag }
+	}
+	immediate = { set_variable = soe_britain_civilwarstart_2_end_flag }
+	option = { name = soe_german_civilwarstart.2.o1
+	    default_option = yes
+		create_country = { tag = BCO origin = c:GBR
+			state = s:STATE_MIDLANDS.region_state:GBR
+		  }
+		}
+	option = { name = soe_german_civilwarstart.2.o2
+	create_country = { tag = BCO origin = c:GBR
+			state = s:STATE_MIDLANDS.region_state:GBR
+	} 
+	play_as = c:BCO
+  }
+}
