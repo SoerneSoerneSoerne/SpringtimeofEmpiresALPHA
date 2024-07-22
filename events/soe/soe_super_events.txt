@@ -1,0 +1,163 @@
+﻿namespace = soe_super_events
+
+soe_super_events.1 = {
+	type = country_event
+
+	title = brit_super.1
+	desc = brit_super.1.d
+
+	gui_window = event_super
+
+	event_image = {
+		texture  = "gfx/event_pictures/britishcivilwar.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	#on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	trigger = {
+	}	
+	
+	duration = 3
+
+	option = {
+		name = brit_super.1.a
+	}
+}
+
+soe_super_events.2 = {
+	type = country_event
+
+	title = brit_super.2
+	desc = brit_super.2.d
+
+	gui_window = event_super_mosley
+
+	event_image = {
+		texture  = "gfx/event_pictures/mosleysuper.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	#on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	trigger = {
+	}	
+	
+	duration = 3
+
+	option = {
+		name = brit_super.2.a
+	}
+}
+
+soe_super_events.3 = {
+	type = country_event
+
+	title = brit_super.3
+	desc = brit_super.3.d
+
+	gui_window = event_super_communistbrit
+
+	event_image = {
+		texture  = "gfx/event_pictures/britcommsuper.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	#on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	trigger = {
+	}	
+	
+	duration = 3
+
+	option = {
+		name = brit_super.3.a
+	}
+}
+
+soe_super_events.4 = {
+	type = country_event
+
+	title = brit_super.4
+	desc = brit_super.4.d
+
+	gui_window = event_super_monbrit
+
+	event_image = {
+		texture  = "gfx/event_pictures/monbritsuper.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	#on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	trigger = {
+	}	
+	
+	duration = 3
+
+	option = {
+		name = brit_super.4.a
+	}
+}
+
+soe_super_events.5 = {
+	type = country_event
+
+	title = brit_super.5
+	desc = brit_super.5.d
+
+	gui_window = event_super_britnavysuper
+
+	event_image = {
+		texture  = "gfx/event_pictures/britnavysuper.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	#on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	trigger = {
+	}	
+	
+	duration = 3
+
+	option = {
+		name = brit_super.5.a
+	}
+}
+
+soe_super_events.6 = {
+	type = country_event
+
+	title = brit_super.6
+	desc = brit_super.6.d
+
+	gui_window = event_super_britrepsuper
+
+	event_image = {
+		texture  = "gfx/event_pictures/britrepsuper.dds"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	#on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	trigger = {
+	}	
+	
+	duration = 3
+
+	option = {
+		name = brit_super.6.a
+	}
+}

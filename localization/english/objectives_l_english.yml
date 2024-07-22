@@ -41,6 +41,9 @@
  objective_hegemon_name_DMA:0 "#v $DMA$#!"
  objective_hegemon_desc_DMA:0 "#lore $DMA_FLAVOR_TEXT$#!"
  
+ objective_great_game:0 "Free Republic of Italy"
+ 
+ 
  objective_egalitarian_society:0 "Imperial Federation"
  objective_egalitarian_society_desc:1 "The once-mighty Empire has been humbled, having suffered a defeat at the hands of the combined forces of France and Germany. The war's aftermath has left the Imperial Federation in disarray, with several colonies lost and the purpose of the Federation being questioned. How long can the fragile Empire keep itself together, before the ship sinks?"
  objective_egalitarian_society_idle_header:1 "Continue on your path"

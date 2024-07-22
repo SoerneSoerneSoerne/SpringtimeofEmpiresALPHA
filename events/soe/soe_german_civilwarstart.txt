@@ -4,7 +4,7 @@ soe_german_civilwarstart.1 = { ### British Civil War Mosley start
 	type = country_event placement = ROOT
 	icon = "gfx/interface/icons/event_icons/buf.dds"
 	title = soe_german_civilwarstart.1.t desc = soe_german_civilwarstart.1.d flavor = soe_german_civilwarstart.1.f
-	event_image = { texture = "gfx/event_pictures/buf.dds" }
+	event_image = { texture = "gfx/event_pictures/hungary.dds" }
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
 	duration = 1
@@ -22,14 +22,38 @@ soe_german_civilwarstart.1 = { ### British Civil War Mosley start
 			state = s:STATE_HESSE.region_state:GER
 			state = s:STATE_RUHR.region_state:GER
 			state = s:STATE_WESTPHALIA.region_state:GER
+			state = s:STATE_SCHLESWIG_HOLSTEIN.region_state:GER
+			state = s:STATE_HANNOVER.region_state:GER
+			state = s:STATE_ELBE.region_state:GER
+			state = s:STATE_ANHALT.region_state:GER
+			state = s:STATE_BRUNSWICK.region_state:GER
+			on_created = {
+			activate_law = law_type:law_autocracy
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_censorship
+		set_immune_to_revolutions = yes
+		trigger_event = {
+			id = soe_german_civilwarstart.2
+		}
+		}
 		  }
 		 create_country = { tag = BOH origin = c:GER
 			state = s:STATE_BOHEMIA.region_state:GER
 			state = s:STATE_MORAVIA.region_state:GER
+			on_created = {
+			activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_universal_suffrage 
+		set_immune_to_revolutions = yes
+		}
 		  }
 		 create_country = { tag = PRU origin = c:GER
 			state = s:STATE_BRANDENBURG.region_state:GER
 			state = s:STATE_EAST_PRUSSIA.region_state:GER
+			state = s:STATE_SAXONY.region_state:GER
+			state = s:STATE_MECKLENBURG.region_state:GER
+			state = s:STATE_POMERANIA.region_state:GER
+			state = s:STATE_SILESIA.region_state:GER
 		  }
 		 create_country = { tag = AUS origin = c:GER
 			state = s:STATE_TYROL.region_state:GER
@@ -39,6 +63,34 @@ soe_german_civilwarstart.1 = { ### British Civil War Mosley start
 		 create_country = { tag = BAV origin = c:GER
 			state = s:STATE_BAVARIA.region_state:GER
 			state = s:STATE_FRANCONIA.region_state:GER
+			state = s:STATE_BADEN.region_state:GER
+			state = s:STATE_WURTTEMBERG.region_state:GER
+			on_created = {
+			activate_law = law_type:law_council_republic
+		activate_law = law_type:law_universal_suffrage 
+		activate_law = law_type:law_collectivized_agriculture
+		activate_law = law_type:law_graduated_taxation
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_cooperative_ownership
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_women_in_the_workplace
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_public_health_insurance
+		activate_law = law_type:law_regulatory_bodies
+		activate_law = law_type:law_compulsory_primary_school
+		activate_law = law_type:law_old_age_pension
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_slavery_banned
+		set_immune_to_revolutions = yes
+		trigger_event = {
+			id = soe_german_civilwarstart.3
+		}
+		}
 		  }
 		 create_country = { tag = CGE origin = c:GER
 			state = s:STATE_ALSACE_LORRAINE.region_state:GER
@@ -46,68 +98,165 @@ soe_german_civilwarstart.1 = { ### British Civil War Mosley start
 		 create_country = { tag = LUX origin = c:GER
 			state = s:STATE_WALLONIA.region_state:GER
 		  }
-		 create_country = { tag = HOL origin = c:GER
-			state = s:STATE_SCHLESWIG_HOLSTEIN.region_state:GER
-		  }
-		 create_country = { tag = HAN origin = c:GER
-			state = s:STATE_HANNOVER.region_state:GER
-		  }
-		 create_country = { tag = HAM origin = c:GER
-			state = s:STATE_ELBE.region_state:GER
-		  }
-		 create_country = { tag = ANH origin = c:GER
-			state = s:STATE_ANHALT.region_state:GER
-		  }
-		 create_country = { tag = SAX origin = c:GER
-			state = s:STATE_SAXONY.region_state:GER
-		  }
-		 create_country = { tag = BRA origin = c:GER
-			state = s:STATE_BRUNSWICK.region_state:GER
-		  }
-		 create_country = { tag = WUR origin = c:GER
-			state = s:STATE_WURTTEMBERG.region_state:GER
-		  }
-		 create_country = { tag = POM origin = c:GER
-			state = s:STATE_MECKLENBURG.region_state:GER
-			state = s:STATE_POMERANIA.region_state:GER
-		  }
-		 create_country = { tag = BAD origin = c:GER
-			state = s:STATE_BADEN.region_state:GER
-		  }
+		  s:STATE_SOUTH_TYROL.region_state:GER = {
+        set_state_owner = c:ITA
+    }
+	s:STATE_ISTRIA.region_state:GER = {
+        set_state_owner = c:ITA
+    }
+	s:STATE_SLOVENIA.region_state:GER = {
+        set_state_owner = c:ITA
+    }
+		 s:STATE_POSEN.region_state:GER = {
+        set_state_owner = c:POL
+    }
+	s:STATE_WEST_PRUSSIA.region_state:GER = {
+        set_state_owner = c:POL
+    }
+	s:STATE_MAZOVIA.region_state:GER = {
+        set_state_owner = c:POL
+    }
+	s:STATE_GREATER_POLAND.region_state:GER = {
+        set_state_owner = c:POL
+    }
+		  play_as = c:NZI
 		}
-	option = { name = soe_german_civilwarstart.1.o2
-	create_country = { tag = MOY origin = c:GBR
-			state = s:STATE_HOME_COUNTIES.region_state:GBR
-			state = s:STATE_EAST_ANGLIA.region_state:GBR
-	} 
-	play_as = c:MOY
   }
-}
 
-soe_german_civilwarstart.2 = { ### British Civil War Communist start
+soe_german_civilwarstart.2 = { ### British Civil War Navy start
 	type = country_event placement = ROOT
-	icon = "gfx/interface/icons/event_icons/hammersickle.dds"
+	icon = "gfx/interface/icons/event_icons/ship.dds"
 	title = soe_german_civilwarstart.2.t desc = soe_german_civilwarstart.2.d flavor = soe_german_civilwarstart.2.f
-	event_image = { texture = "gfx/event_pictures/communistbritain.dds" }
+	event_image = { texture = "gfx/event_pictures/royalnavy.dds" }
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
 	duration = 1
 	trigger = {
-		exists = c:GBR
-		c:GBR = ROOT
-		NOT = { has_variable = soe_britain_civilwarstart_2_end_flag }
+		exists = c:NZI
+		c:NZI = ROOT
+		NOT = { has_variable = soe_german_civilwarstart_2_end_flag }
 	}
-	immediate = { set_variable = soe_britain_civilwarstart_2_end_flag }
+	immediate = { set_variable = soe_german_civilwarstart_2_end_flag }
 	option = { name = soe_german_civilwarstart.2.o1
 	    default_option = yes
-		create_country = { tag = BCO origin = c:GBR
-			state = s:STATE_MIDLANDS.region_state:GBR
-		  }
+		c:NZI = { 
+        create_character = {
+                # Hitler
+			first_name = "Adolf"
+			last_name = "hitler"
+			historical = yes
+			ig_leader = yes
+			ruler = yes
+			birth_date = 1889.4.20
+			dna = dna_adolf_hitler
+			interest_group = ig_petty_bourgeoisie
+			ideology= ideology_communistagrar
+			culture= south_german
+			traits = {
+				firebrand
+			}
+			}
+			}
+		c:AUS = { 
+        create_character = {
+			# Karl
+			first_name = "Karl"
+			last_name = "first"
+			historical = yes
+			ruler = yes 
+			ig_leader = yes
+			birth_date = 1887.8.17
+			dna = dna_karl_i
+			interest_group = ig_landowners
+			ideology= ideology_habsburgsoe
+			culture= south_german
+			traits = {
+				literary
+			}
+			on_created = {
+				set_variable = is_married
+			}
 		}
-	option = { name = soe_german_civilwarstart.2.o2
-	create_country = { tag = BCO origin = c:GBR
-			state = s:STATE_MIDLANDS.region_state:GBR
-	} 
-	play_as = c:BCO
-  }
+			}
+		c:PRU = { 
+        create_character = {
+			# Wilhelm 
+			first_name = "Wilhelm"
+			last_name = "second"
+			historical = yes
+			ig_leader = yes
+			ruler = yes 
+			birth_date = 1859.1.27
+			dna = dna_wilhelm_ii
+			interest_group = ig_landowners
+			ideology= ideology_hohenzollernsoe
+			culture= north_german
+			traits = {
+				
+			}
+		}
+			}
+			c:NZI = { annex = c:GER }
+		add_modifier = { name = modifier_hitler1
+	 years = 3 }
+
+			create_diplomatic_play = {
+            
+        target_country = c:PRU
+            type = dp_revolution
+            war = yes
+			}
+			
+			create_diplomatic_play = {
+            
+        target_country = c:AUS
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:BAV
+            type = dp_revolution
+            war = yes
+			}
+     }
+}
+
+soe_german_civilwarstart.3 = { ### British Civil War Navy start
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/ship.dds"
+	title = soe_german_civilwarstart.3.t desc = soe_german_civilwarstart.3.d flavor = soe_german_civilwarstart.3.f
+	event_image = { texture = "gfx/event_pictures/royalnavy.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:BAV
+		c:BAV = ROOT
+		NOT = { has_variable = soe_german_civilwarstart_3_end_flag }
+	}
+	immediate = { set_variable = soe_german_civilwarstart_3_end_flag }
+	option = { name = soe_german_civilwarstart.3.o1
+	    default_option = yes
+
+			create_diplomatic_play = {
+            
+        target_country = c:PRU
+            type = dp_revolution
+            war = yes
+			}
+			
+			create_diplomatic_play = {
+            
+        target_country = c:AUS
+            type = dp_revolution
+            war = yes
+			}
+			create_diplomatic_play = {
+            
+        target_country = c:NZI
+            type = dp_revolution
+            war = yes
+			}
+     }
 }

@@ -1,0 +1,28 @@
+﻿je_kulturkampf = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/ger2.dds"
+    is_shown_when_inactive = {
+        exists = c:GER
+        c:GER = ROOT
+    }
+    possible = {
+	exists = c:GER
+        c:GER = ROOT
+    }
+    complete = {
+         has_law = law_type:law_total_separation
+    }
+    on_complete = {
+		remove_modifier = modifier_religionger
+    }
+	fail = {
+		has_law = law_type:law_state_religion
+	}
+	on_fail = {
+		set_state_religion = rel:catholic
+	}
+	timeout = 7300
+	should_be_pinned_by_default = yes
+	weight = 100
+}

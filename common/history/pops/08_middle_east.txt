@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_NEJD = {
-		region_state:NEJ = {
+		region_state:JAB = {
 			create_pop = {
 				culture = bedouin
 				size = 1093996
@@ -199,7 +199,7 @@
 		}
 	}
 	s:STATE_HEDJAZ = {
-		region_state:TUR = {
+		region_state:JAB = {
 			create_pop = {
 				culture = bedouin
 				religion = sunni
@@ -255,27 +255,6 @@
 				size = 2300
 			}
 		}
-		region_state:NEJ = {
-			create_pop = {
-				culture = bedouin
-				size = 31000
-			}
-			create_pop = {
-				culture = bedouin
-				religion = shiite
-				size = 38040
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = north_caucasian
-				size = 200
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = sudanese
-				size = 3600
-			}
-		}
 	}
 	s:STATE_CYPRUS = {
 		region_state:GBR = {
@@ -310,7 +289,7 @@
 		}
 	}
 	s:STATE_TRANSJORDAN = {
-		region_state:TUR = {
+		region_state:JAB = {
 			create_pop = {
 				culture = bedouin
 				religion = sunni
@@ -349,7 +328,7 @@
 		}
 	}
 	s:STATE_PALESTINE = {
-		region_state:TUR = {
+		region_state:PAL = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -395,9 +374,16 @@
 				size = 2300
 			}
 		}
+		region_state:LGO = {
+			create_pop = {
+				culture = russian
+				religion = orthodox
+				size = 58000
+			}
+		}
 	}
 	s:STATE_LEBANON = {
-		region_state:TUR = {
+		region_state:JAB = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -454,7 +440,7 @@
 		}
 	}
 	s:STATE_SYRIA = {
-		region_state:TUR = {
+		region_state:JAB = {
 			create_pop = {
 				culture = mashriqi
 				religion = shiite
@@ -497,7 +483,7 @@
 		}
 	}
 	s:STATE_ALEPPO = {
-		region_state:TUR = {
+		region_state:JAB = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -557,9 +543,16 @@
 				size = 9000
 			}
 		}
+		region_state:ARM = {
+			create_pop = {
+				culture = armenian
+				religion = sunni
+				size = 22000
+			}
+		}
 	}
 	s:STATE_BAGHDAD = {
-		region_state:TUR = {
+		region_state:IRQ = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -607,9 +600,19 @@
 				size = 10000
 			}
 		}
+		region_state:JAB = {
+			create_pop = {
+				culture = mashriqi
+				size = 116000
+			}
+			create_pop = {
+				culture = bedouin
+				size = 104004
+			}
+		}
 	}
 	s:STATE_MOSUL = {
-		region_state:TUR = {
+		region_state:KUR = {
 			create_pop = {
 				culture = kurdish
 				size = 503004
@@ -645,7 +648,7 @@
 		}
 	}
 	s:STATE_DEIR_EZ_ZOR = {
-		region_state:TUR = {
+		region_state:ASS = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -677,7 +680,7 @@
 		}
 	}
 	s:STATE_BASRA = {
-		region_state:TUR = {
+		region_state:IRQ = {
 			create_pop = {
 				culture = mashriqi
 				size = 272000
@@ -985,6 +988,16 @@
 				size = 3000
 			}
 		}
+		region_state:TSG = {
+			create_pop = {
+				culture = turkish
+				size = 38494
+			}
+			create_pop = {
+				culture = russian
+				size = 52010
+			}
+		}
 	}
 	s:STATE_AYDIN = {
 		region_state:TUR = {
@@ -1159,6 +1172,25 @@
 				size = 1000
 			}
 		}
+		region_state:ARM = {
+			create_pop = {
+				culture = kurdish
+				size = 24002
+			}
+			create_pop = {
+				culture = armenian
+				size = 133596
+			}
+			create_pop = {
+				culture = greek
+				size = 5023
+			}
+			create_pop = {
+				culture = greek
+				religion = catholic
+				size = 801
+			}
+		}
 	}
 	s:STATE_TRABZON = {
 		region_state:TUR = {
@@ -1246,7 +1278,7 @@
 		}
 	}
 	s:STATE_KARS = {
-		region_state:TUR = {
+		region_state:CAU = {
 			create_pop = {
 				culture = turkish
 				size = 151000

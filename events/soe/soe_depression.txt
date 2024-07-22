@@ -526,3 +526,61 @@ soe_depression.18 = { ### Depression first event
    }
 	}
 }
+
+soe_depression.19 = { ### Depression first event
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/depression.dds"
+	title = soe_depression.1.t desc = soe_depression.1.d flavor = soe_depression.1.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:ROM
+		      c:ROM = ROOT
+		NOT = { has_variable = soe_depression_19_end_flag }
+	
+	}
+	immediate = { set_variable = soe_depression_19_end_flag }
+	option = { name = soe_depression.2.o
+		add_modifier = { name = modifier_francogermandepression
+	 years = 7 }
+	 remove_diplomatic_pact = {
+   	country = c:LON
+   	type = european_union
+   }
+   change_relations = {
+   	country = c:LON
+   	value = -100
+   }
+	}
+}
+
+soe_depression.20 = { ### Depression first event
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/depression.dds"
+	title = soe_depression.1.t desc = soe_depression.1.d flavor = soe_depression.1.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:ISR
+		      c:ISR = ROOT
+		NOT = { has_variable = soe_depression_20_end_flag }
+	
+	}
+	immediate = { set_variable = soe_depression_20_end_flag }
+	option = { name = soe_depression.2.o
+		add_modifier = { name = modifier_francogermandepression
+	 years = 7 }
+	 remove_diplomatic_pact = {
+   	country = c:LON
+   	type = european_union
+   }
+   change_relations = {
+   	country = c:LON
+   	value = -100
+   }
+	}
+}

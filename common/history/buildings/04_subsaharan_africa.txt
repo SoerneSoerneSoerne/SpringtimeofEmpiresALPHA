@@ -766,15 +766,15 @@
 		}
 	}
 	s:STATE_CONGO_ORIENTALE={
-		region_state:DKO={
+		region_state:BEC={
 		}
 	}
 	s:STATE_KASAI={
-		region_state:DKO={
+		region_state:BEC={
 		}
 	}
 	s:STATE_BAS_CONGO={
-		region_state:DKO={
+		region_state:BEC={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -796,9 +796,17 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
+		region_state:DKO={
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
 	}
 	s:STATE_EQUATEUR={
-		region_state:DKO={
+		region_state:BEC={
 		}
 	}
 	s:STATE_NORTH_ANGOLA={
@@ -856,7 +864,7 @@
 		}
 	}
 	s:STATE_KATANGA={
-		region_state:DKO={
+		region_state:BEC={
 		}
 	}
 	s:STATE_GABON={

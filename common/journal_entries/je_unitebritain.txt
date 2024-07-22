@@ -1,0 +1,42 @@
+﻿je_unitebritain = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/brit1.dds"
+    is_shown_when_inactive = {
+
+    }
+    possible = {
+	country_has_primary_culture = cu:british
+	owns_entire_state_region = STATE_HOME_COUNTIES
+    }
+    complete = {
+        owns_entire_state_region = STATE_WALES
+		owns_entire_state_region = STATE_LOWLANDS
+		owns_entire_state_region = STATE_HIGHLANDS
+    }
+    on_complete = {
+        sr:region_oceania = {
+			every_scope_state = {
+				state_region = {
+					add_claim = ROOT
+				}
+			}
+		}
+		sr:region_southern_africa = {
+			every_scope_state = {
+				state_region = {
+					add_claim = ROOT
+				}
+			}
+		}
+		sr:region_canada = {
+			every_scope_state = {
+				state_region = {
+					add_claim = ROOT
+				}
+			}
+		}
+    }
+	should_be_pinned_by_default = yes
+	weight = 100
+}

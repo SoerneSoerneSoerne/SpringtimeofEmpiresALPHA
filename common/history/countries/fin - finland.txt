@@ -20,5 +20,10 @@
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 		}
+		
+		add_modifier = {
+			name = modifier_sisu
+			months = -1
+		}
 	}
 }

@@ -1,0 +1,146 @@
+﻿je_ukraineone = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/bundeswehr.dds"
+    is_shown_when_inactive = {
+	exists = c:UKR
+        c:UKR = ROOT
+    }
+    possible = {
+		exists = c:UKR
+        c:UKR = ROOT
+    }
+    complete = {
+        any_scope_building = { 
+            is_building_type = building_arms_industry
+            OR = {
+                has_active_production_method = pm_rifles
+            }
+            level >= 3
+            occupancy >= 0.50
+        }
+		army_size >= 50
+    }
+    on_complete = {
+	remove_modifier = modifier_ukrainearmybad
+    }
+	
+	should_be_pinned_by_default = yes
+	weight = 100
+    timeout = 2920
+}
+
+je_ukrainetwo = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/ukraine.dds"
+    is_shown_when_inactive = {
+        exists = c:UKR
+        c:UKR = ROOT
+    }
+    possible = {
+	exists = c:UKR
+        c:UKR = ROOT
+    }
+    complete = {
+        owns_entire_state_region = STATE_VOLHYNIA
+		owns_entire_state_region = STATE_KIEV
+		owns_entire_state_region = STATE_CHERSON
+		owns_entire_state_region = STATE_LUHANSK
+    }
+    on_complete = {
+	remove_modifier = modifier_ukraineunifiednot
+        add_modifier = modifier_ukraineunified
+    }
+	should_be_pinned_by_default = yes
+	weight = 100
+}
+
+je_ukrainethree = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/ukraine2.dds"
+    is_shown_when_inactive = {
+        exists = c:UKR
+        c:UKR = ROOT
+		exists = c:MVA
+    }
+    possible = {
+	exists = c:UKR
+        c:UKR = ROOT
+		exists = c:MVA
+    }
+    complete = {
+        not = { exists = c:MVA }
+    }
+    on_complete = {
+        remove_modifier = modifier_ukrainemakhno
+    }
+	should_be_pinned_by_default = yes
+	weight = 100
+}
+
+je_ukrainefour = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/ukraine3.dds"
+    is_shown_when_inactive = {
+        exists = c:UKR
+        c:UKR = ROOT
+    }
+    possible = {
+	exists = c:UKR
+        c:UKR = ROOT
+		owns_entire_state_region = STATE_CRIMEA
+    }
+    complete = {
+        cu:tatar = {
+			NOT = { culture_is_discriminated_in = ROOT }
+		}
+    }
+    on_complete = {
+       add_primary_culture = cu:tatar
+    }
+	fail = {
+		cu:tatar = {
+			culture_secession_progress = {
+				target = ROOT
+				value > 0.5
+			}
+		}
+	}
+	should_be_pinned_by_default = yes
+	weight = 100
+}
+
+je_ukrainefive = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/ukraine.dds"
+    is_shown_when_inactive = {
+        exists = c:UKR
+        c:UKR = ROOT
+    }
+    possible = {
+	exists = c:UKR
+        c:UKR = ROOT
+		has_modifier = modifier_ukraineunified
+    }
+    complete = {
+        owns_entire_state_region = STATE_VOLHYNIA
+		owns_entire_state_region = STATE_KIEV
+		owns_entire_state_region = STATE_CHERSON
+		owns_entire_state_region = STATE_LUHANSK
+		owns_entire_state_region = STATE_EAST_GALICIA
+		owns_entire_state_region = STATE_BESSARABIA
+		owns_entire_state_region = STATE_CRIMEA
+		owns_entire_state_region = STATE_KUBAN
+		owns_entire_state_region = STATE_ROSTOV
+    }
+    on_complete = {
+	remove_modifier = modifier_ukraineunified
+        add_modifier = modifier_greaterukraineunified
+    }
+	should_be_pinned_by_default = yes
+	weight = 100
+}

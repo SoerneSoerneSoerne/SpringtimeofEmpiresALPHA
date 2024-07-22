@@ -131,7 +131,15 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = russian
-				size = 1060000
+				size = 560000
+			}
+			create_pop = {
+				culture = russian
+				size = 380000
+			}
+			create_pop = {
+				culture = russian
+				size = 110000
 			}
 		}
 	}
@@ -468,6 +476,16 @@
 				size = 180000
 			}
 		}
+		region_state:HUN = {
+			create_pop = {
+				culture = ukrainian
+				size = 4404
+			}
+			create_pop = {
+				culture = hungarian
+				size = 18000
+			}
+		}
 	}
 	s:STATE_CENTRAL_HUNGARY = {
 		region_state:HUN = {
@@ -514,7 +532,7 @@
 		}
 	}
 	s:STATE_BANAT = {
-		region_state:HUN = {
+		region_state:BAN = {
 			create_pop = {
 				culture = south_german
 				size = 312640
@@ -552,7 +570,7 @@
 		}
 	}
 	s:STATE_WEST_SLOVAKIA = {
-		region_state:HUN = {
+		region_state:SLV = {
 			create_pop = {
 				culture = hungarian
 				size = 237000
@@ -581,11 +599,7 @@
 		}
 	}
 	s:STATE_EAST_SLOVAKIA = {
-		region_state:HUN = {
-			create_pop = {
-				culture = hungarian
-				size = 150848
-			}
+		region_state:SLV = {
 			create_pop = {
 				culture = slovak
 				size = 1906000
@@ -612,9 +626,20 @@
 				size = 60000
 			}
 		}
+		region_state:HUN = {
+			create_pop = {
+				culture = ukrainian
+				size = 164000
+			}
+			create_pop = {
+				culture = hungarian
+				religion = protestant
+				size = 168452
+			}
+		}
 	}
 	s:STATE_SOUTHERN_TRANSYLVANIA = {
-		region_state:HUN = {
+		region_state:STR = {
 			create_pop = {
 				culture = hungarian
 				religion = protestant

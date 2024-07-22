@@ -534,6 +534,14 @@ DSW = { # Deutsch Südwest
 	}
 }
 
+BEC = { # Belgian Congo
+	flag_definition = {
+		coa = BEC_FLAG
+		subject_canton = BEC_FLAG
+		priority = 1000
+	}
+}
+
 DMA = { # Mittelafrika
 	flag_definition = {
 		coa = DMA_FLAG
@@ -3323,7 +3331,34 @@ ILY = { # Illyria
 	flag_definition = {
 		coa = ILY_FLAG	
 		subject_canton = ILY_FLAG
-		allow_overlord_canton = yes		
+		allow_overlord_canton = no		
+		priority = 2000
+	}
+}
+
+DAL = { # Dalmatia
+	flag_definition = {
+		coa = DAL_FLAG	
+		subject_canton = DAL_FLAG
+		allow_overlord_canton = no		
+		priority = 2000
+	}
+}
+
+BAN = { # Dalmatia
+	flag_definition = {
+		coa = BAN_FLAG	
+		subject_canton = BAN_FLAG
+		allow_overlord_canton = no		
+		priority = 2000
+	}
+}
+
+STR = { # Dalmatia
+	flag_definition = {
+		coa = STR_FLAG	
+		subject_canton = STR_FLAG
+		allow_overlord_canton = no		
 		priority = 2000
 	}
 }
@@ -3566,6 +3601,14 @@ GER = { # German Empire
 	flag_definition = {
 		coa = GER_FLAG
 		subject_canton = GER_FLAG
+		priority = 1000
+	}
+}
+
+NZI = { # German HITLER
+	flag_definition = {
+		coa = NZI_FLAG
+		subject_canton = NZI_FLAG
 		priority = 1000
 	}
 }
@@ -4527,9 +4570,55 @@ KNK = {
 
 JAB = { # Jabal Shammar
 	flag_definition = {
-		coa = JAB
-		subject_canton = JAB			
-		priority = 1
+		coa = JAB_FLAG	
+		subject_canton = JAB_FLAG
+		allow_overlord_canton = no		
+		priority = 2000
+	}	
+}
+
+TSG = { # Jabal Shammar
+	flag_definition = {
+		coa = TSG_FLAG	
+		subject_canton = TSG_FLAG
+		allow_overlord_canton = no		
+		priority = 2000
+	}	
+}
+
+DKO = { # Jabal Shammar
+	flag_definition = {
+		coa = DKO_FLAG	
+		subject_canton = DKO_FLAG
+		allow_overlord_canton = no		
+		priority = 2000
+	}	
+}
+
+DNR = { # Jabal Shammar
+	flag_definition = {
+		coa = DNR_FLAG	
+		subject_canton = DNR_FLAG
+		allow_overlord_canton = no		
+		priority = 2000
+	}	
+}
+
+DOA = { # Jabal Shammar
+	flag_definition = {
+		coa = DOA_FLAG	
+		subject_canton = DOA_FLAG
+		allow_overlord_canton = no		
+		priority = 2000
+	}	
+}
+
+LGO = { # Jabal Shammar
+	flag_definition = {
+		coa = LGO_FLAG	
+		subject_canton = LGO_FLAG
+		allow_overlord_canton = no		
+		priority = 2000
 	}	
 }
 
@@ -4636,25 +4725,6 @@ JAP = { # Japan
 		priority = 10
 		trigger = {
 			coa_def_military_junta_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = JAP_tokugawa
-		subject_canton = JAP_tokugawa
-		priority = 20
-		trigger = {
-			scope:actor = { NOT = { has_variable = meiji_var } }
-			coa_def_absolute_monarchy_flag_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = JAP_tokugawa_late
-		subject_canton = JAP_tokugawa_late
-		priority = 20
-		trigger = {
-			scope:actor = { NOT = { has_variable = meiji_var } }
-			coa_def_absolute_monarchy_flag_trigger = no
-			coa_def_monarchy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
@@ -7798,17 +7868,10 @@ SIN = { # Sindh
 
 SLV = { # Slovakia
 	flag_definition = {
-		coa = SLV
-		subject_canton = SLV	
-		priority = 1
-	}
-	flag_definition = {
-		coa = SLV_fascist
-		subject_canton = SLV_fascist
-		priority = 10
-		trigger = { 
-			coa_def_fascist_flag_trigger = yes
-		}
+		coa = SLV_FLAG	
+		subject_canton = SLV_FLAG
+		allow_overlord_canton = no		
+		priority = 2000
 	}	
 }
 

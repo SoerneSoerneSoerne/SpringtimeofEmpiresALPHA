@@ -1,0 +1,35 @@
+﻿je_czechger = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/ger1.dds"
+    is_shown_when_inactive = {
+        exists = c:GER
+        c:GER = ROOT
+    }
+    possible = {
+	exists = c:GER
+        c:GER = ROOT
+		owns_entire_state_region = STATE_BOHEMIA
+    }
+    complete = {
+        cu:czech = {
+			NOT = { culture_is_discriminated_in = ROOT }
+		}
+    }
+    on_complete = {
+       trigger_event = {
+			id = soe_czech.1
+		}
+		remove_modifier = modifier_czechger
+    }
+	fail = {
+		cu:czech = {
+			culture_secession_progress = {
+				target = ROOT
+				value > 0.5
+			}
+		}
+	}
+	should_be_pinned_by_default = yes
+	weight = 100
+}

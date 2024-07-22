@@ -67,10 +67,7 @@ STATE_TOBOLSK = {
     capped_resources = {
         bg_coal_mining = 44
         bg_logging = 14
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 60
+        bg_oil_extraction = 120
     }
 }
 
@@ -109,10 +106,7 @@ STATE_OB = {
         bg_coal_mining = 20
         bg_logging = 13
         bg_fishing = 11
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 60
+        bg_oil_extraction = 120
     }
 }
 
@@ -131,10 +125,7 @@ STATE_NENETSIA = {
     capped_resources = {
         bg_logging = 13
         bg_fishing = 12
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 30
+        bg_oil_extraction = 60
     }
 }
 
@@ -217,15 +208,12 @@ STATE_YAKUTSK = {
     capped_resources = {
         bg_coal_mining = 36
         bg_logging = 23
+        bg_oil_extraction = 10
     }
     resource = {
         type = "bg_gold_fields"
         depleted_type = "bg_gold_mining"
         undiscovered_amount = 8
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
     }
 }
 
@@ -244,10 +232,7 @@ STATE_TRANS_BAIKAL = {
         bg_iron_mining = 33
         bg_sulfur_mining = 44
         bg_logging = 13
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
+        bg_oil_extraction = 20
     }
 }
 
@@ -265,10 +250,7 @@ STATE_IRKUTSK = {
         bg_coal_mining = 80
         bg_iron_mining = 36
         bg_logging = 13
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
+        bg_oil_extraction = 20
     }
 }
 

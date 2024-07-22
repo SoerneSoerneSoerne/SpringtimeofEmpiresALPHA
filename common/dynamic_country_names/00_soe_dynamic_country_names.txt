@@ -39,6 +39,27 @@ MOY = { # Mosley
 				owns_entire_state_region = STATE_MIDLANDS
 			}
 		}
+	}
+dynamic_country_name = {
+		name = dyn_c_moy_englandunited
+		adjective = dyn_c_moy_englandunited_adj
+		
+		is_main_tag_only = yes
+		priority = 2100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_HOME_COUNTIES
+				owns_entire_state_region = STATE_WEST_COUNTRY
+				owns_entire_state_region = STATE_LANCASHIRE
+				owns_entire_state_region = STATE_YORKSHIRE
+				owns_entire_state_region = STATE_MIDLANDS
+				owns_entire_state_region = STATE_WALES
+		owns_entire_state_region = STATE_LOWLANDS
+		owns_entire_state_region = STATE_HIGHLANDS
+			}
+		}
 	}	
 }
 
@@ -58,6 +79,27 @@ FBR = { # Republic
 				owns_entire_state_region = STATE_LANCASHIRE
 				owns_entire_state_region = STATE_YORKSHIRE
 				owns_entire_state_region = STATE_MIDLANDS
+			}
+		}
+	}
+dynamic_country_name = {
+		name = dyn_c_fbr_englandunited
+		adjective = dyn_c_fbr_englandunited_adj
+		
+		is_main_tag_only = yes
+		priority = 2100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_HOME_COUNTIES
+				owns_entire_state_region = STATE_WEST_COUNTRY
+				owns_entire_state_region = STATE_LANCASHIRE
+				owns_entire_state_region = STATE_YORKSHIRE
+				owns_entire_state_region = STATE_MIDLANDS
+				owns_entire_state_region = STATE_WALES
+		owns_entire_state_region = STATE_LOWLANDS
+		owns_entire_state_region = STATE_HIGHLANDS
 			}
 		}
 	}	
@@ -81,7 +123,28 @@ BCO = { # Communist
 				owns_entire_state_region = STATE_MIDLANDS
 			}
 		}
-	}	
+	}
+	dynamic_country_name = {
+		name = dyn_c_bco_englandunited
+		adjective = dyn_c_bco_englandunited_adj
+		
+		is_main_tag_only = yes
+		priority = 2100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_HOME_COUNTIES
+				owns_entire_state_region = STATE_WEST_COUNTRY
+				owns_entire_state_region = STATE_LANCASHIRE
+				owns_entire_state_region = STATE_YORKSHIRE
+				owns_entire_state_region = STATE_MIDLANDS
+				owns_entire_state_region = STATE_WALES
+		owns_entire_state_region = STATE_LOWLANDS
+		owns_entire_state_region = STATE_HIGHLANDS
+			}
+		}
+	}
 }
 
 CRL = { # Monarchy
@@ -100,6 +163,27 @@ CRL = { # Monarchy
 				owns_entire_state_region = STATE_LANCASHIRE
 				owns_entire_state_region = STATE_YORKSHIRE
 				owns_entire_state_region = STATE_MIDLANDS
+			}
+		}
+	}
+dynamic_country_name = {
+		name = dyn_c_crl_englandunited
+		adjective = dyn_c_crl_englandunited_adj
+		
+		is_main_tag_only = yes
+		priority = 2100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_HOME_COUNTIES
+				owns_entire_state_region = STATE_WEST_COUNTRY
+				owns_entire_state_region = STATE_LANCASHIRE
+				owns_entire_state_region = STATE_YORKSHIRE
+				owns_entire_state_region = STATE_MIDLANDS
+				owns_entire_state_region = STATE_WALES
+		owns_entire_state_region = STATE_LOWLANDS
+		owns_entire_state_region = STATE_HIGHLANDS
 			}
 		}
 	}	
@@ -121,6 +205,27 @@ WCG = { # Navy
 				owns_entire_state_region = STATE_LANCASHIRE
 				owns_entire_state_region = STATE_YORKSHIRE
 				owns_entire_state_region = STATE_MIDLANDS
+			}
+		}
+	}
+dynamic_country_name = {
+		name = dyn_c_wcg_englandunited
+		adjective = dyn_c_wcg_englandunited_adj
+		
+		is_main_tag_only = yes
+		priority = 2100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_HOME_COUNTIES
+				owns_entire_state_region = STATE_WEST_COUNTRY
+				owns_entire_state_region = STATE_LANCASHIRE
+				owns_entire_state_region = STATE_YORKSHIRE
+				owns_entire_state_region = STATE_MIDLANDS
+				owns_entire_state_region = STATE_WALES
+		owns_entire_state_region = STATE_LOWLANDS
+		owns_entire_state_region = STATE_HIGHLANDS
 			}
 		}
 	}	

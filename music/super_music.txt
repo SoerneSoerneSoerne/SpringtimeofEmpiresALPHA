@@ -1,0 +1,49 @@
+﻿##### MOOD
+
+01_Britishcivilwar = {
+	music = "file:/music/01_Britishcivilwar.mp3"
+	name = "Imperial Civil War"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+02_mosley = {
+	music = "file:/music/02_mosley.mp3"
+	name = "British Fascist Victory"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+03_britcomm = {
+	music = "file:/music/03_britcomm.mp3"
+	name = "British Communist Victory"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+04_monbrit = {
+	music = "file:/music/04_monbrit.mp3"
+	name = "British Monarchist Victory"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+05_navybrit = {
+	music = "file:/music/05_navybrit.mp3"
+	name = "British Royal Navy Victory"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+06_britrepsuper = {
+	music = "file:/music/06_britrepsuper.mp3"
+	name = "British Republican Victory"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}

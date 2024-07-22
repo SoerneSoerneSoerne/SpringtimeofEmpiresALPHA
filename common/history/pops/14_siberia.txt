@@ -116,7 +116,7 @@
 	}
 
 	s:STATE_CHUKOTKA = {
-		region_state:RUS = {
+		region_state:PWG = {
 			create_pop = {
 				culture = inuit
 				size = 3580
@@ -132,7 +132,7 @@
 		}
 	}
 	s:STATE_KAMCHATKA = {
-		region_state:RUS = {
+		region_state:PWG = {
 			create_pop = {
 				culture = siberian
 				size = 5600
@@ -145,7 +145,7 @@
 	}
 	
 	s:STATE_OKHOTSK = {
-		region_state:RUS = {
+		region_state:PWG = {
 			create_pop = {
 				culture = yakut
 				size = 43008
@@ -190,7 +190,7 @@
 
 
 	s:STATE_TRANS_BAIKAL = {
-		region_state:RUS = {
+		region_state:PWG = {
 			create_pop = {
 				culture = russian
 				size = 1422000

@@ -225,9 +225,118 @@ soe_britain_civilwarstart.8 = { ### British Civil War Mosley start
 		activate_law = law_type:law_command_economy
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_no_social_security
+		set_immune_to_revolutions = yes
+		c:MOY = { 
+        create_character = {
+			# Mosley
+			first_name = "Oswald"
+			last_name = "Mosley"
+			historical = yes
+			ruler = yes 
+			ig_leader = yes
+			birth_date = 1896.11.16
+			dna = dna_mosley
+			interest_group = ig_landowners
+			ideology= ideology_fascist
+			culture= british
+			traits = {
+
+			}
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		c:WCG = { 
+        create_character = {
+			# Sir Frederick Laurence Field
+			first_name = "Frederick"
+			last_name = "Field"
+			historical = yes
+			ruler = yes 
+			ig_leader = yes
+			birth_date = 1871.4.18
+			dna = dna_field
+			interest_group = ig_armed_forces
+			ideology= ideology_militaristgeneral
+			culture= british
+			traits = {
+
+			}
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		c:BCO = { 
+        create_character = {
+			# Harry Pollitt
+			first_name = "Harry"
+			last_name = "Pollitt"
+			historical = yes
+			ruler = yes 
+			ig_leader = yes
+			birth_date = 1890.11.22
+			dna = dna_pollitt
+			interest_group = ig_trade_unions
+			ideology= ideology_marxist
+			culture= british
+			traits = {
+
+			}
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		c:FBR = { 
+        create_character = {
+			# James Maxton
+			first_name = "James"
+			last_name = "Maxton"
+			historical = yes
+			ruler = yes 
+			ig_leader = yes
+			birth_date = 1885.6.22
+			dna = dna_maxton
+			interest_group = ig_intelligentsia
+			ideology= ideology_pacifist
+			culture= british
+			traits = {
+
+			}
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		c:CRL = { 
+        create_character = {
+			# Edward VIII
+			first_name = "Edward"
+			last_name = "VIII"
+			historical = yes
+			ruler = yes 
+			ig_leader = yes
+			birth_date = 1894.6.23
+			dna = dna_engedward
+			interest_group = ig_landowners
+			ideology= ideology_royalist
+			culture= british
+			traits = {
+
+			}
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
 		c:MOY = { annex = c:GBR }
 		add_modifier = { name = modifier_britcivilwar
 	 years = 5 }
+	 add_journal_entry = {
+				type = je_unitebritain
+			}
 			create_diplomatic_play = {
             
         target_country = c:WCG
@@ -280,8 +389,12 @@ soe_britain_civilwarstart.9 = { ### British Civil War Navy start
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_no_social_security
+		set_immune_to_revolutions = yes
 		add_modifier = { name = modifier_britcivilwar
 	 years = 5 }
+	 add_journal_entry = {
+				type = je_unitebritain
+			}
 			create_diplomatic_play = {
             
         target_country = c:MOY
@@ -346,8 +459,43 @@ soe_britain_civilwarstart.10 = { ### British Civil War Communist start
 		activate_law = law_type:law_old_age_pension
 		activate_law = law_type:law_migration_controls
 		activate_law = law_type:law_slavery_banned
+		set_immune_to_revolutions = yes
+		ig:ig_landowners = { 
+			add_ideology = ideology_socialist
+		}
+		
+		ig:ig_trade_unions = {
+			add_ideology = ideology_socialist
+		}
+		
+		ig:ig_petty_bourgeoisie = {
+			add_ideology = ideology_socialist
+		}
+
+		ig:ig_armed_forces = {
+			add_ideology = ideology_socialist
+		}
+		
+		ig:ig_intelligentsia = {
+			add_ideology = ideology_socialist
+		}
+		
+		ig:ig_industrialists = {
+			add_ideology = ideology_socialist
+		}
+		
+		ig:ig_rural_folk = {
+			add_ideology = ideology_socialist
+		}
+
+		ig:ig_devout = {
+		    add_ideology = ideology_socialist
+		}
 		add_modifier = { name = modifier_britcivilwar
 	 years = 5 }
+	 add_journal_entry = {
+				type = je_unitebritain
+			}
 			create_diplomatic_play = {
             
         target_country = c:MOY
@@ -393,8 +541,12 @@ soe_britain_civilwarstart.11 = { ### British Civil War Monarchist start
 	option = { name = soe_britain_civilwarstart.11.o1
 	    default_option = yes
 		activate_law = law_type:law_autocracy
+		set_immune_to_revolutions = yes
 		add_modifier = { name = modifier_britcivilwar
 	 years = 5 }
+	 add_journal_entry = {
+				type = je_unitebritain
+			}
 			create_diplomatic_play = {
             
         target_country = c:MOY
@@ -448,8 +600,12 @@ soe_britain_civilwarstart.12 = { ### British Civil War Republic start
 		activate_law = law_type:law_laissez_faire
 		activate_law = law_type:law_protected_speech
 		activate_law = law_type:law_free_trade
+		set_immune_to_revolutions = yes
 		add_modifier = { name = modifier_britcivilwar
 	 years = 5 }
+	 add_journal_entry = {
+				type = je_unitebritain
+			}
 			create_diplomatic_play = {
             
         target_country = c:MOY
@@ -659,12 +815,6 @@ soe_britain_civilwarstart.16 = { ### British Civil War All countries start
 			state = s:STATE_BAHAMAS.region_state:GBR
 			state = s:STATE_GUATEMALA.region_state:GBR
 			state = s:STATE_BERMUDA.region_state:GBR
-	      }
-		  create_country = { tag = JOH origin = c:GBR
-			state = s:STATE_MALAYA.region_state:GBR
-	      }
-		  create_country = { tag = BRU origin = c:GBR
-			state = s:STATE_NORTH_BORNEO.region_state:GBR
 	      }
 		  create_country = { tag = CEY origin = c:GBR
 			state = s:STATE_CEYLON.region_state:GBR

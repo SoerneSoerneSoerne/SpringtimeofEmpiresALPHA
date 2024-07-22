@@ -15,6 +15,27 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_women_own_property
+		add_journal_entry = {
+				type = je_ukraineone
+			}
+			add_journal_entry = {
+				type = je_ukrainetwo
+			}
+			add_journal_entry = {
+				type = je_ukrainethree
+			}
+		add_modifier = {
+			name = modifier_ukrainearmybad
+			months = -1
+		}
+		add_modifier = {
+			name = modifier_ukraineunifiednot
+			months = -1
+		}
+		add_modifier = {
+			name = modifier_ukrainemakhno
+			months = -1
+		}
 	
 	}
 }

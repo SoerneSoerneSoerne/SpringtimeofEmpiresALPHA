@@ -1,0 +1,14 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:TUR = {
+		create_diplomatic_play = {
+			name = tsargrad
+			
+			target_state = s:STATE_HUDAVENDIGAR.region_state:TSG
+			
+			war = yes
+			
+			type = dp_revolution
+
+		}			
+	}
+}

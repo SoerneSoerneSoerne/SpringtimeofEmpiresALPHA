@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_MALAYA = {
-		region_state:GBR = {
+		region_state:JOH = {
 			create_pop = {
 				culture = malay
 				size = 2699600
@@ -17,7 +17,7 @@
 		}
 	}
 	s:STATE_NORTH_BORNEO = {
-		region_state:GBR = {
+		region_state:BRU = {
 			create_pop = {
 				culture = dayak
 				size = 795000

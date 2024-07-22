@@ -191,7 +191,7 @@
 		}
 	}
 	s:STATE_EGYSINAI = {
-		region_state:TUR = {
+		region_state:EGY = {
 			create_pop = {
 				culture = mashriqi
 				size = 512
@@ -537,6 +537,20 @@
 				size = 115996
 			}
 		}
+		region_state:FRA = {
+			create_pop = {
+				culture = maghrebi
+				size = 9628
+			}
+			create_pop = {
+				culture = bedouin
+				size = 3796
+			}
+			create_pop = {
+				culture = south_italian
+				size = 5996
+			}
+		}
 	}
 	s:STATE_LIBYA = {
 		region_state:ITA = {
@@ -567,6 +581,20 @@
 			create_pop = {
 				culture = teda
 				size = 18000
+			}
+		}
+		region_state:EGY = {
+			create_pop = {
+				culture = bedouin
+				size = 1604
+			}
+			create_pop = {
+				culture = south_italian
+				size = 6000
+			}
+			create_pop = {
+				culture = maghrebi
+				size = 13132
 			}
 		}
 	}

@@ -31,6 +31,17 @@
 			institution = institution_health_system
 			level = 1
 		}
+		
+		add_modifier = { name = modifier_spainarmybad
+	 years = 10 }
+	 add_modifier = { name = modifier_publicwc
+	 years = 5 }
+	 add_modifier = { name = modifier_colprotest
+	 years = 5 }
+	 add_modifier = { name = modifier_spainarmybadfrench }
+		add_journal_entry = {
+				type = je_spain
+			}
 
 		ig:ig_intelligentsia = {
 			add_ruling_interest_group = yes # Juan Mendizabal was Prime Minister

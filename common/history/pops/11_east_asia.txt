@@ -157,13 +157,13 @@
 				size = 1568000
 			}
 		}
-		region_state:GBR = {
+		region_state:JAP = {
 			create_pop = {
 				culture = yue
 				size = 1136000
 			}
 			create_pop = {
-				culture = british
+				culture = japanese
 				size = 996
 			}
 			create_pop = {

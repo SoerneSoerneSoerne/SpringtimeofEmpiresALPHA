@@ -1,0 +1,182 @@
+﻿POWER_BLOCS = {
+	c:LON = {
+		create_power_bloc = {
+			name = LEAGUE_OF_NATIONS
+
+			map_color = { 30 40 150 }
+
+			founding_date = 1815.6.9 # Final agreement of the 1814 Congress of Vienna
+			identity = identity_trade_league
+			principle = principle_internal_trade_1
+
+
+			# Habsburg leaders in Italy and Italian states held up by direct Austrian intervention
+			member = c:GER
+			member = c:FRA
+			member = c:POR
+			member = c:SPA
+			member = c:SWI
+			member = c:NET
+			member = c:BEL
+			member = c:NOR
+			member = c:DEN
+			member = c:FIN
+			member = c:EST
+			member = c:LAT
+			member = c:ISR
+			member = c:ROM
+			member = c:IRE
+			member = c:SIZ
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_defensive_cooperation_1
+			}
+		}
+	}
+	c:GBR = {
+		create_power_bloc = {
+			name = IMPERIAL_PREFERENCE
+
+			map_color = { 135 132 133 }
+
+			founding_date = 1815.6.9 # Final agreement of the 1814 Congress of Vienna
+			identity = identity_trade_league
+			principle = principle_internal_trade_1
+
+
+			# Habsburg leaders in Italy and Italian states held up by direct Austrian intervention
+			member = c:OMA
+			member = c:JAB
+			member = c:ABU
+			member = c:BHN
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_defensive_cooperation_1
+			}
+		}
+	}
+	c:JAP = {
+		create_power_bloc = {
+			name = JAP_FACTION
+
+			map_color = { 255 191 191 }
+
+			founding_date = 1815.6.9 # Final agreement of the 1814 Congress of Vienna
+			identity = identity_trade_league
+			principle = principle_internal_trade_1
+
+
+			# Habsburg leaders in Italy and Italian states held up by direct Austrian intervention
+			member = c:DAI
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_defensive_cooperation_1
+			}
+		}
+	}
+	c:TUR = {
+		create_power_bloc = {
+			name = OTTOEMPIRE
+
+			map_color = { 170 206 162 }
+
+			founding_date = 1453.5.29
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_external_trade_1
+			}
+		}
+	}	
+	c:POL = {
+		create_power_bloc = {
+			name = INTERMARIUM
+
+			map_color = { 123 58 79 }
+
+			founding_date = 1815.6.9 # Final agreement of the 1814 Congress of Vienna
+			identity = identity_military_treaty_organization
+			principle = principle_defensive_cooperation_1
+
+
+			# Habsburg leaders in Italy and Italian states held up by direct Austrian intervention
+			member = c:LIT
+			member = c:BYE
+			member = c:UKR
+		}
+	}
+	c:USA = {
+		create_power_bloc = {
+			name = MONROEUS
+
+			map_color = { 66 94 193 }
+
+			founding_date = 1815.6.9 # Final agreement of the 1814 Congress of Vienna
+			identity = identity_military_treaty_organization
+			principle = principle_defensive_cooperation_1
+
+		}
+	}
+	c:ITA = {
+		create_power_bloc = {
+			name = AXIS_POWER_ITA
+
+			map_color = { 11 46 5 }
+
+			founding_date = 1815.6.9 # Final agreement of the 1814 Congress of Vienna
+			identity = identity_military_treaty_organization
+			principle = principle_defensive_cooperation_1
+
+
+			# Habsburg leaders in Italy and Italian states held up by direct Austrian intervention
+			member = c:HUN
+		}
+	}
+	c:RUS = {
+		create_power_bloc = {
+			name = COMINTERN
+
+			map_color = { 238 34 34 }
+
+			founding_date = 1815.6.9 # Final agreement of the 1814 Congress of Vienna
+			identity = identity_ideological_union
+			principle = principle_creative_legislature_1
+
+
+			member = c:USS
+			member = c:CAU
+			member = c:KAZ
+			member = c:BUK
+			member = c:KOK
+			member = c:KHI
+			member = c:TUV
+			member = c:MPR
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_defensive_cooperation_1
+			}
+		}
+	}
+}

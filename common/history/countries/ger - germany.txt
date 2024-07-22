@@ -16,7 +16,7 @@
 		activate_law = law_type:law_women_own_property
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_elected_bureaucrats
-		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_free_trade
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_public_schools
@@ -41,6 +41,14 @@
 			name = modifier_greatwarvictory
 		}
 		
+		add_modifier = {
+			name = modifier_czechger
+		}
+		
+		add_modifier = {
+			name = modifier_religionger
+		}
+		
 		trigger_event = {
 			id = soe_german_monarchy.1
 		}
@@ -50,6 +58,12 @@
 			}
 		add_journal_entry = {
 				type = je_germanmonarchy
+			}
+		add_journal_entry = {
+				type = je_czechger
+			}
+		add_journal_entry = {
+				type = je_kulturkampf
 			}
 		
 		ig:ig_landowners = { 

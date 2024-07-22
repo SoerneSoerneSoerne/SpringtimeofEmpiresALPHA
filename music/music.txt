@@ -1,0 +1,165 @@
+﻿##### MOOD
+
+mx_mood_tr_01 = {
+	music = "file:/music/01_ode.mp3"
+	name = "The Course Of Empire"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_02 = {
+	music = "file:/music/02_vincere.mp3"
+	name = "Memories Of Fiume"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_03 = {
+	music = "file:/music/03_aufmarsch.mp3"
+	name = "Worker, don't you hear it?"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_04 = {
+	music = "file:/music/04_jonny.mp3"
+	name = "When We March Home"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_05 = {
+	music = "file:/music/05_anarchy.mp3"
+	name = "Death To Oppressors"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_06 = {
+	music = "file:/music/06_battotai.mp3"
+	name = "Empire Of The East"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_07 = {
+	music = "file:/music/07_freikorps.mp3"
+	name = "The Dream"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_08 = {
+	music = "file:/music/08_sacred.mp3"
+	name = "Great War"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_09 = {
+	music = "file:/music/09_otto.mp3"
+	name = "The Sick Man"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_10 = {
+	music = "file:/music/10_onion.mp3"
+	name = "In Step, Comrades"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_11 = {
+	music = "file:/music/11_grenadier.mp3"
+	name = "The Siege Is Over"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_12 = {
+	music = "file:/music/12_whiterussia.mp3"
+	name = "Clouded Horizon"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_13 = {
+	music = "file:/music/13_katyusha.mp3"
+	name = "Devoted To The Homeland"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_14 = {
+	music = "file:/music/14_wacht.mp3"
+	name = "The Guard Stands Firm"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_15 = {
+	music = "file:/music/15_international.mp3"
+	name = "Fight For Human Rights"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_16 = {
+	music = "file:/music/16_theempire.mp3"
+	name = "God Save The Emperor"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_17 = {
+	music = "file:/music/17_volk.mp3"
+	name = "Springtime of Nations"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_18 = {
+	music = "file:/music/18_tipper.mp3"
+	name = "Long Way To Go"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+}
+
+mx_mood_tr_19 = {
+	music = "file:/music/19_geyer.mp3"
+	name = "Black Company"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+	trigger_prio_override = no
+	years = 2
+}
+
+mx_mood_tr_20 = {
+	music = "file:/music/20_lenin.mp3"
+	name = "Permanent Revolution"
+	pause_factor = 50
+	mood = yes
+	can_be_interrupted = yes
+	trigger_prio_override = no
+	years = 2
+}

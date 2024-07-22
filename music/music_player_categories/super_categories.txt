@@ -1,0 +1,12 @@
+﻿category = {
+	id = "super_category_00"
+	name = "radio_super"
+	tracks = {
+		"01_Britishcivilwar"
+		"02_mosley"
+		"03_britcomm"
+		"04_monbrit"
+		"05_navybrit"
+		"06_britrepsuper"
+	}
+}

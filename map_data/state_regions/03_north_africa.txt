@@ -9,7 +9,7 @@
     mine = "xD050E0"
     wood = "x5011E0"
     arable_land = 80
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_sulfur_mining = 20
         bg_logging = 2
@@ -95,7 +95,7 @@ STATE_SINAI = {
     port = "xC01060"
     farm = ""
     mine = ""
-    arable_land = 4
+    arable_land = 40
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_fishing = 3
@@ -158,10 +158,7 @@ STATE_DONGOLA = {
     capped_resources = {
         bg_logging = 4
         bg_fishing = 4
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        bg_oil_extraction = 10
     }
     naval_exit_id = 3047
 }
@@ -180,10 +177,7 @@ STATE_KORDOFAN = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 4
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        bg_oil_extraction = 10
     }
 }
 
@@ -199,9 +193,8 @@ STATE_DARFUR = {
     wood = "x3B2BDC"
     arable_land = 20
     arable_resources = { "bg_livestock_ranches" }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
+    capped_resources = {
+        bg_oil_extraction = 10
     }
 }
 
@@ -230,7 +223,7 @@ STATE_MARRAKECH = {
     mine = "x5875FD"
     wood = "x082C5F"
     arable_land = 60
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_iron_mining = 30
         bg_fishing = 8
@@ -267,7 +260,7 @@ STATE_AL_RIF = {
     mine = "x9BC3AC"
     wood = "x20B0C0"
     arable_land = 50
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 6
         bg_fishing = 7
@@ -311,7 +304,7 @@ STATE_ALGIERS = {
     mine = "x0050A0"
     wood = "x265E07"
     arable_land = 82
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_iron_mining = 10
         bg_lead_mining = 7
@@ -333,17 +326,14 @@ STATE_CONSTANTINE = {
     mine = "xB04F35"
     wood = "x1AF7B7"
     arable_land = 99
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_iron_mining = 55
         bg_lead_mining = 19
         bg_sulfur_mining = 18
         bg_logging = 6
         bg_fishing = 4
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        bg_oil_extraction = 10
     }
     naval_exit_id = 3032
 }
@@ -360,7 +350,7 @@ STATE_ORAN = {
     mine = "xC2269C"
     wood = "xB951DE"
     arable_land = 53
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_iron_mining = 12
         bg_fishing = 5
@@ -379,7 +369,7 @@ STATE_TUNISIA = {
     mine = "x9F15B8"
     wood = "x237231"
     arable_land = 70
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_lead_mining = 15
         bg_sulfur_mining = 48
@@ -404,10 +394,7 @@ STATE_TRIPOLI = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_fishing = 5
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 30
+        bg_oil_extraction = 60
     }
     naval_exit_id = 3033
 }
@@ -422,7 +409,7 @@ STATE_LIBYA = {
     mine = "x97E206"
     wood = "xE123F5"
     arable_land = 30
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_fishing = 8
     }
@@ -441,9 +428,8 @@ STATE_LIBYAN_DESERT = {
     wood = "x4F29FF"
     arable_land = 10
     arable_resources = { "bg_livestock_ranches" }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 30
+    capped_resources = {
+        bg_oil_extraction = 60
     }
 }
 
@@ -461,10 +447,7 @@ STATE_SAHARA = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 16
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        bg_oil_extraction = 10
     }
 }
 
@@ -481,9 +464,8 @@ STATE_EAST_SAHARA = {
     wood = "x873702"
     arable_land = 10
     arable_resources = { "bg_livestock_ranches" }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
+    capped_resources = {
+        bg_oil_extraction = 10
     }
 }
 
@@ -541,10 +523,7 @@ STATE_INNER_MAURITANIA = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 27
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        bg_oil_extraction = 10
     }
 }
 
@@ -593,10 +572,7 @@ STATE_TIMBUKTU = {
     capped_resources = {
         bg_coal_mining = 36
         bg_sulfur_mining = 36
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        bg_oil_extraction = 10
     }
 }
 
@@ -616,10 +592,7 @@ STATE_NIGER = {
         bg_coal_mining = 36
         bg_lead_mining = 18
         bg_sulfur_mining = 24
-    }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 30
+        bg_oil_extraction = 60
     }
 }
 
@@ -635,9 +608,8 @@ STATE_CHAD = {
     wood = " "
     arable_land = 30
     arable_resources = { "bg_livestock_ranches" }
-    resource = {
-        type = "bg_oil_extraction"
-        undiscovered_amount = 10
+    capped_resources = {
+        bg_oil_extraction = 20
     }
 }
 

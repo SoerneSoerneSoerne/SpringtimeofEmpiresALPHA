@@ -1,0 +1,14 @@
+﻿DIPLOMATIC_PLAYS = {
+	c:MOR = {
+		create_diplomatic_play = {
+			name = morrocounification
+			
+			target_state = s:STATE_AL_RIF.region_state:SPA
+			
+			war = yes
+			
+			type = dp_revolution
+
+		}			
+	}
+}

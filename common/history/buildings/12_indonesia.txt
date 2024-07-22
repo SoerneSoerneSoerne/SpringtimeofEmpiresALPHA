@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_MALAYA={
-		region_state:GBR={
+		region_state:JOH={
 			create_building={
 				building="building_tea_plantation"
 				level=1
@@ -16,7 +16,7 @@
 		}
 	}
 	s:STATE_NORTH_BORNEO={
-		region_state:GBR={
+		region_state:BRU={
 			create_building={
 				building="building_fishing_wharf"
 				level=1

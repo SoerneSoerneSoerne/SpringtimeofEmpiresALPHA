@@ -933,7 +933,7 @@
 		}
 	}
 	s:STATE_CONGO_ORIENTALE = {
-		region_state:DKO = {
+		region_state:BEC = {
 			create_pop = {
 				culture = fluvian_bantu
 				size = 733500
@@ -945,7 +945,7 @@
 		}
 	}
 	s:STATE_KASAI = {
-		region_state:DKO = {
+		region_state:BEC = {
 			create_pop = {
 				culture = fluvian_bantu
 				size = 620000
@@ -961,7 +961,7 @@
 		}
 	}
 	s:STATE_BAS_CONGO = {
-		region_state:DKO = {
+		region_state:BEC = {
 			create_pop = {
 				culture = bakongo
 				size = 1352000
@@ -990,9 +990,19 @@
 				size = 20000
 			}
 		}
+		region_state:DKO = {
+			create_pop = {
+				culture = fluvian_bantu
+				size = 10000
+			}
+			create_pop = {
+				culture = north_german
+				size = 20000
+			}
+		}
 	}
 	s:STATE_EQUATEUR = {
-		region_state:DKO = {
+		region_state:BEC = {
 			create_pop = {
 				culture = mongo
 				size = 5200
@@ -1054,7 +1064,7 @@
 		}
 	}
 	s:STATE_KATANGA = {
-		region_state:DKO = {
+		region_state:BEC = {
 			create_pop = {
 				culture = lunda
 				size = 120400

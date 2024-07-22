@@ -26,6 +26,8 @@
 			trigger_event = { id = soe_depression.16 days = 0 }
 			trigger_event = { id = soe_depression.17 days = 0 }
 			trigger_event = { id = soe_depression.18 days = 0 }
+			trigger_event = { id = soe_depression.19 days = 0 }
+			trigger_event = { id = soe_depression.20 days = 0 }
         }
 		#France
 		if = {
@@ -170,6 +172,64 @@
             set_variable = britain_civilwarstartfree_var
             trigger_event = { id = soe_britain_civilwarstart.12 days = 0 }
         }
+		#SuperEVENT
+		if = {
+			limit = {
+			   exists = c:MOY
+			   exists = c:WCG
+			   exists = c:BCO
+			   exists = c:FBR
+			   exists = c:CRL
+               NOT = { has_variable = britain_civilwarstartbrit_var }
+            }
+            set_variable = britain_civilwarstartbrit_var
+            trigger_event = { id = soe_super_events.1 days = 0 }
+        }
+		if = {
+			limit = {
+			exists = c:MOY
+			   c:MOY = { owns_entire_state_region = STATE_LOWLANDS }
+               NOT = { has_variable = britain_civilmosleywin_var }
+            }
+            set_variable = britain_civilmosleywin_var
+            trigger_event = { id = soe_super_events.2 days = 0 }
+        }
+		if = {
+			limit = {
+			exists = c:BCO
+			   c:BCO = { owns_entire_state_region = STATE_LOWLANDS }
+               NOT = { has_variable = britain_civilbritcomwin_var }
+            }
+            set_variable = britain_civilbritcomwin_var
+            trigger_event = { id = soe_super_events.3 days = 0 }
+        }
+		if = {
+			limit = {
+			exists = c:CRL
+			   c:CRL = { owns_entire_state_region = STATE_LOWLANDS }
+               NOT = { has_variable = britain_civilbritmonwin_var }
+            }
+            set_variable = britain_civilbritmonwin_var
+            trigger_event = { id = soe_super_events.4 days = 0 }
+        }
+		if = {
+			limit = {
+			exists = c:WCG
+			   c:WCG = { owns_entire_state_region = STATE_LOWLANDS }
+               NOT = { has_variable = britain_civilbritnavywin_var }
+            }
+            set_variable = britain_civilbritnavywin_var
+            trigger_event = { id = soe_super_events.5 days = 0 }
+        }
+		if = {
+			limit = {
+			exists = c:FBR
+			   c:FBR = { owns_entire_state_region = STATE_LOWLANDS }
+               NOT = { has_variable = britain_civilbritrepwin_var }
+            }
+            set_variable = britain_civilbritrepwin_var
+            trigger_event = { id = soe_super_events.6 days = 0 }
+        }
 	}
 }
 
@@ -187,5 +247,6 @@ on_monthly_pulse_country = {
 		soe_ai.7
 		soe_ai.8
 		soe_ai.9
+		soe_ai.10
 	}
 }  

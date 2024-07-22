@@ -326,7 +326,6 @@ RUS = {
 		owns_entire_state_region = STATE_MOSCOW
 		owns_entire_state_region = STATE_DAGESTAN
 		owns_entire_state_region = STATE_AZERBAIJAN
-		owns_entire_state_region = STATE_ARMENIA
 		owns_entire_state_region = STATE_GREATER_CAUCASUS
 		owns_entire_state_region = STATE_URALSK
 		owns_entire_state_region = STATE_KHIVA
@@ -1250,6 +1249,28 @@ UKR = {
 		trigger = {
 			scope:actor = {
 				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_greaterukraine
+		adjective = dyn_c_greaterukraine_adj
+		
+		is_main_tag_only = yes
+		priority = 2000
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				owns_entire_state_region = STATE_VOLHYNIA
+		owns_entire_state_region = STATE_KIEV
+		owns_entire_state_region = STATE_CHERSON
+		owns_entire_state_region = STATE_LUHANSK
+		owns_entire_state_region = STATE_EAST_GALICIA
+		owns_entire_state_region = STATE_BESSARABIA
+		owns_entire_state_region = STATE_CRIMEA
+		owns_entire_state_region = STATE_KUBAN
+		owns_entire_state_region = STATE_ROSTOV
 			}
 		}
 	}

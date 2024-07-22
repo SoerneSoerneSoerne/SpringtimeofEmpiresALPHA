@@ -1,0 +1,23 @@
+﻿je_spain = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/spa1.dds"
+    is_shown_when_inactive = {
+        exists = c:SPA
+        c:SPA = ROOT
+		exists = c:MOR
+    }
+    possible = {
+	exists = c:SPA
+        c:SPA = ROOT
+		exists = c:MOR
+    }
+    complete = {
+        not = { exists = c:MOR }
+    }
+    on_complete = {
+        remove_modifier = modifier_spainarmybadfrench
+    }
+	should_be_pinned_by_default = yes
+	weight = 100
+}

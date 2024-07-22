@@ -30,7 +30,7 @@ group = je_group_historical_content
 	}
 
 	on_fail = {
-		trigger_event = { id = soe_german_monarchy.2 }
+		trigger_event = { id = soe_german_civilwarstart.1 }
 	}
 
 	should_be_pinned_by_default = yes

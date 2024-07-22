@@ -1,0 +1,22 @@
+﻿namespace = soe_czech
+
+soe_czech.1 = { ### czechpeace
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_czech.1.t desc = soe_czech.1.d flavor = soe_czech.1.f
+	event_image = { texture = "gfx/event_pictures/ger1.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+	}
+	immediate = { set_variable = czechpeace }
+	option = { name = soe_czech.1.o
+		default_option = yes
+		 add_primary_culture = cu:czech
+		add_loyalists = {
+			culture = cu:czech
+			value = 0.1
+		}
+	} 
+}

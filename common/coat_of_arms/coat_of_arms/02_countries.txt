@@ -1255,6 +1255,16 @@ DMA_FLAG = {
 	}
 }
 
+BEC_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_bcongo.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}
+}
+
 FNR_FLAG = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -8555,6 +8565,16 @@ GER_FLAG = {
 	}	
 }
 
+NZI_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_hitlergermany.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
 ### country-specific Germany variants ###
 
 GER_bavarian = {
@@ -10886,6 +10906,106 @@ ILY_FLAG = {
 
 	textured_emblem = {
 		texture = "te_coa_illyria.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+DAL_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_dalmatia.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+STR_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_southtran.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+SLV_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_slovakia.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+LGO_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_levant.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+TSG_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_tsargrad.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+DKO_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_kongoger.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+DNR_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_rhodesia.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+DOA_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_ostafrika.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+JAB_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_jabal.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+BAN_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_banat.dds"
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
 	}	
 }

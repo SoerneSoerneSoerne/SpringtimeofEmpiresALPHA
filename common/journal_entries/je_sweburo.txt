@@ -1,0 +1,24 @@
+﻿je_sweburo = {
+
+    group = je_group_historical_content
+    icon = "gfx/interface/icons/event_icons/crime.dds"
+    is_shown_when_inactive = {
+	exists = c:SWE
+        c:SWE = ROOT
+    }
+    possible = {
+	exists = c:SWE
+		c:SWE = ROOT
+    }
+    complete = {
+        has_law = law_type:law_single_party_state
+    }
+    on_complete = {
+	remove_modifier = modifier_organisedcrime
+        add_modifier = { name = modifier_organisedcrimefight
+	 years = 5 }
+    }
+	
+	should_be_pinned_by_default = yes
+	
+}

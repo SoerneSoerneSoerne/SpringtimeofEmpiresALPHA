@@ -1,0 +1,259 @@
+﻿invade_walesbco = {
+	is_shown = {
+		exists = c:BCO
+		c:BCO = ROOT
+		is_subject = no
+		exists = c:WLS
+		NOT = { has_variable = britwar1 }
+	}
+
+	possible = {
+		army_size >= 40
+	}
+
+	when_taken = {
+	set_variable = britwar1
+        create_diplomatic_play = {     
+        target_country = c:WLS
+            type = dp_revolution
+            war = yes
+			}
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+invade_scotlandbco = {
+	is_shown = {
+		exists = c:BCO
+		c:BCO = ROOT
+		is_subject = no
+		exists = c:SCO
+		NOT = { has_variable = britwar2 }
+	}
+
+	possible = {
+		army_size >= 50
+	}
+
+	when_taken = {
+	set_variable = britwar2
+        create_diplomatic_play = {     
+        target_country = c:SCO
+            type = dp_revolution
+            war = yes
+			}
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+invade_walesmoy = {
+	is_shown = {
+		exists = c:MOY
+		c:MOY = ROOT
+		is_subject = no
+		exists = c:WLS
+		NOT = { has_variable = britwar1 }
+	}
+
+	possible = {
+		army_size >= 40
+	}
+
+	when_taken = {
+	set_variable = britwar1
+        create_diplomatic_play = {     
+        target_country = c:WLS
+            type = dp_revolution
+            war = yes
+			}
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+invade_scotlandmoy = {
+	is_shown = {
+		exists = c:MOY
+		c:MOY = ROOT
+		is_subject = no
+		exists = c:SCO
+		NOT = { has_variable = britwar2 }
+	}
+
+	possible = {
+		army_size >= 50
+	}
+
+	when_taken = {
+	set_variable = britwar2
+        create_diplomatic_play = {     
+        target_country = c:SCO
+            type = dp_revolution
+            war = yes
+			}
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+invade_waleswcg = {
+	is_shown = {
+		exists = c:WCG
+		c:WCG = ROOT
+		is_subject = no
+		exists = c:WLS
+		NOT = { has_variable = britwar1 }
+	}
+
+	possible = {
+		army_size >= 40
+	}
+
+	when_taken = {
+	set_variable = britwar1
+        create_diplomatic_play = {     
+        target_country = c:WLS
+            type = dp_revolution
+            war = yes
+			}
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+invade_scotlandwcg = {
+	is_shown = {
+		exists = c:WCG
+		c:WCG = ROOT
+		is_subject = no
+		exists = c:SCO
+		NOT = { has_variable = britwar2 }
+	}
+
+	possible = {
+		army_size >= 50
+	}
+
+	when_taken = {
+	set_variable = britwar2
+        create_diplomatic_play = {     
+        target_country = c:SCO
+            type = dp_revolution
+            war = yes
+			}
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+invade_walescrl = {
+	is_shown = {
+		exists = c:CRL
+		c:CRL = ROOT
+		is_subject = no
+		exists = c:WLS
+		NOT = { has_variable = britwar1 }
+	}
+
+	possible = {
+		army_size >= 40
+	}
+
+	when_taken = {
+	set_variable = britwar1
+        create_diplomatic_play = {     
+        target_country = c:WLS
+            type = dp_revolution
+            war = yes
+			}
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+invade_scotlandcrl = {
+	is_shown = {
+		exists = c:CRL
+		c:CRL = ROOT
+		is_subject = no
+		exists = c:SCO
+		NOT = { has_variable = britwar2 }
+	}
+
+	possible = {
+		army_size >= 50
+	}
+
+	when_taken = {
+	set_variable = britwar2
+        create_diplomatic_play = {     
+        target_country = c:SCO
+            type = dp_revolution
+            war = yes
+			}
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+invade_walesfbr = {
+	is_shown = {
+		exists = c:FBR
+		c:FBR = ROOT
+		is_subject = no
+		exists = c:WLS
+		NOT = { has_variable = britwar1 }
+	}
+
+	possible = {
+		army_size >= 40
+	}
+
+	when_taken = {
+	set_variable = britwar1
+        create_diplomatic_play = {     
+        target_country = c:WLS
+            type = dp_revolution
+            war = yes
+			}
+	}
+	ai_chance = {
+		base = 100		
+	}
+}
+
+invade_scotlandfbr = {
+	is_shown = {
+		exists = c:FBR
+		c:FBR = ROOT
+		is_subject = no
+		exists = c:SCO
+		NOT = { has_variable = britwar2 }
+	}
+
+	possible = {
+		army_size >= 50
+	}
+
+	when_taken = {
+	set_variable = britwar2
+        create_diplomatic_play = {     
+        target_country = c:SCO
+            type = dp_revolution
+            war = yes
+			}
+	}
+	ai_chance = {
+		base = 100		
+	}
+}

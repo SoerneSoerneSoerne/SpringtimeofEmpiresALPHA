@@ -41,6 +41,17 @@
 			months = 12
 		}
 	}
+	c:RUS = {
+		create_truce = {
+		    country = c:UKR
+			months = 36
+		}
+		create_truce = {
+		    country = c:BYE
+			months = 36
+		}
+	}	
+	
     c:AHU = {
 		create_truce = {
 		    country = c:ZHI

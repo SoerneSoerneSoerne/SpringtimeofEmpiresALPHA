@@ -24,8 +24,13 @@ soe_ai.1 = { ### Soviet war against White Russia
                 war = yes
 				add_war_goal = {
                     holder = c:RUS
-                    type = conquer_state
-                    target_state = s:STATE_OUTER_MANCHURIA.region_state:PWG
+                    type = annex_country
+                    target_country = c:PWG
+                }
+				add_war_goal = {
+                    holder = c:PWG
+                    type = annex_country
+                    target_country = c:RUS
                 }
         }
 	}
@@ -190,18 +195,18 @@ soe_ai.6 = { ### Italian Anschluss
 	immediate = { set_variable = soe_ai_6_end_flag }
 	option = { name = soe_ai.6.o
             default_option = yes
-		 c:ITA = { annex_with_incorporation = c:VEN }
-		add_loyalists = {
-			value = 0.05
-		}
-		change_relations = {
-   	country = c:GER
-   	value = -10
-   }
-   change_relations = {
-   	country = c:FRA
-   	value = -10
-   }
+		 create_diplomatic_play = {
+            name = itaven
+            target_country = c:VEN
+                type = dp_humiliation
+                war = no
+				escalation = 10
+				add_war_goal = {
+                    holder = c:ITA
+                    type = annex_country
+                    target_country = c:VEN
+                }
+        }
 	} 
 }
 
@@ -309,4 +314,60 @@ soe_ai.9 = { ### Soviet war against Karelia
                 }
         }
 	}
+}
+
+soe_ai.10 = { ### turk War
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_ai.10.t desc = soe_ai.10.d flavor = soe_ai.10.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:TUR
+		c:TUR = ROOT
+		is_ai = yes
+		game_date >= 1928.05.09
+		NOT = { has_variable = soe_ai_10_end_flag }
+	}
+	immediate = { set_variable = soe_ai_10_end_flag }
+	option = { name = soe_ai.10.o
+		create_diplomatic_play = {
+            name = turkwar
+            target_country = c:ARM
+                type = dp_humiliation
+                war = yes
+				add_war_goal = {
+                    holder = c:TUR
+                    type = annex_country
+                    target_country = c:ARM
+                }
+        }
+	}
+}
+
+soe_ai.11 = { ### Italian Anschluss
+	type = country_event placement = ROOT
+	icon = "gfx/interface/icons/event_icons/soldier.dds"
+	title = soe_ai.11.t desc = soe_ai.11.d flavor = soe_ai.11.f
+	event_image = { texture = "gfx/event_pictures/bundeswehr.dds" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/courtroom_upheaval" 
+	duration = 1
+	trigger = {
+		exists = c:LON
+		c:SWI = ROOT
+		is_ai = yes
+		game_date >= 1929.3.1
+		NOT = { has_variable = soe_ai_11_end_flag }
+	}
+	immediate = { set_variable = soe_ai_11_end_flag }
+	option = { name = soe_ai.11.o
+            default_option = yes
+		 c:SWI = { annex_with_incorporation = c:LON }
+		add_loyalists = {
+			value = 0.05
+		}
+	} 
 }
