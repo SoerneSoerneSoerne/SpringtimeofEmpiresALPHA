@@ -72,6 +72,142 @@ SPA = {
 	}
 }
 
+SAR = {
+	dynamic_country_name = {
+		name = SAR-dynamic-name-monarchy
+		adjective = SAR-dynamic-name-monarchy-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = SAR-dynamic-name-presidential
+		adjective = SAR-dynamic-name-presidential-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_presidential_republic
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = SAR-dynamic-name-parlement
+		adjective = SAR-dynamic-name-parlement-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_parliamentary_republic
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = SAR-dynamic-name-council
+		adjective = SAR-dynamic-name-council-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = SAR-dynamic-name-theocracy
+		adjective = SAR-dynamic-name-theocracy-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+}
+
+TSG = {
+	dynamic_country_name = {
+		name = TSG-dynamic-name-monarchy
+		adjective = TSG-dynamic-name-monarchy-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = TSG-dynamic-name-presidential
+		adjective = TSG-dynamic-name-presidential-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_presidential_republic
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = TSG-dynamic-name-parlement
+		adjective = TSG-dynamic-name-parlement-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_parliamentary_republic
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = TSG-dynamic-name-council
+		adjective = TSG-dynamic-name-council-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = TSG-dynamic-name-theocracy
+		adjective = TSG-dynamic-name-theocracy-adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_theocracy
+			}
+		}
+	}
+}
+
 FIN = {
 	dynamic_country_name = {
 		name = FIN-dynamic-name-monarchy

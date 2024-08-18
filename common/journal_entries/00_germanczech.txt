@@ -27,7 +27,7 @@ group = je_group_historical_content
 	fail = {
      culture_percent_country = {
        target = cu:polish
-       value >= 0.03
+       value >= 0.02
      }
 	 game_date >= 1933.01.1
    }

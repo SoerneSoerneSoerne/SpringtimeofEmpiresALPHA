@@ -292,6 +292,9 @@ pmg_tanks = {
 	production_methods = {
 		pm_no_tank_production
 		pm_tank_production
+		pm_mediumtank_production
+		pm_heavytank_production
+		pm_moderntank_production
 	}
 }
 

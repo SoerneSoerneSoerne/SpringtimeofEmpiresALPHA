@@ -1,473 +1,473 @@
 ﻿DIPLOMACY = {
 	c:ZHI = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:AHU
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHN
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:XIB
 			months = 12
 		}
-        create_truce = {
+        create_bidirectional_truce = {
 		    country = c:SIH
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GUI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:HNA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GNG
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUE
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUN
 			months = 12
 		}
 	}
 	c:RUS = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:UKR
 			months = 36
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:BYE
 			months = 36
 		}
 	}	
 	
     c:AHU = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:ZHI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHN
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:XIB
 			months = 12
 		}
-        create_truce = {
+        create_bidirectional_truce = {
 		    country = c:SIH
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GUI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:HNA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GNG
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUE
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUN
 			months = 12
 		}
 	}	
  c:SHA = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:ZHI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:AHU
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHN
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:XIB
 			months = 12
 		}
-        create_truce = {
+        create_bidirectional_truce = {
 		    country = c:SIH
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GUI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:HNA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GNG
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUE
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUN
 			months = 12
 		}
 	}	
 	c:SHN = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:ZHI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:AHU
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:XIB
 			months = 12
 		}
-        create_truce = {
+        create_bidirectional_truce = {
 		    country = c:SIH
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GUI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:HNA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GNG
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUE
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUN
 			months = 12
 		}
 	}	
 	c:XIB = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:ZHI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:AHU
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHN
 			months = 12
 		}
-        create_truce = {
+        create_bidirectional_truce = {
 		    country = c:SIH
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GUI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:HNA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GNG
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUE
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUN
 			months = 12
 		}
 	}	
 	c:SIH = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:ZHI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:AHU
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHN
 			months = 12
 		}
-        create_truce = {
+        create_bidirectional_truce = {
 		    country = c:XIB
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GUI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:HNA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GNG
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUE
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUN
 			months = 12
 		}
 	}
 	c:GUI = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:ZHI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:AHU
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHN
 			months = 12
 		}
-        create_truce = {
+        create_bidirectional_truce = {
 		    country = c:XIB
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SIH
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:HNA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GNG
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUE
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUN
 			months = 12
 		}
 	}
 	c:HNA = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:ZHI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:AHU
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHN
 			months = 12
 		}
-        create_truce = {
+        create_bidirectional_truce = {
 		    country = c:XIB
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SIH
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GUI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GNG
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUE
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUN
 			months = 12
 		}
 	}
 	c:GNG = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:ZHI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:AHU
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHN
 			months = 12
 		}
-        create_truce = {
+        create_bidirectional_truce = {
 		    country = c:XIB
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SIH
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GUI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:HNA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUE
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUN
 			months = 12
 		}
 	}
 	c:YUE = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:ZHI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:AHU
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHN
 			months = 12
 		}
-        create_truce = {
+        create_bidirectional_truce = {
 		    country = c:XIB
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SIH
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GUI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:HNA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GNG
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUN
 			months = 12
 		}
 	}
 	c:YUN = {
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:ZHI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:AHU
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SHN
 			months = 12
 		}
-        create_truce = {
+        create_bidirectional_truce = {
 		    country = c:XIB
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:SIH
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GUI
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:HNA
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:GNG
 			months = 12
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 		    country = c:YUE
 			months = 12
 		}

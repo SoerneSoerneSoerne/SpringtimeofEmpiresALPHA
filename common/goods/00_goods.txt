@@ -286,6 +286,14 @@ iron = {
 	prestige_factor = 5
 }
 
+copper = {
+	texture = "gfx/interface/icons/goods_icons/iron.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 5
+}
+
 lead = {
 	texture = "gfx/interface/icons/goods_icons/lead.dds"
 	cost = 40

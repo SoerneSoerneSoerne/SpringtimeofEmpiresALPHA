@@ -212,8 +212,11 @@
  pm_no_aeroplane_production:0 "No Aeroplane Production"
  pm_aeroplane_production:0 "Aeroplane Production"
  pmg_tanks:0 "Tanks"
- pm_no_tank_production:0 "Prioritize Aeroplane Production"
- pm_tank_production:0 "Tank Production"
+ pm_no_tank_production:0 "No Tank Production"
+ pm_tank_production:0 "Light Tank Production"
+ pm_mediumtank_production:0 "Medium Tank Production"
+ pm_heavytank_production:0 "Heavy Tank Production"
+ pm_moderntank_production:0 "Modern Tank Production"
   
   # Foundries
  pm_civilian:0 "Civilian"

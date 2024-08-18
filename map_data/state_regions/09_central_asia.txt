@@ -47,6 +47,7 @@ STATE_ARMENIA = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_iron_mining = 27
+		bg_copper_mining = 32
         bg_lead_mining = 21
         bg_logging = 2
     }
@@ -332,6 +333,7 @@ STATE_WESTERN_AFGHANISTAN = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_coal_mining = 32
+		bg_copper_mining = 38
         bg_logging = 4
     }
 }
@@ -349,6 +351,7 @@ STATE_EASTERN_AFGHANISTAN = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_coal_mining = 24
+		bg_copper_mining = 44
         bg_iron_mining = 24
         bg_logging = 7
     }

@@ -910,6 +910,7 @@ STATE_BURMA = {
     capped_resources = {
         bg_iron_mining = 36
         bg_logging = 20
+		bg_copper_mining = 50
         bg_rubber = 40
     }
 }

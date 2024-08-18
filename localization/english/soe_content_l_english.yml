@@ -1,5 +1,11 @@
 ﻿l_english:
 
+ building_missilesilo:0 "Missile Silo"
+ building_sand_mine:0 "Sand Mine"
+ building_copper_mine:0 "Copper Mine"
+ building_semiconductor_foundry:0 "Semiconductor Foundry"
+ building_silicon_refinery:0 "Silicon Refinery"
+ building_plane_industry:0 "Aerospace Manufacturies"
  syntheticrubber:0 "Synthetic Rubber"
  syntheticrubber_desc:0 "Industrial processing of synthetic rubber is needed to reduce our dependency on natural rubber."
  syntheticrubbersecond:0 "Advanced Rubber Processing"
