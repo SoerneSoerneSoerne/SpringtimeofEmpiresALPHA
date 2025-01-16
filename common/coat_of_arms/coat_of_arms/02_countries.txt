@@ -11340,12 +11340,62 @@ BUKCOM_FLAG = {
 	}	
 }
 
+MUGCOM_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_mugcom.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
 TRCCOM_FLAG = {		
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 
 	textured_emblem = {
 		texture = "te_coa_trccom.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+TIB_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_tib.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+XIB_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_xib.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+TRCMON_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_trcmon.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
+	}	
+}
+
+AFGMON_FLAG = {		
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_afgmon.dds"
 		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }  }
 	}	
 }

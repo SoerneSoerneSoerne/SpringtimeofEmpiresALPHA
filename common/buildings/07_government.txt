@@ -2,7 +2,7 @@
 building_port = {
 	building_group = bg_public_infrastructure
 	city_type = port
-	texture = "gfx/interface/icons/building_icons/building_port.dds"
+	icon = "gfx/interface/icons/building_icons/building_port.dds"
 
 	has_max_level = yes
 	ignore_stateregion_max_level = yes
@@ -51,7 +51,7 @@ building_government_administration = {
 		pmg_government_administration_religious_administration
 	}
 
-	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+	icon = "gfx/interface/icons/building_icons/building_government_administration.dds"
 
 	required_construction = construction_cost_medium
 
@@ -76,7 +76,7 @@ building_university = {
 		pmg_principle_freedom_of_movement_3
 	}
 
-	texture = "gfx/interface/icons/building_icons/building_university.dds"
+	icon = "gfx/interface/icons/building_icons/building_university.dds"
 
 	required_construction = construction_cost_medium
 
@@ -105,7 +105,7 @@ building_skyscraper = {
 		pmg_airship_mooring_post
 	}
 
-	texture = "gfx/interface/icons/building_icons/skyscraper.dds"
+	icon = "gfx/interface/icons/building_icons/skyscraper.dds"
 
 	required_construction = construction_cost_monument
 
@@ -131,17 +131,27 @@ building_missilesilo = {
 	city_type = city
 
 	levels_per_mesh = 1
+	
+	buildable = yes
 
 	expandable = no
 
 	downsizeable = yes
+	
+	possible = {
+	game_date >= 2026.01.1
+		} 
+		
+	unlocking_technologies = {
+		missile
+	}
 
 	production_method_groups = {
 		pmg_base_building_skyscraper
 		pmg_airship_mooring_post
 	}
 
-	texture = "gfx/interface/icons/building_icons/missile_silo.dds"
+	icon = "gfx/interface/icons/building_icons/missile_silo.dds"
 
 	required_construction = construction_cost_monument
 

@@ -16,6 +16,19 @@ sericulture = {
 	}
 }
 
+missile = {
+	# Unlocks Mulberry Groves PM on Rice Farms
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/sericulture.dds"
+	category = production
+	
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+
 enclosure = {
 	# Unlocks construction of Farms and Plantations
 	era = era_1

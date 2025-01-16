@@ -1,0 +1,49 @@
+﻿### Goods label modifiers
+
+goods_input_copper_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+goods_output_copper_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+building_copper_mine_throughput_add={
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_sand_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+goods_output_sand_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+building_sand_mine_throughput_add={
+	decimals=1
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}

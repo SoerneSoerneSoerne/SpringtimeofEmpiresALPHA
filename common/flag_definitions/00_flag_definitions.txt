@@ -180,6 +180,15 @@ AFG = { # Afghanistan
 		priority = 1
 	}
 	flag_definition = {
+		coa = AFGMON_FLAG
+		priority = 2001
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	flag_definition = {
 		coa = AFGCOM_FLAG
 		priority = 2001
 		trigger = { 
@@ -660,6 +669,15 @@ TRC = { # Mittelafrika
 			}
 		}
 	}
+	flag_definition = {
+		coa = TRCMON_FLAG
+		priority = 2001
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
 }
 
 DMA = { # Mittelafrika
@@ -684,6 +702,14 @@ FNR = { # Petain
 		coa = FNR_FLAG
 		subject_canton = FNR_FLAG
 		priority = 5000
+	}
+}
+
+XIB = { # Frankfurter Republik
+	flag_definition = {
+		coa = XIB_FLAG
+		subject_canton = XIB_FLAG
+		priority = 2000
 	}
 }
 
@@ -6579,6 +6605,15 @@ MUG = { # Mughalistan
 		allow_overlord_canton = yes
 	}
 	flag_definition = {
+		coa = MUGCOM_FLAG
+		priority = 2001
+		trigger = { 
+			scope:actor = {
+				has_law = law_type:law_council_republic
+			}
+		}
+	}
+	flag_definition = {
 		coa = MUG_absolute_monarchy
 		subject_canton = MUG_absolute_monarchy
 		priority = 20
@@ -9032,6 +9067,11 @@ TIB = { # Tibet
 		allow_overlord_canton = yes			
 		coa_with_overlord_canton = TIB_subject			
 		priority = 1
+	}
+	flag_definition = {
+		coa = TIB_FLAG
+		subject_canton = TIB_FLAG
+		priority = 2000
 	}
 	flag_definition = {
 		coa = TIBCOM_FLAG

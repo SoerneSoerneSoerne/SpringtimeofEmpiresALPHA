@@ -27,76 +27,6 @@
 			type = protectorate
 		}
 	}
-	c:LON = {
-		create_diplomatic_pact = {
-			country = c:FRA
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:GER
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:POR
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:SPA
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:SWI
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:NET
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:BEL
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:NOR
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:DEN
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:FIN
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:EST
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:LAT
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:ISR
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:ROM
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:IRE
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:SIZ
-			type = european_union
-		}
-		create_diplomatic_pact = {
-			country = c:VEN
-			type = european_union
-		}
-	}
 	c:GER = {
 		create_diplomatic_pact = {
 			country = c:DMA
@@ -106,23 +36,21 @@
 			country = c:DAL
 			type = protectorate
 		}
-	}
-	c:DMA = {
 		create_diplomatic_pact = {
 			country = c:DNR
-			type = bezirk
+			type = reichskolonie
 		}
 		create_diplomatic_pact = {
 			country = c:DSW
-			type = bezirk
+			type = reichskolonie
 		}
 		create_diplomatic_pact = {
 			country = c:DKO
-			type = bezirk
+			type = reichskolonie
 		}
 		create_diplomatic_pact = {
 			country = c:DOA
-			type = bezirk
+			type = reichskolonie
 		}
 	}
 	c:RUS = {
@@ -238,19 +166,19 @@
 	c:FRA = {
 		create_diplomatic_pact = {
 			country = c:SGU
-			type = dominion
+			type = puppet
 		}
 		create_diplomatic_pact = {
 			country = c:FTJ
-			type = dominion
+			type = puppet
 		}
 		create_diplomatic_pact = {
 			country = c:HAU
-			type = dominion
+			type = puppet
 		}
         create_diplomatic_pact = {
 			country = c:WAD
-			type = dominion
+			type = puppet
 		}		
 	}
 }

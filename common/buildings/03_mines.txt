@@ -1,6 +1,6 @@
 ﻿building_coal_mine = {
 	building_group = bg_coal_mining
-	texture = "gfx/interface/icons/building_icons/coal_mine.dds"
+	icon = "gfx/interface/icons/building_icons/coal_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -22,11 +22,15 @@
 
 building_copper_mine = {
 	building_group = bg_copper_mining
-	texture = "gfx/interface/icons/building_icons/copper_mine.dds"
+	icon = "gfx/interface/icons/building_icons/copper_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
 	terrain_manipulator = mining
+	
+	possible = {
+	game_date >= 2026.01.1
+		}
 	unlocking_technologies = {
 		shaft_mining
 	}
@@ -44,17 +48,22 @@ building_copper_mine = {
 
 building_sand_mine = {
 	building_group = bg_sand_mining
-	texture = "gfx/interface/icons/building_icons/sand_mine.dds"
+	icon = "gfx/interface/icons/building_icons/sand_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
 	terrain_manipulator = mining
+	
+	possible = {
+	game_date >= 2026.01.1
+		}
+		
 	unlocking_technologies = {
 		shaft_mining
 	}
 
 	production_method_groups = {
-		pmg_mining_equipment_building_coal_mine
+		pmg_mining_equipment_building_sand_mine
 		pmg_explosives_building_coal_mine
 		pmg_steam_automation_building_coal_mine
 		pmg_train_automation_building_coal_mine
@@ -66,7 +75,7 @@ building_sand_mine = {
  
 building_iron_mine = {
 	building_group = bg_iron_mining
-	texture = "gfx/interface/icons/building_icons/iron_mine.dds"
+	icon = "gfx/interface/icons/building_icons/iron_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -89,7 +98,7 @@ building_iron_mine = {
 
 building_lead_mine = {
 	building_group = bg_lead_mining
-	texture = "gfx/interface/icons/building_icons/lead_mine.dds"
+	icon = "gfx/interface/icons/building_icons/lead_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -111,7 +120,7 @@ building_lead_mine = {
 
 building_sulfur_mine = {
 	building_group = bg_sulfur_mining
-	texture = "gfx/interface/icons/building_icons/sulfur_mine.dds"
+	icon = "gfx/interface/icons/building_icons/sulfur_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -133,7 +142,7 @@ building_sulfur_mine = {
  
 building_gold_mine = {
 	building_group = bg_gold_mining
-	texture = "gfx/interface/icons/building_icons/gold_mine.dds"
+	icon = "gfx/interface/icons/building_icons/gold_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -159,7 +168,7 @@ building_gold_mine = {
 
 building_gold_fields = {
 	building_group = bg_gold_fields
-	texture = "gfx/interface/icons/building_icons/gold_fields.dds"
+	icon = "gfx/interface/icons/building_icons/gold_fields.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	buildable = no

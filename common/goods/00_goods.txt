@@ -265,6 +265,14 @@ sulfur = {
 	prestige_factor = 5
 }
 
+uranium = {
+	texture = "gfx/interface/icons/goods_icons/uranium.dds"
+	cost = 60
+	category = industrial
+	
+	prestige_factor = 5
+}
+
 coal = {
 	texture = "gfx/interface/icons/goods_icons/coal.dds"
 	cost = 30
@@ -287,8 +295,16 @@ iron = {
 }
 
 copper = {
-	texture = "gfx/interface/icons/goods_icons/iron.dds"
+	texture = "gfx/interface/icons/goods_icons/copper.dds"
 	cost = 30
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+sand = {
+	texture = "gfx/interface/icons/goods_icons/sand.dds"
+	cost = 20
 	category = industrial
 	
 	prestige_factor = 5
@@ -345,6 +361,14 @@ steel = {
 	category = industrial
 	
 	prestige_factor = 5
+}
+
+electronic = {
+	texture = "gfx/interface/icons/goods_icons/electronic.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 10
 }
 
 glass = {
@@ -500,6 +524,16 @@ opium = {
 	convoy_cost_multiplier = 0.75
 }
 
+pharmaceuticals = {
+	texture = "gfx/interface/icons/goods_icons/pharmaceuticals.dds"
+	cost = 50
+	category = luxury
+	
+	obsession_chance = 2.0
+	prestige_factor = 4
+	convoy_cost_multiplier = 0.75
+}
+
 automobiles = {
 	texture = "gfx/interface/icons/goods_icons/automobiles.dds"
 	cost = 100
@@ -557,6 +591,17 @@ gold = {
 	tradeable = no
 	fixed_price = yes
 	prestige_factor = 5
+}
+
+luxuryelectronics = {
+	texture = "gfx/interface/icons/goods_icons/luxuryelectronic.dds"
+	cost = 100
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 20
+	
+	traded_quantity = 2
 }
 
 fine_art = {

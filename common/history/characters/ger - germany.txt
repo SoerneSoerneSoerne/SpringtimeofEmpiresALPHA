@@ -9,7 +9,7 @@ CHARACTERS = {
 			age = 38
 			dna = dna_karl_i
 			interest_group = ig_landowners
-			ideology= ideology_habsburgsoe
+			ideology = ideology_habsburgsoe
 			culture= south_german
 			traits = {
 				literary
