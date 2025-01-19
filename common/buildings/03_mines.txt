@@ -28,16 +28,13 @@ building_copper_mine = {
 	required_construction = construction_cost_medium
 	terrain_manipulator = mining
 	
-	possible = {
-	game_date >= 2026.01.1
-		}
 	unlocking_technologies = {
 		shaft_mining
 	}
 
 	production_method_groups = {
 		pmg_mining_equipment_building_copper_mine
-		pmg_explosives_building_coal_mine
+		pmg_explosives_building_copper_mine
 		pmg_steam_automation_building_coal_mine
 		pmg_train_automation_building_coal_mine
 	}
